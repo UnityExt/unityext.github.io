@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ILateUpdateable
+    <title>Enum StatusType
    | UnityExt API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ILateUpdateable
+    <meta name="title" content="Enum StatusType
    | UnityExt API ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,38 +68,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UnityExt.Core.ILateUpdateable">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.StatusType">
   
   
-  <h1 id="UnityExt_Core_ILateUpdateable" data-uid="UnityExt.Core.ILateUpdateable" class="text-break">Interface ILateUpdateable
+  <h1 id="UnityExt_Core_StatusType" data-uid="UnityExt.Core.StatusType" class="text-break">Enum StatusType
   </h1>
-  <div class="markdown level0 summary"><p>Interfaces for objects that wants to perform late update loops.</p>
+  <div class="markdown level0 summary"><p>Enumeration that describes possible outcomes from executions.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
-  <h5 id="UnityExt_Core_ILateUpdateable_syntax">Syntax</h5>
+  <h5 id="UnityExt_Core_StatusType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ILateUpdateable</code></pre>
+    <pre><code class="lang-csharp hljs">public enum StatusType</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ILateUpdateable_OnLateUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.ILateUpdateable.OnLateUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L24">View Source</a>
-  </span>
-  <a id="UnityExt_Core_ILateUpdateable_OnLateUpdate_" data-uid="UnityExt.Core.ILateUpdateable.OnLateUpdate*"></a>
-  <h4 id="UnityExt_Core_ILateUpdateable_OnLateUpdate" data-uid="UnityExt.Core.ILateUpdateable.OnLateUpdate">OnLateUpdate()</h4>
-  <div class="markdown level1 summary"><p>Runs inside Monobehaviour.LateUpdate</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnLateUpdate()</code></pre>
-  </div>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Cancelled">Cancelled</td>
+        <td><p>Execution stopped by cancel.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Error">Error</td>
+        <td><p>Execution completed with errors.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Idle">Idle</td>
+        <td><p>Idle = Not doing anything</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Invalid">Invalid</td>
+        <td><p>Invalid or inconsistent status</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Running">Running</td>
+        <td><p>Currently executing</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_StatusType_Success">Success</td>
+        <td><p>Execution completed in success.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
           </div>
           
@@ -108,10 +132,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ILateUpdateable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ILateUpdateable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_StatusType.md&amp;value=---%0Auid%3A%20UnityExt.Core.StatusType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L20" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L90" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -84,11 +84,31 @@ It can run in different contexts inside unity (mainthread) or separate thread, o
       <h4><a class="xref" href="UnityExt.Core.Activity.Manager.html">Activity.Manager</a></h4>
       <section><p>Behaviour to handle all activity  executions.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.Activity-1.html">Activity&lt;T&gt;</a></h4>
+      <section><p>Activity class extension to support unity jobs creation in some methods.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></h4>
       <section><p>Component that extends a Monobehaviour so it can execute inside the activity manager context instead of the slow unity loop.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.ActivityManager.html">ActivityManager</a></h4>
+      <section><p>Class that implements the management of a set of interfaces and activities.
+It can be used for controlling the execution loop in a different way than the standard one.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Interpolator.html">Interpolator</a></h4>
+      <section><p>Class that implements the basics of interpolating object properties.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Interpolator-1.html">Interpolator&lt;T&gt;</a></h4>
+      <section><p>Extension of the interpolator class to support 'from' 'to' ranges to be applied in the target's property.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></h4>
       <section><p>Class that extends an Activity to give support of time tracking, laps and delayed execution start.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.html">Tween</a></h4>
+      <section><p>Tweens are timer extensions that upon receiving a 'target' object and its 'property' interpolates it during the timer execution.
+It will blend the 'from' 'to' values using an EasingFunction or AnimationCurve that maps the [0,1] progress to a new [0,1] actually applying the interpolation.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.UIFPSWidget.html">UIFPSWidget</a></h4>
+      <section><p>Utility component that captures execution statistics and plot a simplified graph and update fields with stats.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
@@ -98,19 +118,43 @@ It can run in different contexts inside unity (mainthread) or separate thread, o
       <h4><a class="xref" href="UnityExt.Core.IFixedUpdateable.html">IFixedUpdateable</a></h4>
       <section><p>Interfaces for objects that wants to perform fixed update loops.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.IJobComponent.html">IJobComponent</a></h4>
+      <section><p>Interface that helps job instances to be notified before and after execution to perform data management.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.ILateUpdateable.html">ILateUpdateable</a></h4>
       <section><p>Interfaces for objects that wants to perform late update loops.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></h4>
+      <section><p>Interface that provides execution progress feedback</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a></h4>
+      <section><p>Interface that provides execution status for managers to handle group of executing nodes.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider&lt;T&gt;</a></h4>
+      <section><p>Interface that provides execution status for managers to handle group of executing nodes.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IThreadUpdateable.html">IThreadUpdateable</a></h4>
+      <section><p>Interfaces for objects that wants to perform update loops inside a thread</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></h4>
       <section><p>Interfaces for objects that wants to perform update loops.</p>
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="UnityExt.Core.Activity.Context.html">Activity.Context</a></h4>
+      <h4><a class="xref" href="UnityExt.Core.ActivityContext.html">ActivityContext</a></h4>
       <section><p>Enumeration that describes the execution context of the activity.</p>
 </section>
-      <h4><a class="xref" href="UnityExt.Core.Activity.State.html">Activity.State</a></h4>
+      <h4><a class="xref" href="UnityExt.Core.ActivityState.html">ActivityState</a></h4>
       <section><p>Enumeration that describes the execution state of the activity.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.StatusType.html">StatusType</a></h4>
+      <section><p>Enumeration that describes possible outcomes from executions.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TimerType.html">TimerType</a></h4>
+      <section><p>Timer running mode.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.VectorInterpolatorMask.html">VectorInterpolatorMask</a></h4>
+      <section><p>Swizzle Mask to selectively change vector components when they are available.</p>
 </section>
 </article>
           </div>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ActivityBehaviour
+    <title>Class ExamplesApp.MonoRotator
    | UnityExt API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ActivityBehaviour
+    <meta name="title" content="Class ExamplesApp.MonoRotator
    | UnityExt API ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,12 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UnityExt.Core.ActivityBehaviour">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Examples.ExamplesApp.MonoRotator">
   
   
-  <h1 id="UnityExt_Core_ActivityBehaviour" data-uid="UnityExt.Core.ActivityBehaviour" class="text-break">Class ActivityBehaviour
+  <h1 id="UnityExt_Core_Examples_ExamplesApp_MonoRotator" data-uid="UnityExt.Core.Examples.ExamplesApp.MonoRotator" class="text-break">Class ExamplesApp.MonoRotator
   </h1>
-  <div class="markdown level0 summary"><p>Component that extends a Monobehaviour so it can execute inside the activity manager context instead of the slow unity loop.</p>
+  <div class="markdown level0 summary"><p>Rotator that runs inside the unity thread</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -83,11 +83,46 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">ActivityBehaviour</span></div>
-      <div class="level6"><a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html">ExamplesApp.Rotator</a></div>
+    <div class="level5"><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></div>
+    <div class="level6"><a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html">ExamplesApp.Rotator</a></div>
+    <div class="level7"><span class="xref">ExamplesApp.MonoRotator</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_job">ExamplesApp.Rotator.job</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_handle">ExamplesApp.Rotator.handle</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_schedule">ExamplesApp.Rotator.schedule</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Awake">ExamplesApp.Rotator.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_SetSpeed_UnityEngine_Vector3_">ExamplesApp.Rotator.SetSpeed(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Step">ExamplesApp.Rotator.Step()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Apply">ExamplesApp.Rotator.Apply()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_OnDestroy">ExamplesApp.Rotator.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnEnable">ActivityBehaviour.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnDisable">ActivityBehaviour.OnDisable()</a>
+    </div>
     <div>
       <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
     </div>
@@ -368,61 +403,32 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
-  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
-  <h5 id="UnityExt_Core_ActivityBehaviour_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.Examples.html">UnityExt.Core.Examples</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Project.Core.dll</h6>
+  <h5 id="UnityExt_Core_Examples_ExamplesApp_MonoRotator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ActivityBehaviour : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class MonoRotator : ExamplesApp.Rotator, IUpdateable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnDestroy.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/UnityExtProject/new/development/apiSpec/new?filename=UnityExt_Core_Examples_ExamplesApp_MonoRotator_OnUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/ActivityBehaviour.cs/#L22">View Source</a>
+    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L156">View Source</a>
   </span>
-  <a id="UnityExt_Core_ActivityBehaviour_OnDestroy_" data-uid="UnityExt.Core.ActivityBehaviour.OnDestroy*"></a>
-  <h4 id="UnityExt_Core_ActivityBehaviour_OnDestroy" data-uid="UnityExt.Core.ActivityBehaviour.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"><p>When an activity behaviour is destroyed it removes itself from the 'Activity' execution pool.</p>
-</div>
+  <a id="UnityExt_Core_Examples_ExamplesApp_MonoRotator_OnUpdate_" data-uid="UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate*"></a>
+  <h4 id="UnityExt_Core_Examples_ExamplesApp_MonoRotator_OnUpdate" data-uid="UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate">OnUpdate()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnUpdate()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnDisable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/ActivityBehaviour.cs/#L18">View Source</a>
-  </span>
-  <a id="UnityExt_Core_ActivityBehaviour_OnDisable_" data-uid="UnityExt.Core.ActivityBehaviour.OnDisable*"></a>
-  <h4 id="UnityExt_Core_ActivityBehaviour_OnDisable" data-uid="UnityExt.Core.ActivityBehaviour.OnDisable">OnDisable()</h4>
-  <div class="markdown level1 summary"><p>When an activity behaviour is disabled it removes itself from the 'Activity' execution pool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnEnable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/ActivityBehaviour.cs/#L14">View Source</a>
-  </span>
-  <a id="UnityExt_Core_ActivityBehaviour_OnEnable_" data-uid="UnityExt.Core.ActivityBehaviour.OnEnable*"></a>
-  <h4 id="UnityExt_Core_ActivityBehaviour_OnEnable" data-uid="UnityExt.Core.ActivityBehaviour.OnEnable">OnEnable()</h4>
-  <div class="markdown level1 summary"><p>When an activity behaviour is enabled it adds itself to the 'Activity' execution pool, based on its chosen interface.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a>
   </div>
 </article>
           </div>
@@ -432,10 +438,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/UnityExt/UnityExtProject/new/development/apiSpec/new?filename=UnityExt_Core_Examples_ExamplesApp_MonoRotator.md&amp;value=---%0Auid%3A%20UnityExt.Core.Examples.ExamplesApp.MonoRotator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/ActivityBehaviour.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L156" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

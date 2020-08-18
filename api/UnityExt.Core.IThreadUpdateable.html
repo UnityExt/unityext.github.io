@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ILateUpdateable
+    <title>Interface IThreadUpdateable
    | UnityExt API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ILateUpdateable
+    <meta name="title" content="Interface IThreadUpdateable
    | UnityExt API ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,37 +68,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UnityExt.Core.ILateUpdateable">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.IThreadUpdateable">
   
   
-  <h1 id="UnityExt_Core_ILateUpdateable" data-uid="UnityExt.Core.ILateUpdateable" class="text-break">Interface ILateUpdateable
+  <h1 id="UnityExt_Core_IThreadUpdateable" data-uid="UnityExt.Core.IThreadUpdateable" class="text-break">Interface IThreadUpdateable
   </h1>
-  <div class="markdown level0 summary"><p>Interfaces for objects that wants to perform late update loops.</p>
+  <div class="markdown level0 summary"><p>Interfaces for objects that wants to perform update loops inside a thread</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
-  <h5 id="UnityExt_Core_ILateUpdateable_syntax">Syntax</h5>
+  <h5 id="UnityExt_Core_IThreadUpdateable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ILateUpdateable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IThreadUpdateable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ILateUpdateable_OnLateUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.ILateUpdateable.OnLateUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IThreadUpdateable_OnThreadUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.IThreadUpdateable.OnThreadUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L24">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L54">View Source</a>
   </span>
-  <a id="UnityExt_Core_ILateUpdateable_OnLateUpdate_" data-uid="UnityExt.Core.ILateUpdateable.OnLateUpdate*"></a>
-  <h4 id="UnityExt_Core_ILateUpdateable_OnLateUpdate" data-uid="UnityExt.Core.ILateUpdateable.OnLateUpdate">OnLateUpdate()</h4>
-  <div class="markdown level1 summary"><p>Runs inside Monobehaviour.LateUpdate</p>
+  <a id="UnityExt_Core_IThreadUpdateable_OnThreadUpdate_" data-uid="UnityExt.Core.IThreadUpdateable.OnThreadUpdate*"></a>
+  <h4 id="UnityExt_Core_IThreadUpdateable_OnThreadUpdate" data-uid="UnityExt.Core.IThreadUpdateable.OnThreadUpdate">OnThreadUpdate()</h4>
+  <div class="markdown level1 summary"><p>Runs inside a thread</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnLateUpdate()</code></pre>
+    <pre><code class="lang-csharp hljs">void OnThreadUpdate()</code></pre>
   </div>
 </article>
           </div>
@@ -108,10 +108,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ILateUpdateable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ILateUpdateable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IThreadUpdateable.md&amp;value=---%0Auid%3A%20UnityExt.Core.IThreadUpdateable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L20" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Interfaces.cs/#L50" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

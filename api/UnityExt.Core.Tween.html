@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Tween
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Tween
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Tween">
+  
+  
+  <h1 id="UnityExt_Core_Tween" data-uid="UnityExt.Core.Tween" class="text-break">Class Tween
+  </h1>
+  <div class="markdown level0 summary"><p>Tweens are timer extensions that upon receiving a 'target' object and its 'property' interpolates it during the timer execution.
+It will blend the 'from' 'to' values using an EasingFunction or AnimationCurve that maps the [0,1] progress to a new [0,1] actually applying the interpolation.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
+    <div class="level2"><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></div>
+    <div class="level3"><span class="xref">Tween</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span></div>
+    <div><a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a></div>
+    <div><a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider</a>&lt;<a class="xref" href="UnityExt.Core.StatusType.html">StatusType</a>&gt;</div>
+    <div><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_atomicClockPath">Timer.atomicClockPath</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_atomicClockFolder">Timer.atomicClockFolder</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicTimestamp_System_String_">Timer.GetAtomicTimestamp(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_ClearAtomicTimestamp_System_String_">Timer.ClearAtomicTimestamp(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicClockElapsed_System_String_">Timer.GetAtomicClockElapsed(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_type">Timer.type</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_count">Timer.count</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_step">Timer.step</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_elapsed">Timer.elapsed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_duration">Timer.duration</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_delay">Timer.delay</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_unscaled">Timer.unscaled</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_paused">Timer.paused</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_progress">Timer.progress</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnStepEvent">Timer.OnStepEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_m_on_step_event">Timer.m_on_step_event</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnCompleteEvent">Timer.OnCompleteEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecuteEvent">Timer.OnExecuteEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start">Timer.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start_System_Single_">Timer.Start(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Restart">Timer.Restart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_RestartStep">Timer.RestartStep()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetClock">Timer.GetClock()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecute">Timer.OnExecute()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetProgress">Timer.GetProgress()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_manager">Activity.manager</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_asyncTimeSlice">Activity.asyncTimeSlice</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_maxThreadCount">Activity.maxThreadCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Add_System_Object_">Activity.Add(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Remove_System_Object_">Activity.Remove(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Clear">Activity.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_System_String_UnityExt_Core_ActivityContext_">Activity.Find(String, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_System_String_">Activity.Find(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll_System_String_UnityExt_Core_ActivityContext_">Activity.FindAll(String, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll_System_String_">Activity.FindAll(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Predicate&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Predicate&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__">Activity.Run(String, Predicate&lt;Activity&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__">Activity.Run(Predicate&lt;Activity&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Action&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__">Activity.Run(String, Action&lt;Activity&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Action&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__">Activity.Run(Action&lt;Activity&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_id">Activity.id</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_state">Activity.state</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_completed">Activity.completed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_complete_event">Activity.m_on_complete_event</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_execute_event">Activity.m_on_execute_event</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnAdded">Activity.OnAdded()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnComplete">Activity.OnComplete()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_CanStart">Activity.CanStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetAwaiter">Activity.GetAwaiter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleted_System_Action_">Activity.OnCompleted(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetStatus">Activity.GetStatus()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_Tween_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Tween : Timer, INotifyCompletion, IStatusProvider, IStatusProvider&lt;StatusType&gt;, IProgressProvider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween__ctor_System_String_System_Object_System_String_System_Object_System_Object_System_Single_System_Int32_System_Func_System_Single_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween.%23ctor(System.String%2CSystem.Object%2CSystem.String%2CSystem.Object%2CSystem.Object%2CSystem.Single%2CSystem.Int32%2CSystem.Func%7BSystem.Single%2CSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/tween/Tween.cs/#L44">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween__ctor_" data-uid="UnityExt.Core.Tween.#ctor*"></a>
+  <h4 id="UnityExt_Core_Tween__ctor_System_String_System_Object_System_String_System_Object_System_Object_System_Single_System_Int32_System_Func_System_Single_System_Single__" data-uid="UnityExt.Core.Tween.#ctor(System.String,System.Object,System.String,System.Object,System.Object,System.Single,System.Int32,System.Func{System.Single,System.Single})">Tween(String, Object, String, Object, Object, Single, Int32, Func&lt;Single, Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween(string p_id, object p_target, string p_property, object p_from, object p_to, float p_duration, int p_count, Func&lt;float, float&gt; p_easing = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">p_easing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_DefaultDuration.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween.DefaultDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/tween/Tween.cs/#L19">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_Tween_DefaultDuration" data-uid="UnityExt.Core.Tween.DefaultDuration">DefaultDuration</h4>
+  <div class="markdown level1 summary"><p>Default tween duration if none is specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float DefaultDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_GetInterpolator__1.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween.GetInterpolator%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/tween/Tween.cs/#L28">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_GetInterpolator_" data-uid="UnityExt.Core.Tween.GetInterpolator*"></a>
+  <h4 id="UnityExt_Core_Tween_GetInterpolator__1" data-uid="UnityExt.Core.Tween.GetInterpolator``1">GetInterpolator&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Returns the interpolator cast to the desired data type manipulation. If a not matching type is used, null is returned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Interpolator&lt;T&gt; GetInterpolator&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Interpolator-1.html">Interpolator</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the value interpolated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/tween/Tween.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

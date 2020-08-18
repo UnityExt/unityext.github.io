@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum Activity.State
+    <title>Enum ActivityContext
    | UnityExt API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum Activity.State
+    <meta name="title" content="Enum ActivityContext
    | UnityExt API ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,19 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Activity.State">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.ActivityContext">
   
   
-  <h1 id="UnityExt_Core_Activity_State" data-uid="UnityExt.Core.Activity.State" class="text-break">Enum Activity.State
+  <h1 id="UnityExt_Core_ActivityContext" data-uid="UnityExt.Core.ActivityContext" class="text-break">Enum ActivityContext
   </h1>
-  <div class="markdown level0 summary"><p>Enumeration that describes the execution state of the activity.</p>
+  <div class="markdown level0 summary"><p>Enumeration that describes the execution context of the activity.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
-  <h5 id="UnityExt_Core_Activity_State_syntax">Syntax</h5>
+  <h5 id="UnityExt_Core_ActivityContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum State</code></pre>
+    <pre><code class="lang-csharp hljs">public enum ActivityContext</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -93,23 +93,38 @@
     <thead>
     <tbody>
       <tr>
-        <td id="UnityExt_Core_Activity_State_Complete">Complete</td>
-        <td><p>Finished</p>
+        <td id="UnityExt_Core_ActivityContext_Async">Async</td>
+        <td><p>Runs inside Monobehaivour.Update but only inside 'async-slice' duration per frame</p>
 </td>
       </tr>
       <tr>
-        <td id="UnityExt_Core_Activity_State_Idle">Idle</td>
-        <td><p>Just created activity.</p>
+        <td id="UnityExt_Core_ActivityContext_FixedUpdate">FixedUpdate</td>
+        <td><p>Runs inside Monobehaivour.FixedUpdate</p>
 </td>
       </tr>
       <tr>
-        <td id="UnityExt_Core_Activity_State_Queued">Queued</td>
-        <td><p>Waiting for execution</p>
+        <td id="UnityExt_Core_ActivityContext_Job">Job</td>
+        <td><p>Runs the job passed as parameter in a loop and using run</p>
 </td>
       </tr>
       <tr>
-        <td id="UnityExt_Core_Activity_State_Running">Running</td>
-        <td><p>Active execution.</p>
+        <td id="UnityExt_Core_ActivityContext_JobAsync">JobAsync</td>
+        <td><p>Runs the job passed as parameter in a loop and using schedule</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_ActivityContext_LateUpdate">LateUpdate</td>
+        <td><p>Runs inside Monobehaivour.LateUpdate</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_ActivityContext_Thread">Thread</td>
+        <td><p>Runs inside a thread, watch out to not use Unity API elements inside it.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="UnityExt_Core_ActivityContext_Update">Update</td>
+        <td><p>Runs inside Monobehaivour.Update</p>
 </td>
       </tr>
     </tbody>
@@ -122,10 +137,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_State.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityContext.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/Activity.cs/#L96" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/system/Activity.cs/#L22" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

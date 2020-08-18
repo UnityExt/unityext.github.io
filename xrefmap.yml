@@ -25,12 +25,12 @@ references:
   commentId: M:UnityExt.Core.Activity.#ctor(System.String)
   fullName: UnityExt.Core.Activity.Activity(System.String)
   nameWithType: Activity.Activity(String)
-- uid: UnityExt.Core.Activity.#ctor(System.String,UnityExt.Core.Activity.Context)
-  name: Activity(String, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity__ctor_System_String_UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.#ctor(System.String,UnityExt.Core.Activity.Context)
-  fullName: UnityExt.Core.Activity.Activity(System.String, UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Activity(String, Activity.Context)
+- uid: UnityExt.Core.Activity.#ctor(System.String,UnityExt.Core.ActivityContext)
+  name: Activity(String, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity__ctor_System_String_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.#ctor(System.String,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.Activity.Activity(System.String, UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Activity(String, ActivityContext)
 - uid: UnityExt.Core.Activity.#ctor*
   name: Activity
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity__ctor_
@@ -57,6 +57,19 @@ references:
   commentId: F:UnityExt.Core.Activity.asyncTimeSlice
   fullName: UnityExt.Core.Activity.asyncTimeSlice
   nameWithType: Activity.asyncTimeSlice
+- uid: UnityExt.Core.Activity.CanStart
+  name: CanStart()
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_CanStart
+  commentId: M:UnityExt.Core.Activity.CanStart
+  fullName: UnityExt.Core.Activity.CanStart()
+  nameWithType: Activity.CanStart()
+- uid: UnityExt.Core.Activity.CanStart*
+  name: CanStart
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_CanStart_
+  commentId: Overload:UnityExt.Core.Activity.CanStart
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.CanStart
+  nameWithType: Activity.CanStart
 - uid: UnityExt.Core.Activity.Clear
   name: Clear()
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Clear
@@ -89,12 +102,6 @@ references:
   commentId: P:UnityExt.Core.Activity.context
   fullName: UnityExt.Core.Activity.context
   nameWithType: Activity.context
-- uid: UnityExt.Core.Activity.Context
-  name: Activity.Context
-  href: api/UnityExt.Core.Activity.Context.html
-  commentId: T:UnityExt.Core.Activity.Context
-  fullName: UnityExt.Core.Activity.Context
-  nameWithType: Activity.Context
 - uid: UnityExt.Core.Activity.context*
   name: context
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_context_
@@ -102,48 +109,18 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.context
   nameWithType: Activity.context
-- uid: UnityExt.Core.Activity.Context.Async
-  name: Async
-  href: api/UnityExt.Core.Activity.Context.html#UnityExt_Core_Activity_Context_Async
-  commentId: F:UnityExt.Core.Activity.Context.Async
-  fullName: UnityExt.Core.Activity.Context.Async
-  nameWithType: Activity.Context.Async
-- uid: UnityExt.Core.Activity.Context.FixedUpdate
-  name: FixedUpdate
-  href: api/UnityExt.Core.Activity.Context.html#UnityExt_Core_Activity_Context_FixedUpdate
-  commentId: F:UnityExt.Core.Activity.Context.FixedUpdate
-  fullName: UnityExt.Core.Activity.Context.FixedUpdate
-  nameWithType: Activity.Context.FixedUpdate
-- uid: UnityExt.Core.Activity.Context.LateUpdate
-  name: LateUpdate
-  href: api/UnityExt.Core.Activity.Context.html#UnityExt_Core_Activity_Context_LateUpdate
-  commentId: F:UnityExt.Core.Activity.Context.LateUpdate
-  fullName: UnityExt.Core.Activity.Context.LateUpdate
-  nameWithType: Activity.Context.LateUpdate
-- uid: UnityExt.Core.Activity.Context.Thread
-  name: Thread
-  href: api/UnityExt.Core.Activity.Context.html#UnityExt_Core_Activity_Context_Thread
-  commentId: F:UnityExt.Core.Activity.Context.Thread
-  fullName: UnityExt.Core.Activity.Context.Thread
-  nameWithType: Activity.Context.Thread
-- uid: UnityExt.Core.Activity.Context.Update
-  name: Update
-  href: api/UnityExt.Core.Activity.Context.html#UnityExt_Core_Activity_Context_Update
-  commentId: F:UnityExt.Core.Activity.Context.Update
-  fullName: UnityExt.Core.Activity.Context.Update
-  nameWithType: Activity.Context.Update
 - uid: UnityExt.Core.Activity.Find(System.String)
   name: Find(String)
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_System_String_
   commentId: M:UnityExt.Core.Activity.Find(System.String)
   fullName: UnityExt.Core.Activity.Find(System.String)
   nameWithType: Activity.Find(String)
-- uid: UnityExt.Core.Activity.Find(System.String,UnityExt.Core.Activity.Context)
-  name: Find(String, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_System_String_UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.Find(System.String,UnityExt.Core.Activity.Context)
-  fullName: UnityExt.Core.Activity.Find(System.String, UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Find(String, Activity.Context)
+- uid: UnityExt.Core.Activity.Find(System.String,UnityExt.Core.ActivityContext)
+  name: Find(String, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_System_String_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.Find(System.String,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.Activity.Find(System.String, UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Find(String, ActivityContext)
 - uid: UnityExt.Core.Activity.Find*
   name: Find
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find_
@@ -157,12 +134,12 @@ references:
   commentId: M:UnityExt.Core.Activity.FindAll(System.String)
   fullName: UnityExt.Core.Activity.FindAll(System.String)
   nameWithType: Activity.FindAll(String)
-- uid: UnityExt.Core.Activity.FindAll(System.String,UnityExt.Core.Activity.Context)
-  name: FindAll(String, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll_System_String_UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.FindAll(System.String,UnityExt.Core.Activity.Context)
-  fullName: UnityExt.Core.Activity.FindAll(System.String, UnityExt.Core.Activity.Context)
-  nameWithType: Activity.FindAll(String, Activity.Context)
+- uid: UnityExt.Core.Activity.FindAll(System.String,UnityExt.Core.ActivityContext)
+  name: FindAll(String, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll_System_String_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.FindAll(System.String,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.Activity.FindAll(System.String, UnityExt.Core.ActivityContext)
+  nameWithType: Activity.FindAll(String, ActivityContext)
 - uid: UnityExt.Core.Activity.FindAll*
   name: FindAll
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll_
@@ -183,25 +160,50 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.GetAwaiter
   nameWithType: Activity.GetAwaiter
+- uid: UnityExt.Core.Activity.GetProgress
+  name: GetProgress()
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress
+  commentId: M:UnityExt.Core.Activity.GetProgress
+  fullName: UnityExt.Core.Activity.GetProgress()
+  nameWithType: Activity.GetProgress()
+- uid: UnityExt.Core.Activity.GetProgress*
+  name: GetProgress
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress_
+  commentId: Overload:UnityExt.Core.Activity.GetProgress
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.GetProgress
+  nameWithType: Activity.GetProgress
+- uid: UnityExt.Core.Activity.GetStatus
+  name: GetStatus()
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetStatus
+  commentId: M:UnityExt.Core.Activity.GetStatus
+  fullName: UnityExt.Core.Activity.GetStatus()
+  nameWithType: Activity.GetStatus()
+- uid: UnityExt.Core.Activity.GetStatus*
+  name: GetStatus
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetStatus_
+  commentId: Overload:UnityExt.Core.Activity.GetStatus
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.GetStatus
+  nameWithType: Activity.GetStatus
 - uid: UnityExt.Core.Activity.id
   name: id
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_id
   commentId: F:UnityExt.Core.Activity.id
   fullName: UnityExt.Core.Activity.id
   nameWithType: Activity.id
-- uid: UnityExt.Core.Activity.IsReady
-  name: IsReady()
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_IsReady
-  commentId: M:UnityExt.Core.Activity.IsReady
-  fullName: UnityExt.Core.Activity.IsReady()
-  nameWithType: Activity.IsReady()
-- uid: UnityExt.Core.Activity.IsReady*
-  name: IsReady
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_IsReady_
-  commentId: Overload:UnityExt.Core.Activity.IsReady
-  isSpec: "True"
-  fullName: UnityExt.Core.Activity.IsReady
-  nameWithType: Activity.IsReady
+- uid: UnityExt.Core.Activity.m_on_complete_event
+  name: m_on_complete_event
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_complete_event
+  commentId: F:UnityExt.Core.Activity.m_on_complete_event
+  fullName: UnityExt.Core.Activity.m_on_complete_event
+  nameWithType: Activity.m_on_complete_event
+- uid: UnityExt.Core.Activity.m_on_execute_event
+  name: m_on_execute_event
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_execute_event
+  commentId: F:UnityExt.Core.Activity.m_on_execute_event
+  fullName: UnityExt.Core.Activity.m_on_execute_event
+  nameWithType: Activity.m_on_execute_event
 - uid: UnityExt.Core.Activity.manager
   name: manager
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_manager
@@ -234,6 +236,44 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.Manager.Awake
   nameWithType: Activity.Manager.Awake
+- uid: UnityExt.Core.Activity.Manager.handler
+  name: handler
+  href: api/UnityExt.Core.Activity.Manager.html#UnityExt_Core_Activity_Manager_handler
+  commentId: P:UnityExt.Core.Activity.Manager.handler
+  fullName: UnityExt.Core.Activity.Manager.handler
+  nameWithType: Activity.Manager.handler
+- uid: UnityExt.Core.Activity.Manager.handler*
+  name: handler
+  href: api/UnityExt.Core.Activity.Manager.html#UnityExt_Core_Activity_Manager_handler_
+  commentId: Overload:UnityExt.Core.Activity.Manager.handler
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.Manager.handler
+  nameWithType: Activity.Manager.handler
+- uid: UnityExt.Core.Activity.Manager.m_handler
+  name: m_handler
+  href: api/UnityExt.Core.Activity.Manager.html#UnityExt_Core_Activity_Manager_m_handler
+  commentId: F:UnityExt.Core.Activity.Manager.m_handler
+  fullName: UnityExt.Core.Activity.Manager.m_handler
+  nameWithType: Activity.Manager.m_handler
+- uid: UnityExt.Core.Activity.maxThreadCount
+  name: maxThreadCount
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_maxThreadCount
+  commentId: F:UnityExt.Core.Activity.maxThreadCount
+  fullName: UnityExt.Core.Activity.maxThreadCount
+  nameWithType: Activity.maxThreadCount
+- uid: UnityExt.Core.Activity.OnAdded
+  name: OnAdded()
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnAdded
+  commentId: M:UnityExt.Core.Activity.OnAdded
+  fullName: UnityExt.Core.Activity.OnAdded()
+  nameWithType: Activity.OnAdded()
+- uid: UnityExt.Core.Activity.OnAdded*
+  name: OnAdded
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnAdded_
+  commentId: Overload:UnityExt.Core.Activity.OnAdded
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.OnAdded
+  nameWithType: Activity.OnAdded
 - uid: UnityExt.Core.Activity.OnComplete
   name: OnComplete()
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnComplete
@@ -263,7 +303,14 @@ references:
 - uid: UnityExt.Core.Activity.OnCompleteEvent
   name: OnCompleteEvent
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleteEvent
-  commentId: F:UnityExt.Core.Activity.OnCompleteEvent
+  commentId: P:UnityExt.Core.Activity.OnCompleteEvent
+  fullName: UnityExt.Core.Activity.OnCompleteEvent
+  nameWithType: Activity.OnCompleteEvent
+- uid: UnityExt.Core.Activity.OnCompleteEvent*
+  name: OnCompleteEvent
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleteEvent_
+  commentId: Overload:UnityExt.Core.Activity.OnCompleteEvent
+  isSpec: "True"
   fullName: UnityExt.Core.Activity.OnCompleteEvent
   nameWithType: Activity.OnCompleteEvent
 - uid: UnityExt.Core.Activity.OnExecute
@@ -282,7 +329,14 @@ references:
 - uid: UnityExt.Core.Activity.OnExecuteEvent
   name: OnExecuteEvent
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecuteEvent
-  commentId: F:UnityExt.Core.Activity.OnExecuteEvent
+  commentId: P:UnityExt.Core.Activity.OnExecuteEvent
+  fullName: UnityExt.Core.Activity.OnExecuteEvent
+  nameWithType: Activity.OnExecuteEvent
+- uid: UnityExt.Core.Activity.OnExecuteEvent*
+  name: OnExecuteEvent
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecuteEvent_
+  commentId: Overload:UnityExt.Core.Activity.OnExecuteEvent
+  isSpec: "True"
   fullName: UnityExt.Core.Activity.OnExecuteEvent
   nameWithType: Activity.OnExecuteEvent
 - uid: UnityExt.Core.Activity.OnStart
@@ -298,6 +352,19 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.OnStart
   nameWithType: Activity.OnStart
+- uid: UnityExt.Core.Activity.OnStop
+  name: OnStop()
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop
+  commentId: M:UnityExt.Core.Activity.OnStop
+  fullName: UnityExt.Core.Activity.OnStop()
+  nameWithType: Activity.OnStop()
+- uid: UnityExt.Core.Activity.OnStop*
+  name: OnStop
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop_
+  commentId: Overload:UnityExt.Core.Activity.OnStop
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity.OnStop
+  nameWithType: Activity.OnStop
 - uid: UnityExt.Core.Activity.Remove(System.Object)
   name: Remove(Object)
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Remove_System_Object_
@@ -320,15 +387,15 @@ references:
   fullName.vb: UnityExt.Core.Activity.Run(System.Action(Of UnityExt.Core.Activity))
   nameWithType: Activity.Run(Action<Activity>)
   nameWithType.vb: Activity.Run(Action(Of Activity))
-- uid: UnityExt.Core.Activity.Run(System.Action{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name: Run(Action<Activity>, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.Run(System.Action{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name.vb: Run(Action(Of Activity), Activity.Context)
-  fullName: UnityExt.Core.Activity.Run(System.Action<UnityExt.Core.Activity>, UnityExt.Core.Activity.Context)
-  fullName.vb: UnityExt.Core.Activity.Run(System.Action(Of UnityExt.Core.Activity), UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Run(Action<Activity>, Activity.Context)
-  nameWithType.vb: Activity.Run(Action(Of Activity), Activity.Context)
+- uid: UnityExt.Core.Activity.Run(System.Action{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name: Run(Action<Activity>, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.Run(System.Action{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name.vb: Run(Action(Of Activity), ActivityContext)
+  fullName: UnityExt.Core.Activity.Run(System.Action<UnityExt.Core.Activity>, UnityExt.Core.ActivityContext)
+  fullName.vb: UnityExt.Core.Activity.Run(System.Action(Of UnityExt.Core.Activity), UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Run(Action<Activity>, ActivityContext)
+  nameWithType.vb: Activity.Run(Action(Of Activity), ActivityContext)
 - uid: UnityExt.Core.Activity.Run(System.Predicate{UnityExt.Core.Activity})
   name: Run(Predicate<Activity>)
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__
@@ -338,15 +405,15 @@ references:
   fullName.vb: UnityExt.Core.Activity.Run(System.Predicate(Of UnityExt.Core.Activity))
   nameWithType: Activity.Run(Predicate<Activity>)
   nameWithType.vb: Activity.Run(Predicate(Of Activity))
-- uid: UnityExt.Core.Activity.Run(System.Predicate{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name: Run(Predicate<Activity>, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.Run(System.Predicate{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name.vb: Run(Predicate(Of Activity), Activity.Context)
-  fullName: UnityExt.Core.Activity.Run(System.Predicate<UnityExt.Core.Activity>, UnityExt.Core.Activity.Context)
-  fullName.vb: UnityExt.Core.Activity.Run(System.Predicate(Of UnityExt.Core.Activity), UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Run(Predicate<Activity>, Activity.Context)
-  nameWithType.vb: Activity.Run(Predicate(Of Activity), Activity.Context)
+- uid: UnityExt.Core.Activity.Run(System.Predicate{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name: Run(Predicate<Activity>, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.Run(System.Predicate{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name.vb: Run(Predicate(Of Activity), ActivityContext)
+  fullName: UnityExt.Core.Activity.Run(System.Predicate<UnityExt.Core.Activity>, UnityExt.Core.ActivityContext)
+  fullName.vb: UnityExt.Core.Activity.Run(System.Predicate(Of UnityExt.Core.Activity), UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Run(Predicate<Activity>, ActivityContext)
+  nameWithType.vb: Activity.Run(Predicate(Of Activity), ActivityContext)
 - uid: UnityExt.Core.Activity.Run(System.String,System.Action{UnityExt.Core.Activity})
   name: Run(String, Action<Activity>)
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__
@@ -356,15 +423,15 @@ references:
   fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Action(Of UnityExt.Core.Activity))
   nameWithType: Activity.Run(String, Action<Activity>)
   nameWithType.vb: Activity.Run(String, Action(Of Activity))
-- uid: UnityExt.Core.Activity.Run(System.String,System.Action{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name: Run(String, Action<Activity>, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.Run(System.String,System.Action{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name.vb: Run(String, Action(Of Activity), Activity.Context)
-  fullName: UnityExt.Core.Activity.Run(System.String, System.Action<UnityExt.Core.Activity>, UnityExt.Core.Activity.Context)
-  fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Action(Of UnityExt.Core.Activity), UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Run(String, Action<Activity>, Activity.Context)
-  nameWithType.vb: Activity.Run(String, Action(Of Activity), Activity.Context)
+- uid: UnityExt.Core.Activity.Run(System.String,System.Action{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name: Run(String, Action<Activity>, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.Run(System.String,System.Action{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name.vb: Run(String, Action(Of Activity), ActivityContext)
+  fullName: UnityExt.Core.Activity.Run(System.String, System.Action<UnityExt.Core.Activity>, UnityExt.Core.ActivityContext)
+  fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Action(Of UnityExt.Core.Activity), UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Run(String, Action<Activity>, ActivityContext)
+  nameWithType.vb: Activity.Run(String, Action(Of Activity), ActivityContext)
 - uid: UnityExt.Core.Activity.Run(System.String,System.Predicate{UnityExt.Core.Activity})
   name: Run(String, Predicate<Activity>)
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__
@@ -374,15 +441,15 @@ references:
   fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Predicate(Of UnityExt.Core.Activity))
   nameWithType: Activity.Run(String, Predicate<Activity>)
   nameWithType.vb: Activity.Run(String, Predicate(Of Activity))
-- uid: UnityExt.Core.Activity.Run(System.String,System.Predicate{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name: Run(String, Predicate<Activity>, Activity.Context)
-  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_Activity_Context_
-  commentId: M:UnityExt.Core.Activity.Run(System.String,System.Predicate{UnityExt.Core.Activity},UnityExt.Core.Activity.Context)
-  name.vb: Run(String, Predicate(Of Activity), Activity.Context)
-  fullName: UnityExt.Core.Activity.Run(System.String, System.Predicate<UnityExt.Core.Activity>, UnityExt.Core.Activity.Context)
-  fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Predicate(Of UnityExt.Core.Activity), UnityExt.Core.Activity.Context)
-  nameWithType: Activity.Run(String, Predicate<Activity>, Activity.Context)
-  nameWithType.vb: Activity.Run(String, Predicate(Of Activity), Activity.Context)
+- uid: UnityExt.Core.Activity.Run(System.String,System.Predicate{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name: Run(String, Predicate<Activity>, ActivityContext)
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Activity.Run(System.String,System.Predicate{UnityExt.Core.Activity},UnityExt.Core.ActivityContext)
+  name.vb: Run(String, Predicate(Of Activity), ActivityContext)
+  fullName: UnityExt.Core.Activity.Run(System.String, System.Predicate<UnityExt.Core.Activity>, UnityExt.Core.ActivityContext)
+  fullName.vb: UnityExt.Core.Activity.Run(System.String, System.Predicate(Of UnityExt.Core.Activity), UnityExt.Core.ActivityContext)
+  nameWithType: Activity.Run(String, Predicate<Activity>, ActivityContext)
+  nameWithType.vb: Activity.Run(String, Predicate(Of Activity), ActivityContext)
 - uid: UnityExt.Core.Activity.Run*
   name: Run
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_
@@ -409,12 +476,6 @@ references:
   commentId: P:UnityExt.Core.Activity.state
   fullName: UnityExt.Core.Activity.state
   nameWithType: Activity.state
-- uid: UnityExt.Core.Activity.State
-  name: Activity.State
-  href: api/UnityExt.Core.Activity.State.html
-  commentId: T:UnityExt.Core.Activity.State
-  fullName: UnityExt.Core.Activity.State
-  nameWithType: Activity.State
 - uid: UnityExt.Core.Activity.state*
   name: state
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_state_
@@ -422,30 +483,6 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.state
   nameWithType: Activity.state
-- uid: UnityExt.Core.Activity.State.Complete
-  name: Complete
-  href: api/UnityExt.Core.Activity.State.html#UnityExt_Core_Activity_State_Complete
-  commentId: F:UnityExt.Core.Activity.State.Complete
-  fullName: UnityExt.Core.Activity.State.Complete
-  nameWithType: Activity.State.Complete
-- uid: UnityExt.Core.Activity.State.Idle
-  name: Idle
-  href: api/UnityExt.Core.Activity.State.html#UnityExt_Core_Activity_State_Idle
-  commentId: F:UnityExt.Core.Activity.State.Idle
-  fullName: UnityExt.Core.Activity.State.Idle
-  nameWithType: Activity.State.Idle
-- uid: UnityExt.Core.Activity.State.Queued
-  name: Queued
-  href: api/UnityExt.Core.Activity.State.html#UnityExt_Core_Activity_State_Queued
-  commentId: F:UnityExt.Core.Activity.State.Queued
-  fullName: UnityExt.Core.Activity.State.Queued
-  nameWithType: Activity.State.Queued
-- uid: UnityExt.Core.Activity.State.Running
-  name: Running
-  href: api/UnityExt.Core.Activity.State.html#UnityExt_Core_Activity_State_Running
-  commentId: F:UnityExt.Core.Activity.State.Running
-  fullName: UnityExt.Core.Activity.State.Running
-  nameWithType: Activity.State.Running
 - uid: UnityExt.Core.Activity.Stop
   name: Stop()
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop
@@ -472,6 +509,196 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.Yield
   nameWithType: Activity.Yield
+- uid: UnityExt.Core.Activity`1
+  name: Activity<T>
+  href: api/UnityExt.Core.Activity-1.html
+  commentId: T:UnityExt.Core.Activity`1
+  name.vb: Activity(Of T)
+  fullName: UnityExt.Core.Activity<T>
+  fullName.vb: UnityExt.Core.Activity(Of T)
+  nameWithType: Activity<T>
+  nameWithType.vb: Activity(Of T)
+- uid: UnityExt.Core.Activity`1.#ctor
+  name: Activity()
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1__ctor
+  commentId: M:UnityExt.Core.Activity`1.#ctor
+  fullName: UnityExt.Core.Activity<T>.Activity()
+  fullName.vb: UnityExt.Core.Activity(Of T).Activity()
+  nameWithType: Activity<T>.Activity()
+  nameWithType.vb: Activity(Of T).Activity()
+- uid: UnityExt.Core.Activity`1.#ctor(System.String)
+  name: Activity(String)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1__ctor_System_String_
+  commentId: M:UnityExt.Core.Activity`1.#ctor(System.String)
+  fullName: UnityExt.Core.Activity<T>.Activity(System.String)
+  fullName.vb: UnityExt.Core.Activity(Of T).Activity(System.String)
+  nameWithType: Activity<T>.Activity(String)
+  nameWithType.vb: Activity(Of T).Activity(String)
+- uid: UnityExt.Core.Activity`1.#ctor(System.String,System.Boolean)
+  name: Activity(String, Boolean)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1__ctor_System_String_System_Boolean_
+  commentId: M:UnityExt.Core.Activity`1.#ctor(System.String,System.Boolean)
+  fullName: UnityExt.Core.Activity<T>.Activity(System.String, System.Boolean)
+  fullName.vb: UnityExt.Core.Activity(Of T).Activity(System.String, System.Boolean)
+  nameWithType: Activity<T>.Activity(String, Boolean)
+  nameWithType.vb: Activity(Of T).Activity(String, Boolean)
+- uid: UnityExt.Core.Activity`1.#ctor*
+  name: Activity
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1__ctor_
+  commentId: Overload:UnityExt.Core.Activity`1.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity<T>.Activity
+  fullName.vb: UnityExt.Core.Activity(Of T).Activity
+  nameWithType: Activity<T>.Activity
+  nameWithType.vb: Activity(Of T).Activity
+- uid: UnityExt.Core.Activity`1.context
+  name: context
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_context
+  commentId: P:UnityExt.Core.Activity`1.context
+  fullName: UnityExt.Core.Activity<T>.context
+  fullName.vb: UnityExt.Core.Activity(Of T).context
+  nameWithType: Activity<T>.context
+  nameWithType.vb: Activity(Of T).context
+- uid: UnityExt.Core.Activity`1.context*
+  name: context
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_context_
+  commentId: Overload:UnityExt.Core.Activity`1.context
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity<T>.context
+  fullName.vb: UnityExt.Core.Activity(Of T).context
+  nameWithType: Activity<T>.context
+  nameWithType.vb: Activity(Of T).context
+- uid: UnityExt.Core.Activity`1.handle
+  name: handle
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_handle
+  commentId: F:UnityExt.Core.Activity`1.handle
+  fullName: UnityExt.Core.Activity<T>.handle
+  fullName.vb: UnityExt.Core.Activity(Of T).handle
+  nameWithType: Activity<T>.handle
+  nameWithType.vb: Activity(Of T).handle
+- uid: UnityExt.Core.Activity`1.job
+  name: job
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_job
+  commentId: F:UnityExt.Core.Activity`1.job
+  fullName: UnityExt.Core.Activity<T>.job
+  fullName.vb: UnityExt.Core.Activity(Of T).job
+  nameWithType: Activity<T>.job
+  nameWithType.vb: Activity(Of T).job
+- uid: UnityExt.Core.Activity`1.Run(System.Action{UnityExt.Core.Activity})
+  name: Run(Action<Activity>)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_Action_UnityExt_Core_Activity__
+  commentId: M:UnityExt.Core.Activity`1.Run(System.Action{UnityExt.Core.Activity})
+  name.vb: Run(Action(Of Activity))
+  fullName: UnityExt.Core.Activity<T>.Run(System.Action<UnityExt.Core.Activity>)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.Action(Of UnityExt.Core.Activity))
+  nameWithType: Activity<T>.Run(Action<Activity>)
+  nameWithType.vb: Activity(Of T).Run(Action(Of Activity))
+- uid: UnityExt.Core.Activity`1.Run(System.Action{UnityExt.Core.Activity},System.Boolean)
+  name: Run(Action<Activity>, Boolean)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_Action_UnityExt_Core_Activity__System_Boolean_
+  commentId: M:UnityExt.Core.Activity`1.Run(System.Action{UnityExt.Core.Activity},System.Boolean)
+  name.vb: Run(Action(Of Activity), Boolean)
+  fullName: UnityExt.Core.Activity<T>.Run(System.Action<UnityExt.Core.Activity>, System.Boolean)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.Action(Of UnityExt.Core.Activity), System.Boolean)
+  nameWithType: Activity<T>.Run(Action<Activity>, Boolean)
+  nameWithType.vb: Activity(Of T).Run(Action(Of Activity), Boolean)
+- uid: UnityExt.Core.Activity`1.Run(System.Predicate{UnityExt.Core.Activity})
+  name: Run(Predicate<Activity>)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_Predicate_UnityExt_Core_Activity__
+  commentId: M:UnityExt.Core.Activity`1.Run(System.Predicate{UnityExt.Core.Activity})
+  name.vb: Run(Predicate(Of Activity))
+  fullName: UnityExt.Core.Activity<T>.Run(System.Predicate<UnityExt.Core.Activity>)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.Predicate(Of UnityExt.Core.Activity))
+  nameWithType: Activity<T>.Run(Predicate<Activity>)
+  nameWithType.vb: Activity(Of T).Run(Predicate(Of Activity))
+- uid: UnityExt.Core.Activity`1.Run(System.Predicate{UnityExt.Core.Activity},System.Boolean)
+  name: Run(Predicate<Activity>, Boolean)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_Predicate_UnityExt_Core_Activity__System_Boolean_
+  commentId: M:UnityExt.Core.Activity`1.Run(System.Predicate{UnityExt.Core.Activity},System.Boolean)
+  name.vb: Run(Predicate(Of Activity), Boolean)
+  fullName: UnityExt.Core.Activity<T>.Run(System.Predicate<UnityExt.Core.Activity>, System.Boolean)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.Predicate(Of UnityExt.Core.Activity), System.Boolean)
+  nameWithType: Activity<T>.Run(Predicate<Activity>, Boolean)
+  nameWithType.vb: Activity(Of T).Run(Predicate(Of Activity), Boolean)
+- uid: UnityExt.Core.Activity`1.Run(System.String,System.Action{UnityExt.Core.Activity})
+  name: Run(String, Action<Activity>)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_String_System_Action_UnityExt_Core_Activity__
+  commentId: M:UnityExt.Core.Activity`1.Run(System.String,System.Action{UnityExt.Core.Activity})
+  name.vb: Run(String, Action(Of Activity))
+  fullName: UnityExt.Core.Activity<T>.Run(System.String, System.Action<UnityExt.Core.Activity>)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.String, System.Action(Of UnityExt.Core.Activity))
+  nameWithType: Activity<T>.Run(String, Action<Activity>)
+  nameWithType.vb: Activity(Of T).Run(String, Action(Of Activity))
+- uid: UnityExt.Core.Activity`1.Run(System.String,System.Action{UnityExt.Core.Activity},System.Boolean)
+  name: Run(String, Action<Activity>, Boolean)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_String_System_Action_UnityExt_Core_Activity__System_Boolean_
+  commentId: M:UnityExt.Core.Activity`1.Run(System.String,System.Action{UnityExt.Core.Activity},System.Boolean)
+  name.vb: Run(String, Action(Of Activity), Boolean)
+  fullName: UnityExt.Core.Activity<T>.Run(System.String, System.Action<UnityExt.Core.Activity>, System.Boolean)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.String, System.Action(Of UnityExt.Core.Activity), System.Boolean)
+  nameWithType: Activity<T>.Run(String, Action<Activity>, Boolean)
+  nameWithType.vb: Activity(Of T).Run(String, Action(Of Activity), Boolean)
+- uid: UnityExt.Core.Activity`1.Run(System.String,System.Predicate{UnityExt.Core.Activity})
+  name: Run(String, Predicate<Activity>)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_String_System_Predicate_UnityExt_Core_Activity__
+  commentId: M:UnityExt.Core.Activity`1.Run(System.String,System.Predicate{UnityExt.Core.Activity})
+  name.vb: Run(String, Predicate(Of Activity))
+  fullName: UnityExt.Core.Activity<T>.Run(System.String, System.Predicate<UnityExt.Core.Activity>)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.String, System.Predicate(Of UnityExt.Core.Activity))
+  nameWithType: Activity<T>.Run(String, Predicate<Activity>)
+  nameWithType.vb: Activity(Of T).Run(String, Predicate(Of Activity))
+- uid: UnityExt.Core.Activity`1.Run(System.String,System.Predicate{UnityExt.Core.Activity},System.Boolean)
+  name: Run(String, Predicate<Activity>, Boolean)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_System_String_System_Predicate_UnityExt_Core_Activity__System_Boolean_
+  commentId: M:UnityExt.Core.Activity`1.Run(System.String,System.Predicate{UnityExt.Core.Activity},System.Boolean)
+  name.vb: Run(String, Predicate(Of Activity), Boolean)
+  fullName: UnityExt.Core.Activity<T>.Run(System.String, System.Predicate<UnityExt.Core.Activity>, System.Boolean)
+  fullName.vb: UnityExt.Core.Activity(Of T).Run(System.String, System.Predicate(Of UnityExt.Core.Activity), System.Boolean)
+  nameWithType: Activity<T>.Run(String, Predicate<Activity>, Boolean)
+  nameWithType.vb: Activity(Of T).Run(String, Predicate(Of Activity), Boolean)
+- uid: UnityExt.Core.Activity`1.Run*
+  name: Run
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_Run_
+  commentId: Overload:UnityExt.Core.Activity`1.Run
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity<T>.Run
+  fullName.vb: UnityExt.Core.Activity(Of T).Run
+  nameWithType: Activity<T>.Run
+  nameWithType.vb: Activity(Of T).Run
+- uid: UnityExt.Core.Activity`1.scheduled
+  name: scheduled
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_scheduled
+  commentId: P:UnityExt.Core.Activity`1.scheduled
+  fullName: UnityExt.Core.Activity<T>.scheduled
+  fullName.vb: UnityExt.Core.Activity(Of T).scheduled
+  nameWithType: Activity<T>.scheduled
+  nameWithType.vb: Activity(Of T).scheduled
+- uid: UnityExt.Core.Activity`1.scheduled*
+  name: scheduled
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_scheduled_
+  commentId: Overload:UnityExt.Core.Activity`1.scheduled
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity<T>.scheduled
+  fullName.vb: UnityExt.Core.Activity(Of T).scheduled
+  nameWithType: Activity<T>.scheduled
+  nameWithType.vb: Activity(Of T).scheduled
+- uid: UnityExt.Core.Activity`1.SetJobForLoop(System.Int32,System.Int32)
+  name: SetJobForLoop(Int32, Int32)
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_SetJobForLoop_System_Int32_System_Int32_
+  commentId: M:UnityExt.Core.Activity`1.SetJobForLoop(System.Int32,System.Int32)
+  fullName: UnityExt.Core.Activity<T>.SetJobForLoop(System.Int32, System.Int32)
+  fullName.vb: UnityExt.Core.Activity(Of T).SetJobForLoop(System.Int32, System.Int32)
+  nameWithType: Activity<T>.SetJobForLoop(Int32, Int32)
+  nameWithType.vb: Activity(Of T).SetJobForLoop(Int32, Int32)
+- uid: UnityExt.Core.Activity`1.SetJobForLoop*
+  name: SetJobForLoop
+  href: api/UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_SetJobForLoop_
+  commentId: Overload:UnityExt.Core.Activity`1.SetJobForLoop
+  isSpec: "True"
+  fullName: UnityExt.Core.Activity<T>.SetJobForLoop
+  fullName.vb: UnityExt.Core.Activity(Of T).SetJobForLoop
+  nameWithType: Activity<T>.SetJobForLoop
+  nameWithType.vb: Activity(Of T).SetJobForLoop
 - uid: UnityExt.Core.ActivityBehaviour
   name: ActivityBehaviour
   href: api/UnityExt.Core.ActivityBehaviour.html
@@ -517,6 +744,810 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.ActivityBehaviour.OnEnable
   nameWithType: ActivityBehaviour.OnEnable
+- uid: UnityExt.Core.ActivityContext
+  name: ActivityContext
+  href: api/UnityExt.Core.ActivityContext.html
+  commentId: T:UnityExt.Core.ActivityContext
+  fullName: UnityExt.Core.ActivityContext
+  nameWithType: ActivityContext
+- uid: UnityExt.Core.ActivityContext.Async
+  name: Async
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_Async
+  commentId: F:UnityExt.Core.ActivityContext.Async
+  fullName: UnityExt.Core.ActivityContext.Async
+  nameWithType: ActivityContext.Async
+- uid: UnityExt.Core.ActivityContext.FixedUpdate
+  name: FixedUpdate
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_FixedUpdate
+  commentId: F:UnityExt.Core.ActivityContext.FixedUpdate
+  fullName: UnityExt.Core.ActivityContext.FixedUpdate
+  nameWithType: ActivityContext.FixedUpdate
+- uid: UnityExt.Core.ActivityContext.Job
+  name: Job
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_Job
+  commentId: F:UnityExt.Core.ActivityContext.Job
+  fullName: UnityExt.Core.ActivityContext.Job
+  nameWithType: ActivityContext.Job
+- uid: UnityExt.Core.ActivityContext.JobAsync
+  name: JobAsync
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_JobAsync
+  commentId: F:UnityExt.Core.ActivityContext.JobAsync
+  fullName: UnityExt.Core.ActivityContext.JobAsync
+  nameWithType: ActivityContext.JobAsync
+- uid: UnityExt.Core.ActivityContext.LateUpdate
+  name: LateUpdate
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_LateUpdate
+  commentId: F:UnityExt.Core.ActivityContext.LateUpdate
+  fullName: UnityExt.Core.ActivityContext.LateUpdate
+  nameWithType: ActivityContext.LateUpdate
+- uid: UnityExt.Core.ActivityContext.Thread
+  name: Thread
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_Thread
+  commentId: F:UnityExt.Core.ActivityContext.Thread
+  fullName: UnityExt.Core.ActivityContext.Thread
+  nameWithType: ActivityContext.Thread
+- uid: UnityExt.Core.ActivityContext.Update
+  name: Update
+  href: api/UnityExt.Core.ActivityContext.html#UnityExt_Core_ActivityContext_Update
+  commentId: F:UnityExt.Core.ActivityContext.Update
+  fullName: UnityExt.Core.ActivityContext.Update
+  nameWithType: ActivityContext.Update
+- uid: UnityExt.Core.ActivityManager
+  name: ActivityManager
+  href: api/UnityExt.Core.ActivityManager.html
+  commentId: T:UnityExt.Core.ActivityManager
+  fullName: UnityExt.Core.ActivityManager
+  nameWithType: ActivityManager
+- uid: UnityExt.Core.ActivityManager.AddActivity(UnityExt.Core.Activity)
+  name: AddActivity(Activity)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AddActivity_UnityExt_Core_Activity_
+  commentId: M:UnityExt.Core.ActivityManager.AddActivity(UnityExt.Core.Activity)
+  fullName: UnityExt.Core.ActivityManager.AddActivity(UnityExt.Core.Activity)
+  nameWithType: ActivityManager.AddActivity(Activity)
+- uid: UnityExt.Core.ActivityManager.AddActivity*
+  name: AddActivity
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AddActivity_
+  commentId: Overload:UnityExt.Core.ActivityManager.AddActivity
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.AddActivity
+  nameWithType: ActivityManager.AddActivity
+- uid: UnityExt.Core.ActivityManager.AddInterface(System.Object)
+  name: AddInterface(Object)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AddInterface_System_Object_
+  commentId: M:UnityExt.Core.ActivityManager.AddInterface(System.Object)
+  fullName: UnityExt.Core.ActivityManager.AddInterface(System.Object)
+  nameWithType: ActivityManager.AddInterface(Object)
+- uid: UnityExt.Core.ActivityManager.AddInterface*
+  name: AddInterface
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AddInterface_
+  commentId: Overload:UnityExt.Core.ActivityManager.AddInterface
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.AddInterface
+  nameWithType: ActivityManager.AddInterface
+- uid: UnityExt.Core.ActivityManager.AssertThread
+  name: AssertThread()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AssertThread
+  commentId: M:UnityExt.Core.ActivityManager.AssertThread
+  fullName: UnityExt.Core.ActivityManager.AssertThread()
+  nameWithType: ActivityManager.AssertThread()
+- uid: UnityExt.Core.ActivityManager.AssertThread(System.Int32)
+  name: AssertThread(Int32)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AssertThread_System_Int32_
+  commentId: M:UnityExt.Core.ActivityManager.AssertThread(System.Int32)
+  fullName: UnityExt.Core.ActivityManager.AssertThread(System.Int32)
+  nameWithType: ActivityManager.AssertThread(Int32)
+- uid: UnityExt.Core.ActivityManager.AssertThread*
+  name: AssertThread
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AssertThread_
+  commentId: Overload:UnityExt.Core.ActivityManager.AssertThread
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.AssertThread
+  nameWithType: ActivityManager.AssertThread
+- uid: UnityExt.Core.ActivityManager.AssertThreadEmpty(System.Int32)
+  name: AssertThreadEmpty(Int32)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AssertThreadEmpty_System_Int32_
+  commentId: M:UnityExt.Core.ActivityManager.AssertThreadEmpty(System.Int32)
+  fullName: UnityExt.Core.ActivityManager.AssertThreadEmpty(System.Int32)
+  nameWithType: ActivityManager.AssertThreadEmpty(Int32)
+- uid: UnityExt.Core.ActivityManager.AssertThreadEmpty*
+  name: AssertThreadEmpty
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_AssertThreadEmpty_
+  commentId: Overload:UnityExt.Core.ActivityManager.AssertThreadEmpty
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.AssertThreadEmpty
+  nameWithType: ActivityManager.AssertThreadEmpty
+- uid: UnityExt.Core.ActivityManager.Awake
+  name: Awake()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Awake
+  commentId: M:UnityExt.Core.ActivityManager.Awake
+  fullName: UnityExt.Core.ActivityManager.Awake()
+  nameWithType: ActivityManager.Awake()
+- uid: UnityExt.Core.ActivityManager.Awake*
+  name: Awake
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Awake_
+  commentId: Overload:UnityExt.Core.ActivityManager.Awake
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.Awake
+  nameWithType: ActivityManager.Awake
+- uid: UnityExt.Core.ActivityManager.Clear
+  name: Clear()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Clear
+  commentId: M:UnityExt.Core.ActivityManager.Clear
+  fullName: UnityExt.Core.ActivityManager.Clear()
+  nameWithType: ActivityManager.Clear()
+- uid: UnityExt.Core.ActivityManager.Clear*
+  name: Clear
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Clear_
+  commentId: Overload:UnityExt.Core.ActivityManager.Clear
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.Clear
+  nameWithType: ActivityManager.Clear
+- uid: UnityExt.Core.ActivityManager.Find(System.String)
+  name: Find(String)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Find_System_String_
+  commentId: M:UnityExt.Core.ActivityManager.Find(System.String)
+  fullName: UnityExt.Core.ActivityManager.Find(System.String)
+  nameWithType: ActivityManager.Find(String)
+- uid: UnityExt.Core.ActivityManager.Find(System.String,UnityExt.Core.ActivityContext)
+  name: Find(String, ActivityContext)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Find_System_String_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.ActivityManager.Find(System.String,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.ActivityManager.Find(System.String, UnityExt.Core.ActivityContext)
+  nameWithType: ActivityManager.Find(String, ActivityContext)
+- uid: UnityExt.Core.ActivityManager.Find*
+  name: Find
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Find_
+  commentId: Overload:UnityExt.Core.ActivityManager.Find
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.Find
+  nameWithType: ActivityManager.Find
+- uid: UnityExt.Core.ActivityManager.FindAll(System.String)
+  name: FindAll(String)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_FindAll_System_String_
+  commentId: M:UnityExt.Core.ActivityManager.FindAll(System.String)
+  fullName: UnityExt.Core.ActivityManager.FindAll(System.String)
+  nameWithType: ActivityManager.FindAll(String)
+- uid: UnityExt.Core.ActivityManager.FindAll(System.String,UnityExt.Core.ActivityContext)
+  name: FindAll(String, ActivityContext)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_FindAll_System_String_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.ActivityManager.FindAll(System.String,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.ActivityManager.FindAll(System.String, UnityExt.Core.ActivityContext)
+  nameWithType: ActivityManager.FindAll(String, ActivityContext)
+- uid: UnityExt.Core.ActivityManager.FindAll*
+  name: FindAll
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_FindAll_
+  commentId: Overload:UnityExt.Core.ActivityManager.FindAll
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.FindAll
+  nameWithType: ActivityManager.FindAll
+- uid: UnityExt.Core.ActivityManager.FixedUpdate
+  name: FixedUpdate()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_FixedUpdate
+  commentId: M:UnityExt.Core.ActivityManager.FixedUpdate
+  fullName: UnityExt.Core.ActivityManager.FixedUpdate()
+  nameWithType: ActivityManager.FixedUpdate()
+- uid: UnityExt.Core.ActivityManager.FixedUpdate*
+  name: FixedUpdate
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_FixedUpdate_
+  commentId: Overload:UnityExt.Core.ActivityManager.FixedUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.FixedUpdate
+  nameWithType: ActivityManager.FixedUpdate
+- uid: UnityExt.Core.ActivityManager.IsEmpty
+  name: IsEmpty()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_IsEmpty
+  commentId: M:UnityExt.Core.ActivityManager.IsEmpty
+  fullName: UnityExt.Core.ActivityManager.IsEmpty()
+  nameWithType: ActivityManager.IsEmpty()
+- uid: UnityExt.Core.ActivityManager.IsEmpty*
+  name: IsEmpty
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_IsEmpty_
+  commentId: Overload:UnityExt.Core.ActivityManager.IsEmpty
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.IsEmpty
+  nameWithType: ActivityManager.IsEmpty
+- uid: UnityExt.Core.ActivityManager.LateUpdate
+  name: LateUpdate()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_LateUpdate
+  commentId: M:UnityExt.Core.ActivityManager.LateUpdate
+  fullName: UnityExt.Core.ActivityManager.LateUpdate()
+  nameWithType: ActivityManager.LateUpdate()
+- uid: UnityExt.Core.ActivityManager.LateUpdate*
+  name: LateUpdate
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_LateUpdate_
+  commentId: Overload:UnityExt.Core.ActivityManager.LateUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.LateUpdate
+  nameWithType: ActivityManager.LateUpdate
+- uid: UnityExt.Core.ActivityManager.RemoveActivity(UnityExt.Core.Activity)
+  name: RemoveActivity(Activity)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_RemoveActivity_UnityExt_Core_Activity_
+  commentId: M:UnityExt.Core.ActivityManager.RemoveActivity(UnityExt.Core.Activity)
+  fullName: UnityExt.Core.ActivityManager.RemoveActivity(UnityExt.Core.Activity)
+  nameWithType: ActivityManager.RemoveActivity(Activity)
+- uid: UnityExt.Core.ActivityManager.RemoveActivity*
+  name: RemoveActivity
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_RemoveActivity_
+  commentId: Overload:UnityExt.Core.ActivityManager.RemoveActivity
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.RemoveActivity
+  nameWithType: ActivityManager.RemoveActivity
+- uid: UnityExt.Core.ActivityManager.RemoveInterface(System.Object)
+  name: RemoveInterface(Object)
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_RemoveInterface_System_Object_
+  commentId: M:UnityExt.Core.ActivityManager.RemoveInterface(System.Object)
+  fullName: UnityExt.Core.ActivityManager.RemoveInterface(System.Object)
+  nameWithType: ActivityManager.RemoveInterface(Object)
+- uid: UnityExt.Core.ActivityManager.RemoveInterface*
+  name: RemoveInterface
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_RemoveInterface_
+  commentId: Overload:UnityExt.Core.ActivityManager.RemoveInterface
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.RemoveInterface
+  nameWithType: ActivityManager.RemoveInterface
+- uid: UnityExt.Core.ActivityManager.Start
+  name: Start()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Start
+  commentId: M:UnityExt.Core.ActivityManager.Start
+  fullName: UnityExt.Core.ActivityManager.Start()
+  nameWithType: ActivityManager.Start()
+- uid: UnityExt.Core.ActivityManager.Start*
+  name: Start
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Start_
+  commentId: Overload:UnityExt.Core.ActivityManager.Start
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.Start
+  nameWithType: ActivityManager.Start
+- uid: UnityExt.Core.ActivityManager.Update
+  name: Update()
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Update
+  commentId: M:UnityExt.Core.ActivityManager.Update
+  fullName: UnityExt.Core.ActivityManager.Update()
+  nameWithType: ActivityManager.Update()
+- uid: UnityExt.Core.ActivityManager.Update*
+  name: Update
+  href: api/UnityExt.Core.ActivityManager.html#UnityExt_Core_ActivityManager_Update_
+  commentId: Overload:UnityExt.Core.ActivityManager.Update
+  isSpec: "True"
+  fullName: UnityExt.Core.ActivityManager.Update
+  nameWithType: ActivityManager.Update
+- uid: UnityExt.Core.ActivityState
+  name: ActivityState
+  href: api/UnityExt.Core.ActivityState.html
+  commentId: T:UnityExt.Core.ActivityState
+  fullName: UnityExt.Core.ActivityState
+  nameWithType: ActivityState
+- uid: UnityExt.Core.ActivityState.Complete
+  name: Complete
+  href: api/UnityExt.Core.ActivityState.html#UnityExt_Core_ActivityState_Complete
+  commentId: F:UnityExt.Core.ActivityState.Complete
+  fullName: UnityExt.Core.ActivityState.Complete
+  nameWithType: ActivityState.Complete
+- uid: UnityExt.Core.ActivityState.Idle
+  name: Idle
+  href: api/UnityExt.Core.ActivityState.html#UnityExt_Core_ActivityState_Idle
+  commentId: F:UnityExt.Core.ActivityState.Idle
+  fullName: UnityExt.Core.ActivityState.Idle
+  nameWithType: ActivityState.Idle
+- uid: UnityExt.Core.ActivityState.Queued
+  name: Queued
+  href: api/UnityExt.Core.ActivityState.html#UnityExt_Core_ActivityState_Queued
+  commentId: F:UnityExt.Core.ActivityState.Queued
+  fullName: UnityExt.Core.ActivityState.Queued
+  nameWithType: ActivityState.Queued
+- uid: UnityExt.Core.ActivityState.Running
+  name: Running
+  href: api/UnityExt.Core.ActivityState.html#UnityExt_Core_ActivityState_Running
+  commentId: F:UnityExt.Core.ActivityState.Running
+  fullName: UnityExt.Core.ActivityState.Running
+  nameWithType: ActivityState.Running
+- uid: UnityExt.Core.ActivityState.Stopped
+  name: Stopped
+  href: api/UnityExt.Core.ActivityState.html#UnityExt_Core_ActivityState_Stopped
+  commentId: F:UnityExt.Core.ActivityState.Stopped
+  fullName: UnityExt.Core.ActivityState.Stopped
+  nameWithType: ActivityState.Stopped
+- uid: UnityExt.Core.Examples
+  name: UnityExt.Core.Examples
+  href: api/UnityExt.Core.Examples.html
+  commentId: N:UnityExt.Core.Examples
+  fullName: UnityExt.Core.Examples
+  nameWithType: UnityExt.Core.Examples
+- uid: UnityExt.Core.Examples.ExamplesApp
+  name: ExamplesApp
+  href: api/UnityExt.Core.Examples.ExamplesApp.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp
+  fullName: UnityExt.Core.Examples.ExamplesApp
+  nameWithType: ExamplesApp
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag
+  name: ExamplesApp.CaseTypeFlag
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag
+  nameWithType: ExamplesApp.CaseTypeFlag
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Await
+  name: Await
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_Await
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Await
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Await
+  nameWithType: ExamplesApp.CaseTypeFlag.Await
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Basic
+  name: Basic
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_Basic
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Basic
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Basic
+  nameWithType: ExamplesApp.CaseTypeFlag.Basic
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.BasicJob
+  name: BasicJob
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_BasicJob
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.BasicJob
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.BasicJob
+  nameWithType: ExamplesApp.CaseTypeFlag.BasicJob
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.InterpolatorBasic
+  name: InterpolatorBasic
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_InterpolatorBasic
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.InterpolatorBasic
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.InterpolatorBasic
+  nameWithType: ExamplesApp.CaseTypeFlag.InterpolatorBasic
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.None
+  name: None
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_None
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.None
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.None
+  nameWithType: ExamplesApp.CaseTypeFlag.None
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Rotation
+  name: Rotation
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_Rotation
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Rotation
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.Rotation
+  nameWithType: ExamplesApp.CaseTypeFlag.Rotation
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesJob
+  name: RotationInstancesJob
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_RotationInstancesJob
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesJob
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesJob
+  nameWithType: ExamplesApp.CaseTypeFlag.RotationInstancesJob
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesMono
+  name: RotationInstancesMono
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_RotationInstancesMono
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesMono
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesMono
+  nameWithType: ExamplesApp.CaseTypeFlag.RotationInstancesMono
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesThreaded
+  name: RotationInstancesThreaded
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_RotationInstancesThreaded
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesThreaded
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationInstancesThreaded
+  nameWithType: ExamplesApp.CaseTypeFlag.RotationInstancesThreaded
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationThreaded
+  name: RotationThreaded
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_RotationThreaded
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationThreaded
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.RotationThreaded
+  nameWithType: ExamplesApp.CaseTypeFlag.RotationThreaded
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerAtomicBasic
+  name: TimerAtomicBasic
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_TimerAtomicBasic
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerAtomicBasic
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerAtomicBasic
+  nameWithType: ExamplesApp.CaseTypeFlag.TimerAtomicBasic
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerBasic
+  name: TimerBasic
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_TimerBasic
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerBasic
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerBasic
+  nameWithType: ExamplesApp.CaseTypeFlag.TimerBasic
+- uid: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerSteps
+  name: TimerSteps
+  href: api/UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.html#UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_TimerSteps
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerSteps
+  fullName: UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag.TimerSteps
+  nameWithType: ExamplesApp.CaseTypeFlag.TimerSteps
+- uid: UnityExt.Core.Examples.ExamplesApp.ClearLog
+  name: ClearLog()
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_ClearLog
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.ClearLog
+  fullName: UnityExt.Core.Examples.ExamplesApp.ClearLog()
+  nameWithType: ExamplesApp.ClearLog()
+- uid: UnityExt.Core.Examples.ExamplesApp.ClearLog*
+  name: ClearLog
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_ClearLog_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.ClearLog
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.ClearLog
+  nameWithType: ExamplesApp.ClearLog
+- uid: UnityExt.Core.Examples.ExamplesApp.consoleField
+  name: consoleField
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_consoleField
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.consoleField
+  fullName: UnityExt.Core.Examples.ExamplesApp.consoleField
+  nameWithType: ExamplesApp.consoleField
+- uid: UnityExt.Core.Examples.ExamplesApp.content
+  name: content
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_content
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.content
+  fullName: UnityExt.Core.Examples.ExamplesApp.content
+  nameWithType: ExamplesApp.content
+- uid: UnityExt.Core.Examples.ExamplesApp.debugCube
+  name: debugCube
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_debugCube
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.debugCube
+  fullName: UnityExt.Core.Examples.ExamplesApp.debugCube
+  nameWithType: ExamplesApp.debugCube
+- uid: UnityExt.Core.Examples.ExamplesApp.debugCurve
+  name: debugCurve
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_debugCurve
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.debugCurve
+  fullName: UnityExt.Core.Examples.ExamplesApp.debugCurve
+  nameWithType: ExamplesApp.debugCurve
+- uid: UnityExt.Core.Examples.ExamplesApp.JobRotator
+  name: ExamplesApp.JobRotator
+  href: api/UnityExt.Core.Examples.ExamplesApp.JobRotator.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.JobRotator
+  fullName: UnityExt.Core.Examples.ExamplesApp.JobRotator
+  nameWithType: ExamplesApp.JobRotator
+- uid: UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake
+  name: Awake()
+  href: api/UnityExt.Core.Examples.ExamplesApp.JobRotator.html#UnityExt_Core_Examples_ExamplesApp_JobRotator_Awake
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake
+  fullName: UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake()
+  nameWithType: ExamplesApp.JobRotator.Awake()
+- uid: UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake*
+  name: Awake
+  href: api/UnityExt.Core.Examples.ExamplesApp.JobRotator.html#UnityExt_Core_Examples_ExamplesApp_JobRotator_Awake_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.JobRotator.Awake
+  nameWithType: ExamplesApp.JobRotator.Awake
+- uid: UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate
+  name: OnUpdate()
+  href: api/UnityExt.Core.Examples.ExamplesApp.JobRotator.html#UnityExt_Core_Examples_ExamplesApp_JobRotator_OnUpdate
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate
+  fullName: UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate()
+  nameWithType: ExamplesApp.JobRotator.OnUpdate()
+- uid: UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate*
+  name: OnUpdate
+  href: api/UnityExt.Core.Examples.ExamplesApp.JobRotator.html#UnityExt_Core_Examples_ExamplesApp_JobRotator_OnUpdate_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.JobRotator.OnUpdate
+  nameWithType: ExamplesApp.JobRotator.OnUpdate
+- uid: UnityExt.Core.Examples.ExamplesApp.Log(System.String)
+  name: Log(String)
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Log_System_String_
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Log(System.String)
+  fullName: UnityExt.Core.Examples.ExamplesApp.Log(System.String)
+  nameWithType: ExamplesApp.Log(String)
+- uid: UnityExt.Core.Examples.ExamplesApp.Log*
+  name: Log
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Log_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Log
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Log
+  nameWithType: ExamplesApp.Log
+- uid: UnityExt.Core.Examples.ExamplesApp.MonoRotator
+  name: ExamplesApp.MonoRotator
+  href: api/UnityExt.Core.Examples.ExamplesApp.MonoRotator.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.MonoRotator
+  fullName: UnityExt.Core.Examples.ExamplesApp.MonoRotator
+  nameWithType: ExamplesApp.MonoRotator
+- uid: UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate
+  name: OnUpdate()
+  href: api/UnityExt.Core.Examples.ExamplesApp.MonoRotator.html#UnityExt_Core_Examples_ExamplesApp_MonoRotator_OnUpdate
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate
+  fullName: UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate()
+  nameWithType: ExamplesApp.MonoRotator.OnUpdate()
+- uid: UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate*
+  name: OnUpdate
+  href: api/UnityExt.Core.Examples.ExamplesApp.MonoRotator.html#UnityExt_Core_Examples_ExamplesApp_MonoRotator_OnUpdate_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.MonoRotator.OnUpdate
+  nameWithType: ExamplesApp.MonoRotator.OnUpdate
+- uid: UnityExt.Core.Examples.ExamplesApp.progressBarField
+  name: progressBarField
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_progressBarField
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.progressBarField
+  fullName: UnityExt.Core.Examples.ExamplesApp.progressBarField
+  nameWithType: ExamplesApp.progressBarField
+- uid: UnityExt.Core.Examples.ExamplesApp.progressField
+  name: progressField
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_progressField
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.progressField
+  fullName: UnityExt.Core.Examples.ExamplesApp.progressField
+  nameWithType: ExamplesApp.progressField
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob
+  name: ExamplesApp.RandomSumJob
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.RandomSumJob
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob
+  nameWithType: ExamplesApp.RandomSumJob
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute
+  name: Execute()
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_Execute
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute()
+  nameWithType: ExamplesApp.RandomSumJob.Execute()
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute*
+  name: Execute
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_Execute_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.Execute
+  nameWithType: ExamplesApp.RandomSumJob.Execute
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom
+  name: GetRandom()
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_GetRandom
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom()
+  nameWithType: ExamplesApp.RandomSumJob.GetRandom()
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom*
+  name: GetRandom
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_GetRandom_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.GetRandom
+  nameWithType: ExamplesApp.RandomSumJob.GetRandom
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete
+  name: OnComplete()
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnComplete
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete()
+  nameWithType: ExamplesApp.RandomSumJob.OnComplete()
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete*
+  name: OnComplete
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnComplete_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnComplete
+  nameWithType: ExamplesApp.RandomSumJob.OnComplete
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy
+  name: OnDestroy()
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnDestroy
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy()
+  nameWithType: ExamplesApp.RandomSumJob.OnDestroy()
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy*
+  name: OnDestroy
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnDestroy_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnDestroy
+  nameWithType: ExamplesApp.RandomSumJob.OnDestroy
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit
+  name: OnInit()
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnInit
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit()
+  nameWithType: ExamplesApp.RandomSumJob.OnInit()
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit*
+  name: OnInit
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_OnInit_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.OnInit
+  nameWithType: ExamplesApp.RandomSumJob.OnInit
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.result
+  name: result
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_result
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.result
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.result
+  nameWithType: ExamplesApp.RandomSumJob.result
+- uid: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.scale
+  name: scale
+  href: api/UnityExt.Core.Examples.ExamplesApp.RandomSumJob.html#UnityExt_Core_Examples_ExamplesApp_RandomSumJob_scale
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.RandomSumJob.scale
+  fullName: UnityExt.Core.Examples.ExamplesApp.RandomSumJob.scale
+  nameWithType: ExamplesApp.RandomSumJob.scale
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator
+  name: ExamplesApp.Rotator
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.Rotator
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator
+  nameWithType: ExamplesApp.Rotator
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Apply
+  name: Apply()
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Apply
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.Apply
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Apply()
+  nameWithType: ExamplesApp.Rotator.Apply()
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Apply*
+  name: Apply
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Apply_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.Apply
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Apply
+  nameWithType: ExamplesApp.Rotator.Apply
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Awake
+  name: Awake()
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Awake
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.Awake
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Awake()
+  nameWithType: ExamplesApp.Rotator.Awake()
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Awake*
+  name: Awake
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Awake_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.Awake
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Awake
+  nameWithType: ExamplesApp.Rotator.Awake
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.handle
+  name: handle
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_handle
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.handle
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.handle
+  nameWithType: ExamplesApp.Rotator.handle
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.job
+  name: job
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_job
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.job
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.job
+  nameWithType: ExamplesApp.Rotator.job
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job
+  name: ExamplesApp.Rotator.Job
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.Rotator.Job
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job
+  nameWithType: ExamplesApp.Rotator.Job
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.angle
+  name: angle
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Job_angle
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.Job.angle
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.angle
+  nameWithType: ExamplesApp.Rotator.Job.angle
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.dt
+  name: dt
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Job_dt
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.Job.dt
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.dt
+  nameWithType: ExamplesApp.Rotator.Job.dt
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute
+  name: Execute()
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Job_Execute
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute()
+  nameWithType: ExamplesApp.Rotator.Job.Execute()
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute*
+  name: Execute
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Job_Execute_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.Execute
+  nameWithType: ExamplesApp.Rotator.Job.Execute
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.speed
+  name: speed
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.Job.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Job_speed
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.Job.speed
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Job.speed
+  nameWithType: ExamplesApp.Rotator.Job.speed
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy
+  name: OnDestroy()
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_OnDestroy
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy()
+  nameWithType: ExamplesApp.Rotator.OnDestroy()
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy*
+  name: OnDestroy
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_OnDestroy_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.OnDestroy
+  nameWithType: ExamplesApp.Rotator.OnDestroy
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.schedule
+  name: schedule
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_schedule
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.Rotator.schedule
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.schedule
+  nameWithType: ExamplesApp.Rotator.schedule
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed(UnityEngine.Vector3)
+  name: SetSpeed(Vector3)
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_SetSpeed_UnityEngine_Vector3_
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed(UnityEngine.Vector3)
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed(UnityEngine.Vector3)
+  nameWithType: ExamplesApp.Rotator.SetSpeed(Vector3)
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed*
+  name: SetSpeed
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_SetSpeed_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.SetSpeed
+  nameWithType: ExamplesApp.Rotator.SetSpeed
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Step
+  name: Step()
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Step
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Rotator.Step
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Step()
+  nameWithType: ExamplesApp.Rotator.Step()
+- uid: UnityExt.Core.Examples.ExamplesApp.Rotator.Step*
+  name: Step
+  href: api/UnityExt.Core.Examples.ExamplesApp.Rotator.html#UnityExt_Core_Examples_ExamplesApp_Rotator_Step_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Rotator.Step
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Rotator.Step
+  nameWithType: ExamplesApp.Rotator.Step
+- uid: UnityExt.Core.Examples.ExamplesApp.Run(UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag)
+  name: Run(ExamplesApp.CaseTypeFlag)
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Run_UnityExt_Core_Examples_ExamplesApp_CaseTypeFlag_
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Run(UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag)
+  fullName: UnityExt.Core.Examples.ExamplesApp.Run(UnityExt.Core.Examples.ExamplesApp.CaseTypeFlag)
+  nameWithType: ExamplesApp.Run(ExamplesApp.CaseTypeFlag)
+- uid: UnityExt.Core.Examples.ExamplesApp.Run*
+  name: Run
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Run_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Run
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Run
+  nameWithType: ExamplesApp.Run
+- uid: UnityExt.Core.Examples.ExamplesApp.SetProgress(System.Single)
+  name: SetProgress(Single)
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_SetProgress_System_Single_
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.SetProgress(System.Single)
+  fullName: UnityExt.Core.Examples.ExamplesApp.SetProgress(System.Single)
+  nameWithType: ExamplesApp.SetProgress(Single)
+- uid: UnityExt.Core.Examples.ExamplesApp.SetProgress*
+  name: SetProgress
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_SetProgress_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.SetProgress
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.SetProgress
+  nameWithType: ExamplesApp.SetProgress
+- uid: UnityExt.Core.Examples.ExamplesApp.Start
+  name: Start()
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Start
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.Start
+  fullName: UnityExt.Core.Examples.ExamplesApp.Start()
+  nameWithType: ExamplesApp.Start()
+- uid: UnityExt.Core.Examples.ExamplesApp.Start*
+  name: Start
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_Start_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.Start
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.Start
+  nameWithType: ExamplesApp.Start
+- uid: UnityExt.Core.Examples.ExamplesApp.ThreadRotator
+  name: ExamplesApp.ThreadRotator
+  href: api/UnityExt.Core.Examples.ExamplesApp.ThreadRotator.html
+  commentId: T:UnityExt.Core.Examples.ExamplesApp.ThreadRotator
+  fullName: UnityExt.Core.Examples.ExamplesApp.ThreadRotator
+  nameWithType: ExamplesApp.ThreadRotator
+- uid: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate
+  name: OnThreadUpdate()
+  href: api/UnityExt.Core.Examples.ExamplesApp.ThreadRotator.html#UnityExt_Core_Examples_ExamplesApp_ThreadRotator_OnThreadUpdate
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate
+  fullName: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate()
+  nameWithType: ExamplesApp.ThreadRotator.OnThreadUpdate()
+- uid: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate*
+  name: OnThreadUpdate
+  href: api/UnityExt.Core.Examples.ExamplesApp.ThreadRotator.html#UnityExt_Core_Examples_ExamplesApp_ThreadRotator_OnThreadUpdate_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnThreadUpdate
+  nameWithType: ExamplesApp.ThreadRotator.OnThreadUpdate
+- uid: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate
+  name: OnUpdate()
+  href: api/UnityExt.Core.Examples.ExamplesApp.ThreadRotator.html#UnityExt_Core_Examples_ExamplesApp_ThreadRotator_OnUpdate
+  commentId: M:UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate
+  fullName: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate()
+  nameWithType: ExamplesApp.ThreadRotator.OnUpdate()
+- uid: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate*
+  name: OnUpdate
+  href: api/UnityExt.Core.Examples.ExamplesApp.ThreadRotator.html#UnityExt_Core_Examples_ExamplesApp_ThreadRotator_OnUpdate_
+  commentId: Overload:UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.Examples.ExamplesApp.ThreadRotator.OnUpdate
+  nameWithType: ExamplesApp.ThreadRotator.OnUpdate
+- uid: UnityExt.Core.Examples.ExamplesApp.titleField
+  name: titleField
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_titleField
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.titleField
+  fullName: UnityExt.Core.Examples.ExamplesApp.titleField
+  nameWithType: ExamplesApp.titleField
+- uid: UnityExt.Core.Examples.ExamplesApp.type
+  name: type
+  href: api/UnityExt.Core.Examples.ExamplesApp.html#UnityExt_Core_Examples_ExamplesApp_type
+  commentId: F:UnityExt.Core.Examples.ExamplesApp.type
+  fullName: UnityExt.Core.Examples.ExamplesApp.type
+  nameWithType: ExamplesApp.type
 - uid: UnityExt.Core.IAsyncUpdateable
   name: IAsyncUpdateable
   href: api/UnityExt.Core.IAsyncUpdateable.html
@@ -555,6 +1586,51 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IFixedUpdateable.OnFixedUpdate
   nameWithType: IFixedUpdateable.OnFixedUpdate
+- uid: UnityExt.Core.IJobComponent
+  name: IJobComponent
+  href: api/UnityExt.Core.IJobComponent.html
+  commentId: T:UnityExt.Core.IJobComponent
+  fullName: UnityExt.Core.IJobComponent
+  nameWithType: IJobComponent
+- uid: UnityExt.Core.IJobComponent.OnComplete
+  name: OnComplete()
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnComplete
+  commentId: M:UnityExt.Core.IJobComponent.OnComplete
+  fullName: UnityExt.Core.IJobComponent.OnComplete()
+  nameWithType: IJobComponent.OnComplete()
+- uid: UnityExt.Core.IJobComponent.OnComplete*
+  name: OnComplete
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnComplete_
+  commentId: Overload:UnityExt.Core.IJobComponent.OnComplete
+  isSpec: "True"
+  fullName: UnityExt.Core.IJobComponent.OnComplete
+  nameWithType: IJobComponent.OnComplete
+- uid: UnityExt.Core.IJobComponent.OnDestroy
+  name: OnDestroy()
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnDestroy
+  commentId: M:UnityExt.Core.IJobComponent.OnDestroy
+  fullName: UnityExt.Core.IJobComponent.OnDestroy()
+  nameWithType: IJobComponent.OnDestroy()
+- uid: UnityExt.Core.IJobComponent.OnDestroy*
+  name: OnDestroy
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnDestroy_
+  commentId: Overload:UnityExt.Core.IJobComponent.OnDestroy
+  isSpec: "True"
+  fullName: UnityExt.Core.IJobComponent.OnDestroy
+  nameWithType: IJobComponent.OnDestroy
+- uid: UnityExt.Core.IJobComponent.OnInit
+  name: OnInit()
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnInit
+  commentId: M:UnityExt.Core.IJobComponent.OnInit
+  fullName: UnityExt.Core.IJobComponent.OnInit()
+  nameWithType: IJobComponent.OnInit()
+- uid: UnityExt.Core.IJobComponent.OnInit*
+  name: OnInit
+  href: api/UnityExt.Core.IJobComponent.html#UnityExt_Core_IJobComponent_OnInit_
+  commentId: Overload:UnityExt.Core.IJobComponent.OnInit
+  isSpec: "True"
+  fullName: UnityExt.Core.IJobComponent.OnInit
+  nameWithType: IJobComponent.OnInit
 - uid: UnityExt.Core.ILateUpdateable
   name: ILateUpdateable
   href: api/UnityExt.Core.ILateUpdateable.html
@@ -574,6 +1650,1004 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.ILateUpdateable.OnLateUpdate
   nameWithType: ILateUpdateable.OnLateUpdate
+- uid: UnityExt.Core.Interpolator
+  name: Interpolator
+  href: api/UnityExt.Core.Interpolator.html
+  commentId: T:UnityExt.Core.Interpolator
+  fullName: UnityExt.Core.Interpolator
+  nameWithType: Interpolator
+- uid: UnityExt.Core.Interpolator.#ctor
+  name: Interpolator()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator__ctor
+  commentId: M:UnityExt.Core.Interpolator.#ctor
+  fullName: UnityExt.Core.Interpolator.Interpolator()
+  nameWithType: Interpolator.Interpolator()
+- uid: UnityExt.Core.Interpolator.#ctor*
+  name: Interpolator
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator__ctor_
+  commentId: Overload:UnityExt.Core.Interpolator.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.Interpolator
+  nameWithType: Interpolator.Interpolator
+- uid: UnityExt.Core.Interpolator.DefaultAnimationCurve
+  name: DefaultAnimationCurve
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_DefaultAnimationCurve
+  commentId: P:UnityExt.Core.Interpolator.DefaultAnimationCurve
+  fullName: UnityExt.Core.Interpolator.DefaultAnimationCurve
+  nameWithType: Interpolator.DefaultAnimationCurve
+- uid: UnityExt.Core.Interpolator.DefaultAnimationCurve*
+  name: DefaultAnimationCurve
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_DefaultAnimationCurve_
+  commentId: Overload:UnityExt.Core.Interpolator.DefaultAnimationCurve
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.DefaultAnimationCurve
+  nameWithType: Interpolator.DefaultAnimationCurve
+- uid: UnityExt.Core.Interpolator.easingCurve
+  name: easingCurve
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_easingCurve
+  commentId: F:UnityExt.Core.Interpolator.easingCurve
+  fullName: UnityExt.Core.Interpolator.easingCurve
+  nameWithType: Interpolator.easingCurve
+- uid: UnityExt.Core.Interpolator.easingFunction
+  name: easingFunction
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_easingFunction
+  commentId: F:UnityExt.Core.Interpolator.easingFunction
+  fullName: UnityExt.Core.Interpolator.easingFunction
+  nameWithType: Interpolator.easingFunction
+- uid: UnityExt.Core.Interpolator.Get(System.Type)
+  name: Get(Type)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Get_System_Type_
+  commentId: M:UnityExt.Core.Interpolator.Get(System.Type)
+  fullName: UnityExt.Core.Interpolator.Get(System.Type)
+  nameWithType: Interpolator.Get(Type)
+- uid: UnityExt.Core.Interpolator.Get*
+  name: Get
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Get_
+  commentId: Overload:UnityExt.Core.Interpolator.Get
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.Get
+  nameWithType: Interpolator.Get
+- uid: UnityExt.Core.Interpolator.Get``1
+  name: Get<T>()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Get__1
+  commentId: M:UnityExt.Core.Interpolator.Get``1
+  name.vb: Get(Of T)()
+  fullName: UnityExt.Core.Interpolator.Get<T>()
+  fullName.vb: UnityExt.Core.Interpolator.Get(Of T)()
+  nameWithType: Interpolator.Get<T>()
+  nameWithType.vb: Interpolator.Get(Of T)()
+- uid: UnityExt.Core.Interpolator.GetByte
+  name: GetByte()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetByte
+  commentId: M:UnityExt.Core.Interpolator.GetByte
+  fullName: UnityExt.Core.Interpolator.GetByte()
+  nameWithType: Interpolator.GetByte()
+- uid: UnityExt.Core.Interpolator.GetByte*
+  name: GetByte
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetByte_
+  commentId: Overload:UnityExt.Core.Interpolator.GetByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetByte
+  nameWithType: Interpolator.GetByte
+- uid: UnityExt.Core.Interpolator.GetColor
+  name: GetColor()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetColor
+  commentId: M:UnityExt.Core.Interpolator.GetColor
+  fullName: UnityExt.Core.Interpolator.GetColor()
+  nameWithType: Interpolator.GetColor()
+- uid: UnityExt.Core.Interpolator.GetColor*
+  name: GetColor
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetColor_
+  commentId: Overload:UnityExt.Core.Interpolator.GetColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetColor
+  nameWithType: Interpolator.GetColor
+- uid: UnityExt.Core.Interpolator.GetColor32
+  name: GetColor32()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetColor32
+  commentId: M:UnityExt.Core.Interpolator.GetColor32
+  fullName: UnityExt.Core.Interpolator.GetColor32()
+  nameWithType: Interpolator.GetColor32()
+- uid: UnityExt.Core.Interpolator.GetColor32*
+  name: GetColor32
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetColor32_
+  commentId: Overload:UnityExt.Core.Interpolator.GetColor32
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetColor32
+  nameWithType: Interpolator.GetColor32
+- uid: UnityExt.Core.Interpolator.GetDouble
+  name: GetDouble()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetDouble
+  commentId: M:UnityExt.Core.Interpolator.GetDouble
+  fullName: UnityExt.Core.Interpolator.GetDouble()
+  nameWithType: Interpolator.GetDouble()
+- uid: UnityExt.Core.Interpolator.GetDouble*
+  name: GetDouble
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetDouble_
+  commentId: Overload:UnityExt.Core.Interpolator.GetDouble
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetDouble
+  nameWithType: Interpolator.GetDouble
+- uid: UnityExt.Core.Interpolator.GetFloat
+  name: GetFloat()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetFloat
+  commentId: M:UnityExt.Core.Interpolator.GetFloat
+  fullName: UnityExt.Core.Interpolator.GetFloat()
+  nameWithType: Interpolator.GetFloat()
+- uid: UnityExt.Core.Interpolator.GetFloat*
+  name: GetFloat
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetFloat_
+  commentId: Overload:UnityExt.Core.Interpolator.GetFloat
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetFloat
+  nameWithType: Interpolator.GetFloat
+- uid: UnityExt.Core.Interpolator.GetInt
+  name: GetInt()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetInt
+  commentId: M:UnityExt.Core.Interpolator.GetInt
+  fullName: UnityExt.Core.Interpolator.GetInt()
+  nameWithType: Interpolator.GetInt()
+- uid: UnityExt.Core.Interpolator.GetInt*
+  name: GetInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetInt_
+  commentId: Overload:UnityExt.Core.Interpolator.GetInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetInt
+  nameWithType: Interpolator.GetInt
+- uid: UnityExt.Core.Interpolator.GetInterpolatorCustom
+  name: GetInterpolatorCustom
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetInterpolatorCustom
+  commentId: F:UnityExt.Core.Interpolator.GetInterpolatorCustom
+  fullName: UnityExt.Core.Interpolator.GetInterpolatorCustom
+  nameWithType: Interpolator.GetInterpolatorCustom
+- uid: UnityExt.Core.Interpolator.GetLong
+  name: GetLong()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetLong
+  commentId: M:UnityExt.Core.Interpolator.GetLong
+  fullName: UnityExt.Core.Interpolator.GetLong()
+  nameWithType: Interpolator.GetLong()
+- uid: UnityExt.Core.Interpolator.GetLong*
+  name: GetLong
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetLong_
+  commentId: Overload:UnityExt.Core.Interpolator.GetLong
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetLong
+  nameWithType: Interpolator.GetLong
+- uid: UnityExt.Core.Interpolator.GetQuaternion
+  name: GetQuaternion()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetQuaternion
+  commentId: M:UnityExt.Core.Interpolator.GetQuaternion
+  fullName: UnityExt.Core.Interpolator.GetQuaternion()
+  nameWithType: Interpolator.GetQuaternion()
+- uid: UnityExt.Core.Interpolator.GetQuaternion*
+  name: GetQuaternion
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetQuaternion_
+  commentId: Overload:UnityExt.Core.Interpolator.GetQuaternion
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetQuaternion
+  nameWithType: Interpolator.GetQuaternion
+- uid: UnityExt.Core.Interpolator.GetRangeInt
+  name: GetRangeInt()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRangeInt
+  commentId: M:UnityExt.Core.Interpolator.GetRangeInt
+  fullName: UnityExt.Core.Interpolator.GetRangeInt()
+  nameWithType: Interpolator.GetRangeInt()
+- uid: UnityExt.Core.Interpolator.GetRangeInt*
+  name: GetRangeInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRangeInt_
+  commentId: Overload:UnityExt.Core.Interpolator.GetRangeInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetRangeInt
+  nameWithType: Interpolator.GetRangeInt
+- uid: UnityExt.Core.Interpolator.GetRay
+  name: GetRay()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRay
+  commentId: M:UnityExt.Core.Interpolator.GetRay
+  fullName: UnityExt.Core.Interpolator.GetRay()
+  nameWithType: Interpolator.GetRay()
+- uid: UnityExt.Core.Interpolator.GetRay*
+  name: GetRay
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRay_
+  commentId: Overload:UnityExt.Core.Interpolator.GetRay
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetRay
+  nameWithType: Interpolator.GetRay
+- uid: UnityExt.Core.Interpolator.GetRay2D
+  name: GetRay2D()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRay2D
+  commentId: M:UnityExt.Core.Interpolator.GetRay2D
+  fullName: UnityExt.Core.Interpolator.GetRay2D()
+  nameWithType: Interpolator.GetRay2D()
+- uid: UnityExt.Core.Interpolator.GetRay2D*
+  name: GetRay2D
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRay2D_
+  commentId: Overload:UnityExt.Core.Interpolator.GetRay2D
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetRay2D
+  nameWithType: Interpolator.GetRay2D
+- uid: UnityExt.Core.Interpolator.GetRect
+  name: GetRect()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRect
+  commentId: M:UnityExt.Core.Interpolator.GetRect
+  fullName: UnityExt.Core.Interpolator.GetRect()
+  nameWithType: Interpolator.GetRect()
+- uid: UnityExt.Core.Interpolator.GetRect*
+  name: GetRect
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetRect_
+  commentId: Overload:UnityExt.Core.Interpolator.GetRect
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetRect
+  nameWithType: Interpolator.GetRect
+- uid: UnityExt.Core.Interpolator.GetSByte
+  name: GetSByte()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetSByte
+  commentId: M:UnityExt.Core.Interpolator.GetSByte
+  fullName: UnityExt.Core.Interpolator.GetSByte()
+  nameWithType: Interpolator.GetSByte()
+- uid: UnityExt.Core.Interpolator.GetSByte*
+  name: GetSByte
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetSByte_
+  commentId: Overload:UnityExt.Core.Interpolator.GetSByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetSByte
+  nameWithType: Interpolator.GetSByte
+- uid: UnityExt.Core.Interpolator.GetShort
+  name: GetShort()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetShort
+  commentId: M:UnityExt.Core.Interpolator.GetShort
+  fullName: UnityExt.Core.Interpolator.GetShort()
+  nameWithType: Interpolator.GetShort()
+- uid: UnityExt.Core.Interpolator.GetShort*
+  name: GetShort
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetShort_
+  commentId: Overload:UnityExt.Core.Interpolator.GetShort
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetShort
+  nameWithType: Interpolator.GetShort
+- uid: UnityExt.Core.Interpolator.GetUInt
+  name: GetUInt()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetUInt
+  commentId: M:UnityExt.Core.Interpolator.GetUInt
+  fullName: UnityExt.Core.Interpolator.GetUInt()
+  nameWithType: Interpolator.GetUInt()
+- uid: UnityExt.Core.Interpolator.GetUInt*
+  name: GetUInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetUInt_
+  commentId: Overload:UnityExt.Core.Interpolator.GetUInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetUInt
+  nameWithType: Interpolator.GetUInt
+- uid: UnityExt.Core.Interpolator.GetULong
+  name: GetULong()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetULong
+  commentId: M:UnityExt.Core.Interpolator.GetULong
+  fullName: UnityExt.Core.Interpolator.GetULong()
+  nameWithType: Interpolator.GetULong()
+- uid: UnityExt.Core.Interpolator.GetULong*
+  name: GetULong
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetULong_
+  commentId: Overload:UnityExt.Core.Interpolator.GetULong
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetULong
+  nameWithType: Interpolator.GetULong
+- uid: UnityExt.Core.Interpolator.GetUShort
+  name: GetUShort()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetUShort
+  commentId: M:UnityExt.Core.Interpolator.GetUShort
+  fullName: UnityExt.Core.Interpolator.GetUShort()
+  nameWithType: Interpolator.GetUShort()
+- uid: UnityExt.Core.Interpolator.GetUShort*
+  name: GetUShort
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetUShort_
+  commentId: Overload:UnityExt.Core.Interpolator.GetUShort
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetUShort
+  nameWithType: Interpolator.GetUShort
+- uid: UnityExt.Core.Interpolator.GetVector2
+  name: GetVector2()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector2
+  commentId: M:UnityExt.Core.Interpolator.GetVector2
+  fullName: UnityExt.Core.Interpolator.GetVector2()
+  nameWithType: Interpolator.GetVector2()
+- uid: UnityExt.Core.Interpolator.GetVector2*
+  name: GetVector2
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector2_
+  commentId: Overload:UnityExt.Core.Interpolator.GetVector2
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetVector2
+  nameWithType: Interpolator.GetVector2
+- uid: UnityExt.Core.Interpolator.GetVector2Int
+  name: GetVector2Int()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector2Int
+  commentId: M:UnityExt.Core.Interpolator.GetVector2Int
+  fullName: UnityExt.Core.Interpolator.GetVector2Int()
+  nameWithType: Interpolator.GetVector2Int()
+- uid: UnityExt.Core.Interpolator.GetVector2Int*
+  name: GetVector2Int
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector2Int_
+  commentId: Overload:UnityExt.Core.Interpolator.GetVector2Int
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetVector2Int
+  nameWithType: Interpolator.GetVector2Int
+- uid: UnityExt.Core.Interpolator.GetVector3
+  name: GetVector3()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector3
+  commentId: M:UnityExt.Core.Interpolator.GetVector3
+  fullName: UnityExt.Core.Interpolator.GetVector3()
+  nameWithType: Interpolator.GetVector3()
+- uid: UnityExt.Core.Interpolator.GetVector3*
+  name: GetVector3
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector3_
+  commentId: Overload:UnityExt.Core.Interpolator.GetVector3
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetVector3
+  nameWithType: Interpolator.GetVector3
+- uid: UnityExt.Core.Interpolator.GetVector3Int
+  name: GetVector3Int()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector3Int
+  commentId: M:UnityExt.Core.Interpolator.GetVector3Int
+  fullName: UnityExt.Core.Interpolator.GetVector3Int()
+  nameWithType: Interpolator.GetVector3Int()
+- uid: UnityExt.Core.Interpolator.GetVector3Int*
+  name: GetVector3Int
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector3Int_
+  commentId: Overload:UnityExt.Core.Interpolator.GetVector3Int
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetVector3Int
+  nameWithType: Interpolator.GetVector3Int
+- uid: UnityExt.Core.Interpolator.GetVector4
+  name: GetVector4()
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector4
+  commentId: M:UnityExt.Core.Interpolator.GetVector4
+  fullName: UnityExt.Core.Interpolator.GetVector4()
+  nameWithType: Interpolator.GetVector4()
+- uid: UnityExt.Core.Interpolator.GetVector4*
+  name: GetVector4
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_GetVector4_
+  commentId: Overload:UnityExt.Core.Interpolator.GetVector4
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.GetVector4
+  nameWithType: Interpolator.GetVector4
+- uid: UnityExt.Core.Interpolator.isMaterial
+  name: isMaterial
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isMaterial
+  commentId: P:UnityExt.Core.Interpolator.isMaterial
+  fullName: UnityExt.Core.Interpolator.isMaterial
+  nameWithType: Interpolator.isMaterial
+- uid: UnityExt.Core.Interpolator.isMaterial*
+  name: isMaterial
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isMaterial_
+  commentId: Overload:UnityExt.Core.Interpolator.isMaterial
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.isMaterial
+  nameWithType: Interpolator.isMaterial
+- uid: UnityExt.Core.Interpolator.isStatic
+  name: isStatic
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isStatic
+  commentId: P:UnityExt.Core.Interpolator.isStatic
+  fullName: UnityExt.Core.Interpolator.isStatic
+  nameWithType: Interpolator.isStatic
+- uid: UnityExt.Core.Interpolator.isStatic*
+  name: isStatic
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isStatic_
+  commentId: Overload:UnityExt.Core.Interpolator.isStatic
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.isStatic
+  nameWithType: Interpolator.isStatic
+- uid: UnityExt.Core.Interpolator.isUnityObject
+  name: isUnityObject
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isUnityObject
+  commentId: P:UnityExt.Core.Interpolator.isUnityObject
+  fullName: UnityExt.Core.Interpolator.isUnityObject
+  nameWithType: Interpolator.isUnityObject
+- uid: UnityExt.Core.Interpolator.isUnityObject*
+  name: isUnityObject
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isUnityObject_
+  commentId: Overload:UnityExt.Core.Interpolator.isUnityObject
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.isUnityObject
+  nameWithType: Interpolator.isUnityObject
+- uid: UnityExt.Core.Interpolator.isValid
+  name: isValid
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isValid
+  commentId: P:UnityExt.Core.Interpolator.isValid
+  fullName: UnityExt.Core.Interpolator.isValid
+  nameWithType: Interpolator.isValid
+- uid: UnityExt.Core.Interpolator.isValid*
+  name: isValid
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_isValid_
+  commentId: Overload:UnityExt.Core.Interpolator.isValid
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.isValid
+  nameWithType: Interpolator.isValid
+- uid: UnityExt.Core.Interpolator.Lerp(System.Single)
+  name: Lerp(Single)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Lerp_System_Single_
+  commentId: M:UnityExt.Core.Interpolator.Lerp(System.Single)
+  fullName: UnityExt.Core.Interpolator.Lerp(System.Single)
+  nameWithType: Interpolator.Lerp(Single)
+- uid: UnityExt.Core.Interpolator.Lerp*
+  name: Lerp
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Lerp_
+  commentId: Overload:UnityExt.Core.Interpolator.Lerp
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.Lerp
+  nameWithType: Interpolator.Lerp
+- uid: UnityExt.Core.Interpolator.OnLerp(System.Single)
+  name: OnLerp(Single)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_OnLerp_System_Single_
+  commentId: M:UnityExt.Core.Interpolator.OnLerp(System.Single)
+  fullName: UnityExt.Core.Interpolator.OnLerp(System.Single)
+  nameWithType: Interpolator.OnLerp(Single)
+- uid: UnityExt.Core.Interpolator.OnLerp*
+  name: OnLerp
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_OnLerp_
+  commentId: Overload:UnityExt.Core.Interpolator.OnLerp
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.OnLerp
+  nameWithType: Interpolator.OnLerp
+- uid: UnityExt.Core.Interpolator.property
+  name: property
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_property
+  commentId: P:UnityExt.Core.Interpolator.property
+  fullName: UnityExt.Core.Interpolator.property
+  nameWithType: Interpolator.property
+- uid: UnityExt.Core.Interpolator.property*
+  name: property
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_property_
+  commentId: Overload:UnityExt.Core.Interpolator.property
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.property
+  nameWithType: Interpolator.property
+- uid: UnityExt.Core.Interpolator.Set(System.Object,System.String)
+  name: Set(Object, String)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Set_System_Object_System_String_
+  commentId: M:UnityExt.Core.Interpolator.Set(System.Object,System.String)
+  fullName: UnityExt.Core.Interpolator.Set(System.Object, System.String)
+  nameWithType: Interpolator.Set(Object, String)
+- uid: UnityExt.Core.Interpolator.Set(System.Object,System.String,System.Func{System.Single,System.Single})
+  name: Set(Object, String, Func<Single, Single>)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Set_System_Object_System_String_System_Func_System_Single_System_Single__
+  commentId: M:UnityExt.Core.Interpolator.Set(System.Object,System.String,System.Func{System.Single,System.Single})
+  name.vb: Set(Object, String, Func(Of Single, Single))
+  fullName: UnityExt.Core.Interpolator.Set(System.Object, System.String, System.Func<System.Single, System.Single>)
+  fullName.vb: UnityExt.Core.Interpolator.Set(System.Object, System.String, System.Func(Of System.Single, System.Single))
+  nameWithType: Interpolator.Set(Object, String, Func<Single, Single>)
+  nameWithType.vb: Interpolator.Set(Object, String, Func(Of Single, Single))
+- uid: UnityExt.Core.Interpolator.Set(System.Object,System.String,UnityEngine.AnimationCurve)
+  name: Set(Object, String, AnimationCurve)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Set_System_Object_System_String_UnityEngine_AnimationCurve_
+  commentId: M:UnityExt.Core.Interpolator.Set(System.Object,System.String,UnityEngine.AnimationCurve)
+  fullName: UnityExt.Core.Interpolator.Set(System.Object, System.String, UnityEngine.AnimationCurve)
+  nameWithType: Interpolator.Set(Object, String, AnimationCurve)
+- uid: UnityExt.Core.Interpolator.Set*
+  name: Set
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_Set_
+  commentId: Overload:UnityExt.Core.Interpolator.Set
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.Set
+  nameWithType: Interpolator.Set
+- uid: UnityExt.Core.Interpolator.SetByte(System.Byte)
+  name: SetByte(Byte)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetByte_System_Byte_
+  commentId: M:UnityExt.Core.Interpolator.SetByte(System.Byte)
+  fullName: UnityExt.Core.Interpolator.SetByte(System.Byte)
+  nameWithType: Interpolator.SetByte(Byte)
+- uid: UnityExt.Core.Interpolator.SetByte*
+  name: SetByte
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetByte_
+  commentId: Overload:UnityExt.Core.Interpolator.SetByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetByte
+  nameWithType: Interpolator.SetByte
+- uid: UnityExt.Core.Interpolator.SetColor(UnityEngine.Color)
+  name: SetColor(Color)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetColor_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Interpolator.SetColor(UnityEngine.Color)
+  fullName: UnityExt.Core.Interpolator.SetColor(UnityEngine.Color)
+  nameWithType: Interpolator.SetColor(Color)
+- uid: UnityExt.Core.Interpolator.SetColor*
+  name: SetColor
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetColor_
+  commentId: Overload:UnityExt.Core.Interpolator.SetColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetColor
+  nameWithType: Interpolator.SetColor
+- uid: UnityExt.Core.Interpolator.SetColor32(UnityEngine.Color32)
+  name: SetColor32(Color32)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetColor32_UnityEngine_Color32_
+  commentId: M:UnityExt.Core.Interpolator.SetColor32(UnityEngine.Color32)
+  fullName: UnityExt.Core.Interpolator.SetColor32(UnityEngine.Color32)
+  nameWithType: Interpolator.SetColor32(Color32)
+- uid: UnityExt.Core.Interpolator.SetColor32*
+  name: SetColor32
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetColor32_
+  commentId: Overload:UnityExt.Core.Interpolator.SetColor32
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetColor32
+  nameWithType: Interpolator.SetColor32
+- uid: UnityExt.Core.Interpolator.SetDouble(System.Double)
+  name: SetDouble(Double)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetDouble_System_Double_
+  commentId: M:UnityExt.Core.Interpolator.SetDouble(System.Double)
+  fullName: UnityExt.Core.Interpolator.SetDouble(System.Double)
+  nameWithType: Interpolator.SetDouble(Double)
+- uid: UnityExt.Core.Interpolator.SetDouble*
+  name: SetDouble
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetDouble_
+  commentId: Overload:UnityExt.Core.Interpolator.SetDouble
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetDouble
+  nameWithType: Interpolator.SetDouble
+- uid: UnityExt.Core.Interpolator.SetFloat(System.Single)
+  name: SetFloat(Single)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetFloat_System_Single_
+  commentId: M:UnityExt.Core.Interpolator.SetFloat(System.Single)
+  fullName: UnityExt.Core.Interpolator.SetFloat(System.Single)
+  nameWithType: Interpolator.SetFloat(Single)
+- uid: UnityExt.Core.Interpolator.SetFloat*
+  name: SetFloat
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetFloat_
+  commentId: Overload:UnityExt.Core.Interpolator.SetFloat
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetFloat
+  nameWithType: Interpolator.SetFloat
+- uid: UnityExt.Core.Interpolator.SetInt(System.Int32)
+  name: SetInt(Int32)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetInt_System_Int32_
+  commentId: M:UnityExt.Core.Interpolator.SetInt(System.Int32)
+  fullName: UnityExt.Core.Interpolator.SetInt(System.Int32)
+  nameWithType: Interpolator.SetInt(Int32)
+- uid: UnityExt.Core.Interpolator.SetInt*
+  name: SetInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetInt_
+  commentId: Overload:UnityExt.Core.Interpolator.SetInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetInt
+  nameWithType: Interpolator.SetInt
+- uid: UnityExt.Core.Interpolator.SetLong(System.Int64)
+  name: SetLong(Int64)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetLong_System_Int64_
+  commentId: M:UnityExt.Core.Interpolator.SetLong(System.Int64)
+  fullName: UnityExt.Core.Interpolator.SetLong(System.Int64)
+  nameWithType: Interpolator.SetLong(Int64)
+- uid: UnityExt.Core.Interpolator.SetLong*
+  name: SetLong
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetLong_
+  commentId: Overload:UnityExt.Core.Interpolator.SetLong
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetLong
+  nameWithType: Interpolator.SetLong
+- uid: UnityExt.Core.Interpolator.SetQuaternion(UnityEngine.Quaternion)
+  name: SetQuaternion(Quaternion)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetQuaternion_UnityEngine_Quaternion_
+  commentId: M:UnityExt.Core.Interpolator.SetQuaternion(UnityEngine.Quaternion)
+  fullName: UnityExt.Core.Interpolator.SetQuaternion(UnityEngine.Quaternion)
+  nameWithType: Interpolator.SetQuaternion(Quaternion)
+- uid: UnityExt.Core.Interpolator.SetQuaternion*
+  name: SetQuaternion
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetQuaternion_
+  commentId: Overload:UnityExt.Core.Interpolator.SetQuaternion
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetQuaternion
+  nameWithType: Interpolator.SetQuaternion
+- uid: UnityExt.Core.Interpolator.SetRangeInt(UnityEngine.RangeInt)
+  name: SetRangeInt(RangeInt)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRangeInt_UnityEngine_RangeInt_
+  commentId: M:UnityExt.Core.Interpolator.SetRangeInt(UnityEngine.RangeInt)
+  fullName: UnityExt.Core.Interpolator.SetRangeInt(UnityEngine.RangeInt)
+  nameWithType: Interpolator.SetRangeInt(RangeInt)
+- uid: UnityExt.Core.Interpolator.SetRangeInt*
+  name: SetRangeInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRangeInt_
+  commentId: Overload:UnityExt.Core.Interpolator.SetRangeInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetRangeInt
+  nameWithType: Interpolator.SetRangeInt
+- uid: UnityExt.Core.Interpolator.SetRay(UnityEngine.Ray)
+  name: SetRay(Ray)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRay_UnityEngine_Ray_
+  commentId: M:UnityExt.Core.Interpolator.SetRay(UnityEngine.Ray)
+  fullName: UnityExt.Core.Interpolator.SetRay(UnityEngine.Ray)
+  nameWithType: Interpolator.SetRay(Ray)
+- uid: UnityExt.Core.Interpolator.SetRay*
+  name: SetRay
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRay_
+  commentId: Overload:UnityExt.Core.Interpolator.SetRay
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetRay
+  nameWithType: Interpolator.SetRay
+- uid: UnityExt.Core.Interpolator.SetRay2D(UnityEngine.Ray2D)
+  name: SetRay2D(Ray2D)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRay2D_UnityEngine_Ray2D_
+  commentId: M:UnityExt.Core.Interpolator.SetRay2D(UnityEngine.Ray2D)
+  fullName: UnityExt.Core.Interpolator.SetRay2D(UnityEngine.Ray2D)
+  nameWithType: Interpolator.SetRay2D(Ray2D)
+- uid: UnityExt.Core.Interpolator.SetRay2D*
+  name: SetRay2D
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRay2D_
+  commentId: Overload:UnityExt.Core.Interpolator.SetRay2D
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetRay2D
+  nameWithType: Interpolator.SetRay2D
+- uid: UnityExt.Core.Interpolator.SetRect(UnityEngine.Rect)
+  name: SetRect(Rect)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRect_UnityEngine_Rect_
+  commentId: M:UnityExt.Core.Interpolator.SetRect(UnityEngine.Rect)
+  fullName: UnityExt.Core.Interpolator.SetRect(UnityEngine.Rect)
+  nameWithType: Interpolator.SetRect(Rect)
+- uid: UnityExt.Core.Interpolator.SetRect*
+  name: SetRect
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetRect_
+  commentId: Overload:UnityExt.Core.Interpolator.SetRect
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetRect
+  nameWithType: Interpolator.SetRect
+- uid: UnityExt.Core.Interpolator.SetSByte(System.SByte)
+  name: SetSByte(SByte)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetSByte_System_SByte_
+  commentId: M:UnityExt.Core.Interpolator.SetSByte(System.SByte)
+  fullName: UnityExt.Core.Interpolator.SetSByte(System.SByte)
+  nameWithType: Interpolator.SetSByte(SByte)
+- uid: UnityExt.Core.Interpolator.SetSByte*
+  name: SetSByte
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetSByte_
+  commentId: Overload:UnityExt.Core.Interpolator.SetSByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetSByte
+  nameWithType: Interpolator.SetSByte
+- uid: UnityExt.Core.Interpolator.SetShort(System.Int16)
+  name: SetShort(Int16)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetShort_System_Int16_
+  commentId: M:UnityExt.Core.Interpolator.SetShort(System.Int16)
+  fullName: UnityExt.Core.Interpolator.SetShort(System.Int16)
+  nameWithType: Interpolator.SetShort(Int16)
+- uid: UnityExt.Core.Interpolator.SetShort*
+  name: SetShort
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetShort_
+  commentId: Overload:UnityExt.Core.Interpolator.SetShort
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetShort
+  nameWithType: Interpolator.SetShort
+- uid: UnityExt.Core.Interpolator.SetUInt(System.UInt32)
+  name: SetUInt(UInt32)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetUInt_System_UInt32_
+  commentId: M:UnityExt.Core.Interpolator.SetUInt(System.UInt32)
+  fullName: UnityExt.Core.Interpolator.SetUInt(System.UInt32)
+  nameWithType: Interpolator.SetUInt(UInt32)
+- uid: UnityExt.Core.Interpolator.SetUInt*
+  name: SetUInt
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetUInt_
+  commentId: Overload:UnityExt.Core.Interpolator.SetUInt
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetUInt
+  nameWithType: Interpolator.SetUInt
+- uid: UnityExt.Core.Interpolator.SetULong(System.UInt64)
+  name: SetULong(UInt64)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetULong_System_UInt64_
+  commentId: M:UnityExt.Core.Interpolator.SetULong(System.UInt64)
+  fullName: UnityExt.Core.Interpolator.SetULong(System.UInt64)
+  nameWithType: Interpolator.SetULong(UInt64)
+- uid: UnityExt.Core.Interpolator.SetULong*
+  name: SetULong
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetULong_
+  commentId: Overload:UnityExt.Core.Interpolator.SetULong
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetULong
+  nameWithType: Interpolator.SetULong
+- uid: UnityExt.Core.Interpolator.SetUShort(System.UInt16)
+  name: SetUShort(UInt16)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetUShort_System_UInt16_
+  commentId: M:UnityExt.Core.Interpolator.SetUShort(System.UInt16)
+  fullName: UnityExt.Core.Interpolator.SetUShort(System.UInt16)
+  nameWithType: Interpolator.SetUShort(UInt16)
+- uid: UnityExt.Core.Interpolator.SetUShort*
+  name: SetUShort
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetUShort_
+  commentId: Overload:UnityExt.Core.Interpolator.SetUShort
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetUShort
+  nameWithType: Interpolator.SetUShort
+- uid: UnityExt.Core.Interpolator.SetVector2(UnityEngine.Vector2)
+  name: SetVector2(Vector2)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector2_UnityEngine_Vector2_
+  commentId: M:UnityExt.Core.Interpolator.SetVector2(UnityEngine.Vector2)
+  fullName: UnityExt.Core.Interpolator.SetVector2(UnityEngine.Vector2)
+  nameWithType: Interpolator.SetVector2(Vector2)
+- uid: UnityExt.Core.Interpolator.SetVector2*
+  name: SetVector2
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector2_
+  commentId: Overload:UnityExt.Core.Interpolator.SetVector2
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetVector2
+  nameWithType: Interpolator.SetVector2
+- uid: UnityExt.Core.Interpolator.SetVector2Int(UnityEngine.Vector2Int)
+  name: SetVector2Int(Vector2Int)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector2Int_UnityEngine_Vector2Int_
+  commentId: M:UnityExt.Core.Interpolator.SetVector2Int(UnityEngine.Vector2Int)
+  fullName: UnityExt.Core.Interpolator.SetVector2Int(UnityEngine.Vector2Int)
+  nameWithType: Interpolator.SetVector2Int(Vector2Int)
+- uid: UnityExt.Core.Interpolator.SetVector2Int*
+  name: SetVector2Int
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector2Int_
+  commentId: Overload:UnityExt.Core.Interpolator.SetVector2Int
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetVector2Int
+  nameWithType: Interpolator.SetVector2Int
+- uid: UnityExt.Core.Interpolator.SetVector3(UnityEngine.Vector3)
+  name: SetVector3(Vector3)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector3_UnityEngine_Vector3_
+  commentId: M:UnityExt.Core.Interpolator.SetVector3(UnityEngine.Vector3)
+  fullName: UnityExt.Core.Interpolator.SetVector3(UnityEngine.Vector3)
+  nameWithType: Interpolator.SetVector3(Vector3)
+- uid: UnityExt.Core.Interpolator.SetVector3*
+  name: SetVector3
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector3_
+  commentId: Overload:UnityExt.Core.Interpolator.SetVector3
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetVector3
+  nameWithType: Interpolator.SetVector3
+- uid: UnityExt.Core.Interpolator.SetVector3Int(UnityEngine.Vector3Int)
+  name: SetVector3Int(Vector3Int)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector3Int_UnityEngine_Vector3Int_
+  commentId: M:UnityExt.Core.Interpolator.SetVector3Int(UnityEngine.Vector3Int)
+  fullName: UnityExt.Core.Interpolator.SetVector3Int(UnityEngine.Vector3Int)
+  nameWithType: Interpolator.SetVector3Int(Vector3Int)
+- uid: UnityExt.Core.Interpolator.SetVector3Int*
+  name: SetVector3Int
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector3Int_
+  commentId: Overload:UnityExt.Core.Interpolator.SetVector3Int
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetVector3Int
+  nameWithType: Interpolator.SetVector3Int
+- uid: UnityExt.Core.Interpolator.SetVector4(UnityEngine.Vector4)
+  name: SetVector4(Vector4)
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector4_UnityEngine_Vector4_
+  commentId: M:UnityExt.Core.Interpolator.SetVector4(UnityEngine.Vector4)
+  fullName: UnityExt.Core.Interpolator.SetVector4(UnityEngine.Vector4)
+  nameWithType: Interpolator.SetVector4(Vector4)
+- uid: UnityExt.Core.Interpolator.SetVector4*
+  name: SetVector4
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_SetVector4_
+  commentId: Overload:UnityExt.Core.Interpolator.SetVector4
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.SetVector4
+  nameWithType: Interpolator.SetVector4
+- uid: UnityExt.Core.Interpolator.target
+  name: target
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_target
+  commentId: P:UnityExt.Core.Interpolator.target
+  fullName: UnityExt.Core.Interpolator.target
+  nameWithType: Interpolator.target
+- uid: UnityExt.Core.Interpolator.target*
+  name: target
+  href: api/UnityExt.Core.Interpolator.html#UnityExt_Core_Interpolator_target_
+  commentId: Overload:UnityExt.Core.Interpolator.target
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator.target
+  nameWithType: Interpolator.target
+- uid: UnityExt.Core.Interpolator`1
+  name: Interpolator<T>
+  href: api/UnityExt.Core.Interpolator-1.html
+  commentId: T:UnityExt.Core.Interpolator`1
+  name.vb: Interpolator(Of T)
+  fullName: UnityExt.Core.Interpolator<T>
+  fullName.vb: UnityExt.Core.Interpolator(Of T)
+  nameWithType: Interpolator<T>
+  nameWithType.vb: Interpolator(Of T)
+- uid: UnityExt.Core.Interpolator`1.from
+  name: from
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_from
+  commentId: F:UnityExt.Core.Interpolator`1.from
+  fullName: UnityExt.Core.Interpolator<T>.from
+  fullName.vb: UnityExt.Core.Interpolator(Of T).from
+  nameWithType: Interpolator<T>.from
+  nameWithType.vb: Interpolator(Of T).from
+- uid: UnityExt.Core.Interpolator`1.LerpValue(System.Single)
+  name: LerpValue(Single)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_LerpValue_System_Single_
+  commentId: M:UnityExt.Core.Interpolator`1.LerpValue(System.Single)
+  fullName: UnityExt.Core.Interpolator<T>.LerpValue(System.Single)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).LerpValue(System.Single)
+  nameWithType: Interpolator<T>.LerpValue(Single)
+  nameWithType.vb: Interpolator(Of T).LerpValue(Single)
+- uid: UnityExt.Core.Interpolator`1.LerpValue*
+  name: LerpValue
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_LerpValue_
+  commentId: Overload:UnityExt.Core.Interpolator`1.LerpValue
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator<T>.LerpValue
+  fullName.vb: UnityExt.Core.Interpolator(Of T).LerpValue
+  nameWithType: Interpolator<T>.LerpValue
+  nameWithType.vb: Interpolator(Of T).LerpValue
+- uid: UnityExt.Core.Interpolator`1.OnLerp(System.Single)
+  name: OnLerp(Single)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_OnLerp_System_Single_
+  commentId: M:UnityExt.Core.Interpolator`1.OnLerp(System.Single)
+  fullName: UnityExt.Core.Interpolator<T>.OnLerp(System.Single)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).OnLerp(System.Single)
+  nameWithType: Interpolator<T>.OnLerp(Single)
+  nameWithType.vb: Interpolator(Of T).OnLerp(Single)
+- uid: UnityExt.Core.Interpolator`1.OnLerp*
+  name: OnLerp
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_OnLerp_
+  commentId: Overload:UnityExt.Core.Interpolator`1.OnLerp
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator<T>.OnLerp
+  fullName.vb: UnityExt.Core.Interpolator(Of T).OnLerp
+  nameWithType: Interpolator<T>.OnLerp
+  nameWithType.vb: Interpolator(Of T).OnLerp
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0)
+  name: Set(Object, String, T)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0_
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0)
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T)
+  nameWithType: Interpolator<T>.Set(Object, String, T)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T)
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0)
+  name: Set(Object, String, T, T)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0__0_
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0)
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T, T)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T, T)
+  nameWithType: Interpolator<T>.Set(Object, String, T, T)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T, T)
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0,System.Func{System.Single,System.Single})
+  name: Set(Object, String, T, T, Func<Single, Single>)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0__0_System_Func_System_Single_System_Single__
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0,System.Func{System.Single,System.Single})
+  name.vb: Set(Object, String, T, T, Func(Of Single, Single))
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T, T, System.Func<System.Single, System.Single>)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T, T, System.Func(Of System.Single, System.Single))
+  nameWithType: Interpolator<T>.Set(Object, String, T, T, Func<Single, Single>)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T, T, Func(Of Single, Single))
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0,UnityEngine.AnimationCurve)
+  name: Set(Object, String, T, T, AnimationCurve)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0__0_UnityEngine_AnimationCurve_
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,`0,UnityEngine.AnimationCurve)
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T, T, UnityEngine.AnimationCurve)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T, T, UnityEngine.AnimationCurve)
+  nameWithType: Interpolator<T>.Set(Object, String, T, T, AnimationCurve)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T, T, AnimationCurve)
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,System.Func{System.Single,System.Single})
+  name: Set(Object, String, T, Func<Single, Single>)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0_System_Func_System_Single_System_Single__
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,System.Func{System.Single,System.Single})
+  name.vb: Set(Object, String, T, Func(Of Single, Single))
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T, System.Func<System.Single, System.Single>)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T, System.Func(Of System.Single, System.Single))
+  nameWithType: Interpolator<T>.Set(Object, String, T, Func<Single, Single>)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T, Func(Of Single, Single))
+- uid: UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,UnityEngine.AnimationCurve)
+  name: Set(Object, String, T, AnimationCurve)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_System_Object_System_String__0_UnityEngine_AnimationCurve_
+  commentId: M:UnityExt.Core.Interpolator`1.Set(System.Object,System.String,`0,UnityEngine.AnimationCurve)
+  fullName: UnityExt.Core.Interpolator<T>.Set(System.Object, System.String, T, UnityEngine.AnimationCurve)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set(System.Object, System.String, T, UnityEngine.AnimationCurve)
+  nameWithType: Interpolator<T>.Set(Object, String, T, AnimationCurve)
+  nameWithType.vb: Interpolator(Of T).Set(Object, String, T, AnimationCurve)
+- uid: UnityExt.Core.Interpolator`1.Set*
+  name: Set
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_Set_
+  commentId: Overload:UnityExt.Core.Interpolator`1.Set
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator<T>.Set
+  fullName.vb: UnityExt.Core.Interpolator(Of T).Set
+  nameWithType: Interpolator<T>.Set
+  nameWithType.vb: Interpolator(Of T).Set
+- uid: UnityExt.Core.Interpolator`1.SetFromField
+  name: SetFromField()
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_SetFromField
+  commentId: M:UnityExt.Core.Interpolator`1.SetFromField
+  fullName: UnityExt.Core.Interpolator<T>.SetFromField()
+  fullName.vb: UnityExt.Core.Interpolator(Of T).SetFromField()
+  nameWithType: Interpolator<T>.SetFromField()
+  nameWithType.vb: Interpolator(Of T).SetFromField()
+- uid: UnityExt.Core.Interpolator`1.SetFromField*
+  name: SetFromField
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_SetFromField_
+  commentId: Overload:UnityExt.Core.Interpolator`1.SetFromField
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator<T>.SetFromField
+  fullName.vb: UnityExt.Core.Interpolator(Of T).SetFromField
+  nameWithType: Interpolator<T>.SetFromField
+  nameWithType.vb: Interpolator(Of T).SetFromField
+- uid: UnityExt.Core.Interpolator`1.SetProperty(`0)
+  name: SetProperty(T)
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_SetProperty__0_
+  commentId: M:UnityExt.Core.Interpolator`1.SetProperty(`0)
+  fullName: UnityExt.Core.Interpolator<T>.SetProperty(T)
+  fullName.vb: UnityExt.Core.Interpolator(Of T).SetProperty(T)
+  nameWithType: Interpolator<T>.SetProperty(T)
+  nameWithType.vb: Interpolator(Of T).SetProperty(T)
+- uid: UnityExt.Core.Interpolator`1.SetProperty*
+  name: SetProperty
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_SetProperty_
+  commentId: Overload:UnityExt.Core.Interpolator`1.SetProperty
+  isSpec: "True"
+  fullName: UnityExt.Core.Interpolator<T>.SetProperty
+  fullName.vb: UnityExt.Core.Interpolator(Of T).SetProperty
+  nameWithType: Interpolator<T>.SetProperty
+  nameWithType.vb: Interpolator(Of T).SetProperty
+- uid: UnityExt.Core.Interpolator`1.to
+  name: to
+  href: api/UnityExt.Core.Interpolator-1.html#UnityExt_Core_Interpolator_1_to
+  commentId: F:UnityExt.Core.Interpolator`1.to
+  fullName: UnityExt.Core.Interpolator<T>.to
+  fullName.vb: UnityExt.Core.Interpolator(Of T).to
+  nameWithType: Interpolator<T>.to
+  nameWithType.vb: Interpolator(Of T).to
+- uid: UnityExt.Core.IProgressProvider
+  name: IProgressProvider
+  href: api/UnityExt.Core.IProgressProvider.html
+  commentId: T:UnityExt.Core.IProgressProvider
+  fullName: UnityExt.Core.IProgressProvider
+  nameWithType: IProgressProvider
+- uid: UnityExt.Core.IProgressProvider.GetProgress
+  name: GetProgress()
+  href: api/UnityExt.Core.IProgressProvider.html#UnityExt_Core_IProgressProvider_GetProgress
+  commentId: M:UnityExt.Core.IProgressProvider.GetProgress
+  fullName: UnityExt.Core.IProgressProvider.GetProgress()
+  nameWithType: IProgressProvider.GetProgress()
+- uid: UnityExt.Core.IProgressProvider.GetProgress*
+  name: GetProgress
+  href: api/UnityExt.Core.IProgressProvider.html#UnityExt_Core_IProgressProvider_GetProgress_
+  commentId: Overload:UnityExt.Core.IProgressProvider.GetProgress
+  isSpec: "True"
+  fullName: UnityExt.Core.IProgressProvider.GetProgress
+  nameWithType: IProgressProvider.GetProgress
+- uid: UnityExt.Core.IStatusProvider
+  name: IStatusProvider
+  href: api/UnityExt.Core.IStatusProvider.html
+  commentId: T:UnityExt.Core.IStatusProvider
+  fullName: UnityExt.Core.IStatusProvider
+  nameWithType: IStatusProvider
+- uid: UnityExt.Core.IStatusProvider`1
+  name: IStatusProvider<T>
+  href: api/UnityExt.Core.IStatusProvider-1.html
+  commentId: T:UnityExt.Core.IStatusProvider`1
+  name.vb: IStatusProvider(Of T)
+  fullName: UnityExt.Core.IStatusProvider<T>
+  fullName.vb: UnityExt.Core.IStatusProvider(Of T)
+  nameWithType: IStatusProvider<T>
+  nameWithType.vb: IStatusProvider(Of T)
+- uid: UnityExt.Core.IStatusProvider`1.GetStatus
+  name: GetStatus()
+  href: api/UnityExt.Core.IStatusProvider-1.html#UnityExt_Core_IStatusProvider_1_GetStatus
+  commentId: M:UnityExt.Core.IStatusProvider`1.GetStatus
+  fullName: UnityExt.Core.IStatusProvider<T>.GetStatus()
+  fullName.vb: UnityExt.Core.IStatusProvider(Of T).GetStatus()
+  nameWithType: IStatusProvider<T>.GetStatus()
+  nameWithType.vb: IStatusProvider(Of T).GetStatus()
+- uid: UnityExt.Core.IStatusProvider`1.GetStatus*
+  name: GetStatus
+  href: api/UnityExt.Core.IStatusProvider-1.html#UnityExt_Core_IStatusProvider_1_GetStatus_
+  commentId: Overload:UnityExt.Core.IStatusProvider`1.GetStatus
+  isSpec: "True"
+  fullName: UnityExt.Core.IStatusProvider<T>.GetStatus
+  fullName.vb: UnityExt.Core.IStatusProvider(Of T).GetStatus
+  nameWithType: IStatusProvider<T>.GetStatus
+  nameWithType.vb: IStatusProvider(Of T).GetStatus
+- uid: UnityExt.Core.IThreadUpdateable
+  name: IThreadUpdateable
+  href: api/UnityExt.Core.IThreadUpdateable.html
+  commentId: T:UnityExt.Core.IThreadUpdateable
+  fullName: UnityExt.Core.IThreadUpdateable
+  nameWithType: IThreadUpdateable
+- uid: UnityExt.Core.IThreadUpdateable.OnThreadUpdate
+  name: OnThreadUpdate()
+  href: api/UnityExt.Core.IThreadUpdateable.html#UnityExt_Core_IThreadUpdateable_OnThreadUpdate
+  commentId: M:UnityExt.Core.IThreadUpdateable.OnThreadUpdate
+  fullName: UnityExt.Core.IThreadUpdateable.OnThreadUpdate()
+  nameWithType: IThreadUpdateable.OnThreadUpdate()
+- uid: UnityExt.Core.IThreadUpdateable.OnThreadUpdate*
+  name: OnThreadUpdate
+  href: api/UnityExt.Core.IThreadUpdateable.html#UnityExt_Core_IThreadUpdateable_OnThreadUpdate_
+  commentId: Overload:UnityExt.Core.IThreadUpdateable.OnThreadUpdate
+  isSpec: "True"
+  fullName: UnityExt.Core.IThreadUpdateable.OnThreadUpdate
+  nameWithType: IThreadUpdateable.OnThreadUpdate
 - uid: UnityExt.Core.IUpdateable
   name: IUpdateable
   href: api/UnityExt.Core.IUpdateable.html
@@ -593,9 +2667,850 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IUpdateable.OnUpdate
   nameWithType: IUpdateable.OnUpdate
+- uid: UnityExt.Core.StatusType
+  name: StatusType
+  href: api/UnityExt.Core.StatusType.html
+  commentId: T:UnityExt.Core.StatusType
+  fullName: UnityExt.Core.StatusType
+  nameWithType: StatusType
+- uid: UnityExt.Core.StatusType.Cancelled
+  name: Cancelled
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Cancelled
+  commentId: F:UnityExt.Core.StatusType.Cancelled
+  fullName: UnityExt.Core.StatusType.Cancelled
+  nameWithType: StatusType.Cancelled
+- uid: UnityExt.Core.StatusType.Error
+  name: Error
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Error
+  commentId: F:UnityExt.Core.StatusType.Error
+  fullName: UnityExt.Core.StatusType.Error
+  nameWithType: StatusType.Error
+- uid: UnityExt.Core.StatusType.Idle
+  name: Idle
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Idle
+  commentId: F:UnityExt.Core.StatusType.Idle
+  fullName: UnityExt.Core.StatusType.Idle
+  nameWithType: StatusType.Idle
+- uid: UnityExt.Core.StatusType.Invalid
+  name: Invalid
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Invalid
+  commentId: F:UnityExt.Core.StatusType.Invalid
+  fullName: UnityExt.Core.StatusType.Invalid
+  nameWithType: StatusType.Invalid
+- uid: UnityExt.Core.StatusType.Running
+  name: Running
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Running
+  commentId: F:UnityExt.Core.StatusType.Running
+  fullName: UnityExt.Core.StatusType.Running
+  nameWithType: StatusType.Running
+- uid: UnityExt.Core.StatusType.Success
+  name: Success
+  href: api/UnityExt.Core.StatusType.html#UnityExt_Core_StatusType_Success
+  commentId: F:UnityExt.Core.StatusType.Success
+  fullName: UnityExt.Core.StatusType.Success
+  nameWithType: StatusType.Success
 - uid: UnityExt.Core.Timer
   name: Timer
   href: api/UnityExt.Core.Timer.html
   commentId: T:UnityExt.Core.Timer
   fullName: UnityExt.Core.Timer
   nameWithType: Timer
+- uid: UnityExt.Core.Timer.#ctor(System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)
+  name: Timer(Single, Int32, TimerType, ActivityContext)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer__ctor_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Timer.#ctor(System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.Timer.Timer(System.Single, System.Int32, UnityExt.Core.TimerType, UnityExt.Core.ActivityContext)
+  nameWithType: Timer.Timer(Single, Int32, TimerType, ActivityContext)
+- uid: UnityExt.Core.Timer.#ctor(System.String,System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)
+  name: Timer(String, Single, Int32, TimerType, ActivityContext)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer__ctor_System_String_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_
+  commentId: M:UnityExt.Core.Timer.#ctor(System.String,System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)
+  fullName: UnityExt.Core.Timer.Timer(System.String, System.Single, System.Int32, UnityExt.Core.TimerType, UnityExt.Core.ActivityContext)
+  nameWithType: Timer.Timer(String, Single, Int32, TimerType, ActivityContext)
+- uid: UnityExt.Core.Timer.#ctor(System.String,UnityExt.Core.TimerType)
+  name: Timer(String, TimerType)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer__ctor_System_String_UnityExt_Core_TimerType_
+  commentId: M:UnityExt.Core.Timer.#ctor(System.String,UnityExt.Core.TimerType)
+  fullName: UnityExt.Core.Timer.Timer(System.String, UnityExt.Core.TimerType)
+  nameWithType: Timer.Timer(String, TimerType)
+- uid: UnityExt.Core.Timer.#ctor(UnityExt.Core.TimerType)
+  name: Timer(TimerType)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer__ctor_UnityExt_Core_TimerType_
+  commentId: M:UnityExt.Core.Timer.#ctor(UnityExt.Core.TimerType)
+  fullName: UnityExt.Core.Timer.Timer(UnityExt.Core.TimerType)
+  nameWithType: Timer.Timer(TimerType)
+- uid: UnityExt.Core.Timer.#ctor*
+  name: Timer
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer__ctor_
+  commentId: Overload:UnityExt.Core.Timer.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.Timer
+  nameWithType: Timer.Timer
+- uid: UnityExt.Core.Timer.atomicClockFolder
+  name: atomicClockFolder
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_atomicClockFolder
+  commentId: P:UnityExt.Core.Timer.atomicClockFolder
+  fullName: UnityExt.Core.Timer.atomicClockFolder
+  nameWithType: Timer.atomicClockFolder
+- uid: UnityExt.Core.Timer.atomicClockFolder*
+  name: atomicClockFolder
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_atomicClockFolder_
+  commentId: Overload:UnityExt.Core.Timer.atomicClockFolder
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.atomicClockFolder
+  nameWithType: Timer.atomicClockFolder
+- uid: UnityExt.Core.Timer.atomicClockPath
+  name: atomicClockPath
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_atomicClockPath
+  commentId: F:UnityExt.Core.Timer.atomicClockPath
+  fullName: UnityExt.Core.Timer.atomicClockPath
+  nameWithType: Timer.atomicClockPath
+- uid: UnityExt.Core.Timer.ClearAtomicTimestamp(System.String)
+  name: ClearAtomicTimestamp(String)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_ClearAtomicTimestamp_System_String_
+  commentId: M:UnityExt.Core.Timer.ClearAtomicTimestamp(System.String)
+  fullName: UnityExt.Core.Timer.ClearAtomicTimestamp(System.String)
+  nameWithType: Timer.ClearAtomicTimestamp(String)
+- uid: UnityExt.Core.Timer.ClearAtomicTimestamp*
+  name: ClearAtomicTimestamp
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_ClearAtomicTimestamp_
+  commentId: Overload:UnityExt.Core.Timer.ClearAtomicTimestamp
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.ClearAtomicTimestamp
+  nameWithType: Timer.ClearAtomicTimestamp
+- uid: UnityExt.Core.Timer.count
+  name: count
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_count
+  commentId: P:UnityExt.Core.Timer.count
+  fullName: UnityExt.Core.Timer.count
+  nameWithType: Timer.count
+- uid: UnityExt.Core.Timer.count*
+  name: count
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_count_
+  commentId: Overload:UnityExt.Core.Timer.count
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.count
+  nameWithType: Timer.count
+- uid: UnityExt.Core.Timer.delay
+  name: delay
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_delay
+  commentId: P:UnityExt.Core.Timer.delay
+  fullName: UnityExt.Core.Timer.delay
+  nameWithType: Timer.delay
+- uid: UnityExt.Core.Timer.delay*
+  name: delay
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_delay_
+  commentId: Overload:UnityExt.Core.Timer.delay
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.delay
+  nameWithType: Timer.delay
+- uid: UnityExt.Core.Timer.duration
+  name: duration
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_duration
+  commentId: P:UnityExt.Core.Timer.duration
+  fullName: UnityExt.Core.Timer.duration
+  nameWithType: Timer.duration
+- uid: UnityExt.Core.Timer.duration*
+  name: duration
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_duration_
+  commentId: Overload:UnityExt.Core.Timer.duration
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.duration
+  nameWithType: Timer.duration
+- uid: UnityExt.Core.Timer.elapsed
+  name: elapsed
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_elapsed
+  commentId: P:UnityExt.Core.Timer.elapsed
+  fullName: UnityExt.Core.Timer.elapsed
+  nameWithType: Timer.elapsed
+- uid: UnityExt.Core.Timer.elapsed*
+  name: elapsed
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_elapsed_
+  commentId: Overload:UnityExt.Core.Timer.elapsed
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.elapsed
+  nameWithType: Timer.elapsed
+- uid: UnityExt.Core.Timer.GetAtomicClockElapsed(System.String)
+  name: GetAtomicClockElapsed(String)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicClockElapsed_System_String_
+  commentId: M:UnityExt.Core.Timer.GetAtomicClockElapsed(System.String)
+  fullName: UnityExt.Core.Timer.GetAtomicClockElapsed(System.String)
+  nameWithType: Timer.GetAtomicClockElapsed(String)
+- uid: UnityExt.Core.Timer.GetAtomicClockElapsed*
+  name: GetAtomicClockElapsed
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicClockElapsed_
+  commentId: Overload:UnityExt.Core.Timer.GetAtomicClockElapsed
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.GetAtomicClockElapsed
+  nameWithType: Timer.GetAtomicClockElapsed
+- uid: UnityExt.Core.Timer.GetAtomicTimestamp(System.String)
+  name: GetAtomicTimestamp(String)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicTimestamp_System_String_
+  commentId: M:UnityExt.Core.Timer.GetAtomicTimestamp(System.String)
+  fullName: UnityExt.Core.Timer.GetAtomicTimestamp(System.String)
+  nameWithType: Timer.GetAtomicTimestamp(String)
+- uid: UnityExt.Core.Timer.GetAtomicTimestamp*
+  name: GetAtomicTimestamp
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicTimestamp_
+  commentId: Overload:UnityExt.Core.Timer.GetAtomicTimestamp
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.GetAtomicTimestamp
+  nameWithType: Timer.GetAtomicTimestamp
+- uid: UnityExt.Core.Timer.GetClock
+  name: GetClock()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetClock
+  commentId: M:UnityExt.Core.Timer.GetClock
+  fullName: UnityExt.Core.Timer.GetClock()
+  nameWithType: Timer.GetClock()
+- uid: UnityExt.Core.Timer.GetClock*
+  name: GetClock
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetClock_
+  commentId: Overload:UnityExt.Core.Timer.GetClock
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.GetClock
+  nameWithType: Timer.GetClock
+- uid: UnityExt.Core.Timer.GetProgress
+  name: GetProgress()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetProgress
+  commentId: M:UnityExt.Core.Timer.GetProgress
+  fullName: UnityExt.Core.Timer.GetProgress()
+  nameWithType: Timer.GetProgress()
+- uid: UnityExt.Core.Timer.GetProgress*
+  name: GetProgress
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetProgress_
+  commentId: Overload:UnityExt.Core.Timer.GetProgress
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.GetProgress
+  nameWithType: Timer.GetProgress
+- uid: UnityExt.Core.Timer.m_on_step_event
+  name: m_on_step_event
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_m_on_step_event
+  commentId: F:UnityExt.Core.Timer.m_on_step_event
+  fullName: UnityExt.Core.Timer.m_on_step_event
+  nameWithType: Timer.m_on_step_event
+- uid: UnityExt.Core.Timer.OnCompleteEvent
+  name: OnCompleteEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnCompleteEvent
+  commentId: P:UnityExt.Core.Timer.OnCompleteEvent
+  fullName: UnityExt.Core.Timer.OnCompleteEvent
+  nameWithType: Timer.OnCompleteEvent
+- uid: UnityExt.Core.Timer.OnCompleteEvent*
+  name: OnCompleteEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnCompleteEvent_
+  commentId: Overload:UnityExt.Core.Timer.OnCompleteEvent
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.OnCompleteEvent
+  nameWithType: Timer.OnCompleteEvent
+- uid: UnityExt.Core.Timer.OnExecute
+  name: OnExecute()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecute
+  commentId: M:UnityExt.Core.Timer.OnExecute
+  fullName: UnityExt.Core.Timer.OnExecute()
+  nameWithType: Timer.OnExecute()
+- uid: UnityExt.Core.Timer.OnExecute*
+  name: OnExecute
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecute_
+  commentId: Overload:UnityExt.Core.Timer.OnExecute
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.OnExecute
+  nameWithType: Timer.OnExecute
+- uid: UnityExt.Core.Timer.OnExecuteEvent
+  name: OnExecuteEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecuteEvent
+  commentId: P:UnityExt.Core.Timer.OnExecuteEvent
+  fullName: UnityExt.Core.Timer.OnExecuteEvent
+  nameWithType: Timer.OnExecuteEvent
+- uid: UnityExt.Core.Timer.OnExecuteEvent*
+  name: OnExecuteEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnExecuteEvent_
+  commentId: Overload:UnityExt.Core.Timer.OnExecuteEvent
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.OnExecuteEvent
+  nameWithType: Timer.OnExecuteEvent
+- uid: UnityExt.Core.Timer.OnStepEvent
+  name: OnStepEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnStepEvent
+  commentId: P:UnityExt.Core.Timer.OnStepEvent
+  fullName: UnityExt.Core.Timer.OnStepEvent
+  nameWithType: Timer.OnStepEvent
+- uid: UnityExt.Core.Timer.OnStepEvent*
+  name: OnStepEvent
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnStepEvent_
+  commentId: Overload:UnityExt.Core.Timer.OnStepEvent
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.OnStepEvent
+  nameWithType: Timer.OnStepEvent
+- uid: UnityExt.Core.Timer.paused
+  name: paused
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_paused
+  commentId: P:UnityExt.Core.Timer.paused
+  fullName: UnityExt.Core.Timer.paused
+  nameWithType: Timer.paused
+- uid: UnityExt.Core.Timer.paused*
+  name: paused
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_paused_
+  commentId: Overload:UnityExt.Core.Timer.paused
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.paused
+  nameWithType: Timer.paused
+- uid: UnityExt.Core.Timer.progress
+  name: progress
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_progress
+  commentId: P:UnityExt.Core.Timer.progress
+  fullName: UnityExt.Core.Timer.progress
+  nameWithType: Timer.progress
+- uid: UnityExt.Core.Timer.progress*
+  name: progress
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_progress_
+  commentId: Overload:UnityExt.Core.Timer.progress
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.progress
+  nameWithType: Timer.progress
+- uid: UnityExt.Core.Timer.Restart
+  name: Restart()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_Restart
+  commentId: M:UnityExt.Core.Timer.Restart
+  fullName: UnityExt.Core.Timer.Restart()
+  nameWithType: Timer.Restart()
+- uid: UnityExt.Core.Timer.Restart*
+  name: Restart
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_Restart_
+  commentId: Overload:UnityExt.Core.Timer.Restart
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.Restart
+  nameWithType: Timer.Restart
+- uid: UnityExt.Core.Timer.RestartStep
+  name: RestartStep()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_RestartStep
+  commentId: M:UnityExt.Core.Timer.RestartStep
+  fullName: UnityExt.Core.Timer.RestartStep()
+  nameWithType: Timer.RestartStep()
+- uid: UnityExt.Core.Timer.RestartStep*
+  name: RestartStep
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_RestartStep_
+  commentId: Overload:UnityExt.Core.Timer.RestartStep
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.RestartStep
+  nameWithType: Timer.RestartStep
+- uid: UnityExt.Core.Timer.Start
+  name: Start()
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start
+  commentId: M:UnityExt.Core.Timer.Start
+  fullName: UnityExt.Core.Timer.Start()
+  nameWithType: Timer.Start()
+- uid: UnityExt.Core.Timer.Start(System.Single)
+  name: Start(Single)
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start_System_Single_
+  commentId: M:UnityExt.Core.Timer.Start(System.Single)
+  fullName: UnityExt.Core.Timer.Start(System.Single)
+  nameWithType: Timer.Start(Single)
+- uid: UnityExt.Core.Timer.Start*
+  name: Start
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start_
+  commentId: Overload:UnityExt.Core.Timer.Start
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.Start
+  nameWithType: Timer.Start
+- uid: UnityExt.Core.Timer.step
+  name: step
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_step
+  commentId: P:UnityExt.Core.Timer.step
+  fullName: UnityExt.Core.Timer.step
+  nameWithType: Timer.step
+- uid: UnityExt.Core.Timer.step*
+  name: step
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_step_
+  commentId: Overload:UnityExt.Core.Timer.step
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.step
+  nameWithType: Timer.step
+- uid: UnityExt.Core.Timer.type
+  name: type
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_type
+  commentId: P:UnityExt.Core.Timer.type
+  fullName: UnityExt.Core.Timer.type
+  nameWithType: Timer.type
+- uid: UnityExt.Core.Timer.type*
+  name: type
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_type_
+  commentId: Overload:UnityExt.Core.Timer.type
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.type
+  nameWithType: Timer.type
+- uid: UnityExt.Core.Timer.unscaled
+  name: unscaled
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_unscaled
+  commentId: P:UnityExt.Core.Timer.unscaled
+  fullName: UnityExt.Core.Timer.unscaled
+  nameWithType: Timer.unscaled
+- uid: UnityExt.Core.Timer.unscaled*
+  name: unscaled
+  href: api/UnityExt.Core.Timer.html#UnityExt_Core_Timer_unscaled_
+  commentId: Overload:UnityExt.Core.Timer.unscaled
+  isSpec: "True"
+  fullName: UnityExt.Core.Timer.unscaled
+  nameWithType: Timer.unscaled
+- uid: UnityExt.Core.TimerType
+  name: TimerType
+  href: api/UnityExt.Core.TimerType.html
+  commentId: T:UnityExt.Core.TimerType
+  fullName: UnityExt.Core.TimerType
+  nameWithType: TimerType
+- uid: UnityExt.Core.TimerType.System
+  name: System
+  href: api/UnityExt.Core.TimerType.html#UnityExt_Core_TimerType_System
+  commentId: F:UnityExt.Core.TimerType.System
+  fullName: UnityExt.Core.TimerType.System
+  nameWithType: TimerType.System
+- uid: UnityExt.Core.TimerType.Unity
+  name: Unity
+  href: api/UnityExt.Core.TimerType.html#UnityExt_Core_TimerType_Unity
+  commentId: F:UnityExt.Core.TimerType.Unity
+  fullName: UnityExt.Core.TimerType.Unity
+  nameWithType: TimerType.Unity
+- uid: UnityExt.Core.Tween
+  name: Tween
+  href: api/UnityExt.Core.Tween.html
+  commentId: T:UnityExt.Core.Tween
+  fullName: UnityExt.Core.Tween
+  nameWithType: Tween
+- uid: UnityExt.Core.Tween.#ctor(System.String,System.Object,System.String,System.Object,System.Object,System.Single,System.Int32,System.Func{System.Single,System.Single})
+  name: Tween(String, Object, String, Object, Object, Single, Int32, Func<Single, Single>)
+  href: api/UnityExt.Core.Tween.html#UnityExt_Core_Tween__ctor_System_String_System_Object_System_String_System_Object_System_Object_System_Single_System_Int32_System_Func_System_Single_System_Single__
+  commentId: M:UnityExt.Core.Tween.#ctor(System.String,System.Object,System.String,System.Object,System.Object,System.Single,System.Int32,System.Func{System.Single,System.Single})
+  name.vb: Tween(String, Object, String, Object, Object, Single, Int32, Func(Of Single, Single))
+  fullName: UnityExt.Core.Tween.Tween(System.String, System.Object, System.String, System.Object, System.Object, System.Single, System.Int32, System.Func<System.Single, System.Single>)
+  fullName.vb: UnityExt.Core.Tween.Tween(System.String, System.Object, System.String, System.Object, System.Object, System.Single, System.Int32, System.Func(Of System.Single, System.Single))
+  nameWithType: Tween.Tween(String, Object, String, Object, Object, Single, Int32, Func<Single, Single>)
+  nameWithType.vb: Tween.Tween(String, Object, String, Object, Object, Single, Int32, Func(Of Single, Single))
+- uid: UnityExt.Core.Tween.#ctor*
+  name: Tween
+  href: api/UnityExt.Core.Tween.html#UnityExt_Core_Tween__ctor_
+  commentId: Overload:UnityExt.Core.Tween.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.Tween.Tween
+  nameWithType: Tween.Tween
+- uid: UnityExt.Core.Tween.DefaultDuration
+  name: DefaultDuration
+  href: api/UnityExt.Core.Tween.html#UnityExt_Core_Tween_DefaultDuration
+  commentId: F:UnityExt.Core.Tween.DefaultDuration
+  fullName: UnityExt.Core.Tween.DefaultDuration
+  nameWithType: Tween.DefaultDuration
+- uid: UnityExt.Core.Tween.GetInterpolator*
+  name: GetInterpolator
+  href: api/UnityExt.Core.Tween.html#UnityExt_Core_Tween_GetInterpolator_
+  commentId: Overload:UnityExt.Core.Tween.GetInterpolator
+  isSpec: "True"
+  fullName: UnityExt.Core.Tween.GetInterpolator
+  nameWithType: Tween.GetInterpolator
+- uid: UnityExt.Core.Tween.GetInterpolator``1
+  name: GetInterpolator<T>()
+  href: api/UnityExt.Core.Tween.html#UnityExt_Core_Tween_GetInterpolator__1
+  commentId: M:UnityExt.Core.Tween.GetInterpolator``1
+  name.vb: GetInterpolator(Of T)()
+  fullName: UnityExt.Core.Tween.GetInterpolator<T>()
+  fullName.vb: UnityExt.Core.Tween.GetInterpolator(Of T)()
+  nameWithType: Tween.GetInterpolator<T>()
+  nameWithType.vb: Tween.GetInterpolator(Of T)()
+- uid: UnityExt.Core.UIFPSWidget
+  name: UIFPSWidget
+  href: api/UnityExt.Core.UIFPSWidget.html
+  commentId: T:UnityExt.Core.UIFPSWidget
+  fullName: UnityExt.Core.UIFPSWidget
+  nameWithType: UIFPSWidget
+- uid: UnityExt.Core.UIFPSWidget.AssertBuffer
+  name: AssertBuffer()
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_AssertBuffer
+  commentId: M:UnityExt.Core.UIFPSWidget.AssertBuffer
+  fullName: UnityExt.Core.UIFPSWidget.AssertBuffer()
+  nameWithType: UIFPSWidget.AssertBuffer()
+- uid: UnityExt.Core.UIFPSWidget.AssertBuffer*
+  name: AssertBuffer
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_AssertBuffer_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.AssertBuffer
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.AssertBuffer
+  nameWithType: UIFPSWidget.AssertBuffer
+- uid: UnityExt.Core.UIFPSWidget.Clear
+  name: Clear()
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Clear
+  commentId: M:UnityExt.Core.UIFPSWidget.Clear
+  fullName: UnityExt.Core.UIFPSWidget.Clear()
+  nameWithType: UIFPSWidget.Clear()
+- uid: UnityExt.Core.UIFPSWidget.Clear*
+  name: Clear
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Clear_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.Clear
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.Clear
+  nameWithType: UIFPSWidget.Clear
+- uid: UnityExt.Core.UIFPSWidget.DefaultRamp
+  name: DefaultRamp
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_DefaultRamp
+  commentId: P:UnityExt.Core.UIFPSWidget.DefaultRamp
+  fullName: UnityExt.Core.UIFPSWidget.DefaultRamp
+  nameWithType: UIFPSWidget.DefaultRamp
+- uid: UnityExt.Core.UIFPSWidget.DefaultRamp*
+  name: DefaultRamp
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_DefaultRamp_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.DefaultRamp
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.DefaultRamp
+  nameWithType: UIFPSWidget.DefaultRamp
+- uid: UnityExt.Core.UIFPSWidget.field
+  name: field
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_field
+  commentId: F:UnityExt.Core.UIFPSWidget.field
+  fullName: UnityExt.Core.UIFPSWidget.field
+  nameWithType: UIFPSWidget.field
+- uid: UnityExt.Core.UIFPSWidget.fps
+  name: fps
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_fps
+  commentId: P:UnityExt.Core.UIFPSWidget.fps
+  fullName: UnityExt.Core.UIFPSWidget.fps
+  nameWithType: UIFPSWidget.fps
+- uid: UnityExt.Core.UIFPSWidget.fps*
+  name: fps
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_fps_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.fps
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.fps
+  nameWithType: UIFPSWidget.fps
+- uid: UnityExt.Core.UIFPSWidget.graph
+  name: graph
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_graph
+  commentId: P:UnityExt.Core.UIFPSWidget.graph
+  fullName: UnityExt.Core.UIFPSWidget.graph
+  nameWithType: UIFPSWidget.graph
+- uid: UnityExt.Core.UIFPSWidget.graph*
+  name: graph
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_graph_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.graph
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.graph
+  nameWithType: UIFPSWidget.graph
+- uid: UnityExt.Core.UIFPSWidget.graphCursorColor
+  name: graphCursorColor
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_graphCursorColor
+  commentId: F:UnityExt.Core.UIFPSWidget.graphCursorColor
+  fullName: UnityExt.Core.UIFPSWidget.graphCursorColor
+  nameWithType: UIFPSWidget.graphCursorColor
+- uid: UnityExt.Core.UIFPSWidget.m_fps_samples_inv
+  name: m_fps_samples_inv
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_m_fps_samples_inv
+  commentId: P:UnityExt.Core.UIFPSWidget.m_fps_samples_inv
+  fullName: UnityExt.Core.UIFPSWidget.m_fps_samples_inv
+  nameWithType: UIFPSWidget.m_fps_samples_inv
+- uid: UnityExt.Core.UIFPSWidget.m_fps_samples_inv*
+  name: m_fps_samples_inv
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_m_fps_samples_inv_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.m_fps_samples_inv
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.m_fps_samples_inv
+  nameWithType: UIFPSWidget.m_fps_samples_inv
+- uid: UnityExt.Core.UIFPSWidget.OnDestroy
+  name: OnDestroy()
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_OnDestroy
+  commentId: M:UnityExt.Core.UIFPSWidget.OnDestroy
+  fullName: UnityExt.Core.UIFPSWidget.OnDestroy()
+  nameWithType: UIFPSWidget.OnDestroy()
+- uid: UnityExt.Core.UIFPSWidget.OnDestroy*
+  name: OnDestroy
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_OnDestroy_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.OnDestroy
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.OnDestroy
+  nameWithType: UIFPSWidget.OnDestroy
+- uid: UnityExt.Core.UIFPSWidget.ramp
+  name: ramp
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_ramp
+  commentId: P:UnityExt.Core.UIFPSWidget.ramp
+  fullName: UnityExt.Core.UIFPSWidget.ramp
+  nameWithType: UIFPSWidget.ramp
+- uid: UnityExt.Core.UIFPSWidget.ramp*
+  name: ramp
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_ramp_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.ramp
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.ramp
+  nameWithType: UIFPSWidget.ramp
+- uid: UnityExt.Core.UIFPSWidget.Start
+  name: Start()
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Start
+  commentId: M:UnityExt.Core.UIFPSWidget.Start
+  fullName: UnityExt.Core.UIFPSWidget.Start()
+  nameWithType: UIFPSWidget.Start()
+- uid: UnityExt.Core.UIFPSWidget.Start*
+  name: Start
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Start_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.Start
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.Start
+  nameWithType: UIFPSWidget.Start
+- uid: UnityExt.Core.UIFPSWidget.targetFPS
+  name: targetFPS
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_targetFPS
+  commentId: F:UnityExt.Core.UIFPSWidget.targetFPS
+  fullName: UnityExt.Core.UIFPSWidget.targetFPS
+  nameWithType: UIFPSWidget.targetFPS
+- uid: UnityExt.Core.UIFPSWidget.targetFPSSamples
+  name: targetFPSSamples
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_targetFPSSamples
+  commentId: F:UnityExt.Core.UIFPSWidget.targetFPSSamples
+  fullName: UnityExt.Core.UIFPSWidget.targetFPSSamples
+  nameWithType: UIFPSWidget.targetFPSSamples
+- uid: UnityExt.Core.UIFPSWidget.Update
+  name: Update()
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Update
+  commentId: M:UnityExt.Core.UIFPSWidget.Update
+  fullName: UnityExt.Core.UIFPSWidget.Update()
+  nameWithType: UIFPSWidget.Update()
+- uid: UnityExt.Core.UIFPSWidget.Update*
+  name: Update
+  href: api/UnityExt.Core.UIFPSWidget.html#UnityExt_Core_UIFPSWidget_Update_
+  commentId: Overload:UnityExt.Core.UIFPSWidget.Update
+  isSpec: "True"
+  fullName: UnityExt.Core.UIFPSWidget.Update
+  nameWithType: UIFPSWidget.Update
+- uid: UnityExt.Core.VectorInterpolatorMask
+  name: VectorInterpolatorMask
+  href: api/UnityExt.Core.VectorInterpolatorMask.html
+  commentId: T:UnityExt.Core.VectorInterpolatorMask
+  fullName: UnityExt.Core.VectorInterpolatorMask
+  nameWithType: VectorInterpolatorMask
+- uid: UnityExt.Core.VectorInterpolatorMask.A
+  name: A
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_A
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.A
+  fullName: UnityExt.Core.VectorInterpolatorMask.A
+  nameWithType: VectorInterpolatorMask.A
+- uid: UnityExt.Core.VectorInterpolatorMask.All
+  name: All
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_All
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.All
+  fullName: UnityExt.Core.VectorInterpolatorMask.All
+  nameWithType: VectorInterpolatorMask.All
+- uid: UnityExt.Core.VectorInterpolatorMask.B
+  name: B
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_B
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.B
+  fullName: UnityExt.Core.VectorInterpolatorMask.B
+  nameWithType: VectorInterpolatorMask.B
+- uid: UnityExt.Core.VectorInterpolatorMask.Direction
+  name: Direction
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Direction
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Direction
+  fullName: UnityExt.Core.VectorInterpolatorMask.Direction
+  nameWithType: VectorInterpolatorMask.Direction
+- uid: UnityExt.Core.VectorInterpolatorMask.G
+  name: G
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_G
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.G
+  fullName: UnityExt.Core.VectorInterpolatorMask.G
+  nameWithType: VectorInterpolatorMask.G
+- uid: UnityExt.Core.VectorInterpolatorMask.GB
+  name: GB
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_GB
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.GB
+  fullName: UnityExt.Core.VectorInterpolatorMask.GB
+  nameWithType: VectorInterpolatorMask.GB
+- uid: UnityExt.Core.VectorInterpolatorMask.Height
+  name: Height
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Height
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Height
+  fullName: UnityExt.Core.VectorInterpolatorMask.Height
+  nameWithType: VectorInterpolatorMask.Height
+- uid: UnityExt.Core.VectorInterpolatorMask.None
+  name: None
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_None
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.None
+  fullName: UnityExt.Core.VectorInterpolatorMask.None
+  nameWithType: VectorInterpolatorMask.None
+- uid: UnityExt.Core.VectorInterpolatorMask.Origin
+  name: Origin
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Origin
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Origin
+  fullName: UnityExt.Core.VectorInterpolatorMask.Origin
+  nameWithType: VectorInterpolatorMask.Origin
+- uid: UnityExt.Core.VectorInterpolatorMask.R
+  name: R
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_R
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.R
+  fullName: UnityExt.Core.VectorInterpolatorMask.R
+  nameWithType: VectorInterpolatorMask.R
+- uid: UnityExt.Core.VectorInterpolatorMask.RangeEnd
+  name: RangeEnd
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RangeEnd
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RangeEnd
+  fullName: UnityExt.Core.VectorInterpolatorMask.RangeEnd
+  nameWithType: VectorInterpolatorMask.RangeEnd
+- uid: UnityExt.Core.VectorInterpolatorMask.RangeLength
+  name: RangeLength
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RangeLength
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RangeLength
+  fullName: UnityExt.Core.VectorInterpolatorMask.RangeLength
+  nameWithType: VectorInterpolatorMask.RangeLength
+- uid: UnityExt.Core.VectorInterpolatorMask.RangeStart
+  name: RangeStart
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RangeStart
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RangeStart
+  fullName: UnityExt.Core.VectorInterpolatorMask.RangeStart
+  nameWithType: VectorInterpolatorMask.RangeStart
+- uid: UnityExt.Core.VectorInterpolatorMask.RB
+  name: RB
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RB
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RB
+  fullName: UnityExt.Core.VectorInterpolatorMask.RB
+  nameWithType: VectorInterpolatorMask.RB
+- uid: UnityExt.Core.VectorInterpolatorMask.RG
+  name: RG
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RG
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RG
+  fullName: UnityExt.Core.VectorInterpolatorMask.RG
+  nameWithType: VectorInterpolatorMask.RG
+- uid: UnityExt.Core.VectorInterpolatorMask.RGB
+  name: RGB
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RGB
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RGB
+  fullName: UnityExt.Core.VectorInterpolatorMask.RGB
+  nameWithType: VectorInterpolatorMask.RGB
+- uid: UnityExt.Core.VectorInterpolatorMask.RGBA
+  name: RGBA
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_RGBA
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.RGBA
+  fullName: UnityExt.Core.VectorInterpolatorMask.RGBA
+  nameWithType: VectorInterpolatorMask.RGBA
+- uid: UnityExt.Core.VectorInterpolatorMask.W
+  name: W
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_W
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.W
+  fullName: UnityExt.Core.VectorInterpolatorMask.W
+  nameWithType: VectorInterpolatorMask.W
+- uid: UnityExt.Core.VectorInterpolatorMask.Width
+  name: Width
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Width
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Width
+  fullName: UnityExt.Core.VectorInterpolatorMask.Width
+  nameWithType: VectorInterpolatorMask.Width
+- uid: UnityExt.Core.VectorInterpolatorMask.X
+  name: X
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_X
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.X
+  fullName: UnityExt.Core.VectorInterpolatorMask.X
+  nameWithType: VectorInterpolatorMask.X
+- uid: UnityExt.Core.VectorInterpolatorMask.XY
+  name: XY
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_XY
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.XY
+  fullName: UnityExt.Core.VectorInterpolatorMask.XY
+  nameWithType: VectorInterpolatorMask.XY
+- uid: UnityExt.Core.VectorInterpolatorMask.XYZ
+  name: XYZ
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_XYZ
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.XYZ
+  fullName: UnityExt.Core.VectorInterpolatorMask.XYZ
+  nameWithType: VectorInterpolatorMask.XYZ
+- uid: UnityExt.Core.VectorInterpolatorMask.XYZW
+  name: XYZW
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_XYZW
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.XYZW
+  fullName: UnityExt.Core.VectorInterpolatorMask.XYZW
+  nameWithType: VectorInterpolatorMask.XYZW
+- uid: UnityExt.Core.VectorInterpolatorMask.XZ
+  name: XZ
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_XZ
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.XZ
+  fullName: UnityExt.Core.VectorInterpolatorMask.XZ
+  nameWithType: VectorInterpolatorMask.XZ
+- uid: UnityExt.Core.VectorInterpolatorMask.Y
+  name: Y
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Y
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Y
+  fullName: UnityExt.Core.VectorInterpolatorMask.Y
+  nameWithType: VectorInterpolatorMask.Y
+- uid: UnityExt.Core.VectorInterpolatorMask.YZ
+  name: YZ
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_YZ
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.YZ
+  fullName: UnityExt.Core.VectorInterpolatorMask.YZ
+  nameWithType: VectorInterpolatorMask.YZ
+- uid: UnityExt.Core.VectorInterpolatorMask.Z
+  name: Z
+  href: api/UnityExt.Core.VectorInterpolatorMask.html#UnityExt_Core_VectorInterpolatorMask_Z
+  commentId: F:UnityExt.Core.VectorInterpolatorMask.Z
+  fullName: UnityExt.Core.VectorInterpolatorMask.Z
+  nameWithType: VectorInterpolatorMask.Z
+- uid: UnityExt.Tools
+  name: UnityExt.Tools
+  href: api/UnityExt.Tools.html
+  commentId: N:UnityExt.Tools
+  fullName: UnityExt.Tools
+  nameWithType: UnityExt.Tools
+- uid: UnityExt.Tools.DocumentationTools
+  name: DocumentationTools
+  href: api/UnityExt.Tools.DocumentationTools.html
+  commentId: T:UnityExt.Tools.DocumentationTools
+  fullName: UnityExt.Tools.DocumentationTools
+  nameWithType: DocumentationTools
+- uid: UnityExt.Tools.DocumentationTools.Build
+  name: Build()
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_Build
+  commentId: M:UnityExt.Tools.DocumentationTools.Build
+  fullName: UnityExt.Tools.DocumentationTools.Build()
+  nameWithType: DocumentationTools.Build()
+- uid: UnityExt.Tools.DocumentationTools.Build*
+  name: Build
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_Build_
+  commentId: Overload:UnityExt.Tools.DocumentationTools.Build
+  isSpec: "True"
+  fullName: UnityExt.Tools.DocumentationTools.Build
+  nameWithType: DocumentationTools.Build
+- uid: UnityExt.Tools.DocumentationTools.docfxBuildTargetFolder
+  name: docfxBuildTargetFolder
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxBuildTargetFolder
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxBuildTargetFolder
+  fullName: UnityExt.Tools.DocumentationTools.docfxBuildTargetFolder
+  nameWithType: DocumentationTools.docfxBuildTargetFolder
+- uid: UnityExt.Tools.DocumentationTools.docfxBuildTargetPath
+  name: docfxBuildTargetPath
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxBuildTargetPath
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxBuildTargetPath
+  fullName: UnityExt.Tools.DocumentationTools.docfxBuildTargetPath
+  nameWithType: DocumentationTools.docfxBuildTargetPath
+- uid: UnityExt.Tools.DocumentationTools.docfxBuildTempFolder
+  name: docfxBuildTempFolder
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxBuildTempFolder
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxBuildTempFolder
+  fullName: UnityExt.Tools.DocumentationTools.docfxBuildTempFolder
+  nameWithType: DocumentationTools.docfxBuildTempFolder
+- uid: UnityExt.Tools.DocumentationTools.docfxBuildTempPath
+  name: docfxBuildTempPath
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxBuildTempPath
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxBuildTempPath
+  fullName: UnityExt.Tools.DocumentationTools.docfxBuildTempPath
+  nameWithType: DocumentationTools.docfxBuildTempPath
+- uid: UnityExt.Tools.DocumentationTools.docfxExecutablePath
+  name: docfxExecutablePath
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxExecutablePath
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxExecutablePath
+  fullName: UnityExt.Tools.DocumentationTools.docfxExecutablePath
+  nameWithType: DocumentationTools.docfxExecutablePath
+- uid: UnityExt.Tools.DocumentationTools.docfxProjectJson
+  name: docfxProjectJson
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxProjectJson
+  commentId: F:UnityExt.Tools.DocumentationTools.docfxProjectJson
+  fullName: UnityExt.Tools.DocumentationTools.docfxProjectJson
+  nameWithType: DocumentationTools.docfxProjectJson
+- uid: UnityExt.Tools.DocumentationTools.docfxRoot
+  name: docfxRoot
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxRoot
+  commentId: P:UnityExt.Tools.DocumentationTools.docfxRoot
+  fullName: UnityExt.Tools.DocumentationTools.docfxRoot
+  nameWithType: DocumentationTools.docfxRoot
+- uid: UnityExt.Tools.DocumentationTools.docfxRoot*
+  name: docfxRoot
+  href: api/UnityExt.Tools.DocumentationTools.html#UnityExt_Tools_DocumentationTools_docfxRoot_
+  commentId: Overload:UnityExt.Tools.DocumentationTools.docfxRoot
+  isSpec: "True"
+  fullName: UnityExt.Tools.DocumentationTools.docfxRoot
+  nameWithType: DocumentationTools.docfxRoot
