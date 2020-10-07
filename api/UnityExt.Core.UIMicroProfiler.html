@@ -83,11 +83,31 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">UIMicroProfiler</span></div>
-      <div class="level6"><a class="xref" href="UnityExt.Core.UI.UISystemProfiler.html">UISystemProfiler</a></div>
+    <div class="level5"><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></div>
+    <div class="level6"><span class="xref">UIMicroProfiler</span></div>
+      <div class="level7"><a class="xref" href="UnityExt.Core.UI.UISystemProfiler.html">UISystemProfiler</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerMs">ActivityBehaviour.profilerMs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerUs">ActivityBehaviour.profilerUs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerTimeStr">ActivityBehaviour.profilerTimeStr</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnEnable">ActivityBehaviour.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnDisable">ActivityBehaviour.OnDisable()</a>
+    </div>
     <div>
       <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
     </div>
@@ -372,7 +392,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
   <h5 id="UnityExt_Core_UIMicroProfiler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UIMicroProfiler : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class UIMicroProfiler : ActivityBehaviour, IUpdateable</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -746,10 +766,26 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_AssertNumberString.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.AssertNumberString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L175">View Source</a>
+  </span>
+  <a id="UnityExt_Core_UIMicroProfiler_AssertNumberString_" data-uid="UnityExt.Core.UIMicroProfiler.AssertNumberString*"></a>
+  <h4 id="UnityExt_Core_UIMicroProfiler_AssertNumberString" data-uid="UnityExt.Core.UIMicroProfiler.AssertNumberString">AssertNumberString()</h4>
+  <div class="markdown level1 summary"><p>Asserts the creation of the string list for gc free number to string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AssertNumberString()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Clear.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L167">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L184">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_Clear_" data-uid="UnityExt.Core.UIMicroProfiler.Clear*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_Clear" data-uid="UnityExt.Core.UIMicroProfiler.Clear">Clear()</h4>
@@ -765,7 +801,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Initialize.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L146">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L154">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_Initialize_" data-uid="UnityExt.Core.UIMicroProfiler.Initialize*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_Initialize" data-uid="UnityExt.Core.UIMicroProfiler.Initialize">Initialize()</h4>
@@ -781,7 +817,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_OnDestroy.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L300">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L322">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_OnDestroy_" data-uid="UnityExt.Core.UIMicroProfiler.OnDestroy*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_OnDestroy" data-uid="UnityExt.Core.UIMicroProfiler.OnDestroy">OnDestroy()</h4>
@@ -790,14 +826,16 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnDestroy()</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnDestroy">ActivityBehaviour.OnDestroy()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_OnSample.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.OnSample%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L264">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L284">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_OnSample_" data-uid="UnityExt.Core.UIMicroProfiler.OnSample*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_OnSample" data-uid="UnityExt.Core.UIMicroProfiler.OnSample">OnSample()</h4>
@@ -825,10 +863,26 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_OnUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.OnUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L295">View Source</a>
+  </span>
+  <a id="UnityExt_Core_UIMicroProfiler_OnUpdate_" data-uid="UnityExt.Core.UIMicroProfiler.OnUpdate*"></a>
+  <h4 id="UnityExt_Core_UIMicroProfiler_OnUpdate" data-uid="UnityExt.Core.UIMicroProfiler.OnUpdate">OnUpdate()</h4>
+  <div class="markdown level1 summary"><p>Executes the loop and collect information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnUpdate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_OnWrite_System_Text_StringBuilder_.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.OnWrite(System.Text.StringBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L270">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L290">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_OnWrite_" data-uid="UnityExt.Core.UIMicroProfiler.OnWrite*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_OnWrite_System_Text_StringBuilder_" data-uid="UnityExt.Core.UIMicroProfiler.OnWrite(System.Text.StringBuilder)">OnWrite(StringBuilder)</h4>
@@ -861,7 +915,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Plot_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Plot(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L250">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L270">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_Plot_" data-uid="UnityExt.Core.UIMicroProfiler.Plot*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_Plot_System_Single_" data-uid="UnityExt.Core.UIMicroProfiler.Plot(System.Single)">Plot(Single)</h4>
@@ -895,7 +949,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Plot_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Plot(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L227">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L247">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_Plot_" data-uid="UnityExt.Core.UIMicroProfiler.Plot*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_Plot_UnityEngine_Color_" data-uid="UnityExt.Core.UIMicroProfiler.Plot(UnityEngine.Color)">Plot(Color)</h4>
@@ -928,7 +982,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Start.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L139">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L140">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_Start_" data-uid="UnityExt.Core.UIMicroProfiler.Start*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_Start" data-uid="UnityExt.Core.UIMicroProfiler.Start">Start()</h4>
@@ -941,26 +995,10 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_Update.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L275">View Source</a>
-  </span>
-  <a id="UnityExt_Core_UIMicroProfiler_Update_" data-uid="UnityExt.Core.UIMicroProfiler.Update*"></a>
-  <h4 id="UnityExt_Core_UIMicroProfiler_Update" data-uid="UnityExt.Core.UIMicroProfiler.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Executes the loop and collect information.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UIMicroProfiler_WriteNumber_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.UIMicroProfiler.WriteNumber(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L212">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UIMicroProfiler.cs/#L229">View Source</a>
   </span>
   <a id="UnityExt_Core_UIMicroProfiler_WriteNumber_" data-uid="UnityExt.Core.UIMicroProfiler.WriteNumber*"></a>
   <h4 id="UnityExt_Core_UIMicroProfiler_WriteNumber_System_Single_System_Single_" data-uid="UnityExt.Core.UIMicroProfiler.WriteNumber(System.Single,System.Single)">WriteNumber(Single, Single)</h4>
@@ -993,6 +1031,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a>
+  </div>
 </article>
           </div>
           

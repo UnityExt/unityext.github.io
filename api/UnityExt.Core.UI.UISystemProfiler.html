@@ -83,8 +83,13 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><a class="xref" href="UnityExt.Core.UIMicroProfiler.html">UIMicroProfiler</a></div>
-    <div class="level6"><span class="xref">UISystemProfiler</span></div>
+    <div class="level5"><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></div>
+    <div class="level6"><a class="xref" href="UnityExt.Core.UIMicroProfiler.html">UIMicroProfiler</a></div>
+    <div class="level7"><span class="xref">UISystemProfiler</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -128,6 +133,9 @@
       <a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_Start">UIMicroProfiler.Start()</a>
     </div>
     <div>
+      <a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_AssertNumberString">UIMicroProfiler.AssertNumberString()</a>
+    </div>
+    <div>
       <a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_WriteNumber_System_Single_System_Single_">UIMicroProfiler.WriteNumber(Single, Single)</a>
     </div>
     <div>
@@ -138,6 +146,21 @@
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_OnDestroy">UIMicroProfiler.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerMs">ActivityBehaviour.profilerMs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerUs">ActivityBehaviour.profilerUs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerTimeStr">ActivityBehaviour.profilerTimeStr</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnEnable">ActivityBehaviour.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_OnDisable">ActivityBehaviour.OnDisable()</a>
     </div>
     <div>
       <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
@@ -423,7 +446,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
   <h5 id="UnityExt_Core_UI_UISystemProfiler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UISystemProfiler : UIMicroProfiler</code></pre>
+    <pre><code class="lang-csharp hljs">public class UISystemProfiler : UIMicroProfiler, IUpdateable</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -624,6 +647,24 @@ public int targetFPSSamples</code></pre>
   <div><a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_OnSample">UIMicroProfiler.OnSample()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UI_UISystemProfiler_OnUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Core.UI.UISystemProfiler.OnUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UISystemProfiler.cs/#L202">View Source</a>
+  </span>
+  <a id="UnityExt_Core_UI_UISystemProfiler_OnUpdate_" data-uid="UnityExt.Core.UI.UISystemProfiler.OnUpdate*"></a>
+  <h4 id="UnityExt_Core_UI_UISystemProfiler_OnUpdate" data-uid="UnityExt.Core.UI.UISystemProfiler.OnUpdate">OnUpdate()</h4>
+  <div class="markdown level1 summary"><p>Executes the loop and collect information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_OnUpdate">UIMicroProfiler.OnUpdate()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UI_UISystemProfiler_OnWrite_System_Text_StringBuilder_.md&amp;value=---%0Auid%3A%20UnityExt.Core.UI.UISystemProfiler.OnWrite(System.Text.StringBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -657,24 +698,10 @@ public int targetFPSSamples</code></pre>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_OnWrite_System_Text_StringBuilder_">UIMicroProfiler.OnWrite(StringBuilder)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_UI_UISystemProfiler_Update.md&amp;value=---%0Auid%3A%20UnityExt.Core.UI.UISystemProfiler.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/profiling/UISystemProfiler.cs/#L202">View Source</a>
-  </span>
-  <a id="UnityExt_Core_UI_UISystemProfiler_Update_" data-uid="UnityExt.Core.UI.UISystemProfiler.Update*"></a>
-  <h4 id="UnityExt_Core_UI_UISystemProfiler_Update" data-uid="UnityExt.Core.UI.UISystemProfiler.Update">Update()</h4>
-  <div class="markdown level1 summary"><p>Executes the loop and collect information.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Update()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="UnityExt.Core.UIMicroProfiler.html#UnityExt_Core_UIMicroProfiler_Update">UIMicroProfiler.Update()</a></div>
 </article>
           </div>
           
