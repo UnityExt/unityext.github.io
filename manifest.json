@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "F:/dev/unity/unityex/UnityExtProject/Documentation/project",
+  "source_base_path": "E:/work/personal/UnityEx/UnityExtProject/Documentation/project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.Activity-1.html",
-          "hash": "VsPAqMuJgeNxDIZ1F/BCWQ=="
+          "hash": "WoyBTxvvEshcZTyR2A7Gtw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.Activity.Manager.html",
-          "hash": "Ya8eFiPcZIjIcoYyGefiOA=="
+          "hash": "HGm9H8+lACT21SEABYAhVg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.Activity.html",
-          "hash": "fpg3btRXQBABDpk1a1z8Eg=="
+          "hash": "P8XcqmCsZtNOOBnsH6ZKqg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.ActivityBehaviour.html",
-          "hash": "PpAWnEZo/+K/mDd4K2jh6A=="
+          "hash": "46gylqps1oWE//BwcbIdxw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.ActivityContext.html",
-          "hash": "Zuh0F4gEXOEm8IKChb3gqQ=="
+          "hash": "YzTZAGQGzHXqc2arAICrzg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.ActivityManager.html",
-          "hash": "1OcMHqm4chOzrLgBdc9bsw=="
+          "hash": "s/NmvZem0mvuyrCicnlWDw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.ActivityState.html",
-          "hash": "+qBpZFDcG7yK2idz2GKAOQ=="
+          "hash": "/lH9uOV7CpwT1177WROlng=="
         }
       },
       "is_incremental": false,
@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.AnimationWrapMode.yml",
+      "source_relative_path": "api/UnityExt.Core.BytePropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.AnimationWrapMode.html",
-          "hash": "2IVJx0OZIXqp002nyhveXg=="
+          "relative_path": "api/UnityExt.Core.BytePropertyReflection.html",
+          "hash": "BVHNlACuH1hFqN1Z1kXYaA=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.ByteInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.ColorPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.ByteInterpolator.html",
-          "hash": "+Kj8ZxPE9qsZzZvg1F4MwQ=="
+          "relative_path": "api/UnityExt.Core.ColorPropertyReflection.html",
+          "hash": "qGmW5CKk1GAMhe0QDtcLaA=="
         }
       },
       "is_incremental": false,
@@ -113,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Color32Interpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.DoublePropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Color32Interpolator.html",
-          "hash": "RjOqe+bbJgaGAFF8abiBfg=="
+          "relative_path": "api/UnityExt.Core.DoublePropertyReflection.html",
+          "hash": "qrn37o94i2SLGTh3ltdH7A=="
         }
       },
       "is_incremental": false,
@@ -125,35 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.ColorInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.FloatPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.ColorInterpolator.html",
-          "hash": "UpNylmEipSmJMUC2BIoPKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.DoubleInterpolator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.DoubleInterpolator.html",
-          "hash": "Bu46IZgYLDQSzjMxDjEIgg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.FloatInterpolator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.FloatInterpolator.html",
-          "hash": "4DC7OfiIuQWtoqIW/FTsAw=="
+          "relative_path": "api/UnityExt.Core.FloatPropertyReflection.html",
+          "hash": "dIOuH7XFkNMLlDDiyCkTNg=="
         }
       },
       "is_incremental": false,
@@ -165,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IAsyncUpdateable.html",
-          "hash": "HOZ+P/6g3NR65YZunUlKRg=="
+          "hash": "rjFYx+AhUs7gPXoMqHSfuQ=="
         }
       },
       "is_incremental": false,
@@ -177,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IFixedUpdateable.html",
-          "hash": "CHpFwr1pZuLpukFtv/Xvug=="
+          "hash": "qyc4/9C1pm1ra6ROPdbi8A=="
         }
       },
       "is_incremental": false,
@@ -189,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IJobComponent.html",
-          "hash": "pvFdMOgPz2VHTPhBeDDU0w=="
+          "hash": "48E/oFEbzgsWvuMExhqoEA=="
         }
       },
       "is_incremental": false,
@@ -201,7 +177,103 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.ILateUpdateable.html",
-          "hash": "7/YENMffOuslM9jEFEF86w=="
+          "hash": "rCPYSCC1nnTy59LlkfqliQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.Base64Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.Base64Serializer.html",
+          "hash": "f3X9PclESArVCIUNBkjaOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.BinarySerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.BinarySerializer.html",
+          "hash": "UK+layXHmU6t1XhAfpC85A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.JSONSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.JSONSerializer.html",
+          "hash": "V7uHUu5wA4ueSeiBDjbG+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.ObjectStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.ObjectStream.html",
+          "hash": "hBYU11OfyMC7ALgqHud4LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.Serializer.html",
+          "hash": "2FC9VhWJofXsv9W0PkrdoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.SerializerAttrib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.SerializerAttrib.html",
+          "hash": "GEgsk/r6au3IY1VOgsvcxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.SerializerMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.SerializerMode.html",
+          "hash": "pGCTYdX6MFRzJqrEyDdSQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.IO.html",
+          "hash": "JBrQdXpA0e8AQR4WNXdQug=="
         }
       },
       "is_incremental": false,
@@ -213,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IProgressProvider.html",
-          "hash": "Cflzy+xSOYoRusuRMWV3VA=="
+          "hash": "Pts+dCmcVWYxuRqS+dKLeQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IStatusProvider-1.html",
-          "hash": "3n/RB/+exEt8ZU/x5NZ/+A=="
+          "hash": "fnOdSoIJqmhkQij9xzSPcw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IStatusProvider.html",
-          "hash": "G089QPW4ZtzJ2HBuoEeHzQ=="
+          "hash": "2UkcGf9t2M5JY6mv3QCzvQ=="
         }
       },
       "is_incremental": false,
@@ -249,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IThreadUpdateable.html",
-          "hash": "F4J0vtxfZjINeWMmkOurFQ=="
+          "hash": "W37vB9yj2tv0KJ0Q1Q/RaQ=="
         }
       },
       "is_incremental": false,
@@ -261,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.IUpdateable.html",
-          "hash": "3wT7DMUEDZUdnr8Rc+L2xg=="
+          "hash": "ULYmRnBWkwFpQTx30PesTg=="
         }
       },
       "is_incremental": false,
@@ -269,11 +341,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.IntInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.IntPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.IntInterpolator.html",
-          "hash": "2Nnhz1+loxfaYsS/5Aw0Fw=="
+          "relative_path": "api/UnityExt.Core.IntPropertyReflection.html",
+          "hash": "eiGC7abPDqwAhHskfyCF4Q=="
         }
       },
       "is_incremental": false,
@@ -281,11 +353,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Interpolator-1.yml",
+      "source_relative_path": "api/UnityExt.Core.LongPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Interpolator-1.html",
-          "hash": "vRvcJ7stW+hyX2RsMhehGw=="
+          "relative_path": "api/UnityExt.Core.LongPropertyReflection.html",
+          "hash": "3kYtBG0i4Mg+HCGVy/UQtQ=="
         }
       },
       "is_incremental": false,
@@ -293,11 +365,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Interpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.AnimationWrapMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Interpolator.html",
-          "hash": "WdA8xNx1mV5Q1Gt+YgV0dA=="
+          "relative_path": "api/UnityExt.Core.Motion.AnimationWrapMode.html",
+          "hash": "h2cJhnIO6sd/JiOdONXPUg=="
         }
       },
       "is_incremental": false,
@@ -305,11 +377,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.LongInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.ByteInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.LongInterpolator.html",
-          "hash": "Y2j+JO3fa/fVaqWMqX53oQ=="
+          "relative_path": "api/UnityExt.Core.Motion.ByteInterpolator.html",
+          "hash": "V8SKZr2EXxPsGH66AfRFvg=="
         }
       },
       "is_incremental": false,
@@ -317,11 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.QuaternionInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.ColorInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.QuaternionInterpolator.html",
-          "hash": "VvOHBUWaGsMwFpkzcU9VRg=="
+          "relative_path": "api/UnityExt.Core.Motion.ColorInterpolator.html",
+          "hash": "zbdtFLjhu+lHEl+4QwXnJg=="
         }
       },
       "is_incremental": false,
@@ -329,11 +401,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.RangeIntInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.DoubleInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.RangeIntInterpolator.html",
-          "hash": "usHarayD8EuvZBWxl1l5tA=="
+          "relative_path": "api/UnityExt.Core.Motion.DoubleInterpolator.html",
+          "hash": "gKmrxH1flkzP4fhRoPes0A=="
         }
       },
       "is_incremental": false,
@@ -341,11 +413,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Ray2DInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.FloatInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Ray2DInterpolator.html",
-          "hash": "p0qwob8TAIV085qLVrAwvw=="
+          "relative_path": "api/UnityExt.Core.Motion.FloatInterpolator.html",
+          "hash": "F4s5UBIOT11iK+CcFbhIEw=="
         }
       },
       "is_incremental": false,
@@ -353,11 +425,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.RayInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.IInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.RayInterpolator.html",
-          "hash": "iOta94erVmRW9ZTOJtoDiA=="
+          "relative_path": "api/UnityExt.Core.Motion.IInterpolator.html",
+          "hash": "yedEM9hVqujgLOAkfrWZPA=="
         }
       },
       "is_incremental": false,
@@ -365,11 +437,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.RectInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.IntInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.RectInterpolator.html",
-          "hash": "EiFQcoEcY8ByzyTuYZP6nQ=="
+          "relative_path": "api/UnityExt.Core.Motion.IntInterpolator.html",
+          "hash": "YVljOZJ5DkJeh6N80PmbVQ=="
         }
       },
       "is_incremental": false,
@@ -377,11 +449,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.SByteInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.LongInterpolator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.SByteInterpolator.html",
-          "hash": "knSxLuxFC34gtc6b2z+QJw=="
+          "relative_path": "api/UnityExt.Core.Motion.LongInterpolator.html",
+          "hash": "1xOxl51WnZBmgCrAxRSObw=="
         }
       },
       "is_incremental": false,
@@ -389,11 +461,503 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.ShortInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Motion.PropertyInterpolator-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.ShortInterpolator.html",
-          "hash": "niB+K+cZkBPyAZeexuV8tw=="
+          "relative_path": "api/UnityExt.Core.Motion.PropertyInterpolator-1.html",
+          "hash": "U5otXjmfyeXTYMnUFRXb3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.PropertyInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.PropertyInterpolator.html",
+          "hash": "GeM04F5sYAtOP3ugx4EREQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.QuaternionInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.QuaternionInterpolator.html",
+          "hash": "bde8LYCl0PK1ad2iPy3lnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.RectInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.RectInterpolator.html",
+          "hash": "txGUvUcha0kAXfdTrWBa3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.SByteInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.SByteInterpolator.html",
+          "hash": "hOf3f0Fv7lxXfkRs0de1hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.ShortInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.ShortInterpolator.html",
+          "hash": "OtxYhEXcq7z1C4CBJI1J2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween-1.html",
+          "hash": "CpjPdSX/+s9E/hu5IXqTVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.Cubic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.Cubic.html",
+          "hash": "wL+rNQpI6dOcaBMvnhB8rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.Elastic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.Elastic.html",
+          "hash": "otvPdjAISluGc+DpXDpuGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.Quad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.Quad.html",
+          "hash": "MAA0LIcHM81ikjgyp25Hkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.Quartic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.Quartic.html",
+          "hash": "XNHPQ82IvZd78s2beyqHoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.Quintic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.Quintic.html",
+          "hash": "pc2LbeiMmsLMKfxhjectDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Tween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Tween.html",
+          "hash": "jGt5C+9bKXTUeUNfM6ijfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.UIntInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.UIntInterpolator.html",
+          "hash": "R7t7vZUjzo7y+vwC/3JqHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.ULongInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.ULongInterpolator.html",
+          "hash": "kJvNUIZHKvydyu6oNXup1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.UShortInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.UShortInterpolator.html",
+          "hash": "Dg03i47Mc230NFYWj8U8GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.ValueTypeInterpolator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.ValueTypeInterpolator-1.html",
+          "hash": "o8ZsmgRwauc3kVmasgbx/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Vector2IntInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Vector2IntInterpolator.html",
+          "hash": "h184ZfY2QeMyN5J0ezSjtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Vector2Interpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Vector2Interpolator.html",
+          "hash": "F5DBFQ5yuLtBSaM6KqWCLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Vector3IntInterpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Vector3IntInterpolator.html",
+          "hash": "03NllQPTsx3Qj3rINK5TrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Vector3Interpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Vector3Interpolator.html",
+          "hash": "uSoW/wvqUXFVJlkloChUaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.Vector4Interpolator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.Vector4Interpolator.html",
+          "hash": "fiTDvppFktPEZ0+mWfSbCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Motion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Motion.html",
+          "hash": "kak9nFh0WiOBUr9WKn75WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.DownloadHandlerStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.DownloadHandlerStream.html",
+          "hash": "nwFWkCyjMXpAYvYkrwbvZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.HttpBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.HttpBody.html",
+          "hash": "72q4TaHHR8JNIkhYAzo6GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.HttpHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.HttpHeader.html",
+          "hash": "I+4mvbNUFsF1LyQQT9/yHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.HttpMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.HttpMethod.html",
+          "hash": "MU976QYgBdnVrHzhU6Zx+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.HttpQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.HttpQuery.html",
+          "hash": "hZ58jBy6bxorOhDzXqeG/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.HttpRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.HttpRequest.html",
+          "hash": "b41UvuBdeoJbTY1WI+QzwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.UploadHandlerStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.UploadHandlerStream.html",
+          "hash": "hmC+NITeQ4v5lfqJwyDL7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.WebCacheEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.WebCacheEntry.html",
+          "hash": "vQAiN82mn8lexaBU8k+Zgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.WebRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.WebRequest.html",
+          "hash": "cda33lz1LXhsijpVa/Paaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.WebRequestAttrib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.WebRequestAttrib.html",
+          "hash": "nFSGnygO0dR08w/jvjC48A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.WebRequestCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.WebRequestCache.html",
+          "hash": "2RJP7J8NatBmQ5HqHj+XUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.WebRequestState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.WebRequestState.html",
+          "hash": "/otR9aAkok6+Bz9fdsdwgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.Net.html",
+          "hash": "xBGEUX0WrNa2upp3Fyx0gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.PropertyReflection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.PropertyReflection-1.html",
+          "hash": "DlCToWTwtJfe2af7wLiiXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.PropertyReflectionAttribs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.PropertyReflectionAttribs.html",
+          "hash": "iwJLmJ1Ko8jrCkBzCLTaiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.QuaternionPropertyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.QuaternionPropertyReflection.html",
+          "hash": "T9PoS4959tK5JmWcsI1wAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.RectPropertyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.RectPropertyReflection.html",
+          "hash": "xM1D6kpBKTLfHLREWgrofw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.SBytePropertyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.SBytePropertyReflection.html",
+          "hash": "9zvnpgvPkzacsUA88KfMIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Core.ShortPropertyReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Core.ShortPropertyReflection.html",
+          "hash": "MYuiTA3Z5eLxBhg4UuWM0A=="
         }
       },
       "is_incremental": false,
@@ -405,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.StatusType.html",
-          "hash": "H4/WH5x0oR+oSvKkfXp2oA=="
+          "hash": "9k1bmj03g6BelvXe8bIr0A=="
         }
       },
       "is_incremental": false,
@@ -417,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.Timer.html",
-          "hash": "Bmx2UL+vh+BlIkHLLC3tEA=="
+          "hash": "3iOnqy3FPrMFIdrFDXtS9w=="
         }
       },
       "is_incremental": false,
@@ -429,91 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.TimerType.html",
-          "hash": "MF0Iewttov0555htiZGCdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween-1.html",
-          "hash": "TLUQnaVQXcgrOrr1LMJ2/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.Cubic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.Cubic.html",
-          "hash": "v7ZBe3a55fayi1g9XaWLqA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.Elastic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.Elastic.html",
-          "hash": "fzl+AiO0tErUE4RZ/MaB+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.Quad.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.Quad.html",
-          "hash": "BcNvQKYQIGyccm9leAJJiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.Quartic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.Quartic.html",
-          "hash": "22gBKKYupxynhC+KGskHjA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.Quintic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.Quintic.html",
-          "hash": "JcFEyu2WNd1JUSKV0Dk9eg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Tween.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Tween.html",
-          "hash": "yYSCfjFe5oWUxDUcAuWI6Q=="
+          "hash": "92G/G9L8KzWCsQnMANnJ8g=="
         }
       },
       "is_incremental": false,
@@ -525,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.UI.SystemProfileMetricFlag.html",
-          "hash": "vBinydL+8ykc9g/GKSPhcQ=="
+          "hash": "dNDqPksx1TPh65Qw4imO7g=="
         }
       },
       "is_incremental": false,
@@ -537,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.UI.UISystemProfiler.html",
-          "hash": "Rjc1bnUPHed09kg9o9xj9g=="
+          "hash": "3By/eyzAgH/rLpsm9VfBng=="
         }
       },
       "is_incremental": false,
@@ -549,7 +1029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.UI.html",
-          "hash": "xAm7cSxe7PqQEh7WoT45mg=="
+          "hash": "fy/mniBPKExVSHOLnLA1FQ=="
         }
       },
       "is_incremental": false,
@@ -561,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.UIMicroProfiler.html",
-          "hash": "5drxBQPpbcyqPmk5Lix1Yw=="
+          "hash": "E4QKMpVXGwPi2fIrGuGetg=="
         }
       },
       "is_incremental": false,
@@ -569,11 +1049,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.UIntInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.UIntPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.UIntInterpolator.html",
-          "hash": "2dfUgusH39uHB7Q+Tdyjgg=="
+          "relative_path": "api/UnityExt.Core.UIntPropertyReflection.html",
+          "hash": "c/GX+AAL6KOgWj4Vwyu0cw=="
         }
       },
       "is_incremental": false,
@@ -581,11 +1061,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.ULongInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.ULongPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.ULongInterpolator.html",
-          "hash": "Dg/XMYpfO6fBhapr2v78WA=="
+          "relative_path": "api/UnityExt.Core.ULongPropertyReflection.html",
+          "hash": "BFPrTbJMT1qEXL3hIexRnQ=="
         }
       },
       "is_incremental": false,
@@ -593,11 +1073,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.UShortInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.UShortPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.UShortInterpolator.html",
-          "hash": "0O1JkGxp0jukPh1JP8ZRzQ=="
+          "relative_path": "api/UnityExt.Core.UShortPropertyReflection.html",
+          "hash": "S1rqfiSqsYxG02sgQpSQ0g=="
         }
       },
       "is_incremental": false,
@@ -605,11 +1085,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.UnityVectorInterpolator-1.yml",
+      "source_relative_path": "api/UnityExt.Core.Vector2IntPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.UnityVectorInterpolator-1.html",
-          "hash": "0OdoVdGEpCcRxfS8LcNrYg=="
+          "relative_path": "api/UnityExt.Core.Vector2IntPropertyReflection.html",
+          "hash": "jqI6Az++jR97nl19Gt1EBg=="
         }
       },
       "is_incremental": false,
@@ -617,11 +1097,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Vector2IntInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Vector2PropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Vector2IntInterpolator.html",
-          "hash": "62xxm43QzKBze+GJzcECSg=="
+          "relative_path": "api/UnityExt.Core.Vector2PropertyReflection.html",
+          "hash": "6vs8KYO4KKTRyQq2XO311A=="
         }
       },
       "is_incremental": false,
@@ -629,11 +1109,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Vector2Interpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Vector3IntPropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Vector2Interpolator.html",
-          "hash": "0pInVGWMInqyAyG4ksBCHQ=="
+          "relative_path": "api/UnityExt.Core.Vector3IntPropertyReflection.html",
+          "hash": "AvuWQAHY824lxzVbzoW+Qg=="
         }
       },
       "is_incremental": false,
@@ -641,11 +1121,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Vector3IntInterpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Vector3PropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Vector3IntInterpolator.html",
-          "hash": "ND0wszCdFXI7Fv9igxmP6A=="
+          "relative_path": "api/UnityExt.Core.Vector3PropertyReflection.html",
+          "hash": "pcw25Y1gCKBm1GKw+eZp/w=="
         }
       },
       "is_incremental": false,
@@ -653,35 +1133,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Vector3Interpolator.yml",
+      "source_relative_path": "api/UnityExt.Core.Vector4PropertyReflection.yml",
       "output": {
         ".html": {
-          "relative_path": "api/UnityExt.Core.Vector3Interpolator.html",
-          "hash": "Fre2ecITuCHwPCfNjl1ZhA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.Vector4Interpolator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.Vector4Interpolator.html",
-          "hash": "caU3uAoraZPJsJw+GOwljA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UnityExt.Core.VectorInterpolatorMask.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UnityExt.Core.VectorInterpolatorMask.html",
-          "hash": "tAt8+f8M7JWx5MsieOCNGw=="
+          "relative_path": "api/UnityExt.Core.Vector4PropertyReflection.html",
+          "hash": "Cu6T7ehAbRk2IwdCED5/6Q=="
         }
       },
       "is_incremental": false,
@@ -693,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Core.html",
-          "hash": "5KkkHQ7wunrbGEMwK7cs3Q=="
+          "hash": "VC2QCDD/uA/ekXLoUpRzqw=="
         }
       },
       "is_incremental": false,
@@ -705,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.DocumentationTools.html",
-          "hash": "82hVwuVSCe8okj4EOd82Gg=="
+          "hash": "ofkwktDuskzZ7jDOVlWFMg=="
         }
       },
       "is_incremental": false,
@@ -717,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.CaseTypeFlag.html",
-          "hash": "6r3NNL1nIU4nl5vfxFHXZQ=="
+          "hash": "FXCjHXRWp9A5oanmLGCwyA=="
         }
       },
       "is_incremental": false,
@@ -729,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.JobRotator.html",
-          "hash": "ni1kh011bPhO8ZNz9wHlhg=="
+          "hash": "wAm59z/uW6x2RMGN+GgS+A=="
         }
       },
       "is_incremental": false,
@@ -741,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.MonoRotator.html",
-          "hash": "iARaFn6KJEp0OkGaksiXiQ=="
+          "hash": "wpNZ9Fbp2nMLF6715wklxg=="
         }
       },
       "is_incremental": false,
@@ -753,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.RandomSumJob.html",
-          "hash": "tBzjX7L6LKDm8yEy2x1bAA=="
+          "hash": "PowTIDBNPFYYt7Evht/Seg=="
         }
       },
       "is_incremental": false,
@@ -765,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.Rotator.Job.html",
-          "hash": "T/jzSnGgwF+siSNZCZnUOA=="
+          "hash": "a3ldESZR72C53O9A0qkBzA=="
         }
       },
       "is_incremental": false,
@@ -777,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.Rotator.html",
-          "hash": "izAPPsbBBtWoTEkDXIA1cw=="
+          "hash": "znhr53Rz7rDMzq0f3eOmvQ=="
         }
       },
       "is_incremental": false,
@@ -789,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.ThreadRotator.html",
-          "hash": "iK5orlTrqu1ttgoZY+dI/Q=="
+          "hash": "2vXieOx6vTfy3c4Vy15w3w=="
         }
       },
       "is_incremental": false,
@@ -801,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.ExamplesApp.html",
-          "hash": "q1v5wZfHQxBUtXNQ9506pw=="
+          "hash": "vKcGMVrRAlN6GSV9R3CowA=="
         }
       },
       "is_incremental": false,
@@ -813,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Project.html",
-          "hash": "w7f89Kp/NMORvClkYDNWVQ=="
+          "hash": "4H6nNjdGJMGYjaEHDdFO3g=="
         }
       },
       "is_incremental": false,
@@ -825,7 +1281,31 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Sys.BitStream.html",
-          "hash": "wpcSFid1n/pNfHFHPRYagw=="
+          "hash": "LkipRwK9XL/5mHjJJRs63Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Sys.VBDStream-1.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Sys.VBDStream-1.Block.html",
+          "hash": "9+zoL5ASt5+zuYdPRbtQFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityExt.Sys.VBDStream-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityExt.Sys.VBDStream-1.html",
+          "hash": "Tb9fkl9EyTtv0r1x9xE8bw=="
         }
       },
       "is_incremental": false,
@@ -837,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UnityExt.Sys.html",
-          "hash": "uf5YN3E0oPIaUVNTxQSUcw=="
+          "hash": "/4x4JSMF7lQsVubeHrJ3aA=="
         }
       },
       "is_incremental": false,
@@ -849,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "cdmqRnGh/hjpsoHYgL0PoA=="
+          "hash": "oQJy+zHDvjXbSagIDGgRdw=="
         }
       },
       "is_incremental": false,
@@ -861,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "CL9oP/sfLHCnRtZBxAu53g=="
+          "hash": "e4BokBaU1sQ4NyCqTAR9tQ=="
         }
       },
       "is_incremental": false,
@@ -873,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "0CbTu1fiKdzAQsDYx9SoiA=="
+          "hash": "KyoIn3QALOelR/sSslA1Vw=="
         }
       },
       "is_incremental": false,
@@ -897,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "YHBMztWVUqRn6WX5fv5RBQ=="
+          "hash": "zsp6CaStJonDdvHUhKiTwg=="
         }
       },
       "is_incremental": false,
@@ -936,7 +1416,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 70,
+          "total_file_count": 110,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

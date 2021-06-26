@@ -81,7 +81,7 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
     <div class="level2"><span class="xref">Timer</span></div>
-      <div class="level3"><a class="xref" href="UnityExt.Core.Tween.html">Tween</a></div>
+      <div class="level3"><a class="xref" href="UnityExt.Core.Motion.Tween.html">Tween</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -238,7 +238,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer__ctor_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.%23ctor(System.Single%2CSystem.Int32%2CUnityExt.Core.TimerType%2CUnityExt.Core.ActivityContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L519">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L662">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer__ctor_" data-uid="UnityExt.Core.Timer.#ctor*"></a>
   <h4 id="UnityExt_Core_Timer__ctor_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_" data-uid="UnityExt.Core.Timer.#ctor(System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)">Timer(Single, Int32, TimerType, ActivityContext)</h4>
@@ -290,7 +290,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer__ctor_System_String_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.%23ctor(System.String%2CSystem.Single%2CSystem.Int32%2CUnityExt.Core.TimerType%2CUnityExt.Core.ActivityContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L510">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L653">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer__ctor_" data-uid="UnityExt.Core.Timer.#ctor*"></a>
   <h4 id="UnityExt_Core_Timer__ctor_System_String_System_Single_System_Int32_UnityExt_Core_TimerType_UnityExt_Core_ActivityContext_" data-uid="UnityExt.Core.Timer.#ctor(System.String,System.Single,System.Int32,UnityExt.Core.TimerType,UnityExt.Core.ActivityContext)">Timer(String, Single, Int32, TimerType, ActivityContext)</h4>
@@ -348,7 +348,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer__ctor_System_String_UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.%23ctor(System.String%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L525">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L668">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer__ctor_" data-uid="UnityExt.Core.Timer.#ctor*"></a>
   <h4 id="UnityExt_Core_Timer__ctor_System_String_UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.#ctor(System.String,UnityExt.Core.TimerType)">Timer(String, TimerType)</h4>
@@ -357,7 +357,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Timer(string p_id, TimerType p_mode = TimerType.System)</code></pre>
+    <pre><code class="lang-csharp hljs">public Timer(string p_id, TimerType p_type = TimerType.System)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -377,7 +377,7 @@
       </tr>
       <tr>
         <td><a class="xref" href="UnityExt.Core.TimerType.html">TimerType</a></td>
-        <td><span class="parametername">p_mode</span></td>
+        <td><span class="parametername">p_type</span></td>
         <td><p>Clock time tracking mode.</p>
 </td>
       </tr>
@@ -388,7 +388,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer__ctor_UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.%23ctor(UnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L530">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L673">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer__ctor_" data-uid="UnityExt.Core.Timer.#ctor*"></a>
   <h4 id="UnityExt_Core_Timer__ctor_UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.#ctor(UnityExt.Core.TimerType)">Timer(TimerType)</h4>
@@ -421,18 +421,48 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_atomicClockPath.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.atomicClockPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_AtomicClockfile.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.AtomicClockfile%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L62">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_Timer_AtomicClockfile" data-uid="UnityExt.Core.Timer.AtomicClockfile">AtomicClockfile</h4>
+  <div class="markdown level1 summary"><p>Default atomic clock file name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AtomicClockfile</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_AtomicClockRoot.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.AtomicClockRoot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L57">View Source</a>
   </span>
-  <h4 id="UnityExt_Core_Timer_atomicClockPath" data-uid="UnityExt.Core.Timer.atomicClockPath">atomicClockPath</h4>
+  <h4 id="UnityExt_Core_Timer_AtomicClockRoot" data-uid="UnityExt.Core.Timer.AtomicClockRoot">AtomicClockRoot</h4>
   <div class="markdown level1 summary"><p>Path to be used on the creation of an atomic timer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string atomicClockPath</code></pre>
+    <pre><code class="lang-csharp hljs">public static string AtomicClockRoot</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -454,7 +484,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_m_on_step_event.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.m_on_step_event%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L464">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L607">View Source</a>
   </span>
   <h4 id="UnityExt_Core_Timer_m_on_step_event" data-uid="UnityExt.Core.Timer.m_on_step_event">m_on_step_event</h4>
   <div class="markdown level1 summary"></div>
@@ -482,19 +512,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_atomicClockFolder.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.atomicClockFolder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_AtomicClockPath.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.AtomicClockPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L62">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L67">View Source</a>
   </span>
-  <a id="UnityExt_Core_Timer_atomicClockFolder_" data-uid="UnityExt.Core.Timer.atomicClockFolder*"></a>
-  <h4 id="UnityExt_Core_Timer_atomicClockFolder" data-uid="UnityExt.Core.Timer.atomicClockFolder">atomicClockFolder</h4>
+  <a id="UnityExt_Core_Timer_AtomicClockPath_" data-uid="UnityExt.Core.Timer.AtomicClockPath*"></a>
+  <h4 id="UnityExt_Core_Timer_AtomicClockPath" data-uid="UnityExt.Core.Timer.AtomicClockPath">AtomicClockPath</h4>
   <div class="markdown level1 summary"><p>Returns the folder where the atomic clock references are stored.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string atomicClockFolder { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static string AtomicClockPath { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -516,7 +546,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_count.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L401">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L544">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_count_" data-uid="UnityExt.Core.Timer.count*"></a>
   <h4 id="UnityExt_Core_Timer_count" data-uid="UnityExt.Core.Timer.count">count</h4>
@@ -547,7 +577,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_delay.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.delay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L433">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L576">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_delay_" data-uid="UnityExt.Core.Timer.delay*"></a>
   <h4 id="UnityExt_Core_Timer_delay" data-uid="UnityExt.Core.Timer.delay">delay</h4>
@@ -578,7 +608,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_duration.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.duration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L428">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L571">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_duration_" data-uid="UnityExt.Core.Timer.duration*"></a>
   <h4 id="UnityExt_Core_Timer_duration" data-uid="UnityExt.Core.Timer.duration">duration</h4>
@@ -609,7 +639,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_elapsed.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.elapsed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L411">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L554">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_elapsed_" data-uid="UnityExt.Core.Timer.elapsed*"></a>
   <h4 id="UnityExt_Core_Timer_elapsed" data-uid="UnityExt.Core.Timer.elapsed">elapsed</h4>
@@ -640,7 +670,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_OnCompleteEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.OnCompleteEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L469">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L612">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_OnCompleteEvent_" data-uid="UnityExt.Core.Timer.OnCompleteEvent*"></a>
   <h4 id="UnityExt_Core_Timer_OnCompleteEvent" data-uid="UnityExt.Core.Timer.OnCompleteEvent">OnCompleteEvent</h4>
@@ -671,7 +701,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_OnExecuteEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.OnExecuteEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L477">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L620">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_OnExecuteEvent_" data-uid="UnityExt.Core.Timer.OnExecuteEvent*"></a>
   <h4 id="UnityExt_Core_Timer_OnExecuteEvent" data-uid="UnityExt.Core.Timer.OnExecuteEvent">OnExecuteEvent</h4>
@@ -702,7 +732,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_OnStepEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.OnStepEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L460">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L603">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_OnStepEvent_" data-uid="UnityExt.Core.Timer.OnStepEvent*"></a>
   <h4 id="UnityExt_Core_Timer_OnStepEvent" data-uid="UnityExt.Core.Timer.OnStepEvent">OnStepEvent</h4>
@@ -733,7 +763,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_paused.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.paused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L443">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L586">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_paused_" data-uid="UnityExt.Core.Timer.paused*"></a>
   <h4 id="UnityExt_Core_Timer_paused" data-uid="UnityExt.Core.Timer.paused">paused</h4>
@@ -764,7 +794,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_progress.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.progress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L448">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L591">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_progress_" data-uid="UnityExt.Core.Timer.progress*"></a>
   <h4 id="UnityExt_Core_Timer_progress" data-uid="UnityExt.Core.Timer.progress">progress</h4>
@@ -795,7 +825,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_step.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.step%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L406">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L549">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_step_" data-uid="UnityExt.Core.Timer.step*"></a>
   <h4 id="UnityExt_Core_Timer_step" data-uid="UnityExt.Core.Timer.step">step</h4>
@@ -826,7 +856,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_type.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L396">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L539">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_type_" data-uid="UnityExt.Core.Timer.type*"></a>
   <h4 id="UnityExt_Core_Timer_type" data-uid="UnityExt.Core.Timer.type">type</h4>
@@ -857,7 +887,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_unscaled.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.unscaled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L438">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L581">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_unscaled_" data-uid="UnityExt.Core.Timer.unscaled*"></a>
   <h4 id="UnityExt_Core_Timer_unscaled" data-uid="UnityExt.Core.Timer.unscaled">unscaled</h4>
@@ -890,7 +920,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_ClearAtomicTimestamp_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.ClearAtomicTimestamp(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L126">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L109">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_ClearAtomicTimestamp_" data-uid="UnityExt.Core.Timer.ClearAtomicTimestamp*"></a>
   <h4 id="UnityExt_Core_Timer_ClearAtomicTimestamp_System_String_" data-uid="UnityExt.Core.Timer.ClearAtomicTimestamp(System.String)">ClearAtomicTimestamp(String)</h4>
@@ -921,10 +951,116 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Delay_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Delay(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L314">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Delay_" data-uid="UnityExt.Core.Timer.Delay*"></a>
+  <h4 id="UnityExt_Core_Timer_Delay_System_Single_" data-uid="UnityExt.Core.Timer.Delay(System.Single)">Delay(Single)</h4>
+  <div class="markdown level1 summary"><p>Creates an executes a timer for 'await' scenarios.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Delay(float p_duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_duration</span></td>
+        <td><p>How much time to wait</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Executing Timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Delay_System_String_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Delay(System.String%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L307">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Delay_" data-uid="UnityExt.Core.Timer.Delay*"></a>
+  <h4 id="UnityExt_Core_Timer_Delay_System_String_System_Single_" data-uid="UnityExt.Core.Timer.Delay(System.String,System.Single)">Delay(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Creates an executes a timer for 'await' scenarios.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Delay(string p_id, float p_duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Id of the timer</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_duration</span></td>
+        <td><p>How much time to wait</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Executing Timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_GetAtomicClockElapsed_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.GetAtomicClockElapsed(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L146">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L128">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_GetAtomicClockElapsed_" data-uid="UnityExt.Core.Timer.GetAtomicClockElapsed*"></a>
   <h4 id="UnityExt_Core_Timer_GetAtomicClockElapsed_System_String_" data-uid="UnityExt.Core.Timer.GetAtomicClockElapsed(System.String)">GetAtomicClockElapsed(String)</h4>
@@ -974,7 +1110,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_GetAtomicTimestamp_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.GetAtomicTimestamp(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L105">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L82">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_GetAtomicTimestamp_" data-uid="UnityExt.Core.Timer.GetAtomicTimestamp*"></a>
   <h4 id="UnityExt_Core_Timer_GetAtomicTimestamp_System_String_" data-uid="UnityExt.Core.Timer.GetAtomicTimestamp(System.String)">GetAtomicTimestamp(String)</h4>
@@ -1024,7 +1160,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_GetClock.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.GetClock%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L628">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L771">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_GetClock_" data-uid="UnityExt.Core.Timer.GetClock*"></a>
   <h4 id="UnityExt_Core_Timer_GetClock" data-uid="UnityExt.Core.Timer.GetClock">GetClock()</h4>
@@ -1058,7 +1194,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_GetProgress.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.GetProgress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L782">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L925">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_GetProgress_" data-uid="UnityExt.Core.Timer.GetProgress*"></a>
   <h4 id="UnityExt_Core_Timer_GetProgress" data-uid="UnityExt.Core.Timer.GetProgress">GetProgress()</h4>
@@ -1089,10 +1225,442 @@ System = clock.EllapsedMilliseconds</p>
   <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress">Activity.GetProgress()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke_System_Single_System_Delegate_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke(System.Single%2CSystem.Delegate%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L236">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke_System_Single_System_Delegate_System_Object___" data-uid="UnityExt.Core.Timer.Invoke(System.Single,System.Delegate,System.Object[])">Invoke(Single, Delegate, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes the passed delegate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke(float p_delay, Delegate p_delegate, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">p_delegate</span></td>
+        <td><p>Delegate Function to be called</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Delegate arguments</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke_System_Single_System_Object_System_String_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke(System.Single%2CSystem.Object%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L195">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke_System_Single_System_Object_System_String_System_Object___" data-uid="UnityExt.Core.Timer.Invoke(System.Single,System.Object,System.String,System.Object[])">Invoke(Single, Object, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes by name the method of the given target using Reflection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke(float p_delay, object p_target, string p_method, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Object containing the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_method</span></td>
+        <td><p>Method name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Method args</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke_System_String_System_Single_System_Delegate_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke(System.String%2CSystem.Single%2CSystem.Delegate%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L224">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke_System_String_System_Single_System_Delegate_System_Object___" data-uid="UnityExt.Core.Timer.Invoke(System.String,System.Single,System.Delegate,System.Object[])">Invoke(String, Single, Delegate, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes the passed delegate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke(string p_id, float p_delay, Delegate p_delegate, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Timer Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">p_delegate</span></td>
+        <td><p>Delegate Function to be called</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Delegate arguments</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke_System_String_System_Single_System_Object_System_String_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke(System.String%2CSystem.Single%2CSystem.Object%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L177">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke_System_String_System_Single_System_Object_System_String_System_Object___" data-uid="UnityExt.Core.Timer.Invoke(System.String,System.Single,System.Object,System.String,System.Object[])">Invoke(String, Single, Object, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes by name the method of the given target using Reflection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke(string p_id, float p_delay, object p_target, string p_method, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Timer Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Object containing the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_method</span></td>
+        <td><p>Method name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Method args</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke__1_System_Single_System_String_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke%60%601(System.Single%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L214">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke__1_System_Single_System_String_System_Object___" data-uid="UnityExt.Core.Timer.Invoke``1(System.Single,System.String,System.Object[])">Invoke&lt;T&gt;(Single, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes by name the static method of the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke&lt;T&gt;(float p_delay, string p_method, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_method</span></td>
+        <td><p>Method name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Method args</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Invoke__1_System_String_System_Single_System_String_System_Object___.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Invoke%60%601(System.String%2CSystem.Single%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L205">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Invoke_" data-uid="UnityExt.Core.Timer.Invoke*"></a>
+  <h4 id="UnityExt_Core_Timer_Invoke__1_System_String_System_Single_System_String_System_Object___" data-uid="UnityExt.Core.Timer.Invoke``1(System.String,System.Single,System.String,System.Object[])">Invoke&lt;T&gt;(String, Single, String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Creates a Timer and Invokes by name the static method of the given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Invoke&lt;T&gt;(string p_id, float p_delay, string p_method, params object[] p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Timer Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before calling the method</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_method</span></td>
+        <td><p>Method name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">p_args</span></td>
+        <td><p>Method args</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Timer running the delay</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_OnEnable.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L659">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L802">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_OnEnable_" data-uid="UnityExt.Core.Timer.OnEnable*"></a>
   <h4 id="UnityExt_Core_Timer_OnEnable" data-uid="UnityExt.Core.Timer.OnEnable">OnEnable()</h4>
@@ -1110,7 +1678,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_OnExecute.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.OnExecute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L750">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L893">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_OnExecute_" data-uid="UnityExt.Core.Timer.OnExecute*"></a>
   <h4 id="UnityExt_Core_Timer_OnExecute" data-uid="UnityExt.Core.Timer.OnExecute">OnExecute()</h4>
@@ -1143,7 +1711,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Restart.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Restart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L587">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L730">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Restart_" data-uid="UnityExt.Core.Timer.Restart*"></a>
   <h4 id="UnityExt_Core_Timer_Restart" data-uid="UnityExt.Core.Timer.Restart">Restart()</h4>
@@ -1159,7 +1727,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_RestartStep.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.RestartStep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L607">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L750">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_RestartStep_" data-uid="UnityExt.Core.Timer.RestartStep*"></a>
   <h4 id="UnityExt_Core_Timer_RestartStep" data-uid="UnityExt.Core.Timer.RestartStep">RestartStep()</h4>
@@ -1175,7 +1743,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L267">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L410">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1231,7 +1799,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Single_System_Action_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Single%2CSystem.Action%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L289">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L432">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Single_System_Action_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Single,System.Action{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Single, Action&lt;Timer&gt;, TimerType)</h4>
@@ -1293,7 +1861,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L260">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L403">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1361,7 +1929,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L251">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L394">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1423,7 +1991,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Single%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L234">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L377">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Single,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Single, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1497,7 +2065,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.Single%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L243">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L386">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.Single,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(Single, Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1565,7 +2133,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L224">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L367">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1627,7 +2195,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Single_System_Action_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Single%2CSystem.Action%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L281">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L424">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Single_System_Action_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Single,System.Action{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Single, Action&lt;Timer&gt;, TimerType)</h4>
@@ -1695,7 +2263,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L216">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L359">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1769,7 +2337,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L206">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L349">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1837,7 +2405,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Single%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L187">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L330">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Single,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Single, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1917,7 +2485,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Run_System_String_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Run(System.String%2CSystem.Single%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L197">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L340">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Run_" data-uid="UnityExt.Core.Timer.Run*"></a>
   <h4 id="UnityExt_Core_Timer_Run_System_String_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Run(System.String,System.Single,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Run(String, Single, Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -1988,10 +2556,312 @@ System = clock.EllapsedMilliseconds</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Set_System_Single_System_Object_System_String_System_Object_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Set(System.Single%2CSystem.Object%2CSystem.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L276">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Set_" data-uid="UnityExt.Core.Timer.Set*"></a>
+  <h4 id="UnityExt_Core_Timer_Set_System_Single_System_Object_System_String_System_Object_" data-uid="UnityExt.Core.Timer.Set(System.Single,System.Object,System.String,System.Object)">Set(Single, Object, String, Object)</h4>
+  <div class="markdown level1 summary"><p>Creates a timer that set a given property of an object after the delay passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Set(float p_delay, object p_target, string p_property, object p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before changing the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Running timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Set_System_String_System_Single_System_Object_System_String_System_Object_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Set(System.String%2CSystem.Single%2CSystem.Object%2CSystem.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L250">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Set_" data-uid="UnityExt.Core.Timer.Set*"></a>
+  <h4 id="UnityExt_Core_Timer_Set_System_String_System_Single_System_Object_System_String_System_Object_" data-uid="UnityExt.Core.Timer.Set(System.String,System.Single,System.Object,System.String,System.Object)">Set(String, Single, Object, String, Object)</h4>
+  <div class="markdown level1 summary"><p>Creates a timer that set a given property of an object after the delay passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Set(string p_id, float p_delay, object p_target, string p_property, object p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Timer Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before changing the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Running timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Set__1_System_Single_System_String_System_Object_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Set%60%601(System.Single%2CSystem.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L295">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Set_" data-uid="UnityExt.Core.Timer.Set*"></a>
+  <h4 id="UnityExt_Core_Timer_Set__1_System_Single_System_String_System_Object_" data-uid="UnityExt.Core.Timer.Set``1(System.Single,System.String,System.Object)">Set&lt;T&gt;(Single, String, Object)</h4>
+  <div class="markdown level1 summary"><p>Creates a timer that set a given static property of a Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Set&lt;T&gt;(float p_delay, string p_property, object p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before changing the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Running timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Set__1_System_String_System_Single_System_String_System_Object_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Set%60%601(System.String%2CSystem.Single%2CSystem.String%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L286">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Timer_Set_" data-uid="UnityExt.Core.Timer.Set*"></a>
+  <h4 id="UnityExt_Core_Timer_Set__1_System_String_System_Single_System_String_System_Object_" data-uid="UnityExt.Core.Timer.Set``1(System.String,System.Single,System.String,System.Object)">Set&lt;T&gt;(String, Single, String, Object)</h4>
+  <div class="markdown level1 summary"><p>Creates a timer that set a given static property of a Type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Timer Set&lt;T&gt;(string p_id, float p_delay, string p_property, object p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Timer Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_delay</span></td>
+        <td><p>Delay before changing the property</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Property value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></td>
+        <td><p>Running timer</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Start.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L573">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L716">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Start_" data-uid="UnityExt.Core.Timer.Start*"></a>
   <h4 id="UnityExt_Core_Timer_Start" data-uid="UnityExt.Core.Timer.Start">Start()</h4>
@@ -2007,7 +2877,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Start_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Start(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L579">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L722">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Start_" data-uid="UnityExt.Core.Timer.Start*"></a>
   <h4 id="UnityExt_Core_Timer_Start_System_Single_" data-uid="UnityExt.Core.Timer.Start(System.Single)">Start(Single)</h4>
@@ -2041,7 +2911,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L385">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L528">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2097,7 +2967,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L378">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L521">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2165,7 +3035,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L369">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L512">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2227,7 +3097,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.Single%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L352">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L495">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.Single,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(Single, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2301,7 +3171,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.Single%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L361">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L504">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.Single,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(Single, Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2369,7 +3239,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_String_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.String%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L342">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L485">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_String_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.String,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(String, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2431,7 +3301,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_String_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.String%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L334">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L477">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_String_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.String,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(String, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2505,7 +3375,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_String_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.String%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L324">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L467">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_String_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.String,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(String, Single, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2573,7 +3443,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_String_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.String%2CSystem.Single%2CSystem.Single%2CSystem.Int32%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L305">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L448">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_String_System_Single_System_Single_System_Int32_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.String,System.Single,System.Single,System.Int32,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(String, Single, Single, Int32, Predicate&lt;Timer&gt;, TimerType)</h4>
@@ -2653,7 +3523,7 @@ System = clock.EllapsedMilliseconds</p>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Timer_Step_System_String_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Timer.Step(System.String%2CSystem.Single%2CSystem.Single%2CSystem.Predicate%7BUnityExt.Core.Timer%7D%2CUnityExt.Core.TimerType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L315">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Timer.cs/#L458">View Source</a>
   </span>
   <a id="UnityExt_Core_Timer_Step_" data-uid="UnityExt.Core.Timer.Step*"></a>
   <h4 id="UnityExt_Core_Timer_Step_System_String_System_Single_System_Single_System_Predicate_UnityExt_Core_Timer__UnityExt_Core_TimerType_" data-uid="UnityExt.Core.Timer.Step(System.String,System.Single,System.Single,System.Predicate{UnityExt.Core.Timer},UnityExt.Core.TimerType)">Step(String, Single, Single, Predicate&lt;Timer&gt;, TimerType)</h4>

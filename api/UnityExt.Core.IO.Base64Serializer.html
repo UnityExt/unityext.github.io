@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Base64Serializer
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Base64Serializer
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.IO.Base64Serializer">
+  
+  
+  <h1 id="UnityExt_Core_IO_Base64Serializer" data-uid="UnityExt.Core.IO.Base64Serializer" class="text-break">Class Base64Serializer
+  </h1>
+  <div class="markdown level0 summary"><p>Class that extends the base serializer to handle base64 read/write</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
+    <div class="level2"><a class="xref" href="UnityExt.Core.IO.Serializer.html">Serializer</a></div>
+    <div class="level3"><span class="xref">Base64Serializer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span></div>
+    <div><a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a></div>
+    <div><a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider</a>&lt;<a class="xref" href="UnityExt.Core.StatusType.html">StatusType</a>&gt;</div>
+    <div><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_mode">Serializer.mode</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_active">Serializer.active</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_OnCompleteEvent">Serializer.OnCompleteEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_GetResult__1">Serializer.GetResult&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_m_task_thread">Serializer.m_task_thread</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_m_output">Serializer.m_output</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, String, StringBuilder, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, String, Stream, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, String, String, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, StringBuilder, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, Stream, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.Serialize(Object, String, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_Text_StringBuilder_System_Action_">Serializer.Serialize(Object, StringBuilder, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_IO_Stream_System_Action_">Serializer.Serialize(Object, Stream, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_Action_">Serializer.Serialize(Object, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_Text_StringBuilder_System_Action_">Serializer.Serialize(Object, String, StringBuilder, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_IO_Stream_System_Action_">Serializer.Serialize(Object, String, Stream, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Serialize_System_Object_System_String_System_String_System_Action_">Serializer.Serialize(Object, String, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, String, StringBuilder, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, String, Stream, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, String, String, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, StringBuilder, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, Stream, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action_">Serializer.SerializeAsync(Object, String, SerializerAttrib, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_Text_StringBuilder_System_Action_">Serializer.SerializeAsync(Object, StringBuilder, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_IO_Stream_System_Action_">Serializer.SerializeAsync(Object, Stream, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_Action_">Serializer.SerializeAsync(Object, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_Text_StringBuilder_System_Action_">Serializer.SerializeAsync(Object, String, StringBuilder, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_IO_Stream_System_Action_">Serializer.SerializeAsync(Object, String, Stream, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_SerializeAsync_System_Object_System_String_System_String_System_Action_">Serializer.SerializeAsync(Object, String, String, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, StringBuilder, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, Stream, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, String, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(StringBuilder, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(Stream, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_Text_StringBuilder_System_Action___0__">Serializer.Deserialize&lt;T&gt;(StringBuilder, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_IO_Stream_System_Action___0__">Serializer.Deserialize&lt;T&gt;(Stream, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_Text_StringBuilder_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, StringBuilder, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_IO_Stream_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, Stream, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Deserialize__1_System_String_System_String_System_Action___0__">Serializer.Deserialize&lt;T&gt;(String, String, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, StringBuilder, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, Stream, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, String, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_Text_StringBuilder_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(StringBuilder, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(Stream, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_UnityExt_Core_IO_SerializerAttrib_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, SerializerAttrib, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_Text_StringBuilder_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(StringBuilder, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_IO_Stream_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(Stream, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_Text_StringBuilder_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, StringBuilder, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_IO_Stream_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, Stream, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_DeserializeAsync__1_System_String_System_String_System_Action___0__">Serializer.DeserializeAsync&lt;T&gt;(String, String, Action&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_Initialize">Serializer.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_InternalTask_UnityExt_Core_IO_SerializerMode_System_Boolean_UnityExt_Core_IO_SerializerAttrib_System_Object_System_String_System_Object_System_Delegate_">Serializer.InternalTask(SerializerMode, Boolean, SerializerAttrib, Object, String, Object, Delegate)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_OnExecute">Serializer.OnExecute()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_GetStream">Serializer.GetStream()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_PipeFile_System_String_UnityExt_Core_IO_SerializerAttrib_">Serializer.PipeFile(String, SerializerAttrib)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_PipeCompression_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_">Serializer.PipeCompression(Stream, SerializerAttrib)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_PipeEncryption_System_IO_Stream_System_String_">Serializer.PipeEncryption(Stream, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_PipeBase64Conversion_System_IO_Stream_UnityExt_Core_IO_SerializerAttrib_">Serializer.PipeBase64Conversion(Stream, SerializerAttrib)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_manager">Activity.manager</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_asyncTimeSlice">Activity.asyncTimeSlice</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_maxThreadCount">Activity.maxThreadCount</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Add_System_Object_">Activity.Add(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Remove_System_Object_">Activity.Remove(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Kill">Activity.Kill()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find__1_System_String_UnityExt_Core_ActivityContext_">Activity.Find&lt;T&gt;(String, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find__1_System_String_">Activity.Find&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_System_String_UnityExt_Core_ActivityContext_">Activity.FindAll&lt;T&gt;(String, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_UnityExt_Core_ActivityContext_">Activity.FindAll&lt;T&gt;(ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_System_String_">Activity.FindAll&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1">Activity.FindAll&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Predicate&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Predicate&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Action&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Action&lt;Activity&gt;, ActivityContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_id">Activity.id</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerMs">Activity.profilerMs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerUs">Activity.profilerUs</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerTimeStr">Activity.profilerTimeStr</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_state">Activity.state</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_completed">Activity.completed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_enabled">Activity.enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnEnable">Activity.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnDisable">Activity.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_complete_event">Activity.m_on_complete_event</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecuteEvent">Activity.OnExecuteEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_execute_event">Activity.m_on_execute_event</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Start">Activity.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnAdded">Activity.OnAdded()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnComplete">Activity.OnComplete()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_CanStart">Activity.CanStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetAwaiter">Activity.GetAwaiter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleted_System_Action_">Activity.OnCompleted(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetStatus">Activity.GetStatus()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress">Activity.GetProgress()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.IO.html">UnityExt.Core.IO</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_IO_Base64Serializer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Base64Serializer : Serializer, INotifyCompletion, IStatusProvider, IStatusProvider&lt;StatusType&gt;, IProgressProvider</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer_m_handler.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer.m_handler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L17">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_IO_Base64Serializer_m_handler" data-uid="UnityExt.Core.IO.Base64Serializer.m_handler">m_handler</h4>
+  <div class="markdown level1 summary"><p>Internals</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected IDisposable m_handler</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IDisposable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer_GetBaseStream.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer.GetBaseStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L19">View Source</a>
+  </span>
+  <a id="UnityExt_Core_IO_Base64Serializer_GetBaseStream_" data-uid="UnityExt.Core.IO.Base64Serializer.GetBaseStream*"></a>
+  <h4 id="UnityExt_Core_IO_Base64Serializer_GetBaseStream" data-uid="UnityExt.Core.IO.Base64Serializer.GetBaseStream">GetBaseStream()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Stream GetBaseStream()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_GetBaseStream">Serializer.GetBaseStream()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer_OnDeserialize.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer.OnDeserialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L88">View Source</a>
+  </span>
+  <a id="UnityExt_Core_IO_Base64Serializer_OnDeserialize_" data-uid="UnityExt.Core.IO.Base64Serializer.OnDeserialize*"></a>
+  <h4 id="UnityExt_Core_IO_Base64Serializer_OnDeserialize" data-uid="UnityExt.Core.IO.Base64Serializer.OnDeserialize">OnDeserialize()</h4>
+  <div class="markdown level1 summary"><p><inheritdoc></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool OnDeserialize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_OnDeserialize">Serializer.OnDeserialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer_OnInitialize.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer.OnInitialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L35">View Source</a>
+  </span>
+  <a id="UnityExt_Core_IO_Base64Serializer_OnInitialize_" data-uid="UnityExt.Core.IO.Base64Serializer.OnInitialize*"></a>
+  <h4 id="UnityExt_Core_IO_Base64Serializer_OnInitialize" data-uid="UnityExt.Core.IO.Base64Serializer.OnInitialize">OnInitialize()</h4>
+  <div class="markdown level1 summary"><p><inheritdoc></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitialize()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_OnInitialize">Serializer.OnInitialize()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer_OnSerialize.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer.OnSerialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L54">View Source</a>
+  </span>
+  <a id="UnityExt_Core_IO_Base64Serializer_OnSerialize_" data-uid="UnityExt.Core.IO.Base64Serializer.OnSerialize*"></a>
+  <h4 id="UnityExt_Core_IO_Base64Serializer_OnSerialize" data-uid="UnityExt.Core.IO.Base64Serializer.OnSerialize">OnSerialize()</h4>
+  <div class="markdown level1 summary"><p><inheritdoc></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool OnSerialize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.IO.Serializer.html#UnityExt_Core_IO_Serializer_OnSerialize">Serializer.OnSerialize()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_IO_Base64Serializer.md&amp;value=---%0Auid%3A%20UnityExt.Core.IO.Base64Serializer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Base64Serializer.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
