@@ -1251,6 +1251,711 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.BytePropertyReflection.SetMaterialValue
   nameWithType: BytePropertyReflection.SetMaterialValue
+- uid: UnityExt.Core.Colorf
+  name: Colorf
+  href: api/UnityExt.Core.Colorf.html
+  commentId: T:UnityExt.Core.Colorf
+  fullName: UnityExt.Core.Colorf
+  nameWithType: Colorf
+- uid: UnityExt.Core.Colorf.AddARGB(System.UInt32,System.UInt32)
+  name: AddARGB(UInt32, UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddARGB_System_UInt32_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.AddARGB(System.UInt32,System.UInt32)
+  fullName: UnityExt.Core.Colorf.AddARGB(System.UInt32, System.UInt32)
+  nameWithType: Colorf.AddARGB(UInt32, UInt32)
+- uid: UnityExt.Core.Colorf.AddARGB*
+  name: AddARGB
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddARGB_
+  commentId: Overload:UnityExt.Core.Colorf.AddARGB
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.AddARGB
+  nameWithType: Colorf.AddARGB
+- uid: UnityExt.Core.Colorf.AddRGB(System.UInt32,System.UInt32)
+  name: AddRGB(UInt32, UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddRGB_System_UInt32_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.AddRGB(System.UInt32,System.UInt32)
+  fullName: UnityExt.Core.Colorf.AddRGB(System.UInt32, System.UInt32)
+  nameWithType: Colorf.AddRGB(UInt32, UInt32)
+- uid: UnityExt.Core.Colorf.AddRGB*
+  name: AddRGB
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddRGB_
+  commentId: Overload:UnityExt.Core.Colorf.AddRGB
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.AddRGB
+  nameWithType: Colorf.AddRGB
+- uid: UnityExt.Core.Colorf.AddRGBA(System.UInt32,System.UInt32)
+  name: AddRGBA(UInt32, UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddRGBA_System_UInt32_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.AddRGBA(System.UInt32,System.UInt32)
+  fullName: UnityExt.Core.Colorf.AddRGBA(System.UInt32, System.UInt32)
+  nameWithType: Colorf.AddRGBA(UInt32, UInt32)
+- uid: UnityExt.Core.Colorf.AddRGBA*
+  name: AddRGBA
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_AddRGBA_
+  commentId: Overload:UnityExt.Core.Colorf.AddRGBA
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.AddRGBA
+  nameWithType: Colorf.AddRGBA
+- uid: UnityExt.Core.Colorf.alphaByte(UnityEngine.Color)
+  name: alphaByte(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_alphaByte_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.alphaByte(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.alphaByte(UnityEngine.Color)
+  nameWithType: Colorf.alphaByte(Color)
+- uid: UnityExt.Core.Colorf.alphaByte*
+  name: alphaByte
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_alphaByte_
+  commentId: Overload:UnityExt.Core.Colorf.alphaByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.alphaByte
+  nameWithType: Colorf.alphaByte
+- uid: UnityExt.Core.Colorf.argb(UnityEngine.Color)
+  name: argb(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_argb_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.argb(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.argb(UnityEngine.Color)
+  nameWithType: Colorf.argb(Color)
+- uid: UnityExt.Core.Colorf.argb*
+  name: argb
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_argb_
+  commentId: Overload:UnityExt.Core.Colorf.argb
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.argb
+  nameWithType: Colorf.argb
+- uid: UnityExt.Core.Colorf.argbBytes(UnityEngine.Color)
+  name: argbBytes(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_argbBytes_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.argbBytes(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.argbBytes(UnityEngine.Color)
+  nameWithType: Colorf.argbBytes(Color)
+- uid: UnityExt.Core.Colorf.argbBytes*
+  name: argbBytes
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_argbBytes_
+  commentId: Overload:UnityExt.Core.Colorf.argbBytes
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.argbBytes
+  nameWithType: Colorf.argbBytes
+- uid: UnityExt.Core.Colorf.ARGBToColor(System.Byte,System.Byte,System.Byte,System.Byte)
+  name: ARGBToColor(Byte, Byte, Byte, Byte)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ARGBToColor_System_Byte_System_Byte_System_Byte_System_Byte_
+  commentId: M:UnityExt.Core.Colorf.ARGBToColor(System.Byte,System.Byte,System.Byte,System.Byte)
+  fullName: UnityExt.Core.Colorf.ARGBToColor(System.Byte, System.Byte, System.Byte, System.Byte)
+  nameWithType: Colorf.ARGBToColor(Byte, Byte, Byte, Byte)
+- uid: UnityExt.Core.Colorf.ARGBToColor(System.UInt32)
+  name: ARGBToColor(UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ARGBToColor_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.ARGBToColor(System.UInt32)
+  fullName: UnityExt.Core.Colorf.ARGBToColor(System.UInt32)
+  nameWithType: Colorf.ARGBToColor(UInt32)
+- uid: UnityExt.Core.Colorf.ARGBToColor*
+  name: ARGBToColor
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ARGBToColor_
+  commentId: Overload:UnityExt.Core.Colorf.ARGBToColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ARGBToColor
+  nameWithType: Colorf.ARGBToColor
+- uid: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  name: BilinearScale(Color[], Int32, Int32, Int32, Int32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_BilinearScale_UnityEngine_Color___System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: BilinearScale(Color(), Int32, Int32, Int32, Int32)
+  fullName: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[], System.Int32, System.Int32, System.Int32, System.Int32)
+  fullName.vb: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color(), System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Colorf.BilinearScale(Color[], Int32, Int32, Int32, Int32)
+  nameWithType.vb: Colorf.BilinearScale(Color(), Int32, Int32, Int32, Int32)
+- uid: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32,System.Action{UnityEngine.Color[]})
+  name: BilinearScale(Color[], Int32, Int32, Int32, Int32, Action<Color[]>)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_BilinearScale_UnityEngine_Color___System_Int32_System_Int32_System_Int32_System_Int32_System_Action_UnityEngine_Color____
+  commentId: M:UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32,System.Action{UnityEngine.Color[]})
+  name.vb: BilinearScale(Color(), Int32, Int32, Int32, Int32, Action(Of Color()))
+  fullName: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color[], System.Int32, System.Int32, System.Int32, System.Int32, System.Action<UnityEngine.Color[]>)
+  fullName.vb: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Color(), System.Int32, System.Int32, System.Int32, System.Int32, System.Action(Of UnityEngine.Color()))
+  nameWithType: Colorf.BilinearScale(Color[], Int32, Int32, Int32, Int32, Action<Color[]>)
+  nameWithType.vb: Colorf.BilinearScale(Color(), Int32, Int32, Int32, Int32, Action(Of Color()))
+- uid: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D,System.Int32,System.Int32,System.Action{UnityEngine.Texture2D},System.Boolean)
+  name: BilinearScale(Texture2D, Int32, Int32, Action<Texture2D>, Boolean)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_BilinearScale_UnityEngine_Texture2D_System_Int32_System_Int32_System_Action_UnityEngine_Texture2D__System_Boolean_
+  commentId: M:UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D,System.Int32,System.Int32,System.Action{UnityEngine.Texture2D},System.Boolean)
+  name.vb: BilinearScale(Texture2D, Int32, Int32, Action(Of Texture2D), Boolean)
+  fullName: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D, System.Int32, System.Int32, System.Action<UnityEngine.Texture2D>, System.Boolean)
+  fullName.vb: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D, System.Int32, System.Int32, System.Action(Of UnityEngine.Texture2D), System.Boolean)
+  nameWithType: Colorf.BilinearScale(Texture2D, Int32, Int32, Action<Texture2D>, Boolean)
+  nameWithType.vb: Colorf.BilinearScale(Texture2D, Int32, Int32, Action(Of Texture2D), Boolean)
+- uid: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D,System.Int32,System.Int32,System.Boolean)
+  name: BilinearScale(Texture2D, Int32, Int32, Boolean)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_BilinearScale_UnityEngine_Texture2D_System_Int32_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D,System.Int32,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.Colorf.BilinearScale(UnityEngine.Texture2D, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Colorf.BilinearScale(Texture2D, Int32, Int32, Boolean)
+- uid: UnityExt.Core.Colorf.BilinearScale*
+  name: BilinearScale
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_BilinearScale_
+  commentId: Overload:UnityExt.Core.Colorf.BilinearScale
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.BilinearScale
+  nameWithType: Colorf.BilinearScale
+- uid: UnityExt.Core.Colorf.blue25
+  name: blue25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue25
+  commentId: P:UnityExt.Core.Colorf.blue25
+  fullName: UnityExt.Core.Colorf.blue25
+  nameWithType: Colorf.blue25
+- uid: UnityExt.Core.Colorf.blue25*
+  name: blue25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue25_
+  commentId: Overload:UnityExt.Core.Colorf.blue25
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.blue25
+  nameWithType: Colorf.blue25
+- uid: UnityExt.Core.Colorf.blue50
+  name: blue50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue50
+  commentId: P:UnityExt.Core.Colorf.blue50
+  fullName: UnityExt.Core.Colorf.blue50
+  nameWithType: Colorf.blue50
+- uid: UnityExt.Core.Colorf.blue50*
+  name: blue50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue50_
+  commentId: Overload:UnityExt.Core.Colorf.blue50
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.blue50
+  nameWithType: Colorf.blue50
+- uid: UnityExt.Core.Colorf.blue75
+  name: blue75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue75
+  commentId: P:UnityExt.Core.Colorf.blue75
+  fullName: UnityExt.Core.Colorf.blue75
+  nameWithType: Colorf.blue75
+- uid: UnityExt.Core.Colorf.blue75*
+  name: blue75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blue75_
+  commentId: Overload:UnityExt.Core.Colorf.blue75
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.blue75
+  nameWithType: Colorf.blue75
+- uid: UnityExt.Core.Colorf.blueByte(UnityEngine.Color)
+  name: blueByte(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blueByte_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.blueByte(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.blueByte(UnityEngine.Color)
+  nameWithType: Colorf.blueByte(Color)
+- uid: UnityExt.Core.Colorf.blueByte*
+  name: blueByte
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_blueByte_
+  commentId: Overload:UnityExt.Core.Colorf.blueByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.blueByte
+  nameWithType: Colorf.blueByte
+- uid: UnityExt.Core.Colorf.GetBias(UnityEngine.Color,UnityEngine.Color,System.Boolean)
+  name: GetBias(Color, Color, Boolean)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetBias_UnityEngine_Color_UnityEngine_Color_System_Boolean_
+  commentId: M:UnityExt.Core.Colorf.GetBias(UnityEngine.Color,UnityEngine.Color,System.Boolean)
+  fullName: UnityExt.Core.Colorf.GetBias(UnityEngine.Color, UnityEngine.Color, System.Boolean)
+  nameWithType: Colorf.GetBias(Color, Color, Boolean)
+- uid: UnityExt.Core.Colorf.GetBias*
+  name: GetBias
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetBias_
+  commentId: Overload:UnityExt.Core.Colorf.GetBias
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.GetBias
+  nameWithType: Colorf.GetBias
+- uid: UnityExt.Core.Colorf.GetColorIndex(UnityEngine.Color,System.Collections.Generic.IList{UnityEngine.Color},System.Single,System.Boolean)
+  name: GetColorIndex(Color, IList<Color>, Single, Boolean)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetColorIndex_UnityEngine_Color_System_Collections_Generic_IList_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:UnityExt.Core.Colorf.GetColorIndex(UnityEngine.Color,System.Collections.Generic.IList{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: GetColorIndex(Color, IList(Of Color), Single, Boolean)
+  fullName: UnityExt.Core.Colorf.GetColorIndex(UnityEngine.Color, System.Collections.Generic.IList<UnityEngine.Color>, System.Single, System.Boolean)
+  fullName.vb: UnityExt.Core.Colorf.GetColorIndex(UnityEngine.Color, System.Collections.Generic.IList(Of UnityEngine.Color), System.Single, System.Boolean)
+  nameWithType: Colorf.GetColorIndex(Color, IList<Color>, Single, Boolean)
+  nameWithType.vb: Colorf.GetColorIndex(Color, IList(Of Color), Single, Boolean)
+- uid: UnityExt.Core.Colorf.GetColorIndex*
+  name: GetColorIndex
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetColorIndex_
+  commentId: Overload:UnityExt.Core.Colorf.GetColorIndex
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.GetColorIndex
+  nameWithType: Colorf.GetColorIndex
+- uid: UnityExt.Core.Colorf.GetPixel(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  name: GetPixel(Color[], Int32, Int32, Int32, Int32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixel_UnityEngine_Color___System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UnityExt.Core.Colorf.GetPixel(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: GetPixel(Color(), Int32, Int32, Int32, Int32)
+  fullName: UnityExt.Core.Colorf.GetPixel(UnityEngine.Color[], System.Int32, System.Int32, System.Int32, System.Int32)
+  fullName.vb: UnityExt.Core.Colorf.GetPixel(UnityEngine.Color(), System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: Colorf.GetPixel(Color[], Int32, Int32, Int32, Int32)
+  nameWithType.vb: Colorf.GetPixel(Color(), Int32, Int32, Int32, Int32)
+- uid: UnityExt.Core.Colorf.GetPixel*
+  name: GetPixel
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixel_
+  commentId: Overload:UnityExt.Core.Colorf.GetPixel
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.GetPixel
+  nameWithType: Colorf.GetPixel
+- uid: UnityExt.Core.Colorf.GetPixelBilinear(UnityEngine.Color[],System.Int32,System.Int32,System.Single,System.Single)
+  name: GetPixelBilinear(Color[], Int32, Int32, Single, Single)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixelBilinear_UnityEngine_Color___System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:UnityExt.Core.Colorf.GetPixelBilinear(UnityEngine.Color[],System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: GetPixelBilinear(Color(), Int32, Int32, Single, Single)
+  fullName: UnityExt.Core.Colorf.GetPixelBilinear(UnityEngine.Color[], System.Int32, System.Int32, System.Single, System.Single)
+  fullName.vb: UnityExt.Core.Colorf.GetPixelBilinear(UnityEngine.Color(), System.Int32, System.Int32, System.Single, System.Single)
+  nameWithType: Colorf.GetPixelBilinear(Color[], Int32, Int32, Single, Single)
+  nameWithType.vb: Colorf.GetPixelBilinear(Color(), Int32, Int32, Single, Single)
+- uid: UnityExt.Core.Colorf.GetPixelBilinear*
+  name: GetPixelBilinear
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixelBilinear_
+  commentId: Overload:UnityExt.Core.Colorf.GetPixelBilinear
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.GetPixelBilinear
+  nameWithType: Colorf.GetPixelBilinear
+- uid: UnityExt.Core.Colorf.GetPixelNearest(UnityEngine.Color[],System.Int32,System.Int32,System.Single,System.Single)
+  name: GetPixelNearest(Color[], Int32, Int32, Single, Single)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixelNearest_UnityEngine_Color___System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:UnityExt.Core.Colorf.GetPixelNearest(UnityEngine.Color[],System.Int32,System.Int32,System.Single,System.Single)
+  name.vb: GetPixelNearest(Color(), Int32, Int32, Single, Single)
+  fullName: UnityExt.Core.Colorf.GetPixelNearest(UnityEngine.Color[], System.Int32, System.Int32, System.Single, System.Single)
+  fullName.vb: UnityExt.Core.Colorf.GetPixelNearest(UnityEngine.Color(), System.Int32, System.Int32, System.Single, System.Single)
+  nameWithType: Colorf.GetPixelNearest(Color[], Int32, Int32, Single, Single)
+  nameWithType.vb: Colorf.GetPixelNearest(Color(), Int32, Int32, Single, Single)
+- uid: UnityExt.Core.Colorf.GetPixelNearest*
+  name: GetPixelNearest
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_GetPixelNearest_
+  commentId: Overload:UnityExt.Core.Colorf.GetPixelNearest
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.GetPixelNearest
+  nameWithType: Colorf.GetPixelNearest
+- uid: UnityExt.Core.Colorf.Gradient(System.Single,System.UInt32[])
+  name: Gradient(Single, UInt32[])
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_Gradient_System_Single_System_UInt32___
+  commentId: M:UnityExt.Core.Colorf.Gradient(System.Single,System.UInt32[])
+  name.vb: Gradient(Single, UInt32())
+  fullName: UnityExt.Core.Colorf.Gradient(System.Single, System.UInt32[])
+  fullName.vb: UnityExt.Core.Colorf.Gradient(System.Single, System.UInt32())
+  nameWithType: Colorf.Gradient(Single, UInt32[])
+  nameWithType.vb: Colorf.Gradient(Single, UInt32())
+- uid: UnityExt.Core.Colorf.Gradient(System.Single,UnityEngine.Color[])
+  name: Gradient(Single, Color[])
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_Gradient_System_Single_UnityEngine_Color___
+  commentId: M:UnityExt.Core.Colorf.Gradient(System.Single,UnityEngine.Color[])
+  name.vb: Gradient(Single, Color())
+  fullName: UnityExt.Core.Colorf.Gradient(System.Single, UnityEngine.Color[])
+  fullName.vb: UnityExt.Core.Colorf.Gradient(System.Single, UnityEngine.Color())
+  nameWithType: Colorf.Gradient(Single, Color[])
+  nameWithType.vb: Colorf.Gradient(Single, Color())
+- uid: UnityExt.Core.Colorf.Gradient*
+  name: Gradient
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_Gradient_
+  commentId: Overload:UnityExt.Core.Colorf.Gradient
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.Gradient
+  nameWithType: Colorf.Gradient
+- uid: UnityExt.Core.Colorf.green25
+  name: green25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green25
+  commentId: P:UnityExt.Core.Colorf.green25
+  fullName: UnityExt.Core.Colorf.green25
+  nameWithType: Colorf.green25
+- uid: UnityExt.Core.Colorf.green25*
+  name: green25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green25_
+  commentId: Overload:UnityExt.Core.Colorf.green25
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.green25
+  nameWithType: Colorf.green25
+- uid: UnityExt.Core.Colorf.green50
+  name: green50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green50
+  commentId: P:UnityExt.Core.Colorf.green50
+  fullName: UnityExt.Core.Colorf.green50
+  nameWithType: Colorf.green50
+- uid: UnityExt.Core.Colorf.green50*
+  name: green50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green50_
+  commentId: Overload:UnityExt.Core.Colorf.green50
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.green50
+  nameWithType: Colorf.green50
+- uid: UnityExt.Core.Colorf.green75
+  name: green75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green75
+  commentId: P:UnityExt.Core.Colorf.green75
+  fullName: UnityExt.Core.Colorf.green75
+  nameWithType: Colorf.green75
+- uid: UnityExt.Core.Colorf.green75*
+  name: green75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_green75_
+  commentId: Overload:UnityExt.Core.Colorf.green75
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.green75
+  nameWithType: Colorf.green75
+- uid: UnityExt.Core.Colorf.greenByte(UnityEngine.Color)
+  name: greenByte(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_greenByte_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.greenByte(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.greenByte(UnityEngine.Color)
+  nameWithType: Colorf.greenByte(Color)
+- uid: UnityExt.Core.Colorf.greenByte*
+  name: greenByte
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_greenByte_
+  commentId: Overload:UnityExt.Core.Colorf.greenByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.greenByte
+  nameWithType: Colorf.greenByte
+- uid: UnityExt.Core.Colorf.ParseARGB(System.String)
+  name: ParseARGB(String)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseARGB_System_String_
+  commentId: M:UnityExt.Core.Colorf.ParseARGB(System.String)
+  fullName: UnityExt.Core.Colorf.ParseARGB(System.String)
+  nameWithType: Colorf.ParseARGB(String)
+- uid: UnityExt.Core.Colorf.ParseARGB(System.String,System.Globalization.NumberStyles)
+  name: ParseARGB(String, NumberStyles)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseARGB_System_String_System_Globalization_NumberStyles_
+  commentId: M:UnityExt.Core.Colorf.ParseARGB(System.String,System.Globalization.NumberStyles)
+  fullName: UnityExt.Core.Colorf.ParseARGB(System.String, System.Globalization.NumberStyles)
+  nameWithType: Colorf.ParseARGB(String, NumberStyles)
+- uid: UnityExt.Core.Colorf.ParseARGB(System.String,System.Globalization.NumberStyles,UnityEngine.Color)
+  name: ParseARGB(String, NumberStyles, Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseARGB_System_String_System_Globalization_NumberStyles_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.ParseARGB(System.String,System.Globalization.NumberStyles,UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.ParseARGB(System.String, System.Globalization.NumberStyles, UnityEngine.Color)
+  nameWithType: Colorf.ParseARGB(String, NumberStyles, Color)
+- uid: UnityExt.Core.Colorf.ParseARGB(System.String,UnityEngine.Color)
+  name: ParseARGB(String, Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseARGB_System_String_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.ParseARGB(System.String,UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.ParseARGB(System.String, UnityEngine.Color)
+  nameWithType: Colorf.ParseARGB(String, Color)
+- uid: UnityExt.Core.Colorf.ParseARGB*
+  name: ParseARGB
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseARGB_
+  commentId: Overload:UnityExt.Core.Colorf.ParseARGB
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ParseARGB
+  nameWithType: Colorf.ParseARGB
+- uid: UnityExt.Core.Colorf.ParseRGB(System.String)
+  name: ParseRGB(String)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseRGB_System_String_
+  commentId: M:UnityExt.Core.Colorf.ParseRGB(System.String)
+  fullName: UnityExt.Core.Colorf.ParseRGB(System.String)
+  nameWithType: Colorf.ParseRGB(String)
+- uid: UnityExt.Core.Colorf.ParseRGB(System.String,System.Globalization.NumberStyles)
+  name: ParseRGB(String, NumberStyles)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseRGB_System_String_System_Globalization_NumberStyles_
+  commentId: M:UnityExt.Core.Colorf.ParseRGB(System.String,System.Globalization.NumberStyles)
+  fullName: UnityExt.Core.Colorf.ParseRGB(System.String, System.Globalization.NumberStyles)
+  nameWithType: Colorf.ParseRGB(String, NumberStyles)
+- uid: UnityExt.Core.Colorf.ParseRGB(System.String,System.Globalization.NumberStyles,UnityEngine.Color)
+  name: ParseRGB(String, NumberStyles, Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseRGB_System_String_System_Globalization_NumberStyles_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.ParseRGB(System.String,System.Globalization.NumberStyles,UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.ParseRGB(System.String, System.Globalization.NumberStyles, UnityEngine.Color)
+  nameWithType: Colorf.ParseRGB(String, NumberStyles, Color)
+- uid: UnityExt.Core.Colorf.ParseRGB(System.String,UnityEngine.Color)
+  name: ParseRGB(String, Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseRGB_System_String_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.ParseRGB(System.String,UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.ParseRGB(System.String, UnityEngine.Color)
+  nameWithType: Colorf.ParseRGB(String, Color)
+- uid: UnityExt.Core.Colorf.ParseRGB*
+  name: ParseRGB
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ParseRGB_
+  commentId: Overload:UnityExt.Core.Colorf.ParseRGB
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ParseRGB
+  nameWithType: Colorf.ParseRGB
+- uid: UnityExt.Core.Colorf.red25
+  name: red25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red25
+  commentId: P:UnityExt.Core.Colorf.red25
+  fullName: UnityExt.Core.Colorf.red25
+  nameWithType: Colorf.red25
+- uid: UnityExt.Core.Colorf.red25*
+  name: red25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red25_
+  commentId: Overload:UnityExt.Core.Colorf.red25
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.red25
+  nameWithType: Colorf.red25
+- uid: UnityExt.Core.Colorf.red50
+  name: red50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red50
+  commentId: P:UnityExt.Core.Colorf.red50
+  fullName: UnityExt.Core.Colorf.red50
+  nameWithType: Colorf.red50
+- uid: UnityExt.Core.Colorf.red50*
+  name: red50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red50_
+  commentId: Overload:UnityExt.Core.Colorf.red50
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.red50
+  nameWithType: Colorf.red50
+- uid: UnityExt.Core.Colorf.red75
+  name: red75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red75
+  commentId: P:UnityExt.Core.Colorf.red75
+  fullName: UnityExt.Core.Colorf.red75
+  nameWithType: Colorf.red75
+- uid: UnityExt.Core.Colorf.red75*
+  name: red75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_red75_
+  commentId: Overload:UnityExt.Core.Colorf.red75
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.red75
+  nameWithType: Colorf.red75
+- uid: UnityExt.Core.Colorf.redByte(UnityEngine.Color)
+  name: redByte(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_redByte_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.redByte(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.redByte(UnityEngine.Color)
+  nameWithType: Colorf.redByte(Color)
+- uid: UnityExt.Core.Colorf.redByte*
+  name: redByte
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_redByte_
+  commentId: Overload:UnityExt.Core.Colorf.redByte
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.redByte
+  nameWithType: Colorf.redByte
+- uid: UnityExt.Core.Colorf.rgb(UnityEngine.Color)
+  name: rgb(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgb_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.rgb(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.rgb(UnityEngine.Color)
+  nameWithType: Colorf.rgb(Color)
+- uid: UnityExt.Core.Colorf.rgb*
+  name: rgb
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgb_
+  commentId: Overload:UnityExt.Core.Colorf.rgb
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.rgb
+  nameWithType: Colorf.rgb
+- uid: UnityExt.Core.Colorf.rgba(UnityEngine.Color)
+  name: rgba(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgba_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.rgba(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.rgba(UnityEngine.Color)
+  nameWithType: Colorf.rgba(Color)
+- uid: UnityExt.Core.Colorf.rgba*
+  name: rgba
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgba_
+  commentId: Overload:UnityExt.Core.Colorf.rgba
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.rgba
+  nameWithType: Colorf.rgba
+- uid: UnityExt.Core.Colorf.rgbaBytes(UnityEngine.Color)
+  name: rgbaBytes(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgbaBytes_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.rgbaBytes(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.rgbaBytes(UnityEngine.Color)
+  nameWithType: Colorf.rgbaBytes(Color)
+- uid: UnityExt.Core.Colorf.rgbaBytes*
+  name: rgbaBytes
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgbaBytes_
+  commentId: Overload:UnityExt.Core.Colorf.rgbaBytes
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.rgbaBytes
+  nameWithType: Colorf.rgbaBytes
+- uid: UnityExt.Core.Colorf.RGBAToColor(System.UInt32)
+  name: RGBAToColor(UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBAToColor_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.RGBAToColor(System.UInt32)
+  fullName: UnityExt.Core.Colorf.RGBAToColor(System.UInt32)
+  nameWithType: Colorf.RGBAToColor(UInt32)
+- uid: UnityExt.Core.Colorf.RGBAToColor*
+  name: RGBAToColor
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBAToColor_
+  commentId: Overload:UnityExt.Core.Colorf.RGBAToColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.RGBAToColor
+  nameWithType: Colorf.RGBAToColor
+- uid: UnityExt.Core.Colorf.rgbBytes(UnityEngine.Color)
+  name: rgbBytes(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgbBytes_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.rgbBytes(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.rgbBytes(UnityEngine.Color)
+  nameWithType: Colorf.rgbBytes(Color)
+- uid: UnityExt.Core.Colorf.rgbBytes*
+  name: rgbBytes
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_rgbBytes_
+  commentId: Overload:UnityExt.Core.Colorf.rgbBytes
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.rgbBytes
+  nameWithType: Colorf.rgbBytes
+- uid: UnityExt.Core.Colorf.RGBToColor(System.Byte,System.Byte,System.Byte)
+  name: RGBToColor(Byte, Byte, Byte)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBToColor_System_Byte_System_Byte_System_Byte_
+  commentId: M:UnityExt.Core.Colorf.RGBToColor(System.Byte,System.Byte,System.Byte)
+  fullName: UnityExt.Core.Colorf.RGBToColor(System.Byte, System.Byte, System.Byte)
+  nameWithType: Colorf.RGBToColor(Byte, Byte, Byte)
+- uid: UnityExt.Core.Colorf.RGBToColor(System.UInt32)
+  name: RGBToColor(UInt32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBToColor_System_UInt32_
+  commentId: M:UnityExt.Core.Colorf.RGBToColor(System.UInt32)
+  fullName: UnityExt.Core.Colorf.RGBToColor(System.UInt32)
+  nameWithType: Colorf.RGBToColor(UInt32)
+- uid: UnityExt.Core.Colorf.RGBToColor(System.UInt32,System.Byte)
+  name: RGBToColor(UInt32, Byte)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBToColor_System_UInt32_System_Byte_
+  commentId: M:UnityExt.Core.Colorf.RGBToColor(System.UInt32,System.Byte)
+  fullName: UnityExt.Core.Colorf.RGBToColor(System.UInt32, System.Byte)
+  nameWithType: Colorf.RGBToColor(UInt32, Byte)
+- uid: UnityExt.Core.Colorf.RGBToColor(System.UInt32,System.Single)
+  name: RGBToColor(UInt32, Single)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBToColor_System_UInt32_System_Single_
+  commentId: M:UnityExt.Core.Colorf.RGBToColor(System.UInt32,System.Single)
+  fullName: UnityExt.Core.Colorf.RGBToColor(System.UInt32, System.Single)
+  nameWithType: Colorf.RGBToColor(UInt32, Single)
+- uid: UnityExt.Core.Colorf.RGBToColor*
+  name: RGBToColor
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_RGBToColor_
+  commentId: Overload:UnityExt.Core.Colorf.RGBToColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.RGBToColor
+  nameWithType: Colorf.RGBToColor
+- uid: UnityExt.Core.Colorf.SetPixel(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color)
+  name: SetPixel(Color[], Int32, Int32, Int32, Int32, Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_SetPixel_UnityEngine_Color___System_Int32_System_Int32_System_Int32_System_Int32_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.SetPixel(UnityEngine.Color[],System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color)
+  name.vb: SetPixel(Color(), Int32, Int32, Int32, Int32, Color)
+  fullName: UnityExt.Core.Colorf.SetPixel(UnityEngine.Color[], System.Int32, System.Int32, System.Int32, System.Int32, UnityEngine.Color)
+  fullName.vb: UnityExt.Core.Colorf.SetPixel(UnityEngine.Color(), System.Int32, System.Int32, System.Int32, System.Int32, UnityEngine.Color)
+  nameWithType: Colorf.SetPixel(Color[], Int32, Int32, Int32, Int32, Color)
+  nameWithType.vb: Colorf.SetPixel(Color(), Int32, Int32, Int32, Int32, Color)
+- uid: UnityExt.Core.Colorf.SetPixel*
+  name: SetPixel
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_SetPixel_
+  commentId: Overload:UnityExt.Core.Colorf.SetPixel
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.SetPixel
+  nameWithType: Colorf.SetPixel
+- uid: UnityExt.Core.Colorf.ToARGBHex(UnityEngine.Color,System.String)
+  name: ToARGBHex(Color, String)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToARGBHex_UnityEngine_Color_System_String_
+  commentId: M:UnityExt.Core.Colorf.ToARGBHex(UnityEngine.Color,System.String)
+  fullName: UnityExt.Core.Colorf.ToARGBHex(UnityEngine.Color, System.String)
+  nameWithType: Colorf.ToARGBHex(Color, String)
+- uid: UnityExt.Core.Colorf.ToARGBHex*
+  name: ToARGBHex
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToARGBHex_
+  commentId: Overload:UnityExt.Core.Colorf.ToARGBHex
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ToARGBHex
+  nameWithType: Colorf.ToARGBHex
+- uid: UnityExt.Core.Colorf.ToColor(UnityEngine.Color32)
+  name: ToColor(Color32)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToColor_UnityEngine_Color32_
+  commentId: M:UnityExt.Core.Colorf.ToColor(UnityEngine.Color32)
+  fullName: UnityExt.Core.Colorf.ToColor(UnityEngine.Color32)
+  nameWithType: Colorf.ToColor(Color32)
+- uid: UnityExt.Core.Colorf.ToColor*
+  name: ToColor
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToColor_
+  commentId: Overload:UnityExt.Core.Colorf.ToColor
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ToColor
+  nameWithType: Colorf.ToColor
+- uid: UnityExt.Core.Colorf.ToColor32(UnityEngine.Color)
+  name: ToColor32(Color)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToColor32_UnityEngine_Color_
+  commentId: M:UnityExt.Core.Colorf.ToColor32(UnityEngine.Color)
+  fullName: UnityExt.Core.Colorf.ToColor32(UnityEngine.Color)
+  nameWithType: Colorf.ToColor32(Color)
+- uid: UnityExt.Core.Colorf.ToColor32*
+  name: ToColor32
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToColor32_
+  commentId: Overload:UnityExt.Core.Colorf.ToColor32
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ToColor32
+  nameWithType: Colorf.ToColor32
+- uid: UnityExt.Core.Colorf.ToRGBAHex(UnityEngine.Color,System.String)
+  name: ToRGBAHex(Color, String)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToRGBAHex_UnityEngine_Color_System_String_
+  commentId: M:UnityExt.Core.Colorf.ToRGBAHex(UnityEngine.Color,System.String)
+  fullName: UnityExt.Core.Colorf.ToRGBAHex(UnityEngine.Color, System.String)
+  nameWithType: Colorf.ToRGBAHex(Color, String)
+- uid: UnityExt.Core.Colorf.ToRGBAHex*
+  name: ToRGBAHex
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToRGBAHex_
+  commentId: Overload:UnityExt.Core.Colorf.ToRGBAHex
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ToRGBAHex
+  nameWithType: Colorf.ToRGBAHex
+- uid: UnityExt.Core.Colorf.ToRGBHex(UnityEngine.Color,System.String)
+  name: ToRGBHex(Color, String)
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToRGBHex_UnityEngine_Color_System_String_
+  commentId: M:UnityExt.Core.Colorf.ToRGBHex(UnityEngine.Color,System.String)
+  fullName: UnityExt.Core.Colorf.ToRGBHex(UnityEngine.Color, System.String)
+  nameWithType: Colorf.ToRGBHex(Color, String)
+- uid: UnityExt.Core.Colorf.ToRGBHex*
+  name: ToRGBHex
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_ToRGBHex_
+  commentId: Overload:UnityExt.Core.Colorf.ToRGBHex
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.ToRGBHex
+  nameWithType: Colorf.ToRGBHex
+- uid: UnityExt.Core.Colorf.transparent
+  name: transparent
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_transparent
+  commentId: P:UnityExt.Core.Colorf.transparent
+  fullName: UnityExt.Core.Colorf.transparent
+  nameWithType: Colorf.transparent
+- uid: UnityExt.Core.Colorf.transparent*
+  name: transparent
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_transparent_
+  commentId: Overload:UnityExt.Core.Colorf.transparent
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.transparent
+  nameWithType: Colorf.transparent
+- uid: UnityExt.Core.Colorf.unityFocusBlue
+  name: unityFocusBlue
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_unityFocusBlue
+  commentId: P:UnityExt.Core.Colorf.unityFocusBlue
+  fullName: UnityExt.Core.Colorf.unityFocusBlue
+  nameWithType: Colorf.unityFocusBlue
+- uid: UnityExt.Core.Colorf.unityFocusBlue*
+  name: unityFocusBlue
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_unityFocusBlue_
+  commentId: Overload:UnityExt.Core.Colorf.unityFocusBlue
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.unityFocusBlue
+  nameWithType: Colorf.unityFocusBlue
+- uid: UnityExt.Core.Colorf.yellow25
+  name: yellow25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow25
+  commentId: P:UnityExt.Core.Colorf.yellow25
+  fullName: UnityExt.Core.Colorf.yellow25
+  nameWithType: Colorf.yellow25
+- uid: UnityExt.Core.Colorf.yellow25*
+  name: yellow25
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow25_
+  commentId: Overload:UnityExt.Core.Colorf.yellow25
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.yellow25
+  nameWithType: Colorf.yellow25
+- uid: UnityExt.Core.Colorf.yellow50
+  name: yellow50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow50
+  commentId: P:UnityExt.Core.Colorf.yellow50
+  fullName: UnityExt.Core.Colorf.yellow50
+  nameWithType: Colorf.yellow50
+- uid: UnityExt.Core.Colorf.yellow50*
+  name: yellow50
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow50_
+  commentId: Overload:UnityExt.Core.Colorf.yellow50
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.yellow50
+  nameWithType: Colorf.yellow50
+- uid: UnityExt.Core.Colorf.yellow75
+  name: yellow75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow75
+  commentId: P:UnityExt.Core.Colorf.yellow75
+  fullName: UnityExt.Core.Colorf.yellow75
+  nameWithType: Colorf.yellow75
+- uid: UnityExt.Core.Colorf.yellow75*
+  name: yellow75
+  href: api/UnityExt.Core.Colorf.html#UnityExt_Core_Colorf_yellow75_
+  commentId: Overload:UnityExt.Core.Colorf.yellow75
+  isSpec: "True"
+  fullName: UnityExt.Core.Colorf.yellow75
+  nameWithType: Colorf.yellow75
 - uid: UnityExt.Core.ColorPropertyReflection
   name: ColorPropertyReflection
   href: api/UnityExt.Core.ColorPropertyReflection.html
@@ -1296,6 +2001,214 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.ColorPropertyReflection.SetMaterialValue
   nameWithType: ColorPropertyReflection.SetMaterialValue
+- uid: UnityExt.Core.Components
+  name: UnityExt.Core.Components
+  href: api/UnityExt.Core.Components.html
+  commentId: N:UnityExt.Core.Components
+  fullName: UnityExt.Core.Components
+  nameWithType: UnityExt.Core.Components
+- uid: UnityExt.Core.Components.GameObjectExt
+  name: GameObjectExt
+  href: api/UnityExt.Core.Components.GameObjectExt.html
+  commentId: T:UnityExt.Core.Components.GameObjectExt
+  fullName: UnityExt.Core.Components.GameObjectExt
+  nameWithType: GameObjectExt
+- uid: UnityExt.Core.Components.GameObjectExt.DestroyAsync(UnityEngine.GameObject,System.Int32)
+  name: DestroyAsync(GameObject, Int32)
+  href: api/UnityExt.Core.Components.GameObjectExt.html#UnityExt_Core_Components_GameObjectExt_DestroyAsync_UnityEngine_GameObject_System_Int32_
+  commentId: M:UnityExt.Core.Components.GameObjectExt.DestroyAsync(UnityEngine.GameObject,System.Int32)
+  fullName: UnityExt.Core.Components.GameObjectExt.DestroyAsync(UnityEngine.GameObject, System.Int32)
+  nameWithType: GameObjectExt.DestroyAsync(GameObject, Int32)
+- uid: UnityExt.Core.Components.GameObjectExt.DestroyAsync*
+  name: DestroyAsync
+  href: api/UnityExt.Core.Components.GameObjectExt.html#UnityExt_Core_Components_GameObjectExt_DestroyAsync_
+  commentId: Overload:UnityExt.Core.Components.GameObjectExt.DestroyAsync
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.GameObjectExt.DestroyAsync
+  nameWithType: GameObjectExt.DestroyAsync
+- uid: UnityExt.Core.Components.GameObjectExt.GetComponentCached(UnityEngine.GameObject,System.Type)
+  name: GetComponentCached(GameObject, Type)
+  href: api/UnityExt.Core.Components.GameObjectExt.html#UnityExt_Core_Components_GameObjectExt_GetComponentCached_UnityEngine_GameObject_System_Type_
+  commentId: M:UnityExt.Core.Components.GameObjectExt.GetComponentCached(UnityEngine.GameObject,System.Type)
+  fullName: UnityExt.Core.Components.GameObjectExt.GetComponentCached(UnityEngine.GameObject, System.Type)
+  nameWithType: GameObjectExt.GetComponentCached(GameObject, Type)
+- uid: UnityExt.Core.Components.GameObjectExt.GetComponentCached*
+  name: GetComponentCached
+  href: api/UnityExt.Core.Components.GameObjectExt.html#UnityExt_Core_Components_GameObjectExt_GetComponentCached_
+  commentId: Overload:UnityExt.Core.Components.GameObjectExt.GetComponentCached
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.GameObjectExt.GetComponentCached
+  nameWithType: GameObjectExt.GetComponentCached
+- uid: UnityExt.Core.Components.GameObjectExt.GetComponentCached``1(UnityEngine.GameObject)
+  name: GetComponentCached<T>(GameObject)
+  href: api/UnityExt.Core.Components.GameObjectExt.html#UnityExt_Core_Components_GameObjectExt_GetComponentCached__1_UnityEngine_GameObject_
+  commentId: M:UnityExt.Core.Components.GameObjectExt.GetComponentCached``1(UnityEngine.GameObject)
+  name.vb: GetComponentCached(Of T)(GameObject)
+  fullName: UnityExt.Core.Components.GameObjectExt.GetComponentCached<T>(UnityEngine.GameObject)
+  fullName.vb: UnityExt.Core.Components.GameObjectExt.GetComponentCached(Of T)(UnityEngine.GameObject)
+  nameWithType: GameObjectExt.GetComponentCached<T>(GameObject)
+  nameWithType.vb: GameObjectExt.GetComponentCached(Of T)(GameObject)
+- uid: UnityExt.Core.Components.TransformExt
+  name: TransformExt
+  href: api/UnityExt.Core.Components.TransformExt.html
+  commentId: T:UnityExt.Core.Components.TransformExt
+  fullName: UnityExt.Core.Components.TransformExt
+  nameWithType: TransformExt
+- uid: UnityExt.Core.Components.TransformExt.FindComponentCached(UnityEngine.Transform,System.Type,System.Boolean)
+  name: FindComponentCached(Transform, Type, Boolean)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentCached_UnityEngine_Transform_System_Type_System_Boolean_
+  commentId: M:UnityExt.Core.Components.TransformExt.FindComponentCached(UnityEngine.Transform,System.Type,System.Boolean)
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentCached(UnityEngine.Transform, System.Type, System.Boolean)
+  nameWithType: TransformExt.FindComponentCached(Transform, Type, Boolean)
+- uid: UnityExt.Core.Components.TransformExt.FindComponentCached*
+  name: FindComponentCached
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentCached_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.FindComponentCached
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentCached
+  nameWithType: TransformExt.FindComponentCached
+- uid: UnityExt.Core.Components.TransformExt.FindComponentCached``1(UnityEngine.Transform,System.Boolean)
+  name: FindComponentCached<T>(Transform, Boolean)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentCached__1_UnityEngine_Transform_System_Boolean_
+  commentId: M:UnityExt.Core.Components.TransformExt.FindComponentCached``1(UnityEngine.Transform,System.Boolean)
+  name.vb: FindComponentCached(Of T)(Transform, Boolean)
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentCached<T>(UnityEngine.Transform, System.Boolean)
+  fullName.vb: UnityExt.Core.Components.TransformExt.FindComponentCached(Of T)(UnityEngine.Transform, System.Boolean)
+  nameWithType: TransformExt.FindComponentCached<T>(Transform, Boolean)
+  nameWithType.vb: TransformExt.FindComponentCached(Of T)(Transform, Boolean)
+- uid: UnityExt.Core.Components.TransformExt.FindComponentsCached(UnityEngine.Transform,System.Type,System.Boolean)
+  name: FindComponentsCached(Transform, Type, Boolean)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentsCached_UnityEngine_Transform_System_Type_System_Boolean_
+  commentId: M:UnityExt.Core.Components.TransformExt.FindComponentsCached(UnityEngine.Transform,System.Type,System.Boolean)
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentsCached(UnityEngine.Transform, System.Type, System.Boolean)
+  nameWithType: TransformExt.FindComponentsCached(Transform, Type, Boolean)
+- uid: UnityExt.Core.Components.TransformExt.FindComponentsCached*
+  name: FindComponentsCached
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentsCached_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.FindComponentsCached
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentsCached
+  nameWithType: TransformExt.FindComponentsCached
+- uid: UnityExt.Core.Components.TransformExt.FindComponentsCached``1(UnityEngine.Transform,System.Boolean)
+  name: FindComponentsCached<T>(Transform, Boolean)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_FindComponentsCached__1_UnityEngine_Transform_System_Boolean_
+  commentId: M:UnityExt.Core.Components.TransformExt.FindComponentsCached``1(UnityEngine.Transform,System.Boolean)
+  name.vb: FindComponentsCached(Of T)(Transform, Boolean)
+  fullName: UnityExt.Core.Components.TransformExt.FindComponentsCached<T>(UnityEngine.Transform, System.Boolean)
+  fullName.vb: UnityExt.Core.Components.TransformExt.FindComponentsCached(Of T)(UnityEngine.Transform, System.Boolean)
+  nameWithType: TransformExt.FindComponentsCached<T>(Transform, Boolean)
+  nameWithType.vb: TransformExt.FindComponentsCached(Of T)(Transform, Boolean)
+- uid: UnityExt.Core.Components.TransformExt.GetComponentCached(UnityEngine.Transform,System.Type)
+  name: GetComponentCached(Transform, Type)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_GetComponentCached_UnityEngine_Transform_System_Type_
+  commentId: M:UnityExt.Core.Components.TransformExt.GetComponentCached(UnityEngine.Transform,System.Type)
+  fullName: UnityExt.Core.Components.TransformExt.GetComponentCached(UnityEngine.Transform, System.Type)
+  nameWithType: TransformExt.GetComponentCached(Transform, Type)
+- uid: UnityExt.Core.Components.TransformExt.GetComponentCached*
+  name: GetComponentCached
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_GetComponentCached_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.GetComponentCached
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.GetComponentCached
+  nameWithType: TransformExt.GetComponentCached
+- uid: UnityExt.Core.Components.TransformExt.GetComponentCached``1(UnityEngine.Transform)
+  name: GetComponentCached<T>(Transform)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_GetComponentCached__1_UnityEngine_Transform_
+  commentId: M:UnityExt.Core.Components.TransformExt.GetComponentCached``1(UnityEngine.Transform)
+  name.vb: GetComponentCached(Of T)(Transform)
+  fullName: UnityExt.Core.Components.TransformExt.GetComponentCached<T>(UnityEngine.Transform)
+  fullName.vb: UnityExt.Core.Components.TransformExt.GetComponentCached(Of T)(UnityEngine.Transform)
+  nameWithType: TransformExt.GetComponentCached<T>(Transform)
+  nameWithType.vb: TransformExt.GetComponentCached(Of T)(Transform)
+- uid: UnityExt.Core.Components.TransformExt.GetDepth(UnityEngine.Transform)
+  name: GetDepth(Transform)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_GetDepth_UnityEngine_Transform_
+  commentId: M:UnityExt.Core.Components.TransformExt.GetDepth(UnityEngine.Transform)
+  fullName: UnityExt.Core.Components.TransformExt.GetDepth(UnityEngine.Transform)
+  nameWithType: TransformExt.GetDepth(Transform)
+- uid: UnityExt.Core.Components.TransformExt.GetDepth*
+  name: GetDepth
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_GetDepth_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.GetDepth
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.GetDepth
+  nameWithType: TransformExt.GetDepth
+- uid: UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform,System.Boolean,System.Delegate)
+  name: Traverse(Transform, Boolean, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_Traverse_UnityEngine_Transform_System_Boolean_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform,System.Boolean,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform, System.Boolean, System.Delegate)
+  nameWithType: TransformExt.Traverse(Transform, Boolean, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform,System.Delegate)
+  name: Traverse(Transform, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_Traverse_UnityEngine_Transform_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.Traverse(UnityEngine.Transform, System.Delegate)
+  nameWithType: TransformExt.Traverse(Transform, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.Traverse*
+  name: Traverse
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_Traverse_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.Traverse
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.Traverse
+  nameWithType: TransformExt.Traverse
+- uid: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Delegate)
+  name: TraverseAsync(Transform, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseAsync_UnityEngine_Transform_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform, System.Delegate)
+  nameWithType: TransformExt.TraverseAsync(Transform, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Int32,System.Boolean,System.Delegate)
+  name: TraverseAsync(Transform, Int32, Boolean, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseAsync_UnityEngine_Transform_System_Int32_System_Boolean_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Int32,System.Boolean,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform, System.Int32, System.Boolean, System.Delegate)
+  nameWithType: TransformExt.TraverseAsync(Transform, Int32, Boolean, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Int32,System.Delegate)
+  name: TraverseAsync(Transform, Int32, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseAsync_UnityEngine_Transform_System_Int32_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform,System.Int32,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseAsync(UnityEngine.Transform, System.Int32, System.Delegate)
+  nameWithType: TransformExt.TraverseAsync(Transform, Int32, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseAsync*
+  name: TraverseAsync
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseAsync_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.TraverseAsync
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.TraverseAsync
+  nameWithType: TransformExt.TraverseAsync
+- uid: UnityExt.Core.Components.TransformExt.TraverseReverse(UnityEngine.Transform,System.Delegate)
+  name: TraverseReverse(Transform, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseReverse_UnityEngine_Transform_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseReverse(UnityEngine.Transform,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseReverse(UnityEngine.Transform, System.Delegate)
+  nameWithType: TransformExt.TraverseReverse(Transform, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseReverse*
+  name: TraverseReverse
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseReverse_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.TraverseReverse
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.TraverseReverse
+  nameWithType: TransformExt.TraverseReverse
+- uid: UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform,System.Delegate)
+  name: TraverseReverseAsync(Transform, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseReverseAsync_UnityEngine_Transform_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform, System.Delegate)
+  nameWithType: TransformExt.TraverseReverseAsync(Transform, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform,System.Int32,System.Delegate)
+  name: TraverseReverseAsync(Transform, Int32, Delegate)
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseReverseAsync_UnityEngine_Transform_System_Int32_System_Delegate_
+  commentId: M:UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform,System.Int32,System.Delegate)
+  fullName: UnityExt.Core.Components.TransformExt.TraverseReverseAsync(UnityEngine.Transform, System.Int32, System.Delegate)
+  nameWithType: TransformExt.TraverseReverseAsync(Transform, Int32, Delegate)
+- uid: UnityExt.Core.Components.TransformExt.TraverseReverseAsync*
+  name: TraverseReverseAsync
+  href: api/UnityExt.Core.Components.TransformExt.html#UnityExt_Core_Components_TransformExt_TraverseReverseAsync_
+  commentId: Overload:UnityExt.Core.Components.TransformExt.TraverseReverseAsync
+  isSpec: "True"
+  fullName: UnityExt.Core.Components.TransformExt.TraverseReverseAsync
+  nameWithType: TransformExt.TraverseReverseAsync
 - uid: UnityExt.Core.DoublePropertyReflection
   name: DoublePropertyReflection
   href: api/UnityExt.Core.DoublePropertyReflection.html
@@ -1603,6 +2516,477 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IO.Base64Serializer.OnSerialize
   nameWithType: Base64Serializer.OnSerialize
+- uid: UnityExt.Core.IO.BitStream
+  name: BitStream
+  href: api/UnityExt.Core.IO.BitStream.html
+  commentId: T:UnityExt.Core.IO.BitStream
+  fullName: UnityExt.Core.IO.BitStream
+  nameWithType: BitStream
+- uid: UnityExt.Core.IO.BitStream.#ctor(System.IO.Stream)
+  name: BitStream(Stream)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream__ctor_System_IO_Stream_
+  commentId: M:UnityExt.Core.IO.BitStream.#ctor(System.IO.Stream)
+  fullName: UnityExt.Core.IO.BitStream.BitStream(System.IO.Stream)
+  nameWithType: BitStream.BitStream(Stream)
+- uid: UnityExt.Core.IO.BitStream.#ctor(System.IO.Stream,System.Int64)
+  name: BitStream(Stream, Int64)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream__ctor_System_IO_Stream_System_Int64_
+  commentId: M:UnityExt.Core.IO.BitStream.#ctor(System.IO.Stream,System.Int64)
+  fullName: UnityExt.Core.IO.BitStream.BitStream(System.IO.Stream, System.Int64)
+  nameWithType: BitStream.BitStream(Stream, Int64)
+- uid: UnityExt.Core.IO.BitStream.#ctor(System.UInt64)
+  name: BitStream(UInt64)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream__ctor_System_UInt64_
+  commentId: M:UnityExt.Core.IO.BitStream.#ctor(System.UInt64)
+  fullName: UnityExt.Core.IO.BitStream.BitStream(System.UInt64)
+  nameWithType: BitStream.BitStream(UInt64)
+- uid: UnityExt.Core.IO.BitStream.#ctor*
+  name: BitStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream__ctor_
+  commentId: Overload:UnityExt.Core.IO.BitStream.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.BitStream
+  nameWithType: BitStream.BitStream
+- uid: UnityExt.Core.IO.BitStream.BaseStream
+  name: BaseStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BaseStream
+  commentId: P:UnityExt.Core.IO.BitStream.BaseStream
+  fullName: UnityExt.Core.IO.BitStream.BaseStream
+  nameWithType: BitStream.BaseStream
+- uid: UnityExt.Core.IO.BitStream.BaseStream*
+  name: BaseStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BaseStream_
+  commentId: Overload:UnityExt.Core.IO.BitStream.BaseStream
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.BaseStream
+  nameWithType: BitStream.BaseStream
+- uid: UnityExt.Core.IO.BitStream.BitCapacity
+  name: BitCapacity
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitCapacity
+  commentId: P:UnityExt.Core.IO.BitStream.BitCapacity
+  fullName: UnityExt.Core.IO.BitStream.BitCapacity
+  nameWithType: BitStream.BitCapacity
+- uid: UnityExt.Core.IO.BitStream.BitCapacity*
+  name: BitCapacity
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitCapacity_
+  commentId: Overload:UnityExt.Core.IO.BitStream.BitCapacity
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.BitCapacity
+  nameWithType: BitStream.BitCapacity
+- uid: UnityExt.Core.IO.BitStream.BitLength
+  name: BitLength
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitLength
+  commentId: P:UnityExt.Core.IO.BitStream.BitLength
+  fullName: UnityExt.Core.IO.BitStream.BitLength
+  nameWithType: BitStream.BitLength
+- uid: UnityExt.Core.IO.BitStream.BitLength*
+  name: BitLength
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitLength_
+  commentId: Overload:UnityExt.Core.IO.BitStream.BitLength
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.BitLength
+  nameWithType: BitStream.BitLength
+- uid: UnityExt.Core.IO.BitStream.BitPosition
+  name: BitPosition
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitPosition
+  commentId: P:UnityExt.Core.IO.BitStream.BitPosition
+  fullName: UnityExt.Core.IO.BitStream.BitPosition
+  nameWithType: BitStream.BitPosition
+- uid: UnityExt.Core.IO.BitStream.BitPosition*
+  name: BitPosition
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_BitPosition_
+  commentId: Overload:UnityExt.Core.IO.BitStream.BitPosition
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.BitPosition
+  nameWithType: BitStream.BitPosition
+- uid: UnityExt.Core.IO.BitStream.CanRead
+  name: CanRead
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanRead
+  commentId: P:UnityExt.Core.IO.BitStream.CanRead
+  fullName: UnityExt.Core.IO.BitStream.CanRead
+  nameWithType: BitStream.CanRead
+- uid: UnityExt.Core.IO.BitStream.CanRead*
+  name: CanRead
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanRead_
+  commentId: Overload:UnityExt.Core.IO.BitStream.CanRead
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.CanRead
+  nameWithType: BitStream.CanRead
+- uid: UnityExt.Core.IO.BitStream.CanSeek
+  name: CanSeek
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanSeek
+  commentId: P:UnityExt.Core.IO.BitStream.CanSeek
+  fullName: UnityExt.Core.IO.BitStream.CanSeek
+  nameWithType: BitStream.CanSeek
+- uid: UnityExt.Core.IO.BitStream.CanSeek*
+  name: CanSeek
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanSeek_
+  commentId: Overload:UnityExt.Core.IO.BitStream.CanSeek
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.CanSeek
+  nameWithType: BitStream.CanSeek
+- uid: UnityExt.Core.IO.BitStream.CanWrite
+  name: CanWrite
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanWrite
+  commentId: P:UnityExt.Core.IO.BitStream.CanWrite
+  fullName: UnityExt.Core.IO.BitStream.CanWrite
+  nameWithType: BitStream.CanWrite
+- uid: UnityExt.Core.IO.BitStream.CanWrite*
+  name: CanWrite
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_CanWrite_
+  commentId: Overload:UnityExt.Core.IO.BitStream.CanWrite
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.CanWrite
+  nameWithType: BitStream.CanWrite
+- uid: UnityExt.Core.IO.BitStream.Close
+  name: Close()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Close
+  commentId: M:UnityExt.Core.IO.BitStream.Close
+  fullName: UnityExt.Core.IO.BitStream.Close()
+  nameWithType: BitStream.Close()
+- uid: UnityExt.Core.IO.BitStream.Close*
+  name: Close
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Close_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Close
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Close
+  nameWithType: BitStream.Close
+- uid: UnityExt.Core.IO.BitStream.Dispose
+  name: Dispose()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Dispose
+  commentId: M:UnityExt.Core.IO.BitStream.Dispose
+  fullName: UnityExt.Core.IO.BitStream.Dispose()
+  nameWithType: BitStream.Dispose()
+- uid: UnityExt.Core.IO.BitStream.Dispose*
+  name: Dispose
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Dispose_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Dispose
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Dispose
+  nameWithType: BitStream.Dispose
+- uid: UnityExt.Core.IO.BitStream.Flush
+  name: Flush()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Flush
+  commentId: M:UnityExt.Core.IO.BitStream.Flush
+  fullName: UnityExt.Core.IO.BitStream.Flush()
+  nameWithType: BitStream.Flush()
+- uid: UnityExt.Core.IO.BitStream.Flush*
+  name: Flush
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Flush_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Flush
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Flush
+  nameWithType: BitStream.Flush
+- uid: UnityExt.Core.IO.BitStream.FlushAsync
+  name: FlushAsync()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_FlushAsync
+  commentId: M:UnityExt.Core.IO.BitStream.FlushAsync
+  fullName: UnityExt.Core.IO.BitStream.FlushAsync()
+  nameWithType: BitStream.FlushAsync()
+- uid: UnityExt.Core.IO.BitStream.FlushAsync*
+  name: FlushAsync
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_FlushAsync_
+  commentId: Overload:UnityExt.Core.IO.BitStream.FlushAsync
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.FlushAsync
+  nameWithType: BitStream.FlushAsync
+- uid: UnityExt.Core.IO.BitStream.GetMSB(System.UInt64)
+  name: GetMSB(UInt64)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_GetMSB_System_UInt64_
+  commentId: M:UnityExt.Core.IO.BitStream.GetMSB(System.UInt64)
+  fullName: UnityExt.Core.IO.BitStream.GetMSB(System.UInt64)
+  nameWithType: BitStream.GetMSB(UInt64)
+- uid: UnityExt.Core.IO.BitStream.GetMSB*
+  name: GetMSB
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_GetMSB_
+  commentId: Overload:UnityExt.Core.IO.BitStream.GetMSB
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.GetMSB
+  nameWithType: BitStream.GetMSB
+- uid: UnityExt.Core.IO.BitStream.GetStream*
+  name: GetStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_GetStream_
+  commentId: Overload:UnityExt.Core.IO.BitStream.GetStream
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.GetStream
+  nameWithType: BitStream.GetStream
+- uid: UnityExt.Core.IO.BitStream.GetStream``1
+  name: GetStream<T>()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_GetStream__1
+  commentId: M:UnityExt.Core.IO.BitStream.GetStream``1
+  name.vb: GetStream(Of T)()
+  fullName: UnityExt.Core.IO.BitStream.GetStream<T>()
+  fullName.vb: UnityExt.Core.IO.BitStream.GetStream(Of T)()
+  nameWithType: BitStream.GetStream<T>()
+  nameWithType.vb: BitStream.GetStream(Of T)()
+- uid: UnityExt.Core.IO.BitStream.HasStream
+  name: HasStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_HasStream
+  commentId: P:UnityExt.Core.IO.BitStream.HasStream
+  fullName: UnityExt.Core.IO.BitStream.HasStream
+  nameWithType: BitStream.HasStream
+- uid: UnityExt.Core.IO.BitStream.HasStream*
+  name: HasStream
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_HasStream_
+  commentId: Overload:UnityExt.Core.IO.BitStream.HasStream
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.HasStream
+  nameWithType: BitStream.HasStream
+- uid: UnityExt.Core.IO.BitStream.Read(System.Byte@,System.Int32,System.Boolean)
+  name: Read(out Byte, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_Byte__System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.Byte@,System.Int32,System.Boolean)
+  name.vb: Read(ByRef Byte, Int32, Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.Byte, System.Int32, System.Boolean)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.Byte, System.Int32, System.Boolean)
+  nameWithType: BitStream.Read(out Byte, Int32, Boolean)
+  nameWithType.vb: BitStream.Read(ByRef Byte, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Read(System.Char@,System.Int32,System.Boolean)
+  name: Read(out Char, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_Char__System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.Char@,System.Int32,System.Boolean)
+  name.vb: Read(ByRef Char, Int32, Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.Char, System.Int32, System.Boolean)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.Char, System.Int32, System.Boolean)
+  nameWithType: BitStream.Read(out Char, Int32, Boolean)
+  nameWithType.vb: BitStream.Read(ByRef Char, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Read(System.Double@,System.Double,System.Double,System.Int32)
+  name: Read(out Double, Double, Double, Int32)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_Double__System_Double_System_Double_System_Int32_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.Double@,System.Double,System.Double,System.Int32)
+  name.vb: Read(ByRef Double, Double, Double, Int32)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.Double, System.Double, System.Double, System.Int32)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.Double, System.Double, System.Double, System.Int32)
+  nameWithType: BitStream.Read(out Double, Double, Double, Int32)
+  nameWithType.vb: BitStream.Read(ByRef Double, Double, Double, Int32)
+- uid: UnityExt.Core.IO.BitStream.Read(System.Single@,System.Single,System.Single,System.Int32)
+  name: Read(out Single, Single, Single, Int32)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_Single__System_Single_System_Single_System_Int32_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.Single@,System.Single,System.Single,System.Int32)
+  name.vb: Read(ByRef Single, Single, Single, Int32)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.Single, System.Single, System.Single, System.Int32)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.Single, System.Single, System.Single, System.Int32)
+  nameWithType: BitStream.Read(out Single, Single, Single, Int32)
+  nameWithType.vb: BitStream.Read(ByRef Single, Single, Single, Int32)
+- uid: UnityExt.Core.IO.BitStream.Read(System.UInt16@,System.Int32,System.Boolean)
+  name: Read(out UInt16, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_UInt16__System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.UInt16@,System.Int32,System.Boolean)
+  name.vb: Read(ByRef UInt16, Int32, Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.UInt16, System.Int32, System.Boolean)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.UInt16, System.Int32, System.Boolean)
+  nameWithType: BitStream.Read(out UInt16, Int32, Boolean)
+  nameWithType.vb: BitStream.Read(ByRef UInt16, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Read(System.UInt32@,System.Int32,System.Boolean)
+  name: Read(out UInt32, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_UInt32__System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.UInt32@,System.Int32,System.Boolean)
+  name.vb: Read(ByRef UInt32, Int32, Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.UInt32, System.Int32, System.Boolean)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.UInt32, System.Int32, System.Boolean)
+  nameWithType: BitStream.Read(out UInt32, Int32, Boolean)
+  nameWithType.vb: BitStream.Read(ByRef UInt32, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Read(System.UInt64@,System.Int32,System.Boolean)
+  name: Read(out UInt64, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_System_UInt64__System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Read(System.UInt64@,System.Int32,System.Boolean)
+  name.vb: Read(ByRef UInt64, Int32, Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Read(out System.UInt64, System.Int32, System.Boolean)
+  fullName.vb: UnityExt.Core.IO.BitStream.Read(ByRef System.UInt64, System.Int32, System.Boolean)
+  nameWithType: BitStream.Read(out UInt64, Int32, Boolean)
+  nameWithType.vb: BitStream.Read(ByRef UInt64, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Read*
+  name: Read
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Read_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Read
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Read
+  nameWithType: BitStream.Read
+- uid: UnityExt.Core.IO.BitStream.ReadBit
+  name: ReadBit()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ReadBit
+  commentId: M:UnityExt.Core.IO.BitStream.ReadBit
+  fullName: UnityExt.Core.IO.BitStream.ReadBit()
+  nameWithType: BitStream.ReadBit()
+- uid: UnityExt.Core.IO.BitStream.ReadBit*
+  name: ReadBit
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ReadBit_
+  commentId: Overload:UnityExt.Core.IO.BitStream.ReadBit
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.ReadBit
+  nameWithType: BitStream.ReadBit
+- uid: UnityExt.Core.IO.BitStream.ReadBits
+  name: ReadBits()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ReadBits
+  commentId: M:UnityExt.Core.IO.BitStream.ReadBits
+  fullName: UnityExt.Core.IO.BitStream.ReadBits()
+  nameWithType: BitStream.ReadBits()
+- uid: UnityExt.Core.IO.BitStream.ReadBits*
+  name: ReadBits
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ReadBits_
+  commentId: Overload:UnityExt.Core.IO.BitStream.ReadBits
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.ReadBits
+  nameWithType: BitStream.ReadBits
+- uid: UnityExt.Core.IO.BitStream.Seek(System.Int64)
+  name: Seek(Int64)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Seek_System_Int64_
+  commentId: M:UnityExt.Core.IO.BitStream.Seek(System.Int64)
+  fullName: UnityExt.Core.IO.BitStream.Seek(System.Int64)
+  nameWithType: BitStream.Seek(Int64)
+- uid: UnityExt.Core.IO.BitStream.Seek(System.Int64,System.IO.SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Seek_System_Int64_System_IO_SeekOrigin_
+  commentId: M:UnityExt.Core.IO.BitStream.Seek(System.Int64,System.IO.SeekOrigin)
+  fullName: UnityExt.Core.IO.BitStream.Seek(System.Int64, System.IO.SeekOrigin)
+  nameWithType: BitStream.Seek(Int64, SeekOrigin)
+- uid: UnityExt.Core.IO.BitStream.Seek*
+  name: Seek
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Seek_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Seek
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Seek
+  nameWithType: BitStream.Seek
+- uid: UnityExt.Core.IO.BitStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_SetLength_System_Int64_
+  commentId: M:UnityExt.Core.IO.BitStream.SetLength(System.Int64)
+  fullName: UnityExt.Core.IO.BitStream.SetLength(System.Int64)
+  nameWithType: BitStream.SetLength(Int64)
+- uid: UnityExt.Core.IO.BitStream.SetLength*
+  name: SetLength
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_SetLength_
+  commentId: Overload:UnityExt.Core.IO.BitStream.SetLength
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.SetLength
+  nameWithType: BitStream.SetLength
+- uid: UnityExt.Core.IO.BitStream.ToString
+  name: ToString()
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ToString
+  commentId: M:UnityExt.Core.IO.BitStream.ToString
+  fullName: UnityExt.Core.IO.BitStream.ToString()
+  nameWithType: BitStream.ToString()
+- uid: UnityExt.Core.IO.BitStream.ToString*
+  name: ToString
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_ToString_
+  commentId: Overload:UnityExt.Core.IO.BitStream.ToString
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.ToString
+  nameWithType: BitStream.ToString
+- uid: UnityExt.Core.IO.BitStream.Write(System.Byte,System.Int32,System.Boolean)
+  name: Write(Byte, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_Byte_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.Byte,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.Byte, System.Int32, System.Boolean)
+  nameWithType: BitStream.Write(Byte, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Write(System.Char,System.Int32,System.Boolean)
+  name: Write(Char, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_Char_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.Char,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.Char, System.Int32, System.Boolean)
+  nameWithType: BitStream.Write(Char, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Write(System.Double,System.Double,System.Double,System.Int32)
+  name: Write(Double, Double, Double, Int32)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_Double_System_Double_System_Double_System_Int32_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.Double,System.Double,System.Double,System.Int32)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.Double, System.Double, System.Double, System.Int32)
+  nameWithType: BitStream.Write(Double, Double, Double, Int32)
+- uid: UnityExt.Core.IO.BitStream.Write(System.Single,System.Single,System.Single,System.Int32)
+  name: Write(Single, Single, Single, Int32)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_Single_System_Single_System_Single_System_Int32_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.Single,System.Single,System.Single,System.Int32)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.Single, System.Single, System.Single, System.Int32)
+  nameWithType: BitStream.Write(Single, Single, Single, Int32)
+- uid: UnityExt.Core.IO.BitStream.Write(System.String)
+  name: Write(String)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_String_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.String)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.String)
+  nameWithType: BitStream.Write(String)
+- uid: UnityExt.Core.IO.BitStream.Write(System.UInt16,System.Int32,System.Boolean)
+  name: Write(UInt16, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_UInt16_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.UInt16,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.UInt16, System.Int32, System.Boolean)
+  nameWithType: BitStream.Write(UInt16, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Write(System.UInt32,System.Int32,System.Boolean)
+  name: Write(UInt32, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_UInt32_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.UInt32,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.UInt32, System.Int32, System.Boolean)
+  nameWithType: BitStream.Write(UInt32, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Write(System.UInt64,System.Int32,System.Boolean)
+  name: Write(UInt64, Int32, Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_System_UInt64_System_Int32_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.Write(System.UInt64,System.Int32,System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.Write(System.UInt64, System.Int32, System.Boolean)
+  nameWithType: BitStream.Write(UInt64, Int32, Boolean)
+- uid: UnityExt.Core.IO.BitStream.Write*
+  name: Write
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_Write_
+  commentId: Overload:UnityExt.Core.IO.BitStream.Write
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.Write
+  nameWithType: BitStream.Write
+- uid: UnityExt.Core.IO.BitStream.WriteBit(System.Boolean)
+  name: WriteBit(Boolean)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBit_System_Boolean_
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBit(System.Boolean)
+  fullName: UnityExt.Core.IO.BitStream.WriteBit(System.Boolean)
+  nameWithType: BitStream.WriteBit(Boolean)
+- uid: UnityExt.Core.IO.BitStream.WriteBit(System.Int32)
+  name: WriteBit(Int32)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBit_System_Int32_
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBit(System.Int32)
+  fullName: UnityExt.Core.IO.BitStream.WriteBit(System.Int32)
+  nameWithType: BitStream.WriteBit(Int32)
+- uid: UnityExt.Core.IO.BitStream.WriteBit*
+  name: WriteBit
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBit_
+  commentId: Overload:UnityExt.Core.IO.BitStream.WriteBit
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.WriteBit
+  nameWithType: BitStream.WriteBit
+- uid: UnityExt.Core.IO.BitStream.WriteBits(System.Boolean[])
+  name: WriteBits(Boolean[])
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBits_System_Boolean___
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBits(System.Boolean[])
+  name.vb: WriteBits(Boolean())
+  fullName: UnityExt.Core.IO.BitStream.WriteBits(System.Boolean[])
+  fullName.vb: UnityExt.Core.IO.BitStream.WriteBits(System.Boolean())
+  nameWithType: BitStream.WriteBits(Boolean[])
+  nameWithType.vb: BitStream.WriteBits(Boolean())
+- uid: UnityExt.Core.IO.BitStream.WriteBits(System.Byte[])
+  name: WriteBits(Byte[])
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBits_System_Byte___
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBits(System.Byte[])
+  name.vb: WriteBits(Byte())
+  fullName: UnityExt.Core.IO.BitStream.WriteBits(System.Byte[])
+  fullName.vb: UnityExt.Core.IO.BitStream.WriteBits(System.Byte())
+  nameWithType: BitStream.WriteBits(Byte[])
+  nameWithType.vb: BitStream.WriteBits(Byte())
+- uid: UnityExt.Core.IO.BitStream.WriteBits(System.Char[])
+  name: WriteBits(Char[])
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBits_System_Char___
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBits(System.Char[])
+  name.vb: WriteBits(Char())
+  fullName: UnityExt.Core.IO.BitStream.WriteBits(System.Char[])
+  fullName.vb: UnityExt.Core.IO.BitStream.WriteBits(System.Char())
+  nameWithType: BitStream.WriteBits(Char[])
+  nameWithType.vb: BitStream.WriteBits(Char())
+- uid: UnityExt.Core.IO.BitStream.WriteBits(System.String)
+  name: WriteBits(String)
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBits_System_String_
+  commentId: M:UnityExt.Core.IO.BitStream.WriteBits(System.String)
+  fullName: UnityExt.Core.IO.BitStream.WriteBits(System.String)
+  nameWithType: BitStream.WriteBits(String)
+- uid: UnityExt.Core.IO.BitStream.WriteBits*
+  name: WriteBits
+  href: api/UnityExt.Core.IO.BitStream.html#UnityExt_Core_IO_BitStream_WriteBits_
+  commentId: Overload:UnityExt.Core.IO.BitStream.WriteBits
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.BitStream.WriteBits
+  nameWithType: BitStream.WriteBits
 - uid: UnityExt.Core.IO.IObjectParserTokenHandler
   name: IObjectParserTokenHandler
   href: api/UnityExt.Core.IO.IObjectParserTokenHandler.html
@@ -2178,6 +3562,12 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IO.ObjectParser.current
   nameWithType: ObjectParser.current
+- uid: UnityExt.Core.IO.ObjectParser.DefaultSettings
+  name: DefaultSettings
+  href: api/UnityExt.Core.IO.ObjectParser.html#UnityExt_Core_IO_ObjectParser_DefaultSettings
+  commentId: F:UnityExt.Core.IO.ObjectParser.DefaultSettings
+  fullName: UnityExt.Core.IO.ObjectParser.DefaultSettings
+  nameWithType: ObjectParser.DefaultSettings
 - uid: UnityExt.Core.IO.ObjectParser.depth
   name: depth
   href: api/UnityExt.Core.IO.ObjectParser.html#UnityExt_Core_IO_ObjectParser_depth
@@ -2619,6 +4009,19 @@ references:
   fullName.vb: UnityExt.Core.IO.ObjectParser.ReadEnd(Of T)()
   nameWithType: ObjectParser.ReadEnd<T>()
   nameWithType.vb: ObjectParser.ReadEnd(Of T)()
+- uid: UnityExt.Core.IO.ObjectParser.settings
+  name: settings
+  href: api/UnityExt.Core.IO.ObjectParser.html#UnityExt_Core_IO_ObjectParser_settings
+  commentId: P:UnityExt.Core.IO.ObjectParser.settings
+  fullName: UnityExt.Core.IO.ObjectParser.settings
+  nameWithType: ObjectParser.settings
+- uid: UnityExt.Core.IO.ObjectParser.settings*
+  name: settings
+  href: api/UnityExt.Core.IO.ObjectParser.html#UnityExt_Core_IO_ObjectParser_settings_
+  commentId: Overload:UnityExt.Core.IO.ObjectParser.settings
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ObjectParser.settings
+  nameWithType: ObjectParser.settings
 - uid: UnityExt.Core.IO.ObjectParser.tokens
   name: tokens
   href: api/UnityExt.Core.IO.ObjectParser.html#UnityExt_Core_IO_ObjectParser_tokens
@@ -3498,6 +4901,25 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IO.Parse.ByteCount
   nameWithType: Parse.ByteCount
+- uid: UnityExt.Core.IO.Parse.DateHash(System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: DateHash(DateTime, String, String, String, String, String, String, String)
+  href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_DateHash_System_DateTime_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:UnityExt.Core.IO.Parse.DateHash(System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  fullName: UnityExt.Core.IO.Parse.DateHash(System.DateTime, System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: Parse.DateHash(DateTime, String, String, String, String, String, String, String)
+- uid: UnityExt.Core.IO.Parse.DateHash(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: DateHash(String, String, String, String, String, String, String)
+  href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_DateHash_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:UnityExt.Core.IO.Parse.DateHash(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  fullName: UnityExt.Core.IO.Parse.DateHash(System.String, System.String, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: Parse.DateHash(String, String, String, String, String, String, String)
+- uid: UnityExt.Core.IO.Parse.DateHash*
+  name: DateHash
+  href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_DateHash_
+  commentId: Overload:UnityExt.Core.IO.Parse.DateHash
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.Parse.DateHash
+  nameWithType: Parse.DateHash
 - uid: UnityExt.Core.IO.Parse.DigitCount(System.Decimal)
   name: DigitCount(Decimal)
   href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_DigitCount_System_Decimal_
@@ -3773,6 +5195,19 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.IO.Parse.From
   nameWithType: Parse.From
+- uid: UnityExt.Core.IO.Parse.Ordinal(System.Int32)
+  name: Ordinal(Int32)
+  href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_Ordinal_System_Int32_
+  commentId: M:UnityExt.Core.IO.Parse.Ordinal(System.Int32)
+  fullName: UnityExt.Core.IO.Parse.Ordinal(System.Int32)
+  nameWithType: Parse.Ordinal(Int32)
+- uid: UnityExt.Core.IO.Parse.Ordinal*
+  name: Ordinal
+  href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_Ordinal_
+  commentId: Overload:UnityExt.Core.IO.Parse.Ordinal
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.Parse.Ordinal
+  nameWithType: Parse.Ordinal
 - uid: UnityExt.Core.IO.Parse.To(System.Char[],System.Boolean@)
   name: To(Char[], out Boolean)
   href: api/UnityExt.Core.IO.Parse.html#UnityExt_Core_IO_Parse_To_System_Char___System_Boolean__
@@ -4293,6 +5728,144 @@ references:
   commentId: F:UnityExt.Core.IO.Parse.ULongToDouble.Value
   fullName: UnityExt.Core.IO.Parse.ULongToDouble.Value
   nameWithType: Parse.ULongToDouble.Value
+- uid: UnityExt.Core.IO.ParseSettings
+  name: ParseSettings
+  href: api/UnityExt.Core.IO.ParseSettings.html
+  commentId: T:UnityExt.Core.IO.ParseSettings
+  fullName: UnityExt.Core.IO.ParseSettings
+  nameWithType: ParseSettings
+- uid: UnityExt.Core.IO.ParseSettings.#ctor
+  name: ParseSettings()
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings__ctor
+  commentId: M:UnityExt.Core.IO.ParseSettings.#ctor
+  fullName: UnityExt.Core.IO.ParseSettings.ParseSettings()
+  nameWithType: ParseSettings.ParseSettings()
+- uid: UnityExt.Core.IO.ParseSettings.#ctor*
+  name: ParseSettings
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings__ctor_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.#ctor
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.ParseSettings
+  nameWithType: ParseSettings.ParseSettings
+- uid: UnityExt.Core.IO.ParseSettings.AddSurrogate(System.Type,System.String[])
+  name: AddSurrogate(Type, String[])
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_AddSurrogate_System_Type_System_String___
+  commentId: M:UnityExt.Core.IO.ParseSettings.AddSurrogate(System.Type,System.String[])
+  name.vb: AddSurrogate(Type, String())
+  fullName: UnityExt.Core.IO.ParseSettings.AddSurrogate(System.Type, System.String[])
+  fullName.vb: UnityExt.Core.IO.ParseSettings.AddSurrogate(System.Type, System.String())
+  nameWithType: ParseSettings.AddSurrogate(Type, String[])
+  nameWithType.vb: ParseSettings.AddSurrogate(Type, String())
+- uid: UnityExt.Core.IO.ParseSettings.AddSurrogate*
+  name: AddSurrogate
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_AddSurrogate_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.AddSurrogate
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.AddSurrogate
+  nameWithType: ParseSettings.AddSurrogate
+- uid: UnityExt.Core.IO.ParseSettings.AddSurrogate``1(System.String[])
+  name: AddSurrogate<T>(String[])
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_AddSurrogate__1_System_String___
+  commentId: M:UnityExt.Core.IO.ParseSettings.AddSurrogate``1(System.String[])
+  name.vb: AddSurrogate(Of T)(String())
+  fullName: UnityExt.Core.IO.ParseSettings.AddSurrogate<T>(System.String[])
+  fullName.vb: UnityExt.Core.IO.ParseSettings.AddSurrogate(Of T)(System.String())
+  nameWithType: ParseSettings.AddSurrogate<T>(String[])
+  nameWithType.vb: ParseSettings.AddSurrogate(Of T)(String())
+- uid: UnityExt.Core.IO.ParseSettings.ClearSurrogates
+  name: ClearSurrogates()
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_ClearSurrogates
+  commentId: M:UnityExt.Core.IO.ParseSettings.ClearSurrogates
+  fullName: UnityExt.Core.IO.ParseSettings.ClearSurrogates()
+  nameWithType: ParseSettings.ClearSurrogates()
+- uid: UnityExt.Core.IO.ParseSettings.ClearSurrogates*
+  name: ClearSurrogates
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_ClearSurrogates_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.ClearSurrogates
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.ClearSurrogates
+  nameWithType: ParseSettings.ClearSurrogates
+- uid: UnityExt.Core.IO.ParseSettings.GetSurrogates(System.Type)
+  name: GetSurrogates(Type)
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_GetSurrogates_System_Type_
+  commentId: M:UnityExt.Core.IO.ParseSettings.GetSurrogates(System.Type)
+  fullName: UnityExt.Core.IO.ParseSettings.GetSurrogates(System.Type)
+  nameWithType: ParseSettings.GetSurrogates(Type)
+- uid: UnityExt.Core.IO.ParseSettings.GetSurrogates*
+  name: GetSurrogates
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_GetSurrogates_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.GetSurrogates
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.GetSurrogates
+  nameWithType: ParseSettings.GetSurrogates
+- uid: UnityExt.Core.IO.ParseSettings.GetSurrogates``1
+  name: GetSurrogates<T>()
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_GetSurrogates__1
+  commentId: M:UnityExt.Core.IO.ParseSettings.GetSurrogates``1
+  name.vb: GetSurrogates(Of T)()
+  fullName: UnityExt.Core.IO.ParseSettings.GetSurrogates<T>()
+  fullName.vb: UnityExt.Core.IO.ParseSettings.GetSurrogates(Of T)()
+  nameWithType: ParseSettings.GetSurrogates<T>()
+  nameWithType.vb: ParseSettings.GetSurrogates(Of T)()
+- uid: UnityExt.Core.IO.ParseSettings.ignoreNull
+  name: ignoreNull
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_ignoreNull
+  commentId: F:UnityExt.Core.IO.ParseSettings.ignoreNull
+  fullName: UnityExt.Core.IO.ParseSettings.ignoreNull
+  nameWithType: ParseSettings.ignoreNull
+- uid: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type)
+  name: RemoveSurrogate(Type)
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_RemoveSurrogate_System_Type_
+  commentId: M:UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type)
+  fullName: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type)
+  nameWithType: ParseSettings.RemoveSurrogate(Type)
+- uid: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type,System.String[])
+  name: RemoveSurrogate(Type, String[])
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_RemoveSurrogate_System_Type_System_String___
+  commentId: M:UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type,System.String[])
+  name.vb: RemoveSurrogate(Type, String())
+  fullName: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type, System.String[])
+  fullName.vb: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(System.Type, System.String())
+  nameWithType: ParseSettings.RemoveSurrogate(Type, String[])
+  nameWithType.vb: ParseSettings.RemoveSurrogate(Type, String())
+- uid: UnityExt.Core.IO.ParseSettings.RemoveSurrogate*
+  name: RemoveSurrogate
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_RemoveSurrogate_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.RemoveSurrogate
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.RemoveSurrogate
+  nameWithType: ParseSettings.RemoveSurrogate
+- uid: UnityExt.Core.IO.ParseSettings.RemoveSurrogate``1
+  name: RemoveSurrogate<T>()
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_RemoveSurrogate__1
+  commentId: M:UnityExt.Core.IO.ParseSettings.RemoveSurrogate``1
+  name.vb: RemoveSurrogate(Of T)()
+  fullName: UnityExt.Core.IO.ParseSettings.RemoveSurrogate<T>()
+  fullName.vb: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(Of T)()
+  nameWithType: ParseSettings.RemoveSurrogate<T>()
+  nameWithType.vb: ParseSettings.RemoveSurrogate(Of T)()
+- uid: UnityExt.Core.IO.ParseSettings.RemoveSurrogate``1(System.String[])
+  name: RemoveSurrogate<T>(String[])
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_RemoveSurrogate__1_System_String___
+  commentId: M:UnityExt.Core.IO.ParseSettings.RemoveSurrogate``1(System.String[])
+  name.vb: RemoveSurrogate(Of T)(String())
+  fullName: UnityExt.Core.IO.ParseSettings.RemoveSurrogate<T>(System.String[])
+  fullName.vb: UnityExt.Core.IO.ParseSettings.RemoveSurrogate(Of T)(System.String())
+  nameWithType: ParseSettings.RemoveSurrogate<T>(String[])
+  nameWithType.vb: ParseSettings.RemoveSurrogate(Of T)(String())
+- uid: UnityExt.Core.IO.ParseSettings.UnitySettings
+  name: UnitySettings
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_UnitySettings
+  commentId: P:UnityExt.Core.IO.ParseSettings.UnitySettings
+  fullName: UnityExt.Core.IO.ParseSettings.UnitySettings
+  nameWithType: ParseSettings.UnitySettings
+- uid: UnityExt.Core.IO.ParseSettings.UnitySettings*
+  name: UnitySettings
+  href: api/UnityExt.Core.IO.ParseSettings.html#UnityExt_Core_IO_ParseSettings_UnitySettings_
+  commentId: Overload:UnityExt.Core.IO.ParseSettings.UnitySettings
+  isSpec: "True"
+  fullName: UnityExt.Core.IO.ParseSettings.UnitySettings
+  nameWithType: ParseSettings.UnitySettings
 - uid: UnityExt.Core.IO.SerializableField
   name: SerializableField
   href: api/UnityExt.Core.IO.SerializableField.html
@@ -11964,24 +13537,24 @@ references:
   commentId: T:UnityExt.Project.Coord3
   fullName: UnityExt.Project.Coord3
   nameWithType: Coord3
-- uid: UnityExt.Project.Coord3.p0
-  name: p0
-  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_p0
-  commentId: F:UnityExt.Project.Coord3.p0
-  fullName: UnityExt.Project.Coord3.p0
-  nameWithType: Coord3.p0
-- uid: UnityExt.Project.Coord3.p1
-  name: p1
-  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_p1
-  commentId: F:UnityExt.Project.Coord3.p1
-  fullName: UnityExt.Project.Coord3.p1
-  nameWithType: Coord3.p1
-- uid: UnityExt.Project.Coord3.p2
-  name: p2
-  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_p2
-  commentId: F:UnityExt.Project.Coord3.p2
-  fullName: UnityExt.Project.Coord3.p2
-  nameWithType: Coord3.p2
+- uid: UnityExt.Project.Coord3.P0
+  name: P0
+  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_P0
+  commentId: F:UnityExt.Project.Coord3.P0
+  fullName: UnityExt.Project.Coord3.P0
+  nameWithType: Coord3.P0
+- uid: UnityExt.Project.Coord3.P1
+  name: P1
+  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_P1
+  commentId: F:UnityExt.Project.Coord3.P1
+  fullName: UnityExt.Project.Coord3.P1
+  nameWithType: Coord3.P1
+- uid: UnityExt.Project.Coord3.P2
+  name: P2
+  href: api/UnityExt.Project.Coord3.html#UnityExt_Project_Coord3_P2
+  commentId: F:UnityExt.Project.Coord3.P2
+  fullName: UnityExt.Project.Coord3.P2
+  nameWithType: Coord3.P2
 - uid: UnityExt.Project.Dataset
   name: Dataset
   href: api/UnityExt.Project.Dataset.html
@@ -12000,6 +13573,24 @@ references:
   commentId: F:UnityExt.Project.Dataset.c0
   fullName: UnityExt.Project.Dataset.c0
   nameWithType: Dataset.c0
+- uid: UnityExt.Project.Dataset.l0
+  name: l0
+  href: api/UnityExt.Project.Dataset.html#UnityExt_Project_Dataset_l0
+  commentId: F:UnityExt.Project.Dataset.l0
+  fullName: UnityExt.Project.Dataset.l0
+  nameWithType: Dataset.l0
+- uid: UnityExt.Project.Dataset.l1
+  name: l1
+  href: api/UnityExt.Project.Dataset.html#UnityExt_Project_Dataset_l1
+  commentId: F:UnityExt.Project.Dataset.l1
+  fullName: UnityExt.Project.Dataset.l1
+  nameWithType: Dataset.l1
+- uid: UnityExt.Project.Dataset.l2
+  name: l2
+  href: api/UnityExt.Project.Dataset.html#UnityExt_Project_Dataset_l2
+  commentId: F:UnityExt.Project.Dataset.l2
+  fullName: UnityExt.Project.Dataset.l2
+  nameWithType: Dataset.l2
 - uid: UnityExt.Project.Dataset.p0
   name: p0
   href: api/UnityExt.Project.Dataset.html#UnityExt_Project_Dataset_p0
@@ -12352,6 +13943,12 @@ references:
   commentId: F:UnityExt.Project.ExamplesApp.debugCurve
   fullName: UnityExt.Project.ExamplesApp.debugCurve
   nameWithType: ExamplesApp.debugCurve
+- uid: UnityExt.Project.ExamplesApp.debugGradient
+  name: debugGradient
+  href: api/UnityExt.Project.ExamplesApp.html#UnityExt_Project_ExamplesApp_debugGradient
+  commentId: F:UnityExt.Project.ExamplesApp.debugGradient
+  fullName: UnityExt.Project.ExamplesApp.debugGradient
+  nameWithType: ExamplesApp.debugGradient
 - uid: UnityExt.Project.ExamplesApp.debugImage
   name: debugImage
   href: api/UnityExt.Project.ExamplesApp.html#UnityExt_Project_ExamplesApp_debugImage
@@ -12744,488 +14341,30 @@ references:
   commentId: T:UnityExt.Project.Pos3
   fullName: UnityExt.Project.Pos3
   nameWithType: Pos3
-- uid: UnityExt.Project.Pos3.x
-  name: x
-  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_x
-  commentId: F:UnityExt.Project.Pos3.x
-  fullName: UnityExt.Project.Pos3.x
-  nameWithType: Pos3.x
-- uid: UnityExt.Project.Pos3.y
-  name: y
-  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_y
-  commentId: F:UnityExt.Project.Pos3.y
-  fullName: UnityExt.Project.Pos3.y
-  nameWithType: Pos3.y
-- uid: UnityExt.Project.Pos3.z
-  name: z
-  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_z
-  commentId: F:UnityExt.Project.Pos3.z
-  fullName: UnityExt.Project.Pos3.z
-  nameWithType: Pos3.z
+- uid: UnityExt.Project.Pos3.X
+  name: X
+  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_X
+  commentId: F:UnityExt.Project.Pos3.X
+  fullName: UnityExt.Project.Pos3.X
+  nameWithType: Pos3.X
+- uid: UnityExt.Project.Pos3.Y
+  name: Y
+  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_Y
+  commentId: F:UnityExt.Project.Pos3.Y
+  fullName: UnityExt.Project.Pos3.Y
+  nameWithType: Pos3.Y
+- uid: UnityExt.Project.Pos3.Z
+  name: Z
+  href: api/UnityExt.Project.Pos3.html#UnityExt_Project_Pos3_Z
+  commentId: F:UnityExt.Project.Pos3.Z
+  fullName: UnityExt.Project.Pos3.Z
+  nameWithType: Pos3.Z
 - uid: UnityExt.Sys
   name: UnityExt.Sys
   href: api/UnityExt.Sys.html
   commentId: N:UnityExt.Sys
   fullName: UnityExt.Sys
   nameWithType: UnityExt.Sys
-- uid: UnityExt.Sys.BitStream
-  name: BitStream
-  href: api/UnityExt.Sys.BitStream.html
-  commentId: T:UnityExt.Sys.BitStream
-  fullName: UnityExt.Sys.BitStream
-  nameWithType: BitStream
-- uid: UnityExt.Sys.BitStream.#ctor(System.IO.Stream)
-  name: BitStream(Stream)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream__ctor_System_IO_Stream_
-  commentId: M:UnityExt.Sys.BitStream.#ctor(System.IO.Stream)
-  fullName: UnityExt.Sys.BitStream.BitStream(System.IO.Stream)
-  nameWithType: BitStream.BitStream(Stream)
-- uid: UnityExt.Sys.BitStream.#ctor(System.IO.Stream,System.Int64)
-  name: BitStream(Stream, Int64)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream__ctor_System_IO_Stream_System_Int64_
-  commentId: M:UnityExt.Sys.BitStream.#ctor(System.IO.Stream,System.Int64)
-  fullName: UnityExt.Sys.BitStream.BitStream(System.IO.Stream, System.Int64)
-  nameWithType: BitStream.BitStream(Stream, Int64)
-- uid: UnityExt.Sys.BitStream.#ctor(System.UInt64)
-  name: BitStream(UInt64)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream__ctor_System_UInt64_
-  commentId: M:UnityExt.Sys.BitStream.#ctor(System.UInt64)
-  fullName: UnityExt.Sys.BitStream.BitStream(System.UInt64)
-  nameWithType: BitStream.BitStream(UInt64)
-- uid: UnityExt.Sys.BitStream.#ctor*
-  name: BitStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream__ctor_
-  commentId: Overload:UnityExt.Sys.BitStream.#ctor
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.BitStream
-  nameWithType: BitStream.BitStream
-- uid: UnityExt.Sys.BitStream.BaseStream
-  name: BaseStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BaseStream
-  commentId: P:UnityExt.Sys.BitStream.BaseStream
-  fullName: UnityExt.Sys.BitStream.BaseStream
-  nameWithType: BitStream.BaseStream
-- uid: UnityExt.Sys.BitStream.BaseStream*
-  name: BaseStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BaseStream_
-  commentId: Overload:UnityExt.Sys.BitStream.BaseStream
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.BaseStream
-  nameWithType: BitStream.BaseStream
-- uid: UnityExt.Sys.BitStream.BitCapacity
-  name: BitCapacity
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitCapacity
-  commentId: P:UnityExt.Sys.BitStream.BitCapacity
-  fullName: UnityExt.Sys.BitStream.BitCapacity
-  nameWithType: BitStream.BitCapacity
-- uid: UnityExt.Sys.BitStream.BitCapacity*
-  name: BitCapacity
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitCapacity_
-  commentId: Overload:UnityExt.Sys.BitStream.BitCapacity
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.BitCapacity
-  nameWithType: BitStream.BitCapacity
-- uid: UnityExt.Sys.BitStream.BitLength
-  name: BitLength
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitLength
-  commentId: P:UnityExt.Sys.BitStream.BitLength
-  fullName: UnityExt.Sys.BitStream.BitLength
-  nameWithType: BitStream.BitLength
-- uid: UnityExt.Sys.BitStream.BitLength*
-  name: BitLength
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitLength_
-  commentId: Overload:UnityExt.Sys.BitStream.BitLength
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.BitLength
-  nameWithType: BitStream.BitLength
-- uid: UnityExt.Sys.BitStream.BitPosition
-  name: BitPosition
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitPosition
-  commentId: P:UnityExt.Sys.BitStream.BitPosition
-  fullName: UnityExt.Sys.BitStream.BitPosition
-  nameWithType: BitStream.BitPosition
-- uid: UnityExt.Sys.BitStream.BitPosition*
-  name: BitPosition
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_BitPosition_
-  commentId: Overload:UnityExt.Sys.BitStream.BitPosition
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.BitPosition
-  nameWithType: BitStream.BitPosition
-- uid: UnityExt.Sys.BitStream.CanRead
-  name: CanRead
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanRead
-  commentId: P:UnityExt.Sys.BitStream.CanRead
-  fullName: UnityExt.Sys.BitStream.CanRead
-  nameWithType: BitStream.CanRead
-- uid: UnityExt.Sys.BitStream.CanRead*
-  name: CanRead
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanRead_
-  commentId: Overload:UnityExt.Sys.BitStream.CanRead
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.CanRead
-  nameWithType: BitStream.CanRead
-- uid: UnityExt.Sys.BitStream.CanSeek
-  name: CanSeek
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanSeek
-  commentId: P:UnityExt.Sys.BitStream.CanSeek
-  fullName: UnityExt.Sys.BitStream.CanSeek
-  nameWithType: BitStream.CanSeek
-- uid: UnityExt.Sys.BitStream.CanSeek*
-  name: CanSeek
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanSeek_
-  commentId: Overload:UnityExt.Sys.BitStream.CanSeek
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.CanSeek
-  nameWithType: BitStream.CanSeek
-- uid: UnityExt.Sys.BitStream.CanWrite
-  name: CanWrite
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanWrite
-  commentId: P:UnityExt.Sys.BitStream.CanWrite
-  fullName: UnityExt.Sys.BitStream.CanWrite
-  nameWithType: BitStream.CanWrite
-- uid: UnityExt.Sys.BitStream.CanWrite*
-  name: CanWrite
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_CanWrite_
-  commentId: Overload:UnityExt.Sys.BitStream.CanWrite
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.CanWrite
-  nameWithType: BitStream.CanWrite
-- uid: UnityExt.Sys.BitStream.Close
-  name: Close()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Close
-  commentId: M:UnityExt.Sys.BitStream.Close
-  fullName: UnityExt.Sys.BitStream.Close()
-  nameWithType: BitStream.Close()
-- uid: UnityExt.Sys.BitStream.Close*
-  name: Close
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Close_
-  commentId: Overload:UnityExt.Sys.BitStream.Close
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Close
-  nameWithType: BitStream.Close
-- uid: UnityExt.Sys.BitStream.Dispose
-  name: Dispose()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Dispose
-  commentId: M:UnityExt.Sys.BitStream.Dispose
-  fullName: UnityExt.Sys.BitStream.Dispose()
-  nameWithType: BitStream.Dispose()
-- uid: UnityExt.Sys.BitStream.Dispose*
-  name: Dispose
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Dispose_
-  commentId: Overload:UnityExt.Sys.BitStream.Dispose
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Dispose
-  nameWithType: BitStream.Dispose
-- uid: UnityExt.Sys.BitStream.Flush
-  name: Flush()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Flush
-  commentId: M:UnityExt.Sys.BitStream.Flush
-  fullName: UnityExt.Sys.BitStream.Flush()
-  nameWithType: BitStream.Flush()
-- uid: UnityExt.Sys.BitStream.Flush*
-  name: Flush
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Flush_
-  commentId: Overload:UnityExt.Sys.BitStream.Flush
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Flush
-  nameWithType: BitStream.Flush
-- uid: UnityExt.Sys.BitStream.FlushAsync
-  name: FlushAsync()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_FlushAsync
-  commentId: M:UnityExt.Sys.BitStream.FlushAsync
-  fullName: UnityExt.Sys.BitStream.FlushAsync()
-  nameWithType: BitStream.FlushAsync()
-- uid: UnityExt.Sys.BitStream.FlushAsync*
-  name: FlushAsync
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_FlushAsync_
-  commentId: Overload:UnityExt.Sys.BitStream.FlushAsync
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.FlushAsync
-  nameWithType: BitStream.FlushAsync
-- uid: UnityExt.Sys.BitStream.GetStream*
-  name: GetStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_GetStream_
-  commentId: Overload:UnityExt.Sys.BitStream.GetStream
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.GetStream
-  nameWithType: BitStream.GetStream
-- uid: UnityExt.Sys.BitStream.GetStream``1
-  name: GetStream<T>()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_GetStream__1
-  commentId: M:UnityExt.Sys.BitStream.GetStream``1
-  name.vb: GetStream(Of T)()
-  fullName: UnityExt.Sys.BitStream.GetStream<T>()
-  fullName.vb: UnityExt.Sys.BitStream.GetStream(Of T)()
-  nameWithType: BitStream.GetStream<T>()
-  nameWithType.vb: BitStream.GetStream(Of T)()
-- uid: UnityExt.Sys.BitStream.HasStream
-  name: HasStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_HasStream
-  commentId: P:UnityExt.Sys.BitStream.HasStream
-  fullName: UnityExt.Sys.BitStream.HasStream
-  nameWithType: BitStream.HasStream
-- uid: UnityExt.Sys.BitStream.HasStream*
-  name: HasStream
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_HasStream_
-  commentId: Overload:UnityExt.Sys.BitStream.HasStream
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.HasStream
-  nameWithType: BitStream.HasStream
-- uid: UnityExt.Sys.BitStream.Read(System.Byte@,System.Int32,System.Boolean)
-  name: Read(out Byte, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_Byte__System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.Byte@,System.Int32,System.Boolean)
-  name.vb: Read(ByRef Byte, Int32, Boolean)
-  fullName: UnityExt.Sys.BitStream.Read(out System.Byte, System.Int32, System.Boolean)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.Byte, System.Int32, System.Boolean)
-  nameWithType: BitStream.Read(out Byte, Int32, Boolean)
-  nameWithType.vb: BitStream.Read(ByRef Byte, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Read(System.Char@,System.Int32,System.Boolean)
-  name: Read(out Char, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_Char__System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.Char@,System.Int32,System.Boolean)
-  name.vb: Read(ByRef Char, Int32, Boolean)
-  fullName: UnityExt.Sys.BitStream.Read(out System.Char, System.Int32, System.Boolean)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.Char, System.Int32, System.Boolean)
-  nameWithType: BitStream.Read(out Char, Int32, Boolean)
-  nameWithType.vb: BitStream.Read(ByRef Char, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Read(System.Double@,System.Double,System.Double,System.Int32)
-  name: Read(out Double, Double, Double, Int32)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_Double__System_Double_System_Double_System_Int32_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.Double@,System.Double,System.Double,System.Int32)
-  name.vb: Read(ByRef Double, Double, Double, Int32)
-  fullName: UnityExt.Sys.BitStream.Read(out System.Double, System.Double, System.Double, System.Int32)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.Double, System.Double, System.Double, System.Int32)
-  nameWithType: BitStream.Read(out Double, Double, Double, Int32)
-  nameWithType.vb: BitStream.Read(ByRef Double, Double, Double, Int32)
-- uid: UnityExt.Sys.BitStream.Read(System.Single@,System.Single,System.Single,System.Int32)
-  name: Read(out Single, Single, Single, Int32)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_Single__System_Single_System_Single_System_Int32_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.Single@,System.Single,System.Single,System.Int32)
-  name.vb: Read(ByRef Single, Single, Single, Int32)
-  fullName: UnityExt.Sys.BitStream.Read(out System.Single, System.Single, System.Single, System.Int32)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.Single, System.Single, System.Single, System.Int32)
-  nameWithType: BitStream.Read(out Single, Single, Single, Int32)
-  nameWithType.vb: BitStream.Read(ByRef Single, Single, Single, Int32)
-- uid: UnityExt.Sys.BitStream.Read(System.UInt16@,System.Int32,System.Boolean)
-  name: Read(out UInt16, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_UInt16__System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.UInt16@,System.Int32,System.Boolean)
-  name.vb: Read(ByRef UInt16, Int32, Boolean)
-  fullName: UnityExt.Sys.BitStream.Read(out System.UInt16, System.Int32, System.Boolean)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.UInt16, System.Int32, System.Boolean)
-  nameWithType: BitStream.Read(out UInt16, Int32, Boolean)
-  nameWithType.vb: BitStream.Read(ByRef UInt16, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Read(System.UInt32@,System.Int32,System.Boolean)
-  name: Read(out UInt32, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_UInt32__System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.UInt32@,System.Int32,System.Boolean)
-  name.vb: Read(ByRef UInt32, Int32, Boolean)
-  fullName: UnityExt.Sys.BitStream.Read(out System.UInt32, System.Int32, System.Boolean)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.UInt32, System.Int32, System.Boolean)
-  nameWithType: BitStream.Read(out UInt32, Int32, Boolean)
-  nameWithType.vb: BitStream.Read(ByRef UInt32, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Read(System.UInt64@,System.Int32,System.Boolean)
-  name: Read(out UInt64, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_System_UInt64__System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Read(System.UInt64@,System.Int32,System.Boolean)
-  name.vb: Read(ByRef UInt64, Int32, Boolean)
-  fullName: UnityExt.Sys.BitStream.Read(out System.UInt64, System.Int32, System.Boolean)
-  fullName.vb: UnityExt.Sys.BitStream.Read(ByRef System.UInt64, System.Int32, System.Boolean)
-  nameWithType: BitStream.Read(out UInt64, Int32, Boolean)
-  nameWithType.vb: BitStream.Read(ByRef UInt64, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Read*
-  name: Read
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Read_
-  commentId: Overload:UnityExt.Sys.BitStream.Read
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Read
-  nameWithType: BitStream.Read
-- uid: UnityExt.Sys.BitStream.ReadBit
-  name: ReadBit()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ReadBit
-  commentId: M:UnityExt.Sys.BitStream.ReadBit
-  fullName: UnityExt.Sys.BitStream.ReadBit()
-  nameWithType: BitStream.ReadBit()
-- uid: UnityExt.Sys.BitStream.ReadBit*
-  name: ReadBit
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ReadBit_
-  commentId: Overload:UnityExt.Sys.BitStream.ReadBit
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.ReadBit
-  nameWithType: BitStream.ReadBit
-- uid: UnityExt.Sys.BitStream.ReadBits
-  name: ReadBits()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ReadBits
-  commentId: M:UnityExt.Sys.BitStream.ReadBits
-  fullName: UnityExt.Sys.BitStream.ReadBits()
-  nameWithType: BitStream.ReadBits()
-- uid: UnityExt.Sys.BitStream.ReadBits*
-  name: ReadBits
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ReadBits_
-  commentId: Overload:UnityExt.Sys.BitStream.ReadBits
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.ReadBits
-  nameWithType: BitStream.ReadBits
-- uid: UnityExt.Sys.BitStream.Seek(System.Int64)
-  name: Seek(Int64)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Seek_System_Int64_
-  commentId: M:UnityExt.Sys.BitStream.Seek(System.Int64)
-  fullName: UnityExt.Sys.BitStream.Seek(System.Int64)
-  nameWithType: BitStream.Seek(Int64)
-- uid: UnityExt.Sys.BitStream.Seek(System.Int64,System.IO.SeekOrigin)
-  name: Seek(Int64, SeekOrigin)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Seek_System_Int64_System_IO_SeekOrigin_
-  commentId: M:UnityExt.Sys.BitStream.Seek(System.Int64,System.IO.SeekOrigin)
-  fullName: UnityExt.Sys.BitStream.Seek(System.Int64, System.IO.SeekOrigin)
-  nameWithType: BitStream.Seek(Int64, SeekOrigin)
-- uid: UnityExt.Sys.BitStream.Seek*
-  name: Seek
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Seek_
-  commentId: Overload:UnityExt.Sys.BitStream.Seek
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Seek
-  nameWithType: BitStream.Seek
-- uid: UnityExt.Sys.BitStream.SetLength(System.Int64)
-  name: SetLength(Int64)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_SetLength_System_Int64_
-  commentId: M:UnityExt.Sys.BitStream.SetLength(System.Int64)
-  fullName: UnityExt.Sys.BitStream.SetLength(System.Int64)
-  nameWithType: BitStream.SetLength(Int64)
-- uid: UnityExt.Sys.BitStream.SetLength*
-  name: SetLength
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_SetLength_
-  commentId: Overload:UnityExt.Sys.BitStream.SetLength
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.SetLength
-  nameWithType: BitStream.SetLength
-- uid: UnityExt.Sys.BitStream.ToString
-  name: ToString()
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ToString
-  commentId: M:UnityExt.Sys.BitStream.ToString
-  fullName: UnityExt.Sys.BitStream.ToString()
-  nameWithType: BitStream.ToString()
-- uid: UnityExt.Sys.BitStream.ToString*
-  name: ToString
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_ToString_
-  commentId: Overload:UnityExt.Sys.BitStream.ToString
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.ToString
-  nameWithType: BitStream.ToString
-- uid: UnityExt.Sys.BitStream.Write(System.Byte,System.Int32,System.Boolean)
-  name: Write(Byte, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_Byte_System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.Byte,System.Int32,System.Boolean)
-  fullName: UnityExt.Sys.BitStream.Write(System.Byte, System.Int32, System.Boolean)
-  nameWithType: BitStream.Write(Byte, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Write(System.Char,System.Int32,System.Boolean)
-  name: Write(Char, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_Char_System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.Char,System.Int32,System.Boolean)
-  fullName: UnityExt.Sys.BitStream.Write(System.Char, System.Int32, System.Boolean)
-  nameWithType: BitStream.Write(Char, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Write(System.Double,System.Double,System.Double,System.Int32)
-  name: Write(Double, Double, Double, Int32)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_Double_System_Double_System_Double_System_Int32_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.Double,System.Double,System.Double,System.Int32)
-  fullName: UnityExt.Sys.BitStream.Write(System.Double, System.Double, System.Double, System.Int32)
-  nameWithType: BitStream.Write(Double, Double, Double, Int32)
-- uid: UnityExt.Sys.BitStream.Write(System.Single,System.Single,System.Single,System.Int32)
-  name: Write(Single, Single, Single, Int32)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_Single_System_Single_System_Single_System_Int32_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.Single,System.Single,System.Single,System.Int32)
-  fullName: UnityExt.Sys.BitStream.Write(System.Single, System.Single, System.Single, System.Int32)
-  nameWithType: BitStream.Write(Single, Single, Single, Int32)
-- uid: UnityExt.Sys.BitStream.Write(System.String)
-  name: Write(String)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_String_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.String)
-  fullName: UnityExt.Sys.BitStream.Write(System.String)
-  nameWithType: BitStream.Write(String)
-- uid: UnityExt.Sys.BitStream.Write(System.UInt16,System.Int32,System.Boolean)
-  name: Write(UInt16, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_UInt16_System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.UInt16,System.Int32,System.Boolean)
-  fullName: UnityExt.Sys.BitStream.Write(System.UInt16, System.Int32, System.Boolean)
-  nameWithType: BitStream.Write(UInt16, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Write(System.UInt32,System.Int32,System.Boolean)
-  name: Write(UInt32, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_UInt32_System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.UInt32,System.Int32,System.Boolean)
-  fullName: UnityExt.Sys.BitStream.Write(System.UInt32, System.Int32, System.Boolean)
-  nameWithType: BitStream.Write(UInt32, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Write(System.UInt64,System.Int32,System.Boolean)
-  name: Write(UInt64, Int32, Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_System_UInt64_System_Int32_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.Write(System.UInt64,System.Int32,System.Boolean)
-  fullName: UnityExt.Sys.BitStream.Write(System.UInt64, System.Int32, System.Boolean)
-  nameWithType: BitStream.Write(UInt64, Int32, Boolean)
-- uid: UnityExt.Sys.BitStream.Write*
-  name: Write
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_Write_
-  commentId: Overload:UnityExt.Sys.BitStream.Write
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.Write
-  nameWithType: BitStream.Write
-- uid: UnityExt.Sys.BitStream.WriteBit(System.Boolean)
-  name: WriteBit(Boolean)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBit_System_Boolean_
-  commentId: M:UnityExt.Sys.BitStream.WriteBit(System.Boolean)
-  fullName: UnityExt.Sys.BitStream.WriteBit(System.Boolean)
-  nameWithType: BitStream.WriteBit(Boolean)
-- uid: UnityExt.Sys.BitStream.WriteBit(System.Int32)
-  name: WriteBit(Int32)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBit_System_Int32_
-  commentId: M:UnityExt.Sys.BitStream.WriteBit(System.Int32)
-  fullName: UnityExt.Sys.BitStream.WriteBit(System.Int32)
-  nameWithType: BitStream.WriteBit(Int32)
-- uid: UnityExt.Sys.BitStream.WriteBit*
-  name: WriteBit
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBit_
-  commentId: Overload:UnityExt.Sys.BitStream.WriteBit
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.WriteBit
-  nameWithType: BitStream.WriteBit
-- uid: UnityExt.Sys.BitStream.WriteBits(System.Boolean[])
-  name: WriteBits(Boolean[])
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBits_System_Boolean___
-  commentId: M:UnityExt.Sys.BitStream.WriteBits(System.Boolean[])
-  name.vb: WriteBits(Boolean())
-  fullName: UnityExt.Sys.BitStream.WriteBits(System.Boolean[])
-  fullName.vb: UnityExt.Sys.BitStream.WriteBits(System.Boolean())
-  nameWithType: BitStream.WriteBits(Boolean[])
-  nameWithType.vb: BitStream.WriteBits(Boolean())
-- uid: UnityExt.Sys.BitStream.WriteBits(System.Byte[])
-  name: WriteBits(Byte[])
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBits_System_Byte___
-  commentId: M:UnityExt.Sys.BitStream.WriteBits(System.Byte[])
-  name.vb: WriteBits(Byte())
-  fullName: UnityExt.Sys.BitStream.WriteBits(System.Byte[])
-  fullName.vb: UnityExt.Sys.BitStream.WriteBits(System.Byte())
-  nameWithType: BitStream.WriteBits(Byte[])
-  nameWithType.vb: BitStream.WriteBits(Byte())
-- uid: UnityExt.Sys.BitStream.WriteBits(System.Char[])
-  name: WriteBits(Char[])
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBits_System_Char___
-  commentId: M:UnityExt.Sys.BitStream.WriteBits(System.Char[])
-  name.vb: WriteBits(Char())
-  fullName: UnityExt.Sys.BitStream.WriteBits(System.Char[])
-  fullName.vb: UnityExt.Sys.BitStream.WriteBits(System.Char())
-  nameWithType: BitStream.WriteBits(Char[])
-  nameWithType.vb: BitStream.WriteBits(Char())
-- uid: UnityExt.Sys.BitStream.WriteBits(System.String)
-  name: WriteBits(String)
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBits_System_String_
-  commentId: M:UnityExt.Sys.BitStream.WriteBits(System.String)
-  fullName: UnityExt.Sys.BitStream.WriteBits(System.String)
-  nameWithType: BitStream.WriteBits(String)
-- uid: UnityExt.Sys.BitStream.WriteBits*
-  name: WriteBits
-  href: api/UnityExt.Sys.BitStream.html#UnityExt_Sys_BitStream_WriteBits_
-  commentId: Overload:UnityExt.Sys.BitStream.WriteBits
-  isSpec: "True"
-  fullName: UnityExt.Sys.BitStream.WriteBits
-  nameWithType: BitStream.WriteBits
 - uid: UnityExt.Sys.VBDStream`1
   name: VBDStream<T>
   href: api/UnityExt.Sys.VBDStream-1.html
@@ -13243,12 +14382,12 @@ references:
   fullName.vb: UnityExt.Sys.VBDStream(Of T).VBDStream(System.IO.Stream, System.Int64)
   nameWithType: VBDStream<T>.VBDStream(Stream, Int64)
   nameWithType.vb: VBDStream(Of T).VBDStream(Stream, Int64)
-- uid: UnityExt.Sys.VBDStream`1.#ctor(UnityExt.Sys.BitStream)
+- uid: UnityExt.Sys.VBDStream`1.#ctor(UnityExt.Core.IO.BitStream)
   name: VBDStream(BitStream)
-  href: api/UnityExt.Sys.VBDStream-1.html#UnityExt_Sys_VBDStream_1__ctor_UnityExt_Sys_BitStream_
-  commentId: M:UnityExt.Sys.VBDStream`1.#ctor(UnityExt.Sys.BitStream)
-  fullName: UnityExt.Sys.VBDStream<T>.VBDStream(UnityExt.Sys.BitStream)
-  fullName.vb: UnityExt.Sys.VBDStream(Of T).VBDStream(UnityExt.Sys.BitStream)
+  href: api/UnityExt.Sys.VBDStream-1.html#UnityExt_Sys_VBDStream_1__ctor_UnityExt_Core_IO_BitStream_
+  commentId: M:UnityExt.Sys.VBDStream`1.#ctor(UnityExt.Core.IO.BitStream)
+  fullName: UnityExt.Sys.VBDStream<T>.VBDStream(UnityExt.Core.IO.BitStream)
+  fullName.vb: UnityExt.Sys.VBDStream(Of T).VBDStream(UnityExt.Core.IO.BitStream)
   nameWithType: VBDStream<T>.VBDStream(BitStream)
   nameWithType.vb: VBDStream(Of T).VBDStream(BitStream)
 - uid: UnityExt.Sys.VBDStream`1.#ctor*
