@@ -1,0 +1,634 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PropertyInterpolator&lt;T&gt;
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PropertyInterpolator&lt;T&gt;
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1">
+  
+  
+  <h1 id="UnityExt_Core_Animation_PropertyInterpolator_1" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1" class="text-break">Class PropertyInterpolator&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Class that wraps fetching an object's property and calling the proper reflection methods to interpolate them in the most optimized way possible.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Animation.PropertyInterpolator.html">PropertyInterpolator</a></div>
+    <div class="level2"><span class="xref">PropertyInterpolator&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.Animation.IInterpolator.html">IInterpolator</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.Animation.PropertyInterpolator.html#UnityExt_Core_Animation_PropertyInterpolator_target">PropertyInterpolator.target</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Animation.PropertyInterpolator.html#UnityExt_Core_Animation_PropertyInterpolator_property">PropertyInterpolator.property</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.Animation.html">UnityExt.Core.Animation</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_Animation_PropertyInterpolator_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PropertyInterpolator&lt;T&gt; : PropertyInterpolator, IInterpolator</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0__0_System_Func_System_Single_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.%23ctor(System.Object%2CSystem.String%2C%600%2C%600%2CSystem.Func%7BSystem.Single%2CSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L291">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0__0_System_Func_System_Single_System_Single__" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor(System.Object,System.String,`0,`0,System.Func{System.Single,System.Single})">PropertyInterpolator(Object, String, T, T, Func&lt;Single, Single&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new property interpolator that uses reflection to interpolate and modifies dynamic properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyInterpolator(object p_target, string p_property, T p_from, T p_to, Func&lt;float, float&gt; p_easing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property to interpolate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_from</span></td>
+        <td><p>Start value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td><p>End value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">p_easing</span></td>
+        <td><p>Interpolation easing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0__0_UnityEngine_AnimationCurve_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.%23ctor(System.Object%2CSystem.String%2C%600%2C%600%2CUnityEngine.AnimationCurve)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L301">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0__0_UnityEngine_AnimationCurve_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor(System.Object,System.String,`0,`0,UnityEngine.AnimationCurve)">PropertyInterpolator(Object, String, T, T, AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p>Creates a new property interpolator that uses reflection to interpolate and modifies dynamic properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyInterpolator(object p_target, string p_property, T p_from, T p_to, AnimationCurve p_curve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property to interpolate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_from</span></td>
+        <td><p>Start value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td><p>End value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td><span class="parametername">p_curve</span></td>
+        <td><p>AnimationCurve easing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0_System_Func_System_Single_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.%23ctor(System.Object%2CSystem.String%2C%600%2CSystem.Func%7BSystem.Single%2CSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L310">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0_System_Func_System_Single_System_Single__" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor(System.Object,System.String,`0,System.Func{System.Single,System.Single})">PropertyInterpolator(Object, String, T, Func&lt;Single, Single&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new property interpolator that uses reflection to interpolate and modifies dynamic properties. The starting value is only sampled at interpolation start</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyInterpolator(object p_target, string p_property, T p_to, Func&lt;float, float&gt; p_easing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property to interpolate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td><p>End value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">p_easing</span></td>
+        <td><p>Interpolation easing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0_UnityEngine_AnimationCurve_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.%23ctor(System.Object%2CSystem.String%2C%600%2CUnityEngine.AnimationCurve)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L319">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1__ctor_System_Object_System_String__0_UnityEngine_AnimationCurve_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.#ctor(System.Object,System.String,`0,UnityEngine.AnimationCurve)">PropertyInterpolator(Object, String, T, AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p>Creates a new property interpolator that uses reflection to interpolate and modifies dynamic properties. The starting value is only sampled at interpolation start</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyInterpolator(object p_target, string p_property, T p_to, AnimationCurve p_curve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Property to interpolate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td><p>End value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td><span class="parametername">p_curve</span></td>
+        <td><p>AnimationCurve easing.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_accessor.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.accessor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L274">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_accessor_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.accessor*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_accessor" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.accessor">accessor</h4>
+  <div class="markdown level1 summary"><p>Reference to the chosen property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyReflection&lt;T&gt; accessor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.PropertyReflection-1.html">PropertyReflection</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_deferredFromValue.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.deferredFromValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L264">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_deferredFromValue_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.deferredFromValue*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_deferredFromValue" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.deferredFromValue">deferredFromValue</h4>
+  <div class="markdown level1 summary"><p>Flag that tells to collect 'from' upon lerp start</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool deferredFromValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_interpolator.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.interpolator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L269">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_interpolator_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.interpolator*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_interpolator" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.interpolator">interpolator</h4>
+  <div class="markdown level1 summary"><p>Reference to the chosen interpolator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueTypeInterpolator&lt;T&gt; interpolator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Animation.ValueTypeInterpolator-1.html">ValueTypeInterpolator</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_valid.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.valid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L279">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_valid_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.valid*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_valid" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.valid">valid</h4>
+  <div class="markdown level1 summary"><p>Flag that tell this interpolator was properly initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool valid { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_GetPropertyValue.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.GetPropertyValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L359">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_GetPropertyValue_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.GetPropertyValue*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_GetPropertyValue" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.GetPropertyValue">GetPropertyValue()</h4>
+  <div class="markdown level1 summary"><p>Fetches the current property value and apply to the interpolator 'from'</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual T GetPropertyValue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_Lerp_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.Lerp(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L376">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_Lerp_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.Lerp*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_Lerp_System_Single_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.Lerp(System.Single)">Lerp(Single)</h4>
+  <div class="markdown level1 summary"><p>Interpolates the property</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Lerp(float p_ratio)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_ratio</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Animation.PropertyInterpolator.html#UnityExt_Core_Animation_PropertyInterpolator_Lerp_System_Single_">PropertyInterpolator.Lerp(Single)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1_SetPropertyValue__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601.SetPropertyValue(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L367">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Animation_PropertyInterpolator_1_SetPropertyValue_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.SetPropertyValue*"></a>
+  <h4 id="UnityExt_Core_Animation_PropertyInterpolator_1_SetPropertyValue__0_" data-uid="UnityExt.Core.Animation.PropertyInterpolator`1.SetPropertyValue(`0)">SetPropertyValue(T)</h4>
+  <div class="markdown level1 summary"><p>Updates the interpolator result into the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetPropertyValue(T p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.Animation.IInterpolator.html">IInterpolator</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Animation_PropertyInterpolator_1.md&amp;value=---%0Auid%3A%20UnityExt.Core.Animation.PropertyInterpolator%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Interpolator.cs/#L259" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

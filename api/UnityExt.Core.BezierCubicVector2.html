@@ -1,0 +1,679 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BezierCubicVector2
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BezierCubicVector2
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.BezierCubicVector2">
+  
+  
+  <h1 id="UnityExt_Core_BezierCubicVector2" data-uid="UnityExt.Core.BezierCubicVector2" class="text-break">Class BezierCubicVector2
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Spline.html">Spline</a></div>
+    <div class="level2"><a class="xref" href="UnityExt.Core.Spline-1.html">Spline</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</div>
+    <div class="level3"><a class="xref" href="UnityExt.Core.BezierCubic-1.html">BezierCubic</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</div>
+    <div class="level4"><span class="xref">BezierCubicVector2</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.BezierCubic-1.html#UnityExt_Core_BezierCubic_1_GetTangentOffset">BezierCubic&lt;Vector2&gt;.GetTangentOffset()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_positions">Spline&lt;Vector2&gt;.positions</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_tangents">Spline&lt;Vector2&gt;.tangents</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_count">Spline&lt;Vector2&gt;.count</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Add__0__0___">Spline&lt;Vector2&gt;.Add(Vector2, Vector2[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Insert_System_Int32__0__0___">Spline&lt;Vector2&gt;.Insert(Int32, Vector2, Vector2[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Remove_System_Int32_">Spline&lt;Vector2&gt;.Remove(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Clear">Spline&lt;Vector2&gt;.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetPosition_System_Int32_">Spline&lt;Vector2&gt;.GetPosition(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_SetPosition_System_Int32__0_">Spline&lt;Vector2&gt;.SetPosition(Int32, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetTangent_System_Int32_System_Int32_">Spline&lt;Vector2&gt;.GetTangent(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_SetTangent_System_Int32_System_Int32__0_">Spline&lt;Vector2&gt;.SetTangent(Int32, Int32, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Evaluate_System_Single_System_Int32_">Spline&lt;Vector2&gt;.Evaluate(Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Evaluate_System_Single_">Spline&lt;Vector2&gt;.Evaluate(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Derivative_System_Single_System_Int32_">Spline&lt;Vector2&gt;.Derivative(Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_Derivative_System_Single_">Spline&lt;Vector2&gt;.Derivative(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetNextConstantRatio_System_Single_">Spline&lt;Vector2&gt;.GetNextConstantRatio(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetNextConstantRatio_System_Single_System_Int32_">Spline&lt;Vector2&gt;.GetNextConstantRatio(Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetSamples__0___">Spline&lt;Vector2&gt;.GetSamples(Vector2[])</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetSamples_System_Int32_">Spline&lt;Vector2&gt;.GetSamples(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline-1.html#UnityExt_Core_Spline_1_GetLength">Spline&lt;Vector2&gt;.GetLength()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.CatmullRom(Single, Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.CatmullRom(Double, Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_">Spline.CatmullRom(Single, Vector2, Vector2, Vector2, Vector2, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_">Spline.CatmullRom(Single, Vector3, Vector3, Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Single_">Spline.CatmullRom(Single, Vector4, Vector4, Vector4, Vector4, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRom_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Single_">Spline.CatmullRom(Single, Quaternion, Quaternion, Quaternion, Quaternion, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.CatmullRomDeriv(Single, Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.CatmullRomDeriv(Double, Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_">Spline.CatmullRomDeriv(Single, Vector2, Vector2, Vector2, Vector2, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_">Spline.CatmullRomDeriv(Single, Vector3, Vector3, Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Single_">Spline.CatmullRomDeriv(Single, Vector4, Vector4, Vector4, Vector4, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomDeriv_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Single_">Spline.CatmullRomDeriv(Single, Quaternion, Quaternion, Quaternion, Quaternion, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.CatmullRomArcLength(Single, Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.CatmullRomArcLength(Double, Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_">Spline.CatmullRomArcLength(Single, Vector2, Vector2, Vector2, Vector2, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_">Spline.CatmullRomArcLength(Single, Vector3, Vector3, Vector3, Vector3, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Single_">Spline.CatmullRomArcLength(Single, Vector4, Vector4, Vector4, Vector4, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomArcLength_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Single_">Spline.CatmullRomArcLength(Single, Quaternion, Quaternion, Quaternion, Quaternion, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_System_Single_System_Single_System_Single_System_Single_System_Single_System_Int32_">Spline.CatmullRomLength(Single, Single, Single, Single, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_System_Double_System_Double_System_Double_System_Double_System_Single_System_Int32_">Spline.CatmullRomLength(Double, Double, Double, Double, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_System_Int32_">Spline.CatmullRomLength(Vector2, Vector2, Vector2, Vector2, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Int32_">Spline.CatmullRomLength(Vector3, Vector3, Vector3, Vector3, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Single_System_Int32_">Spline.CatmullRomLength(Vector4, Vector4, Vector4, Vector4, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_CatmullRomLength_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Single_System_Int32_">Spline.CatmullRomLength(Quaternion, Quaternion, Quaternion, Quaternion, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier3(Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier3(Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier3(Single, Vector2, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier3(Single, Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier3(Single, Vector4, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier3(Single, Quaternion, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier3Deriv(Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier3Deriv(Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier3Deriv(Single, Vector2, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier3Deriv(Single, Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier3Deriv(Single, Vector4, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Deriv_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier3Deriv(Single, Quaternion, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Single_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier3ArcLength(Single, Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Double_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier3ArcLength(Double, Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier3ArcLength(Single, Vector2, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier3ArcLength(Single, Vector3, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier3ArcLength(Single, Vector4, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3ArcLength_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier3ArcLength(Single, Quaternion, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_System_Single_System_Single_System_Single_System_Single_System_Int32_">Spline.Bezier3Length(Single, Single, Single, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_System_Double_System_Double_System_Double_System_Double_System_Int32_">Spline.Bezier3Length(Double, Double, Double, Double, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Int32_">Spline.Bezier3Length(Vector2, Vector2, Vector2, Vector2, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_">Spline.Bezier3Length(Vector3, Vector3, Vector3, Vector3, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Int32_">Spline.Bezier3Length(Vector4, Vector4, Vector4, Vector4, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier3Length_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Int32_">Spline.Bezier3Length(Quaternion, Quaternion, Quaternion, Quaternion, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier2(Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier2(Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier2(Single, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier2(Single, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier2(Single, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier2(Single, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier2Deriv(Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier2Deriv(Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier2Deriv(Single, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier2Deriv(Single, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier2Deriv(Single, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Deriv_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier2Deriv(Single, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Single_System_Single_System_Single_System_Single_">Spline.Bezier2ArcLength(Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Double_System_Double_System_Double_System_Double_">Spline.Bezier2ArcLength(Double, Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Bezier2ArcLength(Single, Vector2, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Bezier2ArcLength(Single, Vector3, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Bezier2ArcLength(Single, Vector4, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2ArcLength_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Bezier2ArcLength(Single, Quaternion, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_System_Single_System_Single_System_Single_System_Int32_">Spline.Bezier2Length(Single, Single, Single, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_System_Double_System_Double_System_Double_System_Int32_">Spline.Bezier2Length(Double, Double, Double, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Int32_">Spline.Bezier2Length(Vector2, Vector2, Vector2, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_">Spline.Bezier2Length(Vector3, Vector3, Vector3, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_UnityEngine_Vector4_UnityEngine_Vector4_UnityEngine_Vector4_System_Int32_">Spline.Bezier2Length(Vector4, Vector4, Vector4, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Bezier2Length_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_UnityEngine_Quaternion_System_Int32_">Spline.Bezier2Length(Quaternion, Quaternion, Quaternion, Quaternion, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Single_System_Single_System_Single_">Spline.Linear(Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Double_System_Double_System_Double_">Spline.Linear(Double, Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_">Spline.Linear(Single, Vector2, Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Single_UnityEngine_Vector3_UnityEngine_Vector3_">Spline.Linear(Single, Vector3, Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Single_UnityEngine_Vector4_UnityEngine_Vector4_">Spline.Linear(Single, Vector4, Vector4)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_Linear_System_Single_UnityEngine_Quaternion_UnityEngine_Quaternion_">Spline.Linear(Single, Quaternion, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_closed">Spline.closed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_tangentsPerPosition">Spline.tangentsPerPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Spline.html#UnityExt_Core_Spline_length">Spline.length</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_BezierCubicVector2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BezierCubicVector2 : BezierCubic&lt;Vector2&gt;</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_BezierCubicVector2_GetDerivative_System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.BezierCubicVector2.GetDerivative(System.Single%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/math/spline/Spline.cs/#L1127">View Source</a>
+  </span>
+  <a id="UnityExt_Core_BezierCubicVector2_GetDerivative_" data-uid="UnityExt.Core.BezierCubicVector2.GetDerivative*"></a>
+  <h4 id="UnityExt_Core_BezierCubicVector2_GetDerivative_System_Single_System_Int32_" data-uid="UnityExt.Core.BezierCubicVector2.GetDerivative(System.Single,System.Int32)">GetDerivative(Single, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Vector2 GetDerivative(float p_ratio, int p_control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_ratio</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Spline&lt;UnityEngine.Vector2&gt;.GetDerivative(System.Single, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_BezierCubicVector2_GetDerivativeLength_System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.BezierCubicVector2.GetDerivativeLength(System.Single%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/math/spline/Spline.cs/#L1131">View Source</a>
+  </span>
+  <a id="UnityExt_Core_BezierCubicVector2_GetDerivativeLength_" data-uid="UnityExt.Core.BezierCubicVector2.GetDerivativeLength*"></a>
+  <h4 id="UnityExt_Core_BezierCubicVector2_GetDerivativeLength_System_Single_System_Int32_" data-uid="UnityExt.Core.BezierCubicVector2.GetDerivativeLength(System.Single,System.Int32)">GetDerivativeLength(Single, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override float GetDerivativeLength(float p_ratio, int p_control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_ratio</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Spline&lt;UnityEngine.Vector2&gt;.GetDerivativeLength(System.Single, System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_BezierCubicVector2_GetLength_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.BezierCubicVector2.GetLength(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/math/spline/Spline.cs/#L1119">View Source</a>
+  </span>
+  <a id="UnityExt_Core_BezierCubicVector2_GetLength_" data-uid="UnityExt.Core.BezierCubicVector2.GetLength*"></a>
+  <h4 id="UnityExt_Core_BezierCubicVector2_GetLength_System_Int32_" data-uid="UnityExt.Core.BezierCubicVector2.GetLength(System.Int32)">GetLength(Int32)</h4>
+  <div class="markdown level1 summary"><p><inheritdoc></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetLength(int p_control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Spline&lt;UnityEngine.Vector2&gt;.GetLength(System.Int32)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_BezierCubicVector2_GetValue_System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.BezierCubicVector2.GetValue(System.Single%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/math/spline/Spline.cs/#L1123">View Source</a>
+  </span>
+  <a id="UnityExt_Core_BezierCubicVector2_GetValue_" data-uid="UnityExt.Core.BezierCubicVector2.GetValue*"></a>
+  <h4 id="UnityExt_Core_BezierCubicVector2_GetValue_System_Single_System_Int32_" data-uid="UnityExt.Core.BezierCubicVector2.GetValue(System.Single,System.Int32)">GetValue(Single, Int32)</h4>
+  <div class="markdown level1 summary"><p><inheritdoc></inheritdoc></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Vector2 GetValue(float p_ratio, int p_control)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_ratio</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_control</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Spline&lt;UnityEngine.Vector2&gt;.GetValue(System.Single, System.Int32)</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_BezierCubicVector2.md&amp;value=---%0Auid%3A%20UnityExt.Core.BezierCubicVector2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/math/spline/Spline.cs/#L1113" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
