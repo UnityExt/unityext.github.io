@@ -87,6 +87,10 @@
       <div class="level6"><a class="xref" href="UnityExt.Core.UIMicroProfiler.html">UIMicroProfiler</a></div>
       <div class="level6"><a class="xref" href="UnityExt.Project.ExamplesApp.Rotator.html">ExamplesApp.Rotator</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -151,6 +155,12 @@
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
@@ -373,7 +383,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
   <h5 id="UnityExt_Core_ActivityBehaviour_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ActivityBehaviour : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class ActivityBehaviour : MonoBehaviour, IActivity</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -382,7 +392,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_profilerMs.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.profilerMs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L14">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L20">View Source</a>
   </span>
   <h4 id="UnityExt_Core_ActivityBehaviour_profilerMs" data-uid="UnityExt.Core.ActivityBehaviour.profilerMs">profilerMs</h4>
   <div class="markdown level1 summary"><p>Last executed ms</p>
@@ -415,7 +425,7 @@ public float profilerMs</code></pre>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_profilerTimeStr.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.profilerTimeStr%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L24">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L30">View Source</a>
   </span>
   <a id="UnityExt_Core_ActivityBehaviour_profilerTimeStr_" data-uid="UnityExt.Core.ActivityBehaviour.profilerTimeStr*"></a>
   <h4 id="UnityExt_Core_ActivityBehaviour_profilerTimeStr" data-uid="UnityExt.Core.ActivityBehaviour.profilerTimeStr">profilerTimeStr</h4>
@@ -446,7 +456,7 @@ public float profilerMs</code></pre>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_profilerUs.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.profilerUs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L19">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L25">View Source</a>
   </span>
   <a id="UnityExt_Core_ActivityBehaviour_profilerUs_" data-uid="UnityExt.Core.ActivityBehaviour.profilerUs*"></a>
   <h4 id="UnityExt_Core_ActivityBehaviour_profilerUs" data-uid="UnityExt.Core.ActivityBehaviour.profilerUs">profilerUs</h4>
@@ -479,7 +489,7 @@ public float profilerMs</code></pre>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnDestroy.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L37">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L43">View Source</a>
   </span>
   <a id="UnityExt_Core_ActivityBehaviour_OnDestroy_" data-uid="UnityExt.Core.ActivityBehaviour.OnDestroy*"></a>
   <h4 id="UnityExt_Core_ActivityBehaviour_OnDestroy" data-uid="UnityExt.Core.ActivityBehaviour.OnDestroy">OnDestroy()</h4>
@@ -495,7 +505,7 @@ public float profilerMs</code></pre>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnDisable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L33">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L39">View Source</a>
   </span>
   <a id="UnityExt_Core_ActivityBehaviour_OnDisable_" data-uid="UnityExt.Core.ActivityBehaviour.OnDisable*"></a>
   <h4 id="UnityExt_Core_ActivityBehaviour_OnDisable" data-uid="UnityExt.Core.ActivityBehaviour.OnDisable">OnDisable()</h4>
@@ -511,7 +521,7 @@ public float profilerMs</code></pre>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_OnEnable.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L29">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L35">View Source</a>
   </span>
   <a id="UnityExt_Core_ActivityBehaviour_OnEnable_" data-uid="UnityExt.Core.ActivityBehaviour.OnEnable*"></a>
   <h4 id="UnityExt_Core_ActivityBehaviour_OnEnable" data-uid="UnityExt.Core.ActivityBehaviour.OnEnable">OnEnable()</h4>
@@ -521,6 +531,43 @@ public float profilerMs</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour_UnityExt_Core_IActivity_process.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour.UnityExt%23Core%23IActivity%23process%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L14">View Source</a>
+  </span>
+  <a id="UnityExt_Core_ActivityBehaviour_UnityExt_Core_IActivity_process_" data-uid="UnityExt.Core.ActivityBehaviour.UnityExt#Core#IActivity#process*"></a>
+  <h4 id="UnityExt_Core_ActivityBehaviour_UnityExt_Core_IActivity_process" data-uid="UnityExt.Core.ActivityBehaviour.UnityExt#Core#IActivity#process">IActivity.process</h4>
+  <div class="markdown level1 summary"><p>Activity Process</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Process IActivity.process { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Process.html">Process</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
   </div>
 </article>
           </div>
@@ -533,7 +580,7 @@ public float profilerMs</code></pre>
                     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_ActivityBehaviour.md&amp;value=---%0Auid%3A%20UnityExt.Core.ActivityBehaviour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/ActivityBehaviour.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

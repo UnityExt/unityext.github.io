@@ -85,14 +85,18 @@
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
     <div class="level5"><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></div>
     <div class="level6"><span class="xref">UIMicroProfiler</span></div>
-      <div class="level7"><a class="xref" href="UnityExt.Core.UI.UISystemProfiler.html">UISystemProfiler</a></div>
+      <div class="level7"><a class="xref" href="UnityExt.Core.UISystemProfiler.html">UISystemProfiler</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></div>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_UnityExt_Core_IActivity_process">ActivityBehaviour.IActivity.process</a>
+    </div>
     <div>
       <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerMs">ActivityBehaviour.profilerMs</a>
     </div>
@@ -170,6 +174,12 @@
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
@@ -392,7 +402,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
   <h5 id="UnityExt_Core_UIMicroProfiler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UIMicroProfiler : ActivityBehaviour, IUpdateable</code></pre>
+    <pre><code class="lang-csharp hljs">public class UIMicroProfiler : ActivityBehaviour, IUpdateable, IActivity</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -1034,6 +1044,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
   </div>
 </article>
           </div>

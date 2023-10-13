@@ -1,0 +1,993 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Tween&lt;T&gt;
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Tween&lt;T&gt;
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Tween`1">
+  
+  
+  <h1 id="UnityExt_Core_Tween_1" data-uid="UnityExt.Core.Tween`1" class="text-break">Class Tween&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Extension of the tween class allowing specifying the type of the property's value ranges.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
+    <div class="level2"><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;<a class="xref" href="UnityExt.Core.TimerState.html">TimerState</a>&gt;</div>
+    <div class="level3"><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></div>
+    <div class="level4"><a class="xref" href="UnityExt.Core.Tween.html">Tween</a></div>
+    <div class="level5"><span class="xref">Tween&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a></div>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
+    <div><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></div>
+    <div><a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler</a>&lt;<a class="xref" href="UnityExt.Core.TimerState.html">TimerState</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_Linear_System_Single_">Tween.Linear(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_DefaultDuration">Tween.DefaultDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_DefaultEasing">Tween.DefaultEasing</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_wrap">Tween.wrap</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_Set_UnityExt_Core_TweenStart_">Tween.Set(TweenStart)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_Start_UnityExt_Core_ProcessContext_UnityExt_Core_TweenStart_">Tween.Start(ProcessContext, TweenStart)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_Start_UnityExt_Core_TweenStart_">Tween.Start(TweenStart)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_OnExecuteEvent">Tween.OnExecuteEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_OnChangeEvent">Tween.OnChangeEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_InternalExecuteEvent_UnityExt_Core_TimerState_">Tween.InternalExecuteEvent(TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_InternalChangeEvent_UnityExt_Core_TimerState_UnityExt_Core_TimerState_">Tween.InternalChangeEvent(TimerState, TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_OnStateUpdate_UnityExt_Core_TimerState_">Tween.OnStateUpdate(TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_OnStateChange_UnityExt_Core_TimerState_UnityExt_Core_TimerState_">Tween.OnStateChange(TimerState, TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_DefaultContext">Timer.DefaultContext</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_AtomicClockRoot">Timer.AtomicClockRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_AtomicClockfile">Timer.AtomicClockfile</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_AtomicClockPath">Timer.AtomicClockPath</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicTimestamp_System_String_">Timer.GetAtomicTimestamp(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_ClearAtomicTimestamp_System_String_">Timer.ClearAtomicTimestamp(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetAtomicClockElapsed_System_String_">Timer.GetAtomicClockElapsed(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_time">Timer.time</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_duration">Timer.duration</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_delay">Timer.delay</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_step">Timer.step</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_count">Timer.count</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_speed">Timer.speed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_progress">Timer.progress</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_useFrames">Timer.useFrames</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Set_UnityExt_Core_TimerStart_">Timer.Set(TimerStart)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start_UnityExt_Core_ProcessContext_UnityExt_Core_TimerStart_">Timer.Start(ProcessContext, TimerStart)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_Start_UnityExt_Core_TimerStart_System_Boolean_">Timer.Start(TimerStart, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetProgress_System_Boolean_">Timer.GetProgress(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_GetProgress">Timer.GetProgress()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnStart">Timer.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_InternalStart_System_Boolean_UnityExt_Core_ProcessContext_">Timer.InternalStart(Boolean, ProcessContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Timer.html#UnityExt_Core_Timer_OnStop">Timer.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_state">Activity&lt;TimerState&gt;.state</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_fsm">Activity&lt;TimerState&gt;.fsm</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateReset">Activity&lt;TimerState&gt;.OnStateReset()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateUpdate_UnityExt_Core_FSM__0___0_">Activity&lt;TimerState&gt;.IFSMHandler&lt;TimerState&gt;.OnStateUpdate(FSM&lt;TimerState&gt;, TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateChange_UnityExt_Core_FSM__0___0__0_">Activity&lt;TimerState&gt;.IFSMHandler&lt;TimerState&gt;.OnStateChange(FSM&lt;TimerState&gt;, TimerState, TimerState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateReset_UnityExt_Core_FSM__0__">Activity&lt;TimerState&gt;.IFSMHandler&lt;TimerState&gt;.OnStateReset(FSM&lt;TimerState&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnExecute_UnityExt_Core_ProcessContext_">Activity&lt;TimerState&gt;.OnExecute(ProcessContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_id">Activity.id</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_enabled">Activity.enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_elapsed">Activity.elapsed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deltaTime">Activity.deltaTime</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_completed">Activity.completed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_threaded">Activity.threaded</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_editor">Activity.editor</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_useTimeScale">Activity.useTimeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deferred">Activity.deferred</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_exception">Activity.exception</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_isError">Activity.isError</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnError">Activity.OnError()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Throw_System_Exception_System_Boolean_">Activity.Throw(Exception, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Wait_System_Single_">Activity.Wait(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetAwaiter">Activity.GetAwaiter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IActivity_process">Activity.IActivity.process</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IProcess_OnProcessUpdate_UnityExt_Core_ProcessContext_UnityExt_Core_ProcessState_">Activity.IProcess.OnProcessUpdate(ProcessContext, ProcessState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_InternalStop">Activity.InternalStop()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_Tween_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Tween&lt;T&gt; : Tween, IProcess, IActivity, IProgressProvider, IFSMHandler&lt;TimerState&gt; where T : struct</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the target's property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1__ctor_System_Object_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.%23ctor(System.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L861">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1__ctor_" data-uid="UnityExt.Core.Tween`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Tween_1__ctor_System_Object_System_String_" data-uid="UnityExt.Core.Tween`1.#ctor(System.Object,System.String)">Tween(Object, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new tween associated with a target object and its property</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween(object p_target, string p_property)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target Object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Object Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1__ctor_System_String_System_Object_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.%23ctor(System.String%2CSystem.Object%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L851">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1__ctor_" data-uid="UnityExt.Core.Tween`1.#ctor*"></a>
+  <h4 id="UnityExt_Core_Tween_1__ctor_System_String_System_Object_System_String_" data-uid="UnityExt.Core.Tween`1.#ctor(System.String,System.Object,System.String)">Tween(String, Object, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new tween with 'id' and associated with a target object and its property</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween(string p_id, object p_target, string p_property)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td><p>Tween Id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">p_target</span></td>
+        <td><p>Target Object</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_property</span></td>
+        <td><p>Object Property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_curve.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.curve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L835">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_curve_" data-uid="UnityExt.Core.Tween`1.curve*"></a>
+  <h4 id="UnityExt_Core_Tween_1_curve" data-uid="UnityExt.Core.Tween`1.curve">curve</h4>
+  <div class="markdown level1 summary"><p>Reference to the easing curve</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve curve { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_easing.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.easing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L840">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_easing_" data-uid="UnityExt.Core.Tween`1.easing*"></a>
+  <h4 id="UnityExt_Core_Tween_1_easing" data-uid="UnityExt.Core.Tween`1.easing">easing</h4>
+  <div class="markdown level1 summary"><p>Easing method</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;float, float&gt; easing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_from.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.from%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L825">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_from_" data-uid="UnityExt.Core.Tween`1.from*"></a>
+  <h4 id="UnityExt_Core_Tween_1_from" data-uid="UnityExt.Core.Tween`1.from">from</h4>
+  <div class="markdown level1 summary"><p>Get/Set the starting value of the animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T? from { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_property.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.property%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L820">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_property_" data-uid="UnityExt.Core.Tween`1.property*"></a>
+  <h4 id="UnityExt_Core_Tween_1_property" data-uid="UnityExt.Core.Tween`1.property">property</h4>
+  <div class="markdown level1 summary"><p>Property to be animated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string property { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_target.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.target%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L815">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_target_" data-uid="UnityExt.Core.Tween`1.target*"></a>
+  <h4 id="UnityExt_Core_Tween_1_target" data-uid="UnityExt.Core.Tween`1.target">target</h4>
+  <div class="markdown level1 summary"><p>Target of the tween.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object target { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_to.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.to%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L830">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_to_" data-uid="UnityExt.Core.Tween`1.to*"></a>
+  <h4 id="UnityExt_Core_Tween_1_to" data-uid="UnityExt.Core.Tween`1.to">to</h4>
+  <div class="markdown level1 summary"><p>Get/Set the final value of the animation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T to { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_tween.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.tween%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L810">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_tween_" data-uid="UnityExt.Core.Tween`1.tween*"></a>
+  <h4 id="UnityExt_Core_Tween_1_tween" data-uid="UnityExt.Core.Tween`1.tween">tween</h4>
+  <div class="markdown level1 summary"><p>Returns the interpolator cast to the desired data type manipulation. If a not matching type is used, null is returned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PropertyInterpolator&lt;T&gt; tween { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.PropertyInterpolator-1.html">PropertyInterpolator</a>&lt;T&gt;</td>
+        <td><p>The tween's interpolator cast to the desired type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_AssertTweenStart.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.AssertTweenStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L959">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_AssertTweenStart_" data-uid="UnityExt.Core.Tween`1.AssertTweenStart*"></a>
+  <h4 id="UnityExt_Core_Tween_1_AssertTweenStart" data-uid="UnityExt.Core.Tween`1.AssertTweenStart">AssertTweenStart()</h4>
+  <div class="markdown level1 summary"><p>Called when tween is ready to start</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool AssertTweenStart()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Tween.html#UnityExt_Core_Tween_AssertTweenStart">Tween.AssertTweenStart()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Restart.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Restart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L977">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Restart_" data-uid="UnityExt.Core.Tween`1.Restart*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Restart" data-uid="UnityExt.Core.Tween`1.Restart">Restart()</h4>
+  <div class="markdown level1 summary"><p>Restarts the tween from scratch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Restart()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Restart_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Restart(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L983">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Restart_" data-uid="UnityExt.Core.Tween`1.Restart*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Restart_System_Boolean_" data-uid="UnityExt.Core.Tween`1.Restart(System.Boolean)">Restart(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Restarts the tween continuing from the current property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Restart(bool p_continue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_continue</span></td>
+        <td><p>Flag that tells if the property will keep going from its current value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Set_UnityExt_Core_TweenStart__0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Set(UnityExt.Core.TweenStart%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L913">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Set_" data-uid="UnityExt.Core.Tween`1.Set*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Set_UnityExt_Core_TweenStart__0__" data-uid="UnityExt.Core.Tween`1.Set(UnityExt.Core.TweenStart{`0})">Set(TweenStart&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets this tween parameters</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(TweenStart&lt;T&gt; p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TweenStart-1.html">TweenStart</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Start.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L937">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Start_" data-uid="UnityExt.Core.Tween`1.Start*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Start" data-uid="UnityExt.Core.Tween`1.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts the tween with the passed arguments</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween&lt;T&gt; Start()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Tween-1.html">Tween</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Start_UnityExt_Core_ProcessContext_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Start(UnityExt.Core.ProcessContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L925">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Start_" data-uid="UnityExt.Core.Tween`1.Start*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Start_UnityExt_Core_ProcessContext_" data-uid="UnityExt.Core.Tween`1.Start(UnityExt.Core.ProcessContext)">Start(ProcessContext)</h4>
+  <div class="markdown level1 summary"><p>Starts the tween with the passed arguments</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween&lt;T&gt; Start(ProcessContext p_context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.ProcessContext.html">ProcessContext</a></td>
+        <td><span class="parametername">p_context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Tween-1.html">Tween</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Start_UnityExt_Core_ProcessContext_UnityExt_Core_TweenStart__0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Start(UnityExt.Core.ProcessContext%2CUnityExt.Core.TweenStart%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L919">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Start_" data-uid="UnityExt.Core.Tween`1.Start*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Start_UnityExt_Core_ProcessContext_UnityExt_Core_TweenStart__0__" data-uid="UnityExt.Core.Tween`1.Start(UnityExt.Core.ProcessContext,UnityExt.Core.TweenStart{`0})">Start(ProcessContext, TweenStart&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Starts the tween with the passed arguments</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween&lt;T&gt; Start(ProcessContext p_context, TweenStart&lt;T&gt; p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.ProcessContext.html">ProcessContext</a></td>
+        <td><span class="parametername">p_context</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TweenStart-1.html">TweenStart</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Tween-1.html">Tween</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1_Start_UnityExt_Core_TweenStart__0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601.Start(UnityExt.Core.TweenStart%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L931">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Tween_1_Start_" data-uid="UnityExt.Core.Tween`1.Start*"></a>
+  <h4 id="UnityExt_Core_Tween_1_Start_UnityExt_Core_TweenStart__0__" data-uid="UnityExt.Core.Tween`1.Start(UnityExt.Core.TweenStart{`0})">Start(TweenStart&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Starts the tween with the passed arguments</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tween&lt;T&gt; Start(TweenStart&lt;T&gt; p_args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TweenStart-1.html">TweenStart</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.Tween-1.html">Tween</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Tween_1.md&amp;value=---%0Auid%3A%20UnityExt.Core.Tween%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/animation/Tween.cs/#L801" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

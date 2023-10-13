@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TaskActivity
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TaskActivity
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.TaskActivity">
+  
+  
+  <h1 id="UnityExt_Core_TaskActivity" data-uid="UnityExt.Core.TaskActivity" class="text-break">Class TaskActivity
+  </h1>
+  <div class="markdown level0 summary"><p>Standard Activity extension to handle simple tasks that are queued and completed with/without errors.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
+    <div class="level2"><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;<a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a>&gt;</div>
+    <div class="level3"><span class="xref">TaskActivity</span></div>
+      <div class="level4"><a class="xref" href="UnityExt.Core.Serializer.html">Serializer</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a></div>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
+    <div><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></div>
+    <div><a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler</a>&lt;<a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_state">Activity&lt;TaskState&gt;.state</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_fsm">Activity&lt;TaskState&gt;.fsm</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateUpdate__0_">Activity&lt;TaskState&gt;.OnStateUpdate(TaskState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateChange__0__0_">Activity&lt;TaskState&gt;.OnStateChange(TaskState, TaskState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateReset">Activity&lt;TaskState&gt;.OnStateReset()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateUpdate_UnityExt_Core_FSM__0___0_">Activity&lt;TaskState&gt;.IFSMHandler&lt;TaskState&gt;.OnStateUpdate(FSM&lt;TaskState&gt;, TaskState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateChange_UnityExt_Core_FSM__0___0__0_">Activity&lt;TaskState&gt;.IFSMHandler&lt;TaskState&gt;.OnStateChange(FSM&lt;TaskState&gt;, TaskState, TaskState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateReset_UnityExt_Core_FSM__0__">Activity&lt;TaskState&gt;.IFSMHandler&lt;TaskState&gt;.OnStateReset(FSM&lt;TaskState&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnExecute_UnityExt_Core_ProcessContext_">Activity&lt;TaskState&gt;.OnExecute(ProcessContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_DefaultContext">Activity.DefaultContext</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_id">Activity.id</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_enabled">Activity.enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_elapsed">Activity.elapsed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deltaTime">Activity.deltaTime</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_completed">Activity.completed</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_threaded">Activity.threaded</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_editor">Activity.editor</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_useTimeScale">Activity.useTimeScale</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deferred">Activity.deferred</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_exception">Activity.exception</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_isError">Activity.isError</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnError">Activity.OnError()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Start_UnityExt_Core_ProcessContext_">Activity.Start(ProcessContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Start">Activity.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Throw_System_Exception_System_Boolean_">Activity.Throw(Exception, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Wait_System_Single_">Activity.Wait(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetAwaiter">Activity.GetAwaiter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress">Activity.GetProgress()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IActivity_process">Activity.IActivity.process</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IProcess_OnProcessUpdate_UnityExt_Core_ProcessContext_UnityExt_Core_ProcessState_">Activity.IProcess.OnProcessUpdate(ProcessContext, ProcessState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_InternalStop">Activity.InternalStop()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_TaskActivity_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TaskActivity : Activity&lt;TaskState&gt;, IProcess, IActivity, IProgressProvider, IFSMHandler&lt;TaskState&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity__ctor_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L77">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity__ctor_" data-uid="UnityExt.Core.TaskActivity.#ctor*"></a>
+  <h4 id="UnityExt_Core_TaskActivity__ctor_System_String_" data-uid="UnityExt.Core.TaskActivity.#ctor(System.String)">TaskActivity(String)</h4>
+  <div class="markdown level1 summary"><p>CTOR.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaskActivity(string p_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_OnChangeEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.OnChangeEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L63">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_TaskActivity_OnChangeEvent" data-uid="UnityExt.Core.TaskActivity.OnChangeEvent">OnChangeEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for state changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;TaskActivity, TaskState, TaskState&gt; OnChangeEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.TaskActivity.html">TaskActivity</a>, <a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a>, <a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_OnExecuteEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.OnExecuteEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L58">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_TaskActivity_OnExecuteEvent" data-uid="UnityExt.Core.TaskActivity.OnExecuteEvent">OnExecuteEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for execution loop</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;TaskActivity&gt; OnExecuteEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.TaskActivity.html">TaskActivity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_InternalChangeEvent_UnityExt_Core_TaskState_UnityExt_Core_TaskState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.InternalChangeEvent(UnityExt.Core.TaskState%2CUnityExt.Core.TaskState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L69">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity_InternalChangeEvent_" data-uid="UnityExt.Core.TaskActivity.InternalChangeEvent*"></a>
+  <h4 id="UnityExt_Core_TaskActivity_InternalChangeEvent_UnityExt_Core_TaskState_UnityExt_Core_TaskState_" data-uid="UnityExt.Core.TaskActivity.InternalChangeEvent(UnityExt.Core.TaskState,UnityExt.Core.TaskState)">InternalChangeEvent(TaskState, TaskState)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InternalChangeEvent(TaskState p_from, TaskState p_to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a></td>
+        <td><span class="parametername">p_from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a></td>
+        <td><span class="parametername">p_to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Activity&lt;UnityExt.Core.TaskState&gt;.InternalChangeEvent(UnityExt.Core.TaskState, UnityExt.Core.TaskState)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_InternalExecuteEvent_UnityExt_Core_TaskState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.InternalExecuteEvent(UnityExt.Core.TaskState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L68">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity_InternalExecuteEvent_" data-uid="UnityExt.Core.TaskActivity.InternalExecuteEvent*"></a>
+  <h4 id="UnityExt_Core_TaskActivity_InternalExecuteEvent_UnityExt_Core_TaskState_" data-uid="UnityExt.Core.TaskActivity.InternalExecuteEvent(UnityExt.Core.TaskState)">InternalExecuteEvent(TaskState)</h4>
+  <div class="markdown level1 summary"><p>Auxiliary Event Calling</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InternalExecuteEvent(TaskState p_state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a></td>
+        <td><span class="parametername">p_state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityExt.Core.Activity&lt;UnityExt.Core.TaskState&gt;.InternalExecuteEvent(UnityExt.Core.TaskState)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_InternalStart_System_Boolean_UnityExt_Core_ProcessContext_.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.InternalStart(System.Boolean%2CUnityExt.Core.ProcessContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L92">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity_InternalStart_" data-uid="UnityExt.Core.TaskActivity.InternalStart*"></a>
+  <h4 id="UnityExt_Core_TaskActivity_InternalStart_System_Boolean_UnityExt_Core_ProcessContext_" data-uid="UnityExt.Core.TaskActivity.InternalStart(System.Boolean,UnityExt.Core.ProcessContext)">InternalStart(Boolean, ProcessContext)</h4>
+  <div class="markdown level1 summary"><p>Internal start handler</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void InternalStart(bool p_editor, ProcessContext p_context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_editor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.ProcessContext.html">ProcessContext</a></td>
+        <td><span class="parametername">p_context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_InternalStart_System_Boolean_UnityExt_Core_ProcessContext_">Activity.InternalStart(Boolean, ProcessContext)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_OnStart.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.OnStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L82">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity_OnStart_" data-uid="UnityExt.Core.TaskActivity.OnStart*"></a>
+  <h4 id="UnityExt_Core_TaskActivity_OnStart" data-uid="UnityExt.Core.TaskActivity.OnStart">OnStart()</h4>
+  <div class="markdown level1 summary"><p>Task just started</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnStart()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity_OnStop.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity.OnStop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L100">View Source</a>
+  </span>
+  <a id="UnityExt_Core_TaskActivity_OnStop_" data-uid="UnityExt.Core.TaskActivity.OnStop*"></a>
+  <h4 id="UnityExt_Core_TaskActivity_OnStop" data-uid="UnityExt.Core.TaskActivity.OnStop">OnStop()</h4>
+  <div class="markdown level1 summary"><p>Task removed from the pool</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnStop()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_TaskActivity.md&amp;value=---%0Auid%3A%20UnityExt.Core.TaskActivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/TaskActivity.cs/#L51" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

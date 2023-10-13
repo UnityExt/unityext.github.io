@@ -73,7 +73,7 @@
   
   <h1 id="UnityExt_Core_Activity_1" data-uid="UnityExt.Core.Activity`1" class="text-break">Class Activity&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Activity class extension to support unity jobs creation in some methods.</p>
+  <div class="markdown level0 summary"><p>Extension of Activity to handle FSM functionalities. It has a simple API to handle state change detection and looping.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -81,102 +81,69 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></div>
     <div class="level2"><span class="xref">Activity&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="UnityExt.Core.TaskActivity.html">TaskActivity</a></div>
+      <div class="level3"><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></div>
+      <div class="level3"><a class="xref" href="UnityExt.Core.WebRequest.html">WebRequest</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span></div>
-    <div><a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a></div>
-    <div><a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider</a>&lt;<a class="xref" href="UnityExt.Core.StatusType.html">StatusType</a>&gt;</div>
+    <div><a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a></div>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
     <div><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></div>
+    <div><a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler</a>&lt;T&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_manager">Activity.manager</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_asyncTimeSlice">Activity.asyncTimeSlice</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_maxThreadCount">Activity.maxThreadCount</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Add_System_Object_">Activity.Add(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Remove_System_Object_">Activity.Remove(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Kill">Activity.Kill()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find__1_System_String_UnityExt_Core_ActivityContext_">Activity.Find&lt;T&gt;(String, ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Find__1_System_String_">Activity.Find&lt;T&gt;(String)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_System_String_UnityExt_Core_ActivityContext_">Activity.FindAll&lt;T&gt;(String, ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_UnityExt_Core_ActivityContext_">Activity.FindAll&lt;T&gt;(ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1_System_String_">Activity.FindAll&lt;T&gt;(String)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_FindAll__1">Activity.FindAll&lt;T&gt;()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Predicate&lt;Activity&gt;, ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Predicate_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Predicate&lt;Activity&gt;, ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_String_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(String, Action&lt;Activity&gt;, ActivityContext)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Run_System_Action_UnityExt_Core_Activity__UnityExt_Core_ActivityContext_">Activity.Run(Action&lt;Activity&gt;, ActivityContext)</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_DefaultContext">Activity.DefaultContext</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_id">Activity.id</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerMs">Activity.profilerMs</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_enabled">Activity.enabled</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerUs">Activity.profilerUs</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_elapsed">Activity.elapsed</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_profilerTimeStr">Activity.profilerTimeStr</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_state">Activity.state</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deltaTime">Activity.deltaTime</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_completed">Activity.completed</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_enabled">Activity.enabled</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_threaded">Activity.threaded</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnEnable">Activity.OnEnable()</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_editor">Activity.editor</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnDisable">Activity.OnDisable()</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_useTimeScale">Activity.useTimeScale</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleteEvent">Activity.OnCompleteEvent</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_deferred">Activity.deferred</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_complete_event">Activity.m_on_complete_event</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_exception">Activity.exception</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecuteEvent">Activity.OnExecuteEvent</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_isError">Activity.isError</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_m_on_execute_event">Activity.m_on_execute_event</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnError">Activity.OnError()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Start_UnityExt_Core_ProcessContext_">Activity.Start(ProcessContext)</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Start">Activity.Start()</a>
@@ -185,37 +152,31 @@
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnAdded">Activity.OnAdded()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecute">Activity.OnExecute()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnComplete">Activity.OnComplete()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_CanStart">Activity.CanStart()</a>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Throw_System_Exception_System_Boolean_">Activity.Throw(Exception, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(Single)</a>
     </div>
     <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Wait_System_Single_">Activity.Wait(Single)</a>
+    </div>
+    <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetAwaiter">Activity.GetAwaiter()</a>
     </div>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnCompleted_System_Action_">Activity.OnCompleted(Action)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetStatus">Activity.GetStatus()</a>
-    </div>
-    <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_GetProgress">Activity.GetProgress()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IActivity_process">Activity.IActivity.process</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_InternalStart_System_Boolean_UnityExt_Core_ProcessContext_">Activity.InternalStart(Boolean, ProcessContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_UnityExt_Core_IProcess_OnProcessUpdate_UnityExt_Core_ProcessContext_UnityExt_Core_ProcessState_">Activity.IProcess.OnProcessUpdate(ProcessContext, ProcessState)</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_InternalStop">Activity.InternalStop()</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -243,7 +204,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
   <h5 id="UnityExt_Core_Activity_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Activity&lt;T&gt; : Activity, INotifyCompletion, IStatusProvider, IStatusProvider&lt;StatusType&gt;, IProgressProvider where T : struct</code></pre>
+    <pre><code class="lang-csharp hljs">public class Activity&lt;T&gt; : Activity, IProcess, IActivity, IProgressProvider, IFSMHandler&lt;T&gt; where T : Enum</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,35 +225,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1__ctor.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1040">View Source</a>
-  </span>
-  <a id="UnityExt_Core_Activity_1__ctor_" data-uid="UnityExt.Core.Activity`1.#ctor*"></a>
-  <h4 id="UnityExt_Core_Activity_1__ctor" data-uid="UnityExt.Core.Activity`1.#ctor">Activity()</h4>
-  <div class="markdown level1 summary"><p>Creates a new activity choosing between running the job sync or async (Run or Schedule)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Activity()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1__ctor_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1035">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L43">View Source</a>
   </span>
   <a id="UnityExt_Core_Activity_1__ctor_" data-uid="UnityExt.Core.Activity`1.#ctor*"></a>
   <h4 id="UnityExt_Core_Activity_1__ctor_System_String_" data-uid="UnityExt.Core.Activity`1.#ctor(System.String)">Activity(String)</h4>
-  <div class="markdown level1 summary"><p>Creates a new activity choosing between running the job sync or async (Run or Schedule)</p>
+  <div class="markdown level1 summary"><p>CTOR.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Activity(string p_id)</code></pre>
+    <pre><code class="lang-csharp hljs">public Activity(string p_id = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -307,44 +252,6 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">p_id</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1__ctor_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.%23ctor(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1029">View Source</a>
-  </span>
-  <a id="UnityExt_Core_Activity_1__ctor_" data-uid="UnityExt.Core.Activity`1.#ctor*"></a>
-  <h4 id="UnityExt_Core_Activity_1__ctor_System_String_System_Boolean_" data-uid="UnityExt.Core.Activity`1.#ctor(System.String,System.Boolean)">Activity(String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates a new activity choosing between running the job sync or async (Run or Schedule)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Activity(string p_id, bool p_async)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">p_id</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">p_async</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -353,18 +260,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_handle.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.handle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_fsm.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.fsm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1155">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L37">View Source</a>
   </span>
-  <h4 id="UnityExt_Core_Activity_1_handle" data-uid="UnityExt.Core.Activity`1.handle">handle</h4>
-  <div class="markdown level1 summary"><p>Job handle is any.</p>
+  <h4 id="UnityExt_Core_Activity_1_fsm" data-uid="UnityExt.Core.Activity`1.fsm">fsm</h4>
+  <div class="markdown level1 summary"><p>Internals</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public JobHandle handle</code></pre>
+    <pre><code class="lang-csharp hljs">protected FSM&lt;T&gt; fsm</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,27 +283,90 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.Jobs.JobHandle</span></td>
+        <td><a class="xref" href="UnityExt.Core.FSM-1.html">FSM</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_job.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.job%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnChangeEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnChangeEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1150">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L32">View Source</a>
   </span>
-  <h4 id="UnityExt_Core_Activity_1_job" data-uid="UnityExt.Core.Activity`1.job">job</h4>
-  <div class="markdown level1 summary"><p>Reference to the job</p>
+  <h4 id="UnityExt_Core_Activity_1_OnChangeEvent" data-uid="UnityExt.Core.Activity`1.OnChangeEvent">OnChangeEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for state changes</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T job</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;Activity&lt;T&gt;, T, T&gt; OnChangeEvent</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;, T, T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnExecuteEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnExecuteEvent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L27">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_Activity_1_OnExecuteEvent" data-uid="UnityExt.Core.Activity`1.OnExecuteEvent">OnExecuteEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for execution loop</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;Activity&lt;T&gt;&gt; OnExecuteEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_state.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.state%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L22">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_state_" data-uid="UnityExt.Core.Activity`1.state*"></a>
+  <h4 id="UnityExt_Core_Activity_1_state" data-uid="UnityExt.Core.Activity`1.state">state</h4>
+  <div class="markdown level1 summary"><p>Returns the current state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T state { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -411,87 +381,23 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_context.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.context%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1138">View Source</a>
-  </span>
-  <a id="UnityExt_Core_Activity_1_context_" data-uid="UnityExt.Core.Activity`1.context*"></a>
-  <h4 id="UnityExt_Core_Activity_1_context" data-uid="UnityExt.Core.Activity`1.context">context</h4>
-  <div class="markdown level1 summary"><p>Overrides the base class allowing to switch between job and jobsync</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ActivityContext context { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.ActivityContext.html">ActivityContext</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_scheduled.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.scheduled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1160">View Source</a>
-  </span>
-  <a id="UnityExt_Core_Activity_1_scheduled_" data-uid="UnityExt.Core.Activity`1.scheduled*"></a>
-  <h4 id="UnityExt_Core_Activity_1_scheduled" data-uid="UnityExt.Core.Activity`1.scheduled">scheduled</h4>
-  <div class="markdown level1 summary"><p>Flag that tells if the job handle is valid.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool scheduled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_Run_System_Action_UnityExt_Core_Activity__System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.Run(System.Action%7BUnityExt.Core.Activity%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_InternalChangeEvent__0__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.InternalChangeEvent(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1016">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L75">View Source</a>
   </span>
-  <a id="UnityExt_Core_Activity_1_Run_" data-uid="UnityExt.Core.Activity`1.Run*"></a>
-  <h4 id="UnityExt_Core_Activity_1_Run_System_Action_UnityExt_Core_Activity__System_Boolean_" data-uid="UnityExt.Core.Activity`1.Run(System.Action{UnityExt.Core.Activity},System.Boolean)">Run(Action&lt;Activity&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates and start a single execution activity performing the specified unity job.</p>
+  <a id="UnityExt_Core_Activity_1_InternalChangeEvent_" data-uid="UnityExt.Core.Activity`1.InternalChangeEvent*"></a>
+  <h4 id="UnityExt_Core_Activity_1_InternalChangeEvent__0__0_" data-uid="UnityExt.Core.Activity`1.InternalChangeEvent(`0,`0)">InternalChangeEvent(T, T)</h4>
+  <div class="markdown level1 summary"><p>Auxiliary handler to easily call events of any type variation</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Activity&lt;T&gt; Run(Action&lt;Activity&gt; p_callback = null, bool p_async = true)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void InternalChangeEvent(T p_from, T p_to)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,105 +410,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.Activity.html">Activity</a>&gt;</td>
-        <td><span class="parametername">p_callback</span></td>
-        <td><p>Callback for handling the activity completion.</p>
-</td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_from</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">p_async</span></td>
-        <td><p>Flag that tells if the job will run async (Schedule) or sync (Run)</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;</td>
-        <td><p>The running activity</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_Run_System_Predicate_UnityExt_Core_Activity__System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.Run(System.Predicate%7BUnityExt.Core.Activity%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L995">View Source</a>
-  </span>
-  <a id="UnityExt_Core_Activity_1_Run_" data-uid="UnityExt.Core.Activity`1.Run*"></a>
-  <h4 id="UnityExt_Core_Activity_1_Run_System_Predicate_UnityExt_Core_Activity__System_Boolean_" data-uid="UnityExt.Core.Activity`1.Run(System.Predicate{UnityExt.Core.Activity},System.Boolean)">Run(Predicate&lt;Activity&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates and starts an Activity that executes the desired Unity job in a loop.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Activity&lt;T&gt; Run(Predicate&lt;Activity&gt; p_callback, bool p_async = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="UnityExt.Core.Activity.html">Activity</a>&gt;</td>
-        <td><span class="parametername">p_callback</span></td>
-        <td><p>Callback for handling the execution loop. Return 'true' to keep running or 'false' to stop.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">p_async</span></td>
-        <td><p>Flag that tells if the job will run async (Schedule) or sync (Run)</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;</td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_Run_System_String_System_Action_UnityExt_Core_Activity__System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.Run(System.String%2CSystem.Action%7BUnityExt.Core.Activity%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_InternalExecuteEvent__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.InternalExecuteEvent(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1008">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L69">View Source</a>
   </span>
-  <a id="UnityExt_Core_Activity_1_Run_" data-uid="UnityExt.Core.Activity`1.Run*"></a>
-  <h4 id="UnityExt_Core_Activity_1_Run_System_String_System_Action_UnityExt_Core_Activity__System_Boolean_" data-uid="UnityExt.Core.Activity`1.Run(System.String,System.Action{UnityExt.Core.Activity},System.Boolean)">Run(String, Action&lt;Activity&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates and start a single execution activity performing the specified unity job.</p>
+  <a id="UnityExt_Core_Activity_1_InternalExecuteEvent_" data-uid="UnityExt.Core.Activity`1.InternalExecuteEvent*"></a>
+  <h4 id="UnityExt_Core_Activity_1_InternalExecuteEvent__0_" data-uid="UnityExt.Core.Activity`1.InternalExecuteEvent(`0)">InternalExecuteEvent(T)</h4>
+  <div class="markdown level1 summary"><p>Auxiliary handler to easily call events of any type variation</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Activity&lt;T&gt; Run(string p_id, Action&lt;Activity&gt; p_callback = null, bool p_async = true)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void InternalExecuteEvent(T p_state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -615,56 +448,27 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">p_id</span></td>
-        <td><p>Activity id for searching.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="UnityExt.Core.Activity.html">Activity</a>&gt;</td>
-        <td><span class="parametername">p_callback</span></td>
-        <td><p>Callback for handling the activity completion.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">p_async</span></td>
-        <td><p>Flag that tells if the job will run async (Schedule) or sync (Run)</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;</td>
-        <td><p>The running activity</p>
-</td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_state</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_Run_System_String_System_Predicate_UnityExt_Core_Activity__System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.Run(System.String%2CSystem.Predicate%7BUnityExt.Core.Activity%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnExecute_UnityExt_Core_ProcessContext_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnExecute(UnityExt.Core.ProcessContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L986">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L87">View Source</a>
   </span>
-  <a id="UnityExt_Core_Activity_1_Run_" data-uid="UnityExt.Core.Activity`1.Run*"></a>
-  <h4 id="UnityExt_Core_Activity_1_Run_System_String_System_Predicate_UnityExt_Core_Activity__System_Boolean_" data-uid="UnityExt.Core.Activity`1.Run(System.String,System.Predicate{UnityExt.Core.Activity},System.Boolean)">Run(String, Predicate&lt;Activity&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Creates and starts an Activity that executes the desired Unity job in a loop.</p>
+  <a id="UnityExt_Core_Activity_1_OnExecute_" data-uid="UnityExt.Core.Activity`1.OnExecute*"></a>
+  <h4 id="UnityExt_Core_Activity_1_OnExecute_UnityExt_Core_ProcessContext_" data-uid="UnityExt.Core.Activity`1.OnExecute(UnityExt.Core.ProcessContext)">OnExecute(ProcessContext)</h4>
+  <div class="markdown level1 summary"><p>Proxy execute the FSM</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Activity&lt;T&gt; Run(string p_id, Predicate&lt;Activity&gt; p_callback, bool p_async = true)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnExecute(ProcessContext p_context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -677,56 +481,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">p_id</span></td>
-        <td><p>Activity id for searching.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="UnityExt.Core.Activity.html">Activity</a>&gt;</td>
-        <td><span class="parametername">p_callback</span></td>
-        <td><p>Callback for handling the execution loop. Return 'true' to keep running or 'false' to stop.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">p_async</span></td>
-        <td><p>Flag that tells if the job will run async (Schedule) or sync (Run)</p>
-</td>
+        <td><a class="xref" href="UnityExt.Core.ProcessContext.html">ProcessContext</a></td>
+        <td><span class="parametername">p_context</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.Activity-1.html">Activity</a>&lt;T&gt;</td>
-        <td><p>The running activity</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnExecute_UnityExt_Core_ProcessContext_">Activity.OnExecute(ProcessContext)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_SetJobForLoop_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.SetJobForLoop(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnStateChange__0__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnStateChange(%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L1175">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L58">View Source</a>
   </span>
-  <a id="UnityExt_Core_Activity_1_SetJobForLoop_" data-uid="UnityExt.Core.Activity`1.SetJobForLoop*"></a>
-  <h4 id="UnityExt_Core_Activity_1_SetJobForLoop_System_Int32_System_Int32_" data-uid="UnityExt.Core.Activity`1.SetJobForLoop(System.Int32,System.Int32)">SetJobForLoop(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Set the desired loop execution parameters of the parallel job. If both params are 0 the job will execute as a regular IJob</p>
+  <a id="UnityExt_Core_Activity_1_OnStateChange_" data-uid="UnityExt.Core.Activity`1.OnStateChange*"></a>
+  <h4 id="UnityExt_Core_Activity_1_OnStateChange__0__0_" data-uid="UnityExt.Core.Activity`1.OnStateChange(`0,`0)">OnStateChange(T, T)</h4>
+  <div class="markdown level1 summary"><p>Handler called upon state changes, returns true|false to &quot;approve&quot; the change or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetJobForLoop(int p_length = 0, int p_steps = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnStateChange(T p_from, T p_to)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -739,29 +516,192 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">p_length</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_from</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">p_steps</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnStateReset.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnStateReset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L63">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_OnStateReset_" data-uid="UnityExt.Core.Activity`1.OnStateReset*"></a>
+  <h4 id="UnityExt_Core_Activity_1_OnStateReset" data-uid="UnityExt.Core.Activity`1.OnStateReset">OnStateReset()</h4>
+  <div class="markdown level1 summary"><p>Callled upon state reset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStateReset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_OnStateUpdate__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.OnStateUpdate(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L51">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_OnStateUpdate_" data-uid="UnityExt.Core.Activity`1.OnStateUpdate*"></a>
+  <h4 id="UnityExt_Core_Activity_1_OnStateUpdate__0_" data-uid="UnityExt.Core.Activity`1.OnStateUpdate(`0)">OnStateUpdate(T)</h4>
+  <div class="markdown level1 summary"><p>Handler called during execution with the current active state</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStateUpdate(T p_state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateChange_UnityExt_Core_FSM__0___0__0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.UnityExt%23Core%23IFSMHandler%7BT%7D%23OnStateChange(UnityExt.Core.FSM%7B%600%7D%2C%600%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L81">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateChange_" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateChange*"></a>
+  <h4 id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateChange_UnityExt_Core_FSM__0___0__0_" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateChange(UnityExt.Core.FSM{`0},`0,`0)">IFSMHandler&lt;T&gt;.OnStateChange(FSM&lt;T&gt;, T, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IFSMHandler&lt;T&gt;.OnStateChange(FSM&lt;T&gt; p_fsm, T p_from, T p_to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.FSM-1.html">FSM</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_fsm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateReset_UnityExt_Core_FSM__0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.UnityExt%23Core%23IFSMHandler%7BT%7D%23OnStateReset(UnityExt.Core.FSM%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L82">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateReset_" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateReset*"></a>
+  <h4 id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateReset_UnityExt_Core_FSM__0__" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateReset(UnityExt.Core.FSM{`0})">IFSMHandler&lt;T&gt;.OnStateReset(FSM&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IFSMHandler&lt;T&gt;.OnStateReset(FSM&lt;T&gt; p_fsm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.FSM-1.html">FSM</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_fsm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateUpdate_UnityExt_Core_FSM__0___0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601.UnityExt%23Core%23IFSMHandler%7BT%7D%23OnStateUpdate(UnityExt.Core.FSM%7B%600%7D%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L80">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateUpdate_" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateUpdate*"></a>
+  <h4 id="UnityExt_Core_Activity_1_UnityExt_Core_IFSMHandler_T__OnStateUpdate_UnityExt_Core_FSM__0___0_" data-uid="UnityExt.Core.Activity`1.UnityExt#Core#IFSMHandler{T}#OnStateUpdate(UnityExt.Core.FSM{`0},`0)">IFSMHandler&lt;T&gt;.OnStateUpdate(FSM&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>IFSMHandler internals</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IFSMHandler&lt;T&gt;.OnStateUpdate(FSM&lt;T&gt; p_fsm, T p_state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.FSM-1.html">FSM</a>&lt;T&gt;</td>
+        <td><span class="parametername">p_fsm</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_state</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.Runtime.CompilerServices.INotifyCompletion</span>
+      <a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a>
   </div>
   <div>
-      <a class="xref" href="UnityExt.Core.IStatusProvider.html">IStatusProvider</a>
-  </div>
-  <div>
-      <a class="xref" href="UnityExt.Core.IStatusProvider-1.html">IStatusProvider&lt;T&gt;</a>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
   </div>
   <div>
       <a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler&lt;T&gt;</a>
   </div>
 </article>
           </div>
@@ -774,7 +714,7 @@
                     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Activity_1.md&amp;value=---%0Auid%3A%20UnityExt.Core.Activity%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L948" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/core/Activity.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

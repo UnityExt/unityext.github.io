@@ -91,6 +91,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="UnityExt.Core.IUpdateable.html">IUpdateable</a></div>
     <div><a class="xref" href="UnityExt.Core.IThreadUpdateable.html">IThreadUpdateable</a></div>
+    <div><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -117,6 +118,9 @@
     </div>
     <div>
       <a class="xref" href="UnityExt.Project.ExamplesApp.Rotator.html#UnityExt_Project_ExamplesApp_Rotator_OnDestroy">ExamplesApp.Rotator.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_UnityExt_Core_IActivity_process">ActivityBehaviour.IActivity.process</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerMs">ActivityBehaviour.profilerMs</a>
@@ -195,6 +199,12 @@
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
     </div>
     <div>
       <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
@@ -417,7 +427,7 @@
   <h6><strong>Assembly</strong>: UnityExt.Project.dll</h6>
   <h5 id="UnityExt_Project_ExamplesApp_ThreadRotator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ThreadRotator : ExamplesApp.Rotator, IUpdateable, IThreadUpdateable</code></pre>
+    <pre><code class="lang-csharp hljs">public class ThreadRotator : ExamplesApp.Rotator, IUpdateable, IThreadUpdateable, IActivity</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -426,7 +436,7 @@
     <a href="https://github.com/UnityExt/UnityExtProject/new/development/apiSpec/new?filename=UnityExt_Project_ExamplesApp_ThreadRotator_OnThreadUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Project.ExamplesApp.ThreadRotator.OnThreadUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L215">View Source</a>
+    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L217">View Source</a>
   </span>
   <a id="UnityExt_Project_ExamplesApp_ThreadRotator_OnThreadUpdate_" data-uid="UnityExt.Project.ExamplesApp.ThreadRotator.OnThreadUpdate*"></a>
   <h4 id="UnityExt_Project_ExamplesApp_ThreadRotator_OnThreadUpdate" data-uid="UnityExt.Project.ExamplesApp.ThreadRotator.OnThreadUpdate">OnThreadUpdate()</h4>
@@ -441,7 +451,7 @@
     <a href="https://github.com/UnityExt/UnityExtProject/new/development/apiSpec/new?filename=UnityExt_Project_ExamplesApp_ThreadRotator_OnUpdate.md&amp;value=---%0Auid%3A%20UnityExt.Project.ExamplesApp.ThreadRotator.OnUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L216">View Source</a>
+    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L218">View Source</a>
   </span>
   <a id="UnityExt_Project_ExamplesApp_ThreadRotator_OnUpdate_" data-uid="UnityExt.Project.ExamplesApp.ThreadRotator.OnUpdate*"></a>
   <h4 id="UnityExt_Project_ExamplesApp_ThreadRotator_OnUpdate" data-uid="UnityExt.Project.ExamplesApp.ThreadRotator.OnUpdate">OnUpdate()</h4>
@@ -458,6 +468,9 @@
   <div>
       <a class="xref" href="UnityExt.Core.IThreadUpdateable.html">IThreadUpdateable</a>
   </div>
+  <div>
+      <a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a>
+  </div>
 </article>
           </div>
           
@@ -469,7 +482,7 @@
                     <a href="https://github.com/UnityExt/UnityExtProject/new/development/apiSpec/new?filename=UnityExt_Project_ExamplesApp_ThreadRotator.md&amp;value=---%0Auid%3A%20UnityExt.Project.ExamplesApp.ThreadRotator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L214" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/UnityExtProject/blob/development/Assets/UnityEx/Core/source/ExamplesApp.cs/#L216" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

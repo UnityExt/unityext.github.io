@@ -78,21 +78,19 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="UnityExt.Core.Activity.html">Activity</a></h4>
-      <section><p>Class that implements any async activity/processing.
-It can run in different contexts inside unity (mainthread) or separate thread, offering an abstraction layer Monobehaviour/Thread agnostic.</p>
-</section>
-      <h4><a class="xref" href="UnityExt.Core.Activity.Manager.html">Activity.Manager</a></h4>
-      <section><p>Behaviour to handle all activity  executions.</p>
+      <section><p>Most basic class depicting an activity that is attached to a process.
+It contains the most raw access to the execution loops.
+Can be paired with the interfaces implmenting different loops such as IUpdateable and IThread.
+Can be used for editor context too.</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.Activity-1.html">Activity&lt;T&gt;</a></h4>
-      <section><p>Activity class extension to support unity jobs creation in some methods.</p>
+      <section><p>Extension of Activity to handle FSM functionalities. It has a simple API to handle state change detection and looping.</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.ActivityBehaviour.html">ActivityBehaviour</a></h4>
       <section><p>Component that extends a Monobehaviour so it can execute inside the activity manager context instead of the slow unity loop.</p>
 </section>
-      <h4><a class="xref" href="UnityExt.Core.ActivityManager.html">ActivityManager</a></h4>
-      <section><p>Class that implements the management of a set of interfaces and activities.
-It can be used for controlling the execution loop in a different way than the standard one.</p>
+      <h4><a class="xref" href="UnityExt.Core.Base64Serializer.html">Base64Serializer</a></h4>
+      <section><p>Class that extends the base serializer to handle base64 read/write</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.BezierCubic-1.html">BezierCubic&lt;T&gt;</a></h4>
       <section><p>Class that extends the cubic bezier spline to give support to different data types.</p>
@@ -116,6 +114,11 @@ It can be used for controlling the execution loop in a different way than the st
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.BezierQuadVector4.html">BezierQuadVector4</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.BitStream.html">BitStream</a></h4>
+      <section><p>Class that abstract bitwise manipulation and storage.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ByteInterpolator.html">ByteInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.BytePropertyReflection.html">BytePropertyReflection</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.CatmullRom-1.html">CatmullRom&lt;T&gt;</a></h4>
@@ -132,14 +135,63 @@ It can be used for controlling the execution loop in a different way than the st
       <h4><a class="xref" href="UnityExt.Core.Colorf.html">Colorf</a></h4>
       <section><p>Color functions helper class.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.ColorInterpolator.html">ColorInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.ColorPropertyReflection.html">ColorPropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.DoubleInterpolator.html">DoubleInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.DoublePropertyReflection.html">DoublePropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.DownloadHandlerStream.html">DownloadHandlerStream</a></h4>
+      <section><p>Class to wraps unity's downloader and give it Stream support</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Extensions.html">Extensions</a></h4>
+      <section><p>Miscelaneous extensions to different types.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.FloatInterpolator.html">FloatInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.FloatPropertyReflection.html">FloatPropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.FSM.html">FSM</a></h4>
+      <section><p>Finite State Machine class.
+Represents a state handling system that loops the current state but also reports state changes, taking care to not repeat the state</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.FSM-1.html">FSM&lt;T&gt;</a></h4>
+      <section><p>Finite State Machine class.
+Represents a state handling system that loops the current state but also reports state changes, taking care to not repeat the state</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.GameObjectExt.html">GameObjectExt</a></h4>
+      <section><p>Extension class to improve the basic functionality of the GameObject component.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.GUID.html">GUID</a></h4>
+      <section><p>Class that implements a GUID generation and tagging system for Component based elements.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.HttpBody.html">HttpBody</a></h4>
+      <section><p>Class that wraps the body of a request/response content.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.HttpHeader.html">HttpHeader</a></h4>
+      <section><p>Class that wraps header information of a request/response content.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.HttpMethod.html">HttpMethod</a></h4>
+      <section><p>HTTP defines a set of request methods to indicate the desired action to be performed for a given resource.
+Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs.
+Each of them implements a different semantic, but some common features are shared by a group of them
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a></p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.HttpQuery.html">HttpQuery</a></h4>
+      <section><p>Class that wraps the setup of a query string.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.HttpRequest.html">HttpRequest</a></h4>
+      <section><p>Class that wraps the content of a request/response</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IntInterpolator.html">IntInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.IntPropertyReflection.html">IntPropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.JSONSerializer.html">JSONSerializer</a></h4>
+      <section><p>Class that extends the base serializer to handle json read/write</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.Linear-1.html">Linear&lt;T&gt;</a></h4>
       <section><p>Class that extends the spline base class and implements the CatmullRom spline equation for different data types.</p>
 </section>
@@ -151,18 +203,76 @@ It can be used for controlling the execution loop in a different way than the st
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.LinearVector4.html">LinearVector4</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.LongInterpolator.html">LongInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.LongPropertyReflection.html">LongPropertyReflection</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.MathExt.html">MathExt</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.ObjectParser.html">ObjectParser</a></h4>
+      <section><p>Class that implements C# object's internal structure navigation.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ObjectParserTokenLog.html">ObjectParserTokenLog</a></h4>
+      <section><p>Auxiliary class that outputs human readable information about an object being parsed.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ObjectReader.html">ObjectReader</a></h4>
+      <section><p>Class that implements the read/write of C# objects into streams.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ObjectSerializer.html">ObjectSerializer</a></h4>
+      <section><p>Class that extends the base serializer to handle objects read/write</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ObjectWriter.html">ObjectWriter</a></h4>
+      <section><p>Class that implements the read/write of C# objects into streams.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Parse.html">Parse</a></h4>
+      <section><p>Class that wraps numerical parsing from and to the general C# types, aiming for less to no GC and speed.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ParseSettings.html">ParseSettings</a></h4>
+      <section><p>Parsing settings to guide the object parser.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Process.html">Process</a></h4>
+      <section><p>Class that describes a process structure, containing one or more process interfaces to run inside its context.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ProcessManager.html">ProcessManager</a></h4>
+      <section><p>Class that implements the creation and execution of process instances.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ProcessUnit.html">ProcessUnit</a></h4>
+      <section><p>Class that represents a mimicry of CPU where processes are queued and added for execution.
+It tries to leverage a fast algorithm to add / remove nodes from execution to be thread safe but without killing performance</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ProcessUnit.Memory.html">ProcessUnit.Memory</a></h4>
+      <section><p>Emulation of a memory system that allocates process pids as quick as possible for execution.
+But also allow defragging invalid slots to condense the execution pool</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.PropertyInterpolator.html">PropertyInterpolator</a></h4>
+      <section><p>Base Class that contains the basic information of a property interpolator.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.PropertyInterpolator-1.html">PropertyInterpolator&lt;T&gt;</a></h4>
+      <section><p>Class that wraps fetching an object's property and calling the proper reflection methods to interpolate them in the most optimized way possible.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.PropertyReflection-1.html">PropertyReflection&lt;T&gt;</a></h4>
       <section><p>Class that wraps System.Reflection actions to get/set properties of objects, without the memory footprint.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.QuaternionInterpolator.html">QuaternionInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.QuaternionPropertyReflection.html">QuaternionPropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.RectInterpolator.html">RectInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.RectPropertyReflection.html">RectPropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.SByteInterpolator.html">SByteInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.SBytePropertyReflection.html">SBytePropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.SerializableField.html">SerializableField</a></h4>
+      <section><p>Attribute to tag a field/property as serializable</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Serializer.html">Serializer</a></h4>
+      <section><p>Base Class for all serialization operations using UnityEx features.
+Serializers use the 'Activity' system to either run sync or async (using threads).</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ShortInterpolator.html">ShortInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.ShortPropertyReflection.html">ShortPropertyReflection</a></h4>
       <section></section>
@@ -177,41 +287,141 @@ It can be used for controlling the execution loop in a different way than the st
 </section>
       <h4><a class="xref" href="UnityExt.Core.SplineComponentHandle.html">SplineComponentHandle</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.TaskActivity.html">TaskActivity</a></h4>
+      <section><p>Standard Activity extension to handle simple tasks that are queued and completed with/without errors.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.Timer.html">Timer</a></h4>
-      <section><p>Class that extends an Activity to give support of time tracking, laps and delayed execution start.</p>
+      <section><p>Activity extension to handle a timer that updates time with variable speed, as well keeping track of 'repeat' loops</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TransformExt.html">TransformExt</a></h4>
+      <section><p>Extension class to improve the basic functionality of the Transform component.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TransformVectorInterpolator.html">TransformVectorInterpolator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.html">Tween</a></h4>
+      <section><p>Tweens are timer extensions that upon receiving a 'target' object and its 'property' interpolates it during the timer execution.
+It will blend the 'from' 'to' values using an EasingFunction or AnimationCurve that maps the [0,1] progress to a new [0,1] actually applying the interpolation.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.Cubic.html">Tween.Cubic</a></h4>
+      <section><p>Class that handles cubic form equations.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.Elastic.html">Tween.Elastic</a></h4>
+      <section><p>Class that handles elastic effect interpolation.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.Quad.html">Tween.Quad</a></h4>
+      <section><p>Class that handles quadratic form equations.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.Quartic.html">Tween.Quartic</a></h4>
+      <section><p>Class that handles quartic form equations.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween.Quintic.html">Tween.Quintic</a></h4>
+      <section><p>Class that handles quintic form equations.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Tween-1.html">Tween&lt;T&gt;</a></h4>
+      <section><p>Extension of the tween class allowing specifying the type of the property's value ranges.</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.UIMicroProfiler.html">UIMicroProfiler</a></h4>
       <section><p>Utility component that captures execution statistics and plot a simplified graph and update fields with stats.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.UIntInterpolator.html">UIntInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.UIntPropertyReflection.html">UIntPropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.UISystemProfiler.html">UISystemProfiler</a></h4>
+      <section><p>Utility component that captures execution statistics and plot a simplified graph and update fields with stats.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ULongInterpolator.html">ULongInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.ULongPropertyReflection.html">ULongPropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.UploadHandlerStream.html">UploadHandlerStream</a></h4>
+      <section><p>Class to wraps unity's upload handler and give it Stream support</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.UShortInterpolator.html">UShortInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.UShortPropertyReflection.html">UShortPropertyReflection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.ValueTypeInterpolator-1.html">ValueTypeInterpolator&lt;T&gt;</a></h4>
+      <section><p>Base class for all numeric interpolators.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.Vector2Interpolator.html">Vector2Interpolator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Vector2IntInterpolator.html">Vector2IntInterpolator</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.Vector2IntPropertyReflection.html">Vector2IntPropertyReflection</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.Vector2PropertyReflection.html">Vector2PropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Vector3Interpolator.html">Vector3Interpolator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Vector3IntInterpolator.html">Vector3IntInterpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.Vector3IntPropertyReflection.html">Vector3IntPropertyReflection</a></h4>
       <section></section>
       <h4><a class="xref" href="UnityExt.Core.Vector3PropertyReflection.html">Vector3PropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Vector4Interpolator.html">Vector4Interpolator</a></h4>
+      <section></section>
       <h4><a class="xref" href="UnityExt.Core.Vector4PropertyReflection.html">Vector4PropertyReflection</a></h4>
       <section></section>
+      <h4><a class="xref" href="UnityExt.Core.WebCacheEntry.html">WebCacheEntry</a></h4>
+      <section><p>Class that implements a simple cache entry structure for querying.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.WebRequest.html">WebRequest</a></h4>
+      <section><p>Class that wraps Unity's web request functionality for improved memory management and performance.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.WebRequestCache.html">WebRequestCache</a></h4>
+      <section><p>Class that wraps the functionality of cache storing and entry retrieving.</p>
+</section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="UnityExt.Core.Parse.UIntToFloat.html">Parse.UIntToFloat</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.Parse.ULongToDouble.html">Parse.ULongToDouble</a></h4>
+      <section></section>
+      <h4><a class="xref" href="UnityExt.Core.TimerStart.html">TimerStart</a></h4>
+      <section><p>Struct that initializes a Timer Start</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TransformVector.html">TransformVector</a></h4>
+      <section><p>Vector that describes the 3 components of a transform.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TweenStart.html">TweenStart</a></h4>
+      <section><p>Struct that initializes a Timer Start</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TweenStart-1.html">TweenStart&lt;T&gt;</a></h4>
+      <section><p>Struct that initializes a Timer Start</p>
+</section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="UnityExt.Core.IAsyncUpdateable.html">IAsyncUpdateable</a></h4>
-      <section><p>Interfaces for objects that wants to perform update loops not bound by frames</p>
+      <h4><a class="xref" href="UnityExt.Core.IActivity.html">IActivity</a></h4>
+      <section><p>Interface that describes a simple activity that receives a process reference</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.IFixedUpdateable.html">IFixedUpdateable</a></h4>
       <section><p>Interfaces for objects that wants to perform fixed update loops.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.IFSMHandler-1.html">IFSMHandler&lt;T&gt;</a></h4>
+      <section><p>Interface that implements a FSM handler object that will receive all state callbacks and have access to the calling FSM</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IInterpolator.html">IInterpolator</a></h4>
+      <section><p>Basic interface for classes able to interpolate data upon a provided [0.0;1.0] ratio.</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.IJobComponent.html">IJobComponent</a></h4>
       <section><p>Interface that helps job instances to be notified before and after execution to perform data management.</p>
 </section>
+      <h4><a class="xref" href="UnityExt.Core.IJobProcess.html">IJobProcess</a></h4>
+      <section><p>Base Interface for Process handling unity jobs</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IJobProcess-1.html">IJobProcess&lt;T&gt;</a></h4>
+      <section><p>Base Interface for Process handling unity jobs</p>
+</section>
       <h4><a class="xref" href="UnityExt.Core.ILateUpdateable.html">ILateUpdateable</a></h4>
       <section><p>Interfaces for objects that wants to perform late update loops.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IObjectParserTokenHandler.html">IObjectParserTokenHandler</a></h4>
+      <section><p>Interface that describes an object to handle each node visit during an object graph traversal.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a></h4>
+      <section><p>Interface that describes an activity that receives execution steps from the process</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.IProgressProvider.html">IProgressProvider</a></h4>
       <section><p>Interface that provides execution progress feedback</p>
@@ -230,14 +440,26 @@ It can be used for controlling the execution loop in a different way than the st
 </section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="UnityExt.Core.ActivityContext.html">ActivityContext</a></h4>
-      <section><p>Enumeration that describes the execution context of the activity.</p>
+      <h4><a class="xref" href="UnityExt.Core.AnimationWrapMode.html">AnimationWrapMode</a></h4>
+      <section><p>Enumeration that describes how the tween animation should wrap around.</p>
 </section>
-      <h4><a class="xref" href="UnityExt.Core.ActivityState.html">ActivityState</a></h4>
-      <section><p>Enumeration that describes the execution state of the activity.</p>
+      <h4><a class="xref" href="UnityExt.Core.ProcessContext.html">ProcessContext</a></h4>
+      <section><p>Execution Context the process must run</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ProcessFlags.html">ProcessFlags</a></h4>
+      <section><p>Helper enumeration to register which kinds of interfaces an activity implements</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.ProcessState.html">ProcessState</a></h4>
+      <section><p>Enumeration that describes the process execution state.</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.PropertyReflectionAttribs.html">PropertyReflectionAttribs</a></h4>
       <section><p>Bit Enumeration that describes the target type/state and its property type/state.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.SerializerAttrib.html">SerializerAttrib</a></h4>
+      <section><p>Class that wraps attribute bits for serialization.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.SerializerMode.html">SerializerMode</a></h4>
+      <section><p>Operation Mode</p>
 </section>
       <h4><a class="xref" href="UnityExt.Core.SplineTagentMode.html">SplineTagentMode</a></h4>
       <section><p>Enumeration that describes how tangents behave when changed.</p>
@@ -248,8 +470,25 @@ It can be used for controlling the execution loop in a different way than the st
       <h4><a class="xref" href="UnityExt.Core.StatusType.html">StatusType</a></h4>
       <section><p>Enumeration that describes possible outcomes from executions.</p>
 </section>
-      <h4><a class="xref" href="UnityExt.Core.TimerType.html">TimerType</a></h4>
-      <section><p>Timer running mode.</p>
+      <h4><a class="xref" href="UnityExt.Core.SystemProfileMetricFlag.html">SystemProfileMetricFlag</a></h4>
+      <section><p>Enumeration to select which information should be visible.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TaskState.html">TaskState</a></h4>
+      <section><p>State enumeration for the most basic activity for tasks</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.TimerState.html">TimerState</a></h4>
+      <section><p>State enumeration for the most basic activity for tasks</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.WebRequestFlags.html">WebRequestFlags</a></h4>
+      <section><p>Enumeration that define bit flags to configure the web request behavior.</p>
+</section>
+      <h4><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></h4>
+      <section><p>WebRequest Execution State</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="UnityExt.Core.ProcessAction.html">ProcessAction</a></h4>
+      <section><p>Type for anonymous process handlers</p>
 </section>
 </article>
           </div>

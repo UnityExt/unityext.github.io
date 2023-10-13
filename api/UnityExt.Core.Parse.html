@@ -1,0 +1,4360 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Parse
+   | UnityExt API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Parse
+   | UnityExt API ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityExt.Core.Parse">
+  
+  
+  <h1 id="UnityExt_Core_Parse" data-uid="UnityExt.Core.Parse" class="text-break">Class Parse
+  </h1>
+  <div class="markdown level0 summary"><p>Class that wraps numerical parsing from and to the general C# types, aiming for less to no GC and speed.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Parse</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityExt.Core.html">UnityExt.Core</a></h6>
+  <h6><strong>Assembly</strong>: UnityExt.Core.dll</h6>
+  <h5 id="UnityExt_Core_Parse_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Parse</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_ByteCount_System_UInt32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.ByteCount(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L333">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_ByteCount_" data-uid="UnityExt.Core.Parse.ByteCount*"></a>
+  <h4 id="UnityExt_Core_Parse_ByteCount_System_UInt32_" data-uid="UnityExt.Core.Parse.ByteCount(System.UInt32)">ByteCount(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Calculate the amount of bytes needed to write a positive number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ByteCount(uint n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_ByteCount_System_UInt64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.ByteCount(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L340">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_ByteCount_" data-uid="UnityExt.Core.Parse.ByteCount*"></a>
+  <h4 id="UnityExt_Core_Parse_ByteCount_System_UInt64_" data-uid="UnityExt.Core.Parse.ByteCount(System.UInt64)">ByteCount(UInt64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ByteCount(ulong n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_DateHash_System_DateTime_System_String_System_String_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.DateHash(System.DateTime%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1120">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_DateHash_" data-uid="UnityExt.Core.Parse.DateHash*"></a>
+  <h4 id="UnityExt_Core_Parse_DateHash_System_DateTime_System_String_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="UnityExt.Core.Parse.DateHash(System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">DateHash(DateTime, String, String, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Generates a concatenated date hash for the DateTime informed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DateHash(DateTime p_date, string p_yf = &quot;yyyy&quot;, string p_mf = &quot;MM&quot;, string p_df = &quot;dd&quot;, string p_thf = &quot;HH&quot;, string p_tmf = &quot;mm&quot;, string p_tsf = &quot;ss&quot;, string p_separator = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_date</span></td>
+        <td><p>DateTime to extract the hash components.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_yf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_mf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_df</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_thf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_tmf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_tsf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_separator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string composed of the date-time parts as a YYMMDD... hash</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_DateHash_System_String_System_String_System_String_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.DateHash(System.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1111">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_DateHash_" data-uid="UnityExt.Core.Parse.DateHash*"></a>
+  <h4 id="UnityExt_Core_Parse_DateHash_System_String_System_String_System_String_System_String_System_String_System_String_System_String_" data-uid="UnityExt.Core.Parse.DateHash(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">DateHash(String, String, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Generates a concatenated date hash for '.UtcNow' variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DateHash(string p_yf = &quot;yyyy&quot;, string p_mf = &quot;MM&quot;, string p_df = &quot;dd&quot;, string p_thf = &quot;HH&quot;, string p_tmf = &quot;mm&quot;, string p_tsf = &quot;ss&quot;, string p_separator = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_yf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_mf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_df</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_thf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_tmf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_tsf</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_separator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string composed of the date-time parts as a YYMMDD... hash</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_DigitCount_System_Decimal_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.DigitCount(System.Decimal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L296">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_DigitCount_" data-uid="UnityExt.Core.Parse.DigitCount*"></a>
+  <h4 id="UnityExt_Core_Parse_DigitCount_System_Decimal_" data-uid="UnityExt.Core.Parse.DigitCount(System.Decimal)">DigitCount(Decimal)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DigitCount(decimal n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_DigitCount_System_UInt32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.DigitCount(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L260">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_DigitCount_" data-uid="UnityExt.Core.Parse.DigitCount*"></a>
+  <h4 id="UnityExt_Core_Parse_DigitCount_System_UInt32_" data-uid="UnityExt.Core.Parse.DigitCount(System.UInt32)">DigitCount(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Finds the number of digits in a number
+<a href="https://stackoverflow.com/questions/4483886/how-can-i-get-a-count-of-the-total-number-of-digits-in-a-number/51099524#51099524">https://stackoverflow.com/questions/4483886/how-can-i-get-a-count-of-the-total-number-of-digits-in-a-number/51099524#51099524</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DigitCount(uint n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_DigitCount_System_UInt64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.DigitCount(System.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L273">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_DigitCount_" data-uid="UnityExt.Core.Parse.DigitCount*"></a>
+  <h4 id="UnityExt_Core_Parse_DigitCount_System_UInt64_" data-uid="UnityExt.Core.Parse.DigitCount(System.UInt64)">DigitCount(UInt64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DigitCount(ulong n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Byte___System_Double_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Byte%5B%5D%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L956">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Byte___System_Double_" data-uid="UnityExt.Core.Parse.From(System.Byte[],System.Double)">From(Byte[], Double)</h4>
+  <div class="markdown level1 summary"><p>Writes the value into a byte array in its binary representation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(byte[] p_buffer, double p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Byte buffer to write into</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of bytes written</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Byte___System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Byte%5B%5D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L840">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Byte___System_Single_" data-uid="UnityExt.Core.Parse.From(System.Byte[],System.Single)">From(Byte[], Single)</h4>
+  <div class="markdown level1 summary"><p>Writes the value into a byte array in its binary representation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(byte[] p_buffer, float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L386">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Boolean_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Boolean)">From(Char[], Boolean)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, bool p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Byte_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L465">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Byte_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Byte)">From(Char[], Byte)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, byte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_DateTime_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1004">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_DateTime_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.DateTime)">From(Char[], DateTime)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, DateTime p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Decimal_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Decimal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L760">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Decimal_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Decimal)">From(Char[], Decimal)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, decimal p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Double%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L907">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Double_System_Int32_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Double,System.Int32)">From(Char[], Double, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, double p_value, int p_precision = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_precision</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Enum_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Enum)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1082">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Enum_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Enum)">From(Char[], Enum)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, Enum p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Enum</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Int16_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L504">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Int16_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Int16)">From(Char[], Int16)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, short p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L582">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Int32_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Int32)">From(Char[], Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, int p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Int64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L709">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Int64_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Int64)">From(Char[], Int64)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, long p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_SByte_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.SByte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L426">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_SByte_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.SByte)">From(Char[], SByte)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, sbyte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L824">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_Single_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.Single)">From(Char[], Single)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_TimeSpan_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1043">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_TimeSpan_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.TimeSpan)">From(Char[], TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, TimeSpan p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_UInt16_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L543">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_UInt16_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.UInt16)">From(Char[], UInt16)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, ushort p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_UInt32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L621">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_UInt32_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.UInt32)">From(Char[], UInt32)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, uint p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Char___System_UInt64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Char%5B%5D%2CSystem.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L665">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Char___System_UInt64_" data-uid="UnityExt.Core.Parse.From(System.Char[],System.UInt64)">From(Char[], UInt64)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(char[] p_buffer, ulong p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L394">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Boolean_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Boolean)">From(StringBuilder, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, bool p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Byte_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L473">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Byte_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Byte)">From(StringBuilder, Byte)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, byte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_DateTime_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1012">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_DateTime_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.DateTime)">From(StringBuilder, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, DateTime p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Decimal_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Decimal)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L775">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Decimal_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Decimal)">From(StringBuilder, Decimal)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, decimal p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Double_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L948">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Double_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Double)">From(StringBuilder, Double)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, double p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Enum_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Enum)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1102">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Enum_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Enum)">From(StringBuilder, Enum)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, Enum p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Enum</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int16_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Int16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L512">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int16_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Int16)">From(StringBuilder, Int16)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, short p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L590">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int32_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Int32)">From(StringBuilder, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, int p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L724">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Int64_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Int64)">From(StringBuilder, Int64)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, long p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_SByte_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.SByte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L434">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_SByte_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.SByte)">From(StringBuilder, SByte)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, sbyte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Single_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L832">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_Single_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.Single)">From(StringBuilder, Single)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_TimeSpan_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.TimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1051">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_TimeSpan_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.TimeSpan)">From(StringBuilder, TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, TimeSpan p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt16_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L551">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt16_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.UInt16)">From(StringBuilder, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, ushort p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L629">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt32_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.UInt32)">From(StringBuilder, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, uint p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt64_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.From(System.Text.StringBuilder%2CSystem.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L673">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_From_" data-uid="UnityExt.Core.Parse.From*"></a>
+  <h4 id="UnityExt_Core_Parse_From_System_Text_StringBuilder_System_UInt64_" data-uid="UnityExt.Core.Parse.From(System.Text.StringBuilder,System.UInt64)">From(StringBuilder, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Writes a value in the buffer and returns the number of char written.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int From(StringBuilder p_buffer, ulong p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Char array to be written.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Value to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of char written.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_Ordinal_System_Int32_.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.Ordinal(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1138">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_Ordinal_" data-uid="UnityExt.Core.Parse.Ordinal*"></a>
+  <h4 id="UnityExt_Core_Parse_Ordinal_System_Int32_" data-uid="UnityExt.Core.Parse.Ordinal(System.Int32)">Ordinal(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the ordinal suffix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Ordinal(int p_number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_number</span></td>
+        <td><p>Number to have its ordinal sampled</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Ordinal suffix string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Boolean__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L358">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Boolean__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Boolean@)">To(Char[], out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, out bool p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Byte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Byte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L443">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Byte__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Byte@)">To(Char[], Int32, Int32, out Byte)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out byte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_DateTime__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.DateTime%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L978">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_DateTime__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.DateTime@)">To(Char[], Int32, Int32, out DateTime)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out DateTime p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Decimal__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Decimal%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L733">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Decimal__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Decimal@)">To(Char[], Int32, Int32, out Decimal)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out decimal p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Double__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Double%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L860">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Double__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Double@)">To(Char[], Int32, Int32, out Double)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out double p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L482">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int16__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Int16@)">To(Char[], Int32, Int32, out Int16)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out short p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L560">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int32__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Int32@)">To(Char[], Int32, Int32, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out int p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Int64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L682">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Int64__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Int64@)">To(Char[], Int32, Int32, out Int64)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out long p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_SByte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.SByte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L404">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_SByte__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.SByte@)">To(Char[], Int32, Int32, out SByte)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out sbyte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Single%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L784">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_Single__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.Single@)">To(Char[], Int32, Int32, out Single)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_TimeSpan__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.TimeSpan%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1021">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_TimeSpan__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.TimeSpan@)">To(Char[], Int32, Int32, out TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out TimeSpan p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.UInt16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L521">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt16__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.UInt16@)">To(Char[], Int32, Int32, out UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out ushort p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.UInt32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L599">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt32__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.UInt32@)">To(Char[], Int32, Int32, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out uint p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.UInt64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L638">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Char___System_Int32_System_Int32_System_UInt64__" data-uid="UnityExt.Core.Parse.To(System.Char[],System.Int32,System.Int32,System.UInt64@)">To(Char[], Int32, Int32, out UInt64)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(char[] p_buffer, int p_offset, int p_count, out ulong p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Boolean__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L378">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Boolean__" data-uid="UnityExt.Core.Parse.To(System.String,System.Boolean@)">To(String, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out bool p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Byte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Byte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L457">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Byte__" data-uid="UnityExt.Core.Parse.To(System.String,System.Byte@)">To(String, out Byte)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out byte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_DateTime__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.DateTime%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L996">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_DateTime__" data-uid="UnityExt.Core.Parse.To(System.String,System.DateTime@)">To(String, out DateTime)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out DateTime p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Decimal__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Decimal%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L752">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Decimal__" data-uid="UnityExt.Core.Parse.To(System.String,System.Decimal@)">To(String, out Decimal)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out decimal p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Double__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Double%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L899">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Double__" data-uid="UnityExt.Core.Parse.To(System.String,System.Double@)">To(String, out Double)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out double p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Int16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Int16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L496">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Int16__" data-uid="UnityExt.Core.Parse.To(System.String,System.Int16@)">To(String, out Int16)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out short p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Int32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L574">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Int32__" data-uid="UnityExt.Core.Parse.To(System.String,System.Int32@)">To(String, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out int p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Int64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Int64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L701">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Int64__" data-uid="UnityExt.Core.Parse.To(System.String,System.Int64@)">To(String, out Int64)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out long p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_SByte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.SByte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L418">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_SByte__" data-uid="UnityExt.Core.Parse.To(System.String,System.SByte@)">To(String, out SByte)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out sbyte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.Single%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L813">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_Single__" data-uid="UnityExt.Core.Parse.To(System.String,System.Single@)">To(String, out Single)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_TimeSpan__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.TimeSpan%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1035">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_TimeSpan__" data-uid="UnityExt.Core.Parse.To(System.String,System.TimeSpan@)">To(String, out TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out TimeSpan p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_UInt16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.UInt16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L535">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_UInt16__" data-uid="UnityExt.Core.Parse.To(System.String,System.UInt16@)">To(String, out UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out ushort p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_UInt32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.UInt32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L613">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_UInt32__" data-uid="UnityExt.Core.Parse.To(System.String,System.UInt32@)">To(String, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out uint p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_String_System_UInt64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.String%2CSystem.UInt64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L657">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_String_System_UInt64__" data-uid="UnityExt.Core.Parse.To(System.String,System.UInt64@)">To(String, out UInt64)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(string p_buffer, out ulong p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Boolean__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Boolean%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L371">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Boolean__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Boolean@)">To(StringBuilder, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out bool p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Byte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Byte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L450">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Byte__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Byte@)">To(StringBuilder, out Byte)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out byte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_DateTime__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.DateTime%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L989">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_DateTime__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.DateTime@)">To(StringBuilder, out DateTime)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out DateTime p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Decimal__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Decimal%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L745">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Decimal__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Decimal@)">To(StringBuilder, out Decimal)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out decimal p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Double__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Double%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L892">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Double__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Double@)">To(StringBuilder, out Double)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out double p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Int16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L489">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int16__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Int16@)">To(StringBuilder, out Int16)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out short p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Int32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L567">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int32__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Int32@)">To(StringBuilder, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out int p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Int64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L694">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Int64__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Int64@)">To(StringBuilder, out Int64)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out long p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_SByte__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.SByte%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L411">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_SByte__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.SByte@)">To(StringBuilder, out SByte)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out sbyte p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Single__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.Single%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L806">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_Single__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.Single@)">To(StringBuilder, out Single)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out float p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_TimeSpan__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.TimeSpan%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1028">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_TimeSpan__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.TimeSpan@)">To(StringBuilder, out TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out TimeSpan p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt16__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.UInt16%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L528">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt16__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.UInt16@)">To(StringBuilder, out UInt16)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out ushort p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt32__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.UInt32%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L606">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt32__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.UInt32@)">To(StringBuilder, out UInt32)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out uint p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt64__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To(System.Text.StringBuilder%2CSystem.UInt64%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L650">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To_System_Text_StringBuilder_System_UInt64__" data-uid="UnityExt.Core.Parse.To(System.Text.StringBuilder,System.UInt64@)">To(StringBuilder, out UInt64)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To(StringBuilder p_buffer, out ulong p_value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To__1_System_Char___System_Int32_System_Int32___0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To%60%601(System.Char%5B%5D%2CSystem.Int32%2CSystem.Int32%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1060">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To__1_System_Char___System_Int32_System_Int32___0__" data-uid="UnityExt.Core.Parse.To``1(System.Char[],System.Int32,System.Int32,``0@)">To&lt;T&gt;(Char[], Int32, Int32, out T)</h4>
+  <div class="markdown level1 summary"><p>Reads the char buffer and returns its parsed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To&lt;T&gt;(char[] p_buffer, int p_offset, int p_count, out T p_value)
+    where T : Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Buffer to read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">p_count</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td><p>Parsed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To__1_System_String___0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To%60%601(System.String%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1074">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To__1_System_String___0__" data-uid="UnityExt.Core.Parse.To``1(System.String,``0@)">To&lt;T&gt;(String, out T)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To&lt;T&gt;(string p_buffer, out T p_value)
+    where T : Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse_To__1_System_Text_StringBuilder___0__.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse.To%60%601(System.Text.StringBuilder%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L1067">View Source</a>
+  </span>
+  <a id="UnityExt_Core_Parse_To_" data-uid="UnityExt.Core.Parse.To*"></a>
+  <h4 id="UnityExt_Core_Parse_To__1_System_Text_StringBuilder___0__" data-uid="UnityExt.Core.Parse.To``1(System.Text.StringBuilder,``0@)">To&lt;T&gt;(StringBuilder, out T)</h4>
+  <div class="markdown level1 summary"><p>Reads a bool from the buffer and returns its value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void To&lt;T&gt;(StringBuilder p_buffer, out T p_value)
+    where T : Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Text.StringBuilder</span></td>
+        <td><span class="parametername">p_buffer</span></td>
+        <td><p>Chars with the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">p_value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_Parse.md&amp;value=---%0Auid%3A%20UnityExt.Core.Parse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/io/Parse.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            UnityExt API <b><span style="color:#00f">/</span></b> 2020
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
