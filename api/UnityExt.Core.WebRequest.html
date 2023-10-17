@@ -93,10 +93,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnExecuteEvent">Activity&lt;WebRequestState&gt;.OnExecuteEvent</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnChangeEvent">Activity&lt;WebRequestState&gt;.OnChangeEvent</a>
+      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_state">Activity&lt;WebRequestState&gt;.state</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_fsm">Activity&lt;WebRequestState&gt;.fsm</a>
@@ -106,12 +103,6 @@
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateReset">Activity&lt;WebRequestState&gt;.OnStateReset()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_InternalExecuteEvent__0_">Activity&lt;WebRequestState&gt;.InternalExecuteEvent(WebRequestState)</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_InternalChangeEvent__0__0_">Activity&lt;WebRequestState&gt;.InternalChangeEvent(WebRequestState, WebRequestState)</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnExecute_UnityExt_Core_ProcessContext_">Activity&lt;WebRequestState&gt;.OnExecute(ProcessContext)</a>
@@ -153,13 +144,10 @@
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_isError">Activity.isError</a>
     </div>
     <div>
+      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_threadSafe">Activity.threadSafe</a>
+    </div>
+    <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_context">Activity.context</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnError">Activity.OnError()</a>
@@ -172,9 +160,6 @@
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Stop">Activity.Stop()</a>
-    </div>
-    <div>
-      <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Throw_System_Exception_System_Boolean_">Activity.Throw(Exception, bool)</a>
     </div>
     <div>
       <a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_Yield_System_Single_">Activity.Yield(float)</a>
@@ -223,20 +208,37 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest__ctor.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest__ctor_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L523">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L541">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest__ctor_" data-uid="UnityExt.Core.WebRequest.#ctor*"></a>
-  <h4 id="UnityExt_Core_WebRequest__ctor" data-uid="UnityExt.Core.WebRequest.#ctor">WebRequest()</h4>
+  <h4 id="UnityExt_Core_WebRequest__ctor_System_String_" data-uid="UnityExt.Core.WebRequest.#ctor(System.String)">WebRequest(string)</h4>
   <div class="markdown level1 summary"><p>CTOR.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public WebRequest()</code></pre>
+    <pre><code class="lang- hljs">public WebRequest(string p_id = &quot;&quot;)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">p_id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
 </h3>
   <span class="small pull-right mobile-hide">
@@ -244,7 +246,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DataProcessContext.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DataProcessContext%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L153">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L159">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_DataProcessContext" data-uid="UnityExt.Core.WebRequest.DataProcessContext">DataProcessContext</h4>
   <div class="markdown level1 summary"><p>Flag telling in which execution context the data must be processed.</p>
@@ -274,7 +276,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DefaultBufferMode.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DefaultBufferMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L143">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L149">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_DefaultBufferMode" data-uid="UnityExt.Core.WebRequest.DefaultBufferMode">DefaultBufferMode</h4>
   <div class="markdown level1 summary"><p>Default option for buffering mode.</p>
@@ -304,7 +306,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DefaultCacheMode.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DefaultCacheMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L148">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L154">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_DefaultCacheMode" data-uid="UnityExt.Core.WebRequest.DefaultCacheMode">DefaultCacheMode</h4>
   <div class="markdown level1 summary"><p>Default option for caching mode.</p>
@@ -334,7 +336,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DefaultCacheTTL.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DefaultCacheTTL%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L158">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L164">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_DefaultCacheTTL" data-uid="UnityExt.Core.WebRequest.DefaultCacheTTL">DefaultCacheTTL</h4>
   <div class="markdown level1 summary"><p>Default Cache TTL in Minutes</p>
@@ -364,7 +366,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DefaultTimeout.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DefaultTimeout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L163">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L169">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_DefaultTimeout" data-uid="UnityExt.Core.WebRequest.DefaultTimeout">DefaultTimeout</h4>
   <div class="markdown level1 summary"><p>Default Timeout in seconds</p>
@@ -391,13 +393,73 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnChangeEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnChangeEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L521">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_WebRequest_OnChangeEvent" data-uid="UnityExt.Core.WebRequest.OnChangeEvent">OnChangeEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for state changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Action&lt;WebRequest, WebRequestState, WebRequestState&gt; OnChangeEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-3">Action</a>&lt;<a class="xref" href="UnityExt.Core.WebRequest.html">WebRequest</a>, <a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a>, <a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnExecuteEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnExecuteEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L516">View Source</a>
+  </span>
+  <h4 id="UnityExt_Core_WebRequest_OnExecuteEvent" data-uid="UnityExt.Core.WebRequest.OnExecuteEvent">OnExecuteEvent</h4>
+  <div class="markdown level1 summary"><p>Handler for execution loop</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public Action&lt;WebRequest&gt; OnExecuteEvent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="UnityExt.Core.WebRequest.html">WebRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_m_uwr.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.m_uwr%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L517">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L534">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_m_uwr" data-uid="UnityExt.Core.WebRequest.m_uwr">m_uwr</h4>
-  <div class="markdown level1 summary"><p>Class that wraps Unity's web request functionality for improved memory management and performance.</p>
+  <div class="markdown level1 summary"><p>Internal</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -424,7 +486,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_m_uwr_op.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.m_uwr_op%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L518">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L535">View Source</a>
   </span>
   <h4 id="UnityExt_Core_WebRequest_m_uwr_op" data-uid="UnityExt.Core.WebRequest.m_uwr_op">m_uwr_op</h4>
   <div class="markdown level1 summary"><p>Class that wraps Unity's web request functionality for improved memory management and performance.</p>
@@ -456,7 +518,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_CachePath.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.CachePath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L179">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L185">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_CachePath_" data-uid="UnityExt.Core.WebRequest.CachePath*"></a>
   <h4 id="UnityExt_Core_WebRequest_CachePath" data-uid="UnityExt.Core.WebRequest.CachePath">CachePath</h4>
@@ -487,7 +549,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_CanUseFileSystem.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.CanUseFileSystem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L184">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L190">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_CanUseFileSystem_" data-uid="UnityExt.Core.WebRequest.CanUseFileSystem*"></a>
   <h4 id="UnityExt_Core_WebRequest_CanUseFileSystem" data-uid="UnityExt.Core.WebRequest.CanUseFileSystem">CanUseFileSystem</h4>
@@ -518,7 +580,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DataPath.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DataPath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L169">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L175">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_DataPath_" data-uid="UnityExt.Core.WebRequest.DataPath*"></a>
   <h4 id="UnityExt_Core_WebRequest_DataPath" data-uid="UnityExt.Core.WebRequest.DataPath">DataPath</h4>
@@ -546,41 +608,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnRequestEvent.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnRequestEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L510">View Source</a>
-  </span>
-  <a id="UnityExt_Core_WebRequest_OnRequestEvent_" data-uid="UnityExt.Core.WebRequest.OnRequestEvent*"></a>
-  <h4 id="UnityExt_Core_WebRequest_OnRequestEvent" data-uid="UnityExt.Core.WebRequest.OnRequestEvent">OnRequestEvent</h4>
-  <div class="markdown level1 summary"><p>Handler for request events.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public Action&lt;WebRequest&gt; OnRequestEvent { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="UnityExt.Core.WebRequest.html">WebRequest</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_TempPath.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.TempPath%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L174">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L180">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_TempPath_" data-uid="UnityExt.Core.WebRequest.TempPath*"></a>
   <h4 id="UnityExt_Core_WebRequest_TempPath" data-uid="UnityExt.Core.WebRequest.TempPath">TempPath</h4>
@@ -611,7 +642,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_active.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.active%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L395">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L401">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_active_" data-uid="UnityExt.Core.WebRequest.active*"></a>
   <h4 id="UnityExt_Core_WebRequest_active" data-uid="UnityExt.Core.WebRequest.active">active</h4>
@@ -620,7 +651,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public bool active { get; }</code></pre>
+    <pre><code class="lang- hljs">protected bool active { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -642,7 +673,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_attribs.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.attribs%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L481">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L482">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_attribs_" data-uid="UnityExt.Core.WebRequest.attribs*"></a>
   <h4 id="UnityExt_Core_WebRequest_attribs" data-uid="UnityExt.Core.WebRequest.attribs">attribs</h4>
@@ -673,7 +704,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_cached.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.cached%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L455">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L461">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_cached_" data-uid="UnityExt.Core.WebRequest.cached*"></a>
   <h4 id="UnityExt_Core_WebRequest_cached" data-uid="UnityExt.Core.WebRequest.cached">cached</h4>
@@ -704,7 +735,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_code.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.code%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L475">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L476">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_code_" data-uid="UnityExt.Core.WebRequest.code*"></a>
   <h4 id="UnityExt_Core_WebRequest_code" data-uid="UnityExt.Core.WebRequest.code">code</h4>
@@ -732,41 +763,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_error.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.error%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L465">View Source</a>
-  </span>
-  <a id="UnityExt_Core_WebRequest_error_" data-uid="UnityExt.Core.WebRequest.error*"></a>
-  <h4 id="UnityExt_Core_WebRequest_error" data-uid="UnityExt.Core.WebRequest.error">error</h4>
-  <div class="markdown level1 summary"><p>Error Message if Any</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public string error { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_method.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.method%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L412">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L418">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_method_" data-uid="UnityExt.Core.WebRequest.method*"></a>
   <h4 id="UnityExt_Core_WebRequest_method" data-uid="UnityExt.Core.WebRequest.method">method</h4>
@@ -797,7 +797,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_progress.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.progress%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L470">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L471">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_progress_" data-uid="UnityExt.Core.WebRequest.progress*"></a>
   <h4 id="UnityExt_Core_WebRequest_progress" data-uid="UnityExt.Core.WebRequest.progress">progress</h4>
@@ -828,7 +828,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_query.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.query%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L430">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L436">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_query_" data-uid="UnityExt.Core.WebRequest.query*"></a>
   <h4 id="UnityExt_Core_WebRequest_query" data-uid="UnityExt.Core.WebRequest.query">query</h4>
@@ -859,7 +859,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_request.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.request%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L435">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L441">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_request_" data-uid="UnityExt.Core.WebRequest.request*"></a>
   <h4 id="UnityExt_Core_WebRequest_request" data-uid="UnityExt.Core.WebRequest.request">request</h4>
@@ -890,7 +890,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_response.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.response%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L440">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L446">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_response_" data-uid="UnityExt.Core.WebRequest.response*"></a>
   <h4 id="UnityExt_Core_WebRequest_response" data-uid="UnityExt.Core.WebRequest.response">response</h4>
@@ -918,41 +918,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_state.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.state%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L460">View Source</a>
-  </span>
-  <a id="UnityExt_Core_WebRequest_state_" data-uid="UnityExt.Core.WebRequest.state*"></a>
-  <h4 id="UnityExt_Core_WebRequest_state" data-uid="UnityExt.Core.WebRequest.state">state</h4>
-  <div class="markdown level1 summary"><p>WebRequest Current State</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public WebRequestState state { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_timeout.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.timeout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L450">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L456">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_timeout_" data-uid="UnityExt.Core.WebRequest.timeout*"></a>
   <h4 id="UnityExt_Core_WebRequest_timeout" data-uid="UnityExt.Core.WebRequest.timeout">timeout</h4>
@@ -983,7 +952,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_ttl.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.ttl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L445">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L451">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_ttl_" data-uid="UnityExt.Core.WebRequest.ttl*"></a>
   <h4 id="UnityExt_Core_WebRequest_ttl" data-uid="UnityExt.Core.WebRequest.ttl">ttl</h4>
@@ -1014,7 +983,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_url.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.url%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L417">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L423">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_url_" data-uid="UnityExt.Core.WebRequest.url*"></a>
   <h4 id="UnityExt_Core_WebRequest_url" data-uid="UnityExt.Core.WebRequest.url">url</h4>
@@ -1047,7 +1016,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Cancel.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Cancel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L614">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L632">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Cancel_" data-uid="UnityExt.Core.WebRequest.Cancel*"></a>
   <h4 id="UnityExt_Core_WebRequest_Cancel" data-uid="UnityExt.Core.WebRequest.Cancel">Cancel()</h4>
@@ -1063,7 +1032,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L366">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L372">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,System.Action{UnityExt.Core.WebRequest})">Create(string, Action&lt;WebRequest&gt;)</h4>
@@ -1116,7 +1085,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L365">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L371">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Create(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -1174,7 +1143,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L364">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L370">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Create(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -1237,7 +1206,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L607">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L625">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.WebRequestFlags)">Create(string, WebRequestFlags)</h4>
@@ -1293,7 +1262,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L363">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L369">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Create(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -1351,7 +1320,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L361">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L367">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Create(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -1414,7 +1383,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L360">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L366">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Create(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -1488,7 +1457,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Create(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L362">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L368">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Create_" data-uid="UnityExt.Core.WebRequest.Create*"></a>
   <h4 id="UnityExt_Core_WebRequest_Create_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Create(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Create(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -1551,7 +1520,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L328">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L334">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,System.Action{UnityExt.Core.WebRequest})">Delete(string, Action&lt;WebRequest&gt;)</h4>
@@ -1604,7 +1573,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L327">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L333">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Delete(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -1662,7 +1631,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L326">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L332">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Delete(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -1725,7 +1694,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L591">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L609">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.WebRequestFlags)">Delete(string, WebRequestFlags)</h4>
@@ -1781,7 +1750,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L325">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L331">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Delete(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -1839,7 +1808,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L323">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L329">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Delete(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -1902,7 +1871,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L322">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L328">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Delete(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -1976,7 +1945,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Delete(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L324">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L330">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Delete_" data-uid="UnityExt.Core.WebRequest.Delete*"></a>
   <h4 id="UnityExt_Core_WebRequest_Delete_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Delete(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Delete(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -2036,76 +2005,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DispatchErrorEvent_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DispatchErrorEvent(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L658">View Source</a>
-  </span>
-  <a id="UnityExt_Core_WebRequest_DispatchErrorEvent_" data-uid="UnityExt.Core.WebRequest.DispatchErrorEvent*"></a>
-  <h4 id="UnityExt_Core_WebRequest_DispatchErrorEvent_System_String_" data-uid="UnityExt.Core.WebRequest.DispatchErrorEvent(System.String)">DispatchErrorEvent(string)</h4>
-  <div class="markdown level1 summary"><p>Helper to change state and dispatch events</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">protected void DispatchErrorEvent(string p_error)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">p_error</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_DispatchStateEvent_UnityExt_Core_WebRequestState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.DispatchStateEvent(UnityExt.Core.WebRequestState)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L650">View Source</a>
-  </span>
-  <a id="UnityExt_Core_WebRequest_DispatchStateEvent_" data-uid="UnityExt.Core.WebRequest.DispatchStateEvent*"></a>
-  <h4 id="UnityExt_Core_WebRequest_DispatchStateEvent_UnityExt_Core_WebRequestState_" data-uid="UnityExt.Core.WebRequest.DispatchStateEvent(UnityExt.Core.WebRequestState)">DispatchStateEvent(WebRequestState)</h4>
-  <div class="markdown level1 summary"><p>Helper to change state and dispatch events</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">protected void DispatchStateEvent(WebRequestState p_state)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></td>
-        <td><span class="parametername">p_state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Dispose.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L624">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L642">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Dispose_" data-uid="UnityExt.Core.WebRequest.Dispose*"></a>
   <h4 id="UnityExt_Core_WebRequest_Dispose" data-uid="UnityExt.Core.WebRequest.Dispose">Dispose()</h4>
@@ -2121,7 +2024,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L271">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L277">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,System.Action{UnityExt.Core.WebRequest})">Get(string, Action&lt;WebRequest&gt;)</h4>
@@ -2174,7 +2077,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L270">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L276">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Get(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -2232,7 +2135,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L269">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L275">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Get(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -2295,7 +2198,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L567">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L585">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.WebRequestFlags)">Get(string, WebRequestFlags)</h4>
@@ -2351,7 +2254,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L268">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L274">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Get(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -2409,7 +2312,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L266">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L272">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Get(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -2472,7 +2375,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L265">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L271">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Get(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -2546,7 +2449,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Get(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L267">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L273">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Get_" data-uid="UnityExt.Core.WebRequest.Get*"></a>
   <h4 id="UnityExt_Core_WebRequest_Get_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Get(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Get(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -2609,7 +2512,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetAudioClip_UnityEngine_AudioType_System_Action_UnityEngine_AudioClip__UnityEngine_AudioClip_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetAudioClip(UnityEngine.AudioType%2CSystem.Action%7BUnityEngine.AudioClip%7D%2CUnityEngine.AudioClip)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1102">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1189">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetAudioClip_" data-uid="UnityExt.Core.WebRequest.GetAudioClip*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetAudioClip_UnityEngine_AudioType_System_Action_UnityEngine_AudioClip__UnityEngine_AudioClip_" data-uid="UnityExt.Core.WebRequest.GetAudioClip(UnityEngine.AudioType,System.Action{UnityEngine.AudioClip},UnityEngine.AudioClip)">GetAudioClip(AudioType, Action&lt;AudioClip&gt;, AudioClip)</h4>
@@ -2670,7 +2573,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetBytes.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetBytes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1044">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1131">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetBytes_" data-uid="UnityExt.Core.WebRequest.GetBytes*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetBytes" data-uid="UnityExt.Core.WebRequest.GetBytes">GetBytes()</h4>
@@ -2702,7 +2605,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetJsonAsync__1_System_Action___0____0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetJsonAsync%60%601(System.Action%7B%60%600%7D%2C%60%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1008">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1095">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetJsonAsync_" data-uid="UnityExt.Core.WebRequest.GetJsonAsync*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetJsonAsync__1_System_Action___0____0_" data-uid="UnityExt.Core.WebRequest.GetJsonAsync``1(System.Action{``0},``0)">GetJsonAsync&lt;T&gt;(Action&lt;T&gt;, T)</h4>
@@ -2774,7 +2677,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetJson__1___0_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetJson%60%601(%60%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L989">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1076">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetJson_" data-uid="UnityExt.Core.WebRequest.GetJson*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetJson__1___0_" data-uid="UnityExt.Core.WebRequest.GetJson``1(``0)">GetJson&lt;T&gt;(T)</h4>
@@ -2839,7 +2742,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetProgress.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetProgress%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1193">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1281">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetProgress_" data-uid="UnityExt.Core.WebRequest.GetProgress*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetProgress" data-uid="UnityExt.Core.WebRequest.GetProgress">GetProgress()</h4>
@@ -2873,7 +2776,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetStatus.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetStatus%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1167">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1254">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetStatus_" data-uid="UnityExt.Core.WebRequest.GetStatus*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetStatus" data-uid="UnityExt.Core.WebRequest.GetStatus">GetStatus()</h4>
@@ -2905,7 +2808,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetString_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetString(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1026">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1113">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetString_" data-uid="UnityExt.Core.WebRequest.GetString*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetString_System_String_" data-uid="UnityExt.Core.WebRequest.GetString(System.String)">GetString(string)</h4>
@@ -2955,7 +2858,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetTempFilePath_System_String_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetTempFilePath(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L189">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L195">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetTempFilePath_" data-uid="UnityExt.Core.WebRequest.GetTempFilePath*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetTempFilePath_System_String_" data-uid="UnityExt.Core.WebRequest.GetTempFilePath(System.String)">GetTempFilePath(string)</h4>
@@ -3003,7 +2906,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetTexture_System_Boolean_UnityEngine_Texture2D_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetTexture(System.Boolean%2CUnityEngine.Texture2D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1067">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1154">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetTexture_" data-uid="UnityExt.Core.WebRequest.GetTexture*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetTexture_System_Boolean_UnityEngine_Texture2D_" data-uid="UnityExt.Core.WebRequest.GetTexture(System.Boolean,UnityEngine.Texture2D)">GetTexture(bool, Texture2D)</h4>
@@ -3059,7 +2962,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetTexture_UnityEngine_Texture2D_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetTexture(UnityEngine.Texture2D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1092">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L1179">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetTexture_" data-uid="UnityExt.Core.WebRequest.GetTexture*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetTexture_UnityEngine_Texture2D_" data-uid="UnityExt.Core.WebRequest.GetTexture(UnityEngine.Texture2D)">GetTexture(Texture2D)</h4>
@@ -3107,7 +3010,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_GetURL_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.GetURL(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L425">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L431">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_GetURL_" data-uid="UnityExt.Core.WebRequest.GetURL*"></a>
   <h4 id="UnityExt_Core_WebRequest_GetURL_System_Boolean_" data-uid="UnityExt.Core.WebRequest.GetURL(System.Boolean)">GetURL(bool)</h4>
@@ -3157,7 +3060,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L347">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L353">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,System.Action{UnityExt.Core.WebRequest})">Head(string, Action&lt;WebRequest&gt;)</h4>
@@ -3210,7 +3113,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L346">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L352">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Head(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -3268,7 +3171,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L345">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L351">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Head(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -3331,7 +3234,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L599">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L617">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.WebRequestFlags)">Head(string, WebRequestFlags)</h4>
@@ -3387,7 +3290,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L344">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L350">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Head(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -3445,7 +3348,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L342">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L348">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Head(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -3508,7 +3411,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L341">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L347">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Head(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -3582,7 +3485,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Head(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L343">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L349">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Head_" data-uid="UnityExt.Core.WebRequest.Head*"></a>
   <h4 id="UnityExt_Core_WebRequest_Head_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Head(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Head(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -3645,7 +3548,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_InitDataFileSystem_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.InitDataFileSystem(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L209">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L215">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_InitDataFileSystem_" data-uid="UnityExt.Core.WebRequest.InitDataFileSystem*"></a>
   <h4 id="UnityExt_Core_WebRequest_InitDataFileSystem_System_Boolean_" data-uid="UnityExt.Core.WebRequest.InitDataFileSystem(System.Boolean)">InitDataFileSystem(bool)</h4>
@@ -3675,10 +3578,50 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_InternalChangeEvent_UnityExt_Core_WebRequestState_UnityExt_Core_WebRequestState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.InternalChangeEvent(UnityExt.Core.WebRequestState%2CUnityExt.Core.WebRequestState)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L527">View Source</a>
+  </span>
+  <a id="UnityExt_Core_WebRequest_InternalChangeEvent_" data-uid="UnityExt.Core.WebRequest.InternalChangeEvent*"></a>
+  <h4 id="UnityExt_Core_WebRequest_InternalChangeEvent_UnityExt_Core_WebRequestState_UnityExt_Core_WebRequestState_" data-uid="UnityExt.Core.WebRequest.InternalChangeEvent(UnityExt.Core.WebRequestState,UnityExt.Core.WebRequestState)">InternalChangeEvent(WebRequestState, WebRequestState)</h4>
+  <div class="markdown level1 summary"><p>Auxiliary handler to easily call events of any type variation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">protected override void InternalChangeEvent(WebRequestState p_from, WebRequestState p_to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></td>
+        <td><span class="parametername">p_from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></td>
+        <td><span class="parametername">p_to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_InternalChangeEvent__0__0_">Activity&lt;WebRequestState&gt;.InternalChangeEvent(WebRequestState, WebRequestState)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_InternalDispose.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.InternalDispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L633">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L673">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_InternalDispose_" data-uid="UnityExt.Core.WebRequest.InternalDispose*"></a>
   <h4 id="UnityExt_Core_WebRequest_InternalDispose" data-uid="UnityExt.Core.WebRequest.InternalDispose">InternalDispose()</h4>
@@ -3691,10 +3634,63 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_InternalExecuteEvent_UnityExt_Core_WebRequestState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.InternalExecuteEvent(UnityExt.Core.WebRequestState)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L526">View Source</a>
+  </span>
+  <a id="UnityExt_Core_WebRequest_InternalExecuteEvent_" data-uid="UnityExt.Core.WebRequest.InternalExecuteEvent*"></a>
+  <h4 id="UnityExt_Core_WebRequest_InternalExecuteEvent_UnityExt_Core_WebRequestState_" data-uid="UnityExt.Core.WebRequest.InternalExecuteEvent(UnityExt.Core.WebRequestState)">InternalExecuteEvent(WebRequestState)</h4>
+  <div class="markdown level1 summary"><p>Auxiliary Event Calling</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">protected override void InternalExecuteEvent(WebRequestState p_state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityExt.Core.WebRequestState.html">WebRequestState</a></td>
+        <td><span class="parametername">p_state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_InternalExecuteEvent__0_">Activity&lt;WebRequestState&gt;.InternalExecuteEvent(WebRequestState)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnStart.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnStart%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L651">View Source</a>
+  </span>
+  <a id="UnityExt_Core_WebRequest_OnStart_" data-uid="UnityExt.Core.WebRequest.OnStart*"></a>
+  <h4 id="UnityExt_Core_WebRequest_OnStart" data-uid="UnityExt.Core.WebRequest.OnStart">OnStart()</h4>
+  <div class="markdown level1 summary"><p>Handler called when the activity entered execution pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">protected override void OnStart()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStart">Activity.OnStart()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnStateUpdate_UnityExt_Core_WebRequestState_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnStateUpdate(UnityExt.Core.WebRequestState)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L683">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L715">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_OnStateUpdate_" data-uid="UnityExt.Core.WebRequest.OnStateUpdate*"></a>
   <h4 id="UnityExt_Core_WebRequest_OnStateUpdate_UnityExt_Core_WebRequestState_" data-uid="UnityExt.Core.WebRequest.OnStateUpdate(UnityExt.Core.WebRequestState)">OnStateUpdate(WebRequestState)</h4>
@@ -3726,10 +3722,28 @@
   <div><a class="xref" href="UnityExt.Core.Activity-1.html#UnityExt_Core_Activity_1_OnStateUpdate__0_">Activity&lt;WebRequestState&gt;.OnStateUpdate(WebRequestState)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_OnStop.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.OnStop%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L655">View Source</a>
+  </span>
+  <a id="UnityExt_Core_WebRequest_OnStop_" data-uid="UnityExt.Core.WebRequest.OnStop*"></a>
+  <h4 id="UnityExt_Core_WebRequest_OnStop" data-uid="UnityExt.Core.WebRequest.OnStop">OnStop()</h4>
+  <div class="markdown level1 summary"><p>Class that wraps Unity's web request functionality for improved memory management and performance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">protected override void OnStop()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="UnityExt.Core.Activity.html#UnityExt_Core_Activity_OnStop">Activity.OnStop()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L290">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L296">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,System.Action{UnityExt.Core.WebRequest})">Post(string, Action&lt;WebRequest&gt;)</h4>
@@ -3782,7 +3796,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L289">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L295">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Post(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -3840,7 +3854,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L288">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L294">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Post(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -3903,7 +3917,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L575">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L593">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.WebRequestFlags)">Post(string, WebRequestFlags)</h4>
@@ -3959,7 +3973,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L287">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L293">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Post(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -4017,7 +4031,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L285">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L291">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Post(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -4080,7 +4094,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L284">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L290">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Post(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4154,7 +4168,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Post(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L286">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L292">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Post_" data-uid="UnityExt.Core.WebRequest.Post*"></a>
   <h4 id="UnityExt_Core_WebRequest_Post_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Post(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Post(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4217,7 +4231,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L309">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L315">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,System.Action{UnityExt.Core.WebRequest})">Put(string, Action&lt;WebRequest&gt;)</h4>
@@ -4270,7 +4284,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L308">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L314">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Put(string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -4328,7 +4342,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L307">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L313">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Put(string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4391,7 +4405,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L583">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L601">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.WebRequestFlags)">Put(string, WebRequestFlags)</h4>
@@ -4447,7 +4461,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L306">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L312">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Put(string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -4505,7 +4519,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L304">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L310">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Put(string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -4568,7 +4582,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L303">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L309">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Put(string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4642,7 +4656,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Put(System.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L305">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L311">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Put_" data-uid="UnityExt.Core.WebRequest.Put*"></a>
   <h4 id="UnityExt_Core_WebRequest_Put_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Put(System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Put(string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4705,7 +4719,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L252">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L258">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,System.Action{UnityExt.Core.WebRequest})">Send(string, string, Action&lt;WebRequest&gt;)</h4>
@@ -4763,7 +4777,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L251">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L257">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Send(string, string, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -4826,7 +4840,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L250">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L256">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Send(string, string, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -4894,7 +4908,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.WebRequestFlags)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L543">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L563">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.WebRequestFlags)">Send(string, string, WebRequestFlags)</h4>
@@ -4956,7 +4970,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.WebRequestFlags%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L249">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L255">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.WebRequestFlags,System.Action{UnityExt.Core.WebRequest})">Send(string, string, WebRequestFlags, Action&lt;WebRequest&gt;)</h4>
@@ -5019,7 +5033,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L247">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L253">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,System.Action{UnityExt.Core.WebRequest})">Send(string, string, WebRequestFlags, HttpQuery, Action&lt;WebRequest&gt;)</h4>
@@ -5087,7 +5101,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpQuery%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L239">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L245">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpQuery_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpQuery,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Send(string, string, WebRequestFlags, HttpQuery, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -5167,7 +5181,7 @@
     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Send(System.String%2CSystem.String%2CUnityExt.Core.WebRequestFlags%2CUnityExt.Core.HttpRequest%2CSystem.Action%7BUnityExt.Core.WebRequest%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L248">View Source</a>
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L254">View Source</a>
   </span>
   <a id="UnityExt_Core_WebRequest_Send_" data-uid="UnityExt.Core.WebRequest.Send*"></a>
   <h4 id="UnityExt_Core_WebRequest_Send_System_String_System_String_UnityExt_Core_WebRequestFlags_UnityExt_Core_HttpRequest_System_Action_UnityExt_Core_WebRequest__" data-uid="UnityExt.Core.WebRequest.Send(System.String,System.String,UnityExt.Core.WebRequestFlags,UnityExt.Core.HttpRequest,System.Action{UnityExt.Core.WebRequest})">Send(string, string, WebRequestFlags, HttpRequest, Action&lt;WebRequest&gt;)</h4>
@@ -5230,6 +5244,44 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest_Throw_System_Exception_System_Boolean_.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest.Throw(System.Exception%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L692">View Source</a>
+  </span>
+  <a id="UnityExt_Core_WebRequest_Throw_" data-uid="UnityExt.Core.WebRequest.Throw*"></a>
+  <h4 id="UnityExt_Core_WebRequest_Throw_System_Exception_System_Boolean_" data-uid="UnityExt.Core.WebRequest.Throw(System.Exception,System.Boolean)">Throw(Exception, bool)</h4>
+  <div class="markdown level1 summary"><p>Throws an exception for the web request</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void Throw(Exception p_error, bool p_raise_event = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">p_error</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">p_raise_event</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="UnityExt.Core.IProcess.html">IProcess</a>
@@ -5254,7 +5306,7 @@
                     <a href="https://github.com/UnityExt/Core/new/development/apiSpec/new?filename=UnityExt_Core_WebRequest.md&amp;value=---%0Auid%3A%20UnityExt.Core.WebRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L94" class="contribution-link">View Source</a>
+                    <a href="https://github.com/UnityExt/Core/blob/development/Scripts/Runtime/net/WebRequest.cs/#L100" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

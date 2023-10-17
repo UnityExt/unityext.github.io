@@ -341,6 +341,12 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.Activity.isError
   nameWithType: Activity.isError
+- uid: UnityExt.Core.Activity.threadSafe
+  name: threadSafe
+  href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_threadSafe
+  commentId: F:UnityExt.Core.Activity.threadSafe
+  fullName: UnityExt.Core.Activity.threadSafe
+  nameWithType: Activity.threadSafe
 - uid: UnityExt.Core.Activity.threaded
   name: threaded
   href: api/UnityExt.Core.Activity.html#UnityExt_Core_Activity_threaded
@@ -412,38 +418,6 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.ActivityBehaviour.OnEnable
   nameWithType: ActivityBehaviour.OnEnable
-- uid: UnityExt.Core.ActivityBehaviour.profilerMs
-  name: profilerMs
-  href: api/UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerMs
-  commentId: F:UnityExt.Core.ActivityBehaviour.profilerMs
-  fullName: UnityExt.Core.ActivityBehaviour.profilerMs
-  nameWithType: ActivityBehaviour.profilerMs
-- uid: UnityExt.Core.ActivityBehaviour.profilerTimeStr
-  name: profilerTimeStr
-  href: api/UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerTimeStr
-  commentId: P:UnityExt.Core.ActivityBehaviour.profilerTimeStr
-  fullName: UnityExt.Core.ActivityBehaviour.profilerTimeStr
-  nameWithType: ActivityBehaviour.profilerTimeStr
-- uid: UnityExt.Core.ActivityBehaviour.profilerTimeStr*
-  name: profilerTimeStr
-  href: api/UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerTimeStr_
-  commentId: Overload:UnityExt.Core.ActivityBehaviour.profilerTimeStr
-  isSpec: "True"
-  fullName: UnityExt.Core.ActivityBehaviour.profilerTimeStr
-  nameWithType: ActivityBehaviour.profilerTimeStr
-- uid: UnityExt.Core.ActivityBehaviour.profilerUs
-  name: profilerUs
-  href: api/UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerUs
-  commentId: P:UnityExt.Core.ActivityBehaviour.profilerUs
-  fullName: UnityExt.Core.ActivityBehaviour.profilerUs
-  nameWithType: ActivityBehaviour.profilerUs
-- uid: UnityExt.Core.ActivityBehaviour.profilerUs*
-  name: profilerUs
-  href: api/UnityExt.Core.ActivityBehaviour.html#UnityExt_Core_ActivityBehaviour_profilerUs_
-  commentId: Overload:UnityExt.Core.ActivityBehaviour.profilerUs
-  isSpec: "True"
-  fullName: UnityExt.Core.ActivityBehaviour.profilerUs
-  nameWithType: ActivityBehaviour.profilerUs
 - uid: UnityExt.Core.Activity`1
   name: Activity<T>
   href: api/UnityExt.Core.Activity-1.html
@@ -3686,6 +3660,12 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.FSM.state
   nameWithType: FSM.state
+- uid: UnityExt.Core.FSM.threadSafe
+  name: threadSafe
+  href: api/UnityExt.Core.FSM.html#UnityExt_Core_FSM_threadSafe
+  commentId: F:UnityExt.Core.FSM.threadSafe
+  fullName: UnityExt.Core.FSM.threadSafe
+  nameWithType: FSM.threadSafe
 - uid: UnityExt.Core.FSM`1
   name: FSM<T>
   href: api/UnityExt.Core.FSM-1.html
@@ -17431,15 +17411,15 @@ references:
   commentId: T:UnityExt.Core.WebRequest
   fullName: UnityExt.Core.WebRequest
   nameWithType: WebRequest
-- uid: UnityExt.Core.WebRequest.#ctor
-  name: WebRequest()
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest__ctor
-  commentId: M:UnityExt.Core.WebRequest.#ctor
-  name.vb: New()
-  fullName: UnityExt.Core.WebRequest.WebRequest()
-  fullName.vb: UnityExt.Core.WebRequest.New()
-  nameWithType: WebRequest.WebRequest()
-  nameWithType.vb: WebRequest.New()
+- uid: UnityExt.Core.WebRequest.#ctor(System.String)
+  name: WebRequest(string)
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest__ctor_System_String_
+  commentId: M:UnityExt.Core.WebRequest.#ctor(System.String)
+  name.vb: New(String)
+  fullName: UnityExt.Core.WebRequest.WebRequest(string)
+  fullName.vb: UnityExt.Core.WebRequest.New(String)
+  nameWithType: WebRequest.WebRequest(string)
+  nameWithType.vb: WebRequest.New(String)
 - uid: UnityExt.Core.WebRequest.#ctor*
   name: WebRequest
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest__ctor_
@@ -17690,35 +17670,6 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.Delete
   nameWithType: WebRequest.Delete
-- uid: UnityExt.Core.WebRequest.DispatchErrorEvent(System.String)
-  name: DispatchErrorEvent(string)
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_DispatchErrorEvent_System_String_
-  commentId: M:UnityExt.Core.WebRequest.DispatchErrorEvent(System.String)
-  name.vb: DispatchErrorEvent(String)
-  fullName: UnityExt.Core.WebRequest.DispatchErrorEvent(string)
-  fullName.vb: UnityExt.Core.WebRequest.DispatchErrorEvent(String)
-  nameWithType: WebRequest.DispatchErrorEvent(string)
-  nameWithType.vb: WebRequest.DispatchErrorEvent(String)
-- uid: UnityExt.Core.WebRequest.DispatchErrorEvent*
-  name: DispatchErrorEvent
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_DispatchErrorEvent_
-  commentId: Overload:UnityExt.Core.WebRequest.DispatchErrorEvent
-  isSpec: "True"
-  fullName: UnityExt.Core.WebRequest.DispatchErrorEvent
-  nameWithType: WebRequest.DispatchErrorEvent
-- uid: UnityExt.Core.WebRequest.DispatchStateEvent(UnityExt.Core.WebRequestState)
-  name: DispatchStateEvent(WebRequestState)
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_DispatchStateEvent_UnityExt_Core_WebRequestState_
-  commentId: M:UnityExt.Core.WebRequest.DispatchStateEvent(UnityExt.Core.WebRequestState)
-  fullName: UnityExt.Core.WebRequest.DispatchStateEvent(UnityExt.Core.WebRequestState)
-  nameWithType: WebRequest.DispatchStateEvent(WebRequestState)
-- uid: UnityExt.Core.WebRequest.DispatchStateEvent*
-  name: DispatchStateEvent
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_DispatchStateEvent_
-  commentId: Overload:UnityExt.Core.WebRequest.DispatchStateEvent
-  isSpec: "True"
-  fullName: UnityExt.Core.WebRequest.DispatchStateEvent
-  nameWithType: WebRequest.DispatchStateEvent
 - uid: UnityExt.Core.WebRequest.Dispose
   name: Dispose()
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_Dispose
@@ -18063,6 +18014,19 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.InitDataFileSystem
   nameWithType: WebRequest.InitDataFileSystem
+- uid: UnityExt.Core.WebRequest.InternalChangeEvent(UnityExt.Core.WebRequestState,UnityExt.Core.WebRequestState)
+  name: InternalChangeEvent(WebRequestState, WebRequestState)
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_InternalChangeEvent_UnityExt_Core_WebRequestState_UnityExt_Core_WebRequestState_
+  commentId: M:UnityExt.Core.WebRequest.InternalChangeEvent(UnityExt.Core.WebRequestState,UnityExt.Core.WebRequestState)
+  fullName: UnityExt.Core.WebRequest.InternalChangeEvent(UnityExt.Core.WebRequestState, UnityExt.Core.WebRequestState)
+  nameWithType: WebRequest.InternalChangeEvent(WebRequestState, WebRequestState)
+- uid: UnityExt.Core.WebRequest.InternalChangeEvent*
+  name: InternalChangeEvent
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_InternalChangeEvent_
+  commentId: Overload:UnityExt.Core.WebRequest.InternalChangeEvent
+  isSpec: "True"
+  fullName: UnityExt.Core.WebRequest.InternalChangeEvent
+  nameWithType: WebRequest.InternalChangeEvent
 - uid: UnityExt.Core.WebRequest.InternalDispose
   name: InternalDispose()
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_InternalDispose
@@ -18076,19 +18040,44 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.InternalDispose
   nameWithType: WebRequest.InternalDispose
-- uid: UnityExt.Core.WebRequest.OnRequestEvent
-  name: OnRequestEvent
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnRequestEvent
-  commentId: P:UnityExt.Core.WebRequest.OnRequestEvent
-  fullName: UnityExt.Core.WebRequest.OnRequestEvent
-  nameWithType: WebRequest.OnRequestEvent
-- uid: UnityExt.Core.WebRequest.OnRequestEvent*
-  name: OnRequestEvent
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnRequestEvent_
-  commentId: Overload:UnityExt.Core.WebRequest.OnRequestEvent
+- uid: UnityExt.Core.WebRequest.InternalExecuteEvent(UnityExt.Core.WebRequestState)
+  name: InternalExecuteEvent(WebRequestState)
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_InternalExecuteEvent_UnityExt_Core_WebRequestState_
+  commentId: M:UnityExt.Core.WebRequest.InternalExecuteEvent(UnityExt.Core.WebRequestState)
+  fullName: UnityExt.Core.WebRequest.InternalExecuteEvent(UnityExt.Core.WebRequestState)
+  nameWithType: WebRequest.InternalExecuteEvent(WebRequestState)
+- uid: UnityExt.Core.WebRequest.InternalExecuteEvent*
+  name: InternalExecuteEvent
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_InternalExecuteEvent_
+  commentId: Overload:UnityExt.Core.WebRequest.InternalExecuteEvent
   isSpec: "True"
-  fullName: UnityExt.Core.WebRequest.OnRequestEvent
-  nameWithType: WebRequest.OnRequestEvent
+  fullName: UnityExt.Core.WebRequest.InternalExecuteEvent
+  nameWithType: WebRequest.InternalExecuteEvent
+- uid: UnityExt.Core.WebRequest.OnChangeEvent
+  name: OnChangeEvent
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnChangeEvent
+  commentId: F:UnityExt.Core.WebRequest.OnChangeEvent
+  fullName: UnityExt.Core.WebRequest.OnChangeEvent
+  nameWithType: WebRequest.OnChangeEvent
+- uid: UnityExt.Core.WebRequest.OnExecuteEvent
+  name: OnExecuteEvent
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnExecuteEvent
+  commentId: F:UnityExt.Core.WebRequest.OnExecuteEvent
+  fullName: UnityExt.Core.WebRequest.OnExecuteEvent
+  nameWithType: WebRequest.OnExecuteEvent
+- uid: UnityExt.Core.WebRequest.OnStart
+  name: OnStart()
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnStart
+  commentId: M:UnityExt.Core.WebRequest.OnStart
+  fullName: UnityExt.Core.WebRequest.OnStart()
+  nameWithType: WebRequest.OnStart()
+- uid: UnityExt.Core.WebRequest.OnStart*
+  name: OnStart
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnStart_
+  commentId: Overload:UnityExt.Core.WebRequest.OnStart
+  isSpec: "True"
+  fullName: UnityExt.Core.WebRequest.OnStart
+  nameWithType: WebRequest.OnStart
 - uid: UnityExt.Core.WebRequest.OnStateUpdate(UnityExt.Core.WebRequestState)
   name: OnStateUpdate(WebRequestState)
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnStateUpdate_UnityExt_Core_WebRequestState_
@@ -18102,6 +18091,19 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.OnStateUpdate
   nameWithType: WebRequest.OnStateUpdate
+- uid: UnityExt.Core.WebRequest.OnStop
+  name: OnStop()
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnStop
+  commentId: M:UnityExt.Core.WebRequest.OnStop
+  fullName: UnityExt.Core.WebRequest.OnStop()
+  nameWithType: WebRequest.OnStop()
+- uid: UnityExt.Core.WebRequest.OnStop*
+  name: OnStop
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_OnStop_
+  commentId: Overload:UnityExt.Core.WebRequest.OnStop
+  isSpec: "True"
+  fullName: UnityExt.Core.WebRequest.OnStop
+  nameWithType: WebRequest.OnStop
 - uid: UnityExt.Core.WebRequest.Post(System.String,System.Action{UnityExt.Core.WebRequest})
   name: Post(string, Action<WebRequest>)
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_Post_System_String_System_Action_UnityExt_Core_WebRequest__
@@ -18352,6 +18354,22 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.TempPath
   nameWithType: WebRequest.TempPath
+- uid: UnityExt.Core.WebRequest.Throw(System.Exception,System.Boolean)
+  name: Throw(Exception, bool)
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_Throw_System_Exception_System_Boolean_
+  commentId: M:UnityExt.Core.WebRequest.Throw(System.Exception,System.Boolean)
+  name.vb: Throw(Exception, Boolean)
+  fullName: UnityExt.Core.WebRequest.Throw(System.Exception, bool)
+  fullName.vb: UnityExt.Core.WebRequest.Throw(System.Exception, Boolean)
+  nameWithType: WebRequest.Throw(Exception, bool)
+  nameWithType.vb: WebRequest.Throw(Exception, Boolean)
+- uid: UnityExt.Core.WebRequest.Throw*
+  name: Throw
+  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_Throw_
+  commentId: Overload:UnityExt.Core.WebRequest.Throw
+  isSpec: "True"
+  fullName: UnityExt.Core.WebRequest.Throw
+  nameWithType: WebRequest.Throw
 - uid: UnityExt.Core.WebRequest.active
   name: active
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_active
@@ -18404,19 +18422,6 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.code
   nameWithType: WebRequest.code
-- uid: UnityExt.Core.WebRequest.error
-  name: error
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_error
-  commentId: P:UnityExt.Core.WebRequest.error
-  fullName: UnityExt.Core.WebRequest.error
-  nameWithType: WebRequest.error
-- uid: UnityExt.Core.WebRequest.error*
-  name: error
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_error_
-  commentId: Overload:UnityExt.Core.WebRequest.error
-  isSpec: "True"
-  fullName: UnityExt.Core.WebRequest.error
-  nameWithType: WebRequest.error
 - uid: UnityExt.Core.WebRequest.m_uwr
   name: m_uwr
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_m_uwr
@@ -18494,19 +18499,6 @@ references:
   isSpec: "True"
   fullName: UnityExt.Core.WebRequest.response
   nameWithType: WebRequest.response
-- uid: UnityExt.Core.WebRequest.state
-  name: state
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_state
-  commentId: P:UnityExt.Core.WebRequest.state
-  fullName: UnityExt.Core.WebRequest.state
-  nameWithType: WebRequest.state
-- uid: UnityExt.Core.WebRequest.state*
-  name: state
-  href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_state_
-  commentId: Overload:UnityExt.Core.WebRequest.state
-  isSpec: "True"
-  fullName: UnityExt.Core.WebRequest.state
-  nameWithType: WebRequest.state
 - uid: UnityExt.Core.WebRequest.timeout
   name: timeout
   href: api/UnityExt.Core.WebRequest.html#UnityExt_Core_WebRequest_timeout
@@ -18802,12 +18794,42 @@ references:
   commentId: F:UnityExt.Core.WebRequestState.Idle
   fullName: UnityExt.Core.WebRequestState.Idle
   nameWithType: WebRequestState.Idle
+- uid: UnityExt.Core.WebRequestState.Processing
+  name: Processing
+  href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Processing
+  commentId: F:UnityExt.Core.WebRequestState.Processing
+  fullName: UnityExt.Core.WebRequestState.Processing
+  nameWithType: WebRequestState.Processing
+- uid: UnityExt.Core.WebRequestState.Queue
+  name: Queue
+  href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Queue
+  commentId: F:UnityExt.Core.WebRequestState.Queue
+  fullName: UnityExt.Core.WebRequestState.Queue
+  nameWithType: WebRequestState.Queue
+- uid: UnityExt.Core.WebRequestState.RequestComplete
+  name: RequestComplete
+  href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_RequestComplete
+  commentId: F:UnityExt.Core.WebRequestState.RequestComplete
+  fullName: UnityExt.Core.WebRequestState.RequestComplete
+  nameWithType: WebRequestState.RequestComplete
+- uid: UnityExt.Core.WebRequestState.Send
+  name: Send
+  href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Send
+  commentId: F:UnityExt.Core.WebRequestState.Send
+  fullName: UnityExt.Core.WebRequestState.Send
+  nameWithType: WebRequestState.Send
 - uid: UnityExt.Core.WebRequestState.Start
   name: Start
   href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Start
   commentId: F:UnityExt.Core.WebRequestState.Start
   fullName: UnityExt.Core.WebRequestState.Start
   nameWithType: WebRequestState.Start
+- uid: UnityExt.Core.WebRequestState.Stop
+  name: Stop
+  href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Stop
+  commentId: F:UnityExt.Core.WebRequestState.Stop
+  fullName: UnityExt.Core.WebRequestState.Stop
+  nameWithType: WebRequestState.Stop
 - uid: UnityExt.Core.WebRequestState.Success
   name: Success
   href: api/UnityExt.Core.WebRequestState.html#UnityExt_Core_WebRequestState_Success
@@ -19219,6 +19241,18 @@ references:
   commentId: F:UnityExt.Project.ExamplesApp.CaseTypeFlag.TweenRun
   fullName: UnityExt.Project.ExamplesApp.CaseTypeFlag.TweenRun
   nameWithType: ExamplesApp.CaseTypeFlag.TweenRun
+- uid: UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestBasic
+  name: WebRequestBasic
+  href: api/UnityExt.Project.ExamplesApp.CaseTypeFlag.html#UnityExt_Project_ExamplesApp_CaseTypeFlag_WebRequestBasic
+  commentId: F:UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestBasic
+  fullName: UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestBasic
+  nameWithType: ExamplesApp.CaseTypeFlag.WebRequestBasic
+- uid: UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestPost
+  name: WebRequestPost
+  href: api/UnityExt.Project.ExamplesApp.CaseTypeFlag.html#UnityExt_Project_ExamplesApp_CaseTypeFlag_WebRequestPost
+  commentId: F:UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestPost
+  fullName: UnityExt.Project.ExamplesApp.CaseTypeFlag.WebRequestPost
+  nameWithType: ExamplesApp.CaseTypeFlag.WebRequestPost
 - uid: UnityExt.Project.ExamplesApp.ClearLog
   name: ClearLog()
   href: api/UnityExt.Project.ExamplesApp.html#UnityExt_Project_ExamplesApp_ClearLog
